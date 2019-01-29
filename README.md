@@ -1,1 +1,1 @@
-# siglas-ufcg
+# Glossário UFCG
