@@ -2,7 +2,8 @@
   "name": "glossario-ufcg",
   "version": "0.1.0",
   "description": "Glossário de siglas e gírias da UFCG",
-  "repository": "https://github.com/OpenDevUFCG/siglas-ufcg",
+  "homepage": "https://opendevufcg.github.io/glossario-ufcg/",
+  "repository": "https://github.com/OpenDevUFCG/glossario-ufcg",
   "license": "MIT",
   "private": true,
   "dependencies": {
