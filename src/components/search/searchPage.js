@@ -8,7 +8,7 @@ const renderOption = (item) => (
     <Option key={item.acronym} text={item.meaning}>
       {item.acronym} 
     </Option>
-  )
+)
 
 const Search = () => (
     <AutoComplete
