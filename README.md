@@ -1,4 +1,4 @@
-# Glossário UFCG
+# Glossário UFCG [![Build Status](https://travis-ci.com/OpenDevUFCG/glossario-ufcg.svg?branch=master)](https://travis-ci.com/OpenDevUFCG/glossario-ufcg)
 
 Glossário contendo significados de siglas e gírias usadas por alunos da UFCG - Campus Campina Grande.
 
