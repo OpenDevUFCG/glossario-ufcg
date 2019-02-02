@@ -1,10 +1,10 @@
 import * as React from 'react';
-import SearchBar from '../search/searchPage'
+import Search from '../search/SearchPage'
 
 const App = () => (
     <div>
         <p>Glossário UFCG</p>
-        <SearchBar/>
+        <Search/>
     </div>
 )
 
