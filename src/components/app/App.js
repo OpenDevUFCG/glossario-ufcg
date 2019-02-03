@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Search from '../search/SearchPage'
+import Search from '../search/Search'
 
 const App = () => (
     <div>
