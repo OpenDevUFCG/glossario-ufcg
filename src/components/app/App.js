@@ -1,12 +1,11 @@
 import * as React from 'react';
-import Search from '../search/Search'
 import './App.css';
+import Glossary from "../Glossary/Glossary";
 
 const App = () => (
     <div>
-        <p>Glossário UFCG</p>
-        <Search/>
+        <Glossary/>
     </div>
-)
+);
 
 export default App;

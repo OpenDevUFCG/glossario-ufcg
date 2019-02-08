@@ -17,10 +17,10 @@ const Search = (props) => (
       dataSource={acronyms.map(renderOption)}
       optionLabelProp="meaning"
       placeholder="Pesquise..."
-      
+      onSelect={e => props.handleSelect(e, acronyms)}
       filterOption={(inputValue, option) => option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
     />
-  )
+);
 
 
-export default Search
+export default Search;
