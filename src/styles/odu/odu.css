@@ -1,0 +1,16 @@
+.odu-card {
+    display: grid;
+    grid-gap: 1em;
+    background-color: var(--odu-color-card-bg);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 2em;
+}
+
+.odu-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
