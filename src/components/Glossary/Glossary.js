@@ -14,6 +14,11 @@ class Glossary extends Component {
         }
     }
 
+    componentDidMount = () => {
+        const selected = this.props.match.params.acronym;
+        if (selected) this.handleSelect(selected);
+    }
+
     handleSelect = (selected) => {
         /* TODO: Fix hardcoded first element selection and add tab navigation */
         this.setState({
