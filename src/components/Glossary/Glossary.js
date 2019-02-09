@@ -4,6 +4,8 @@ import Search from "../search/Search";
 import Description from "../Description/Description"
 import VerticalSeparator from "../VerticalSeparator/VerticalSeparator"
 
+import acronyms from '../../lib/data';
+
 class Glossary extends Component {
     constructor(props) {
         super(props);
@@ -12,9 +14,10 @@ class Glossary extends Component {
         }
     }
 
-    handleSelect = (selected, array) => {
+    handleSelect = (selected) => {
+        /* TODO: Fix hardcoded first element selection and add tab navigation */
         this.setState({
-            currentObj: array.find(e => e.acronym === selected),
+            currentObj: acronyms[selected][0],
         });
     };
 
@@ -23,7 +26,7 @@ class Glossary extends Component {
             <div className={"odu-card glossary__container"}>
                 <div className={"glossary__left-container"}>
                     <span className={"odu-title main-title"}>Glossário UFCG</span>
-                    <Search handleSelect={this.handleSelect}/>
+                    <Search items={Object.keys(acronyms)} handleSelect={this.handleSelect}/>
                 </div>
                 <VerticalSeparator/>
                 <Description title={this.state.currentObj.meaning}/>
