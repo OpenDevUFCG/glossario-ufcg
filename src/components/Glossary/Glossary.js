@@ -29,7 +29,7 @@ class Glossary extends Component {
                     <Search items={Object.keys(acronyms)} handleSelect={this.handleSelect}/>
                 </div>
                 <VerticalSeparator/>
-                <Description title={this.state.currentObj.meaning}/>
+                <Description selectedObj={this.state.currentObj}/>
             </div>
         )
     }
