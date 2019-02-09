@@ -14,3 +14,23 @@
     font-weight: bold;
     color: rgba(0, 0, 0, 0.8);
 }
+
+.odu-button {
+    width: 100%;
+    background-color: #EEE;
+    outline: none;
+    border: gray 1px solid;
+}
+
+.odu-button:hover {
+    background-color: #DDD;
+}
+
+.odu-button:active {
+    background-color: #CCC;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}

@@ -3,6 +3,7 @@ import "./Glossary.css"
 import Search from "../search/Search";
 import Description from "../Description/Description"
 import VerticalSeparator from "../VerticalSeparator/VerticalSeparator"
+import SelectionBar from "../SelectionBar/SelectionBar"
 
 import acronyms from '../../lib/data';
 
@@ -12,7 +13,7 @@ class Glossary extends Component {
         this.state = {
             currentAcronym: "",
             currentObj: {},
-            currentMeaning: 0,
+            currentMeaning: -1,
         }
     }
 
@@ -39,11 +40,13 @@ class Glossary extends Component {
     };
 
     render() {
+        const selectionBarLength = acronyms[this.state.currentAcronym] ? acronyms[this.state.currentAcronym].length : 0;
         return (
             <div className={"odu-card glossary__container"}>
                 <div className={"glossary__left-container"}>
                     <span className={"odu-title main-title"}>Glossário UFCG</span>
                     <Search items={Object.keys(acronyms).sort()} handleSelect={this.handleAcronymChange}/>
+                    <SelectionBar handleClick={this.handleMeaningChange} length={selectionBarLength}/>
                 </div>
                 <VerticalSeparator/>
                 <Description selectedObj={this.state.currentObj}/>
