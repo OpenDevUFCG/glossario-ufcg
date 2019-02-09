@@ -26,7 +26,7 @@ class Glossary extends Component {
             <div className={"odu-card glossary__container"}>
                 <div className={"glossary__left-container"}>
                     <span className={"odu-title main-title"}>Glossário UFCG</span>
-                    <Search items={Object.keys(acronyms)} handleSelect={this.handleSelect}/>
+                    <Search items={Object.keys(acronyms).sort()} handleSelect={this.handleSelect}/>
                 </div>
                 <VerticalSeparator/>
                 <Description selectedObj={this.state.currentObj}/>
