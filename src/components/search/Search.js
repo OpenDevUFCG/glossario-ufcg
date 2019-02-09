@@ -1,23 +1,22 @@
 import * as React from 'react';
 import "./Search.css";
 import { AutoComplete } from 'antd';
-import acronyms from '../../lib/data';
 
 const Option = AutoComplete.Option;
 
 const renderOption = (item) => (
-    <Option key={item.acronym} text={item.meaning}>
-      {item.acronym} 
+    <Option key={item}>
+      {item}
     </Option>
 )
 
 const Search = (props) => (
     <AutoComplete
       className={"search-box"}
-      dataSource={acronyms.map(renderOption)}
+      dataSource={props.items.map(renderOption)}
       optionLabelProp="meaning"
       placeholder="Pesquise..."
-      onSelect={e => props.handleSelect(e, acronyms)}
+      onSelect={e => props.handleSelect(e)}
       filterOption={(inputValue, option) => option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
     />
 );
