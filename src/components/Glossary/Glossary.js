@@ -35,25 +35,33 @@ class Glossary extends Component {
 
     handleCurrentObjChange = () => {
         this.setState({
-            currentObj: acronyms[this.state.currentAcronym][this.state.currentMeaning],
+            currentObj: this.getCurrentObj()[this.state.currentMeaning],
         });
     };
 
-    increaseMeaning = () => {
-        this.setState({
-            currentMeaning: 0,
+    increaseMeaning = async () => {
+        const finalMeaningNum = this.state.currentMeaning === this.getCurrentObjLength() - 1 ? 0 : this.state.currentMeaning + 1;
+        await this.setState({
+            currentMeaning: finalMeaningNum,
         });
+        this.handleCurrentObjChange();
     };
 
-    decreaseMeaning = () => {
-        this.setState({
-            currentMeaning: 0,
+    getCurrentObjLength = () => this.getCurrentObj().length;
+
+    getCurrentObj = () => acronyms[this.state.currentAcronym];
+
+    decreaseMeaning = async () => {
+        const finalMeaningNum = this.state.currentMeaning === 0 ? this.getCurrentObjLength() - 1 : this.state.currentMeaning - 1;
+        await this.setState({
+            currentMeaning: finalMeaningNum,
         });
+        this.handleCurrentObjChange();
     };
 
 
     render() {
-        const selectionBarLength = acronyms[this.state.currentAcronym] ? acronyms[this.state.currentAcronym].length : 0;
+        const selectionBarLength = this.getCurrentObj() ? this.getCurrentObjLength() : 0;
         return (
             <div className={"odu-card glossary__container"}>
                 <div className={"glossary__left-container"}>
