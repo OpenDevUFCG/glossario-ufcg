@@ -4,6 +4,7 @@ import Search from "../search/Search";
 import Description from "../Description/Description"
 import VerticalSeparator from "../VerticalSeparator/VerticalSeparator"
 import SelectionBar from "../SelectionBar/SelectionBar"
+import IconButton from "../IconButton/IconButton"
 
 import acronyms from '../../lib/data';
 
@@ -18,7 +19,6 @@ class Glossary extends Component {
     }
 
     handleAcronymChange = async (selected) => {
-        /* TODO: Fix hardcoded first element selection and add tab navigation */
         await this.setState({
             currentAcronym: selected,
             currentMeaning: 0,
@@ -39,6 +39,19 @@ class Glossary extends Component {
         });
     };
 
+    increaseMeaning = () => {
+        this.setState({
+            currentMeaning: 0,
+        });
+    };
+
+    decreaseMeaning = () => {
+        this.setState({
+            currentMeaning: 0,
+        });
+    };
+
+
     render() {
         const selectionBarLength = acronyms[this.state.currentAcronym] ? acronyms[this.state.currentAcronym].length : 0;
         return (
@@ -49,7 +62,11 @@ class Glossary extends Component {
                     <SelectionBar handleClick={this.handleMeaningChange} length={selectionBarLength}/>
                 </div>
                 <VerticalSeparator/>
-                <Description selectedObj={this.state.currentObj}/>
+                <div className={"flex-row"}>
+                    <IconButton action={this.decreaseMeaning} icon={"keyboard_arrow_left"}/>
+                    <Description selectedObj={this.state.currentObj}/>
+                    <IconButton action={this.increaseMeaning} icon={"keyboard_arrow_right"}/>
+                </div>
             </div>
         )
     }
