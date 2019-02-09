@@ -1,0 +1,5 @@
+.vertical-separator {
+    height: 100%;
+    width: 0;
+    border: gray 1px solid;
+}

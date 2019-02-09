@@ -164,6 +164,6 @@ const acronyms = [
         meaning: 'Sistemas de Apoio à Decisão',
         type: 'Disciplina'
     }
-]
+];
 
 export default acronyms

@@ -7,7 +7,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
     "antd": "^3.13.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
