@@ -6,6 +6,7 @@ import './index.css';
 import './styles/material/colors.css';
 import './styles/odu/odu.css';
 import './styles/odu/colors.css';
+import './styles/utils.css';
 
 ReactDOM.render(
     <App/>,
