@@ -30,7 +30,7 @@ const config = {
             {
                 test: /\.(sa|sc|c)ss$/,
                 use: [
-                    'style-loader',
+                    'css-hot-loader',
                     MiniCssExtractPlugin.loader,
                     'css-loader',
                 ],
@@ -47,7 +47,7 @@ const config = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'style.[contenthash].css',
+            filename: 'style.css',
         }),
         new HtmlWebPackPlugin({
             template: __dirname + "/src/index.html",
