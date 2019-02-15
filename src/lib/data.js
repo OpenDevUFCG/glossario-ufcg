@@ -31,7 +31,11 @@ const acronyms = {
     }],
     P1: [{
         acronym: 'P1',
-        meaning: 'Programação 1', //also Projeto 1
+        meaning: 'Programação 1',
+        type: 'Disciplina'
+    }, {
+        acronym: 'P1',
+        meaning: 'Projeto 1',
         type: 'Disciplina'
     }],
     LP1: [{
@@ -41,7 +45,11 @@ const acronyms = {
     }],
     P2: [{
         acronym: 'P2',
-        meaning: 'Programação 2', //also Projeto 2
+        meaning: 'Programação 2',
+        type: 'Disciplina'
+    }, {
+        acronym: 'P2',
+        meaning: 'Projeto 2',
         type: 'Disciplina'
     }],
     LP2: [{
@@ -194,9 +202,14 @@ const acronyms = {
         meaning: 'Verificação e Validação de Software',
         type: 'Disciplina'
     }],
+    JoDi: [{
+        acronym: 'JoDi',
+        meaning: 'Jogos Digitais',
+        type: 'Disciplina'
+    }],
     TECC: [{
         acronym: 'TECC',
-        meaning: 'Tópicos Especiais em Ciência da Computação',
+        meaning: 'Tópicos Especiais em Ciência da Computação. As disciplinas com esse prfixo são consideradas como disciplinas específicas. Como é o exemplo de [TECC] Jogos Digitais.',
         type: 'Termo'
     }]
 };
