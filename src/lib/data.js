@@ -22,177 +22,177 @@ const acronyms = {
     EDA: [{
         acronym: 'EDA',
         meaning: 'Estrutura de Dados e Algoritmos',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     LEDA: [{
         acronym: 'LEDA',
         meaning: 'Laboratório de Estrutura de Dados e Algoritmos',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     P1: [{
         acronym: 'P1',
         meaning: 'Programação 1', //also Projeto 1
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     LP1: [{
         acronym: 'LP1',
         meaning: 'Laboratório de Programação 1',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     P2: [{
         acronym: 'P2',
         meaning: 'Programação 2', //also Projeto 2
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     LP2: [{
         acronym: 'LP2',
         meaning: 'Laboratório de Programação 2',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     IC: [{
         acronym: 'IC',
         meaning: 'Introdução à Computação',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     BD: [{
         acronym: 'BD',
         meaning: 'Banco de Dados I',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     OAC: [{
         acronym: 'OAC',
         meaning: 'Organização e Arquitetura de Computadores',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     LOAC: [{
         acronym: 'LOAC',
         meaning: 'Laboratório de Organização e Arquitetura de Computadores',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     FMCC1: [{
         acronym: 'FMCC1',
         meaning: 'Fundamentos de Matemática para Ciência da Computação I',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     FMCC2: [{
         acronym: 'FMCC2',
         meaning: 'Fundamentos de Matemática para Ciência da Computação II',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     PLP: [{
         acronym: 'PLP',
         meaning: 'Paradigmas de Linguagem de Programação',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     ES: [{
         acronym: 'ES',
         meaning: 'Engenharia de Software',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     SO: [{
         acronym: 'SO',
         meaning: 'Sistemas Operacionais',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     TC: [{
         acronym: 'TC',
         meaning: 'Teoria da Computação',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     IA: [{
         acronym: 'IA',
         meaning: 'Inteligência Artificial',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     PC: [{
         acronym: 'PC',
         meaning: 'Programação Concorrente',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     ATAL: [{
         acronym: 'ATAL',
         meaning: 'Análise e Técnicas de Algoritmos',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     TCC: [{
         acronym: 'TCC',
         meaning: 'Trabalho de Conclusão de Curso',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     AS: [{
         acronym: 'AS',
         meaning: 'Análise de Sistemas',
-        type: 'Disciplina Obrigatória'
+        type: 'Disciplina'
     }],
     CDD: [{
         acronym: 'CDD',
         meaning: 'Ciência de Dados Descritiva',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     CDP: [{
         acronym: 'CDP',
         meaning: 'Ciência de Dados Preditiva',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     ADSD: [{
         acronym: 'ADSD',
         meaning: 'Avaliação de Desempenho de Sistemas Discretos',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     BD2: [{
         acronym: 'BD2',
         meaning: 'Banco de Dados II',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     IRC: [{
         acronym: 'IRC',
         meaning: 'Interconexão e Redes de Computadores',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     AA: [{
         acronym: 'AA',
         meaning: 'Algoritmos Avançados',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     ETI: [{
         acronym: 'ETI',
         meaning: 'Economia de Tecnologia da Informação',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     DACA: [{
         acronym: 'DACA',
         meaning: 'Desenvolvimento de Aplicações Corporativas Avançadas',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     SAD: [{
         acronym: 'SAD',
         meaning: 'Sistemas de Apoio à Decisão',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     CG: [{
         acronym: 'CG',
         meaning: 'Computação Gráfica',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     GR: [{
         acronym: 'GR',
         meaning: 'Gerência de Redes',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     MSN: [{
         acronym: 'MSN',
         meaning: 'Métodos e Softwares Numéricos',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     VC: [{
         acronym: 'VC',
         meaning: 'Visão Computacional',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     VVS: [{
         acronym: 'VVS',
         meaning: 'Verificação e Validação de Software',
-        type: 'Disciplina Optativa'
+        type: 'Disciplina'
     }],
     TECC: [{
         acronym: 'TECC',
