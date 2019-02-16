@@ -25,5 +25,4 @@ yarn lint
 
 ## Como Contribuir
 
-### Adicionar termos ao glossário
-Os termos estão listados no arquivo [data.js](/src/lib/data.js), para adicionar um termo novo é apenas abrir uma _PR_, caso não tenha experiência com **git**, pode abrir uma Issue e pedir pra alguém adicionar.
+Leia o [CONTRIBUTING.md](CONTRIBUTING.md).
