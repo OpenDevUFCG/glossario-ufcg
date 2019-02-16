@@ -6,17 +6,17 @@ const acronyms = {
     }],
     LCC1: [{
         acronym: 'LCC1',
-        meaning: 'Laboratório de ciência da computação 1',
+        meaning: 'Laboratório de Ciência da Computação 1',
         type: 'Sala'
     }],
     LCC2: [{
         acronym: 'LCC2',
-        meaning: 'Laboratório de ciência da computação 2',
+        meaning: 'Laboratório de Ciência da Computação 2',
         type: 'Sala'
     }],
     LCC3: [{
         acronym: 'LCC3',
-        meaning: 'Laboratório de ciência da computação 3',
+        meaning: 'Laboratório de Ciência da Computação 3',
         type: 'Sala'
     }],
     EDA: [{
@@ -33,6 +33,10 @@ const acronyms = {
         acronym: 'P1',
         meaning: 'Programação 1',
         type: 'Disciplina'
+    }, {
+        acronym: 'P1',
+        meaning: 'Projeto 1',
+        type: 'Disciplina'
     }],
     LP1: [{
         acronym: 'LP1',
@@ -42,6 +46,10 @@ const acronyms = {
     P2: [{
         acronym: 'P2',
         meaning: 'Programação 2',
+        type: 'Disciplina'
+    }, {
+        acronym: 'P2',
+        meaning: 'Projeto 2',
         type: 'Disciplina'
     }],
     LP2: [{
@@ -119,6 +127,11 @@ const acronyms = {
         meaning: 'Trabalho de Conclusão de Curso',
         type: 'Disciplina'
     }],
+    AS: [{
+        acronym: 'AS',
+        meaning: 'Análise de Sistemas',
+        type: 'Disciplina'
+    }],
     CDD: [{
         acronym: 'CDD',
         meaning: 'Ciência de Dados Descritiva',
@@ -163,6 +176,41 @@ const acronyms = {
         acronym: 'SAD',
         meaning: 'Sistemas de Apoio à Decisão',
         type: 'Disciplina'
+    }],
+    CG: [{
+        acronym: 'CG',
+        meaning: 'Computação Gráfica',
+        type: 'Disciplina'
+    }],
+    GR: [{
+        acronym: 'GR',
+        meaning: 'Gerência de Redes',
+        type: 'Disciplina'
+    }],
+    MSN: [{
+        acronym: 'MSN',
+        meaning: 'Métodos e Softwares Numéricos',
+        type: 'Disciplina'
+    }],
+    VC: [{
+        acronym: 'VC',
+        meaning: 'Visão Computacional',
+        type: 'Disciplina'
+    }],
+    VVS: [{
+        acronym: 'VVS',
+        meaning: 'Verificação e Validação de Software',
+        type: 'Disciplina'
+    }],
+    JoDi: [{
+        acronym: 'JoDi',
+        meaning: 'Jogos Digitais',
+        type: 'Disciplina'
+    }],
+    TECC: [{
+        acronym: 'TECC',
+        meaning: 'Tópicos Especiais em Ciência da Computação. As disciplinas com esse prefixo são consideradas como disciplinas optativas específicas do curso de Computação. Como é o exemplo de [TECC] Jogos Digitais.',
+        type: 'Termo'
     }]
 };
 
