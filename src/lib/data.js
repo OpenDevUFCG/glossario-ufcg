@@ -211,6 +211,26 @@ const acronyms = {
         acronym: 'TECC',
         meaning: 'Tópicos Especiais em Ciência da Computação. As disciplinas com esse prfixo são consideradas como disciplinas optativas específicas. Como é o exemplo de [TECC] Jogos Digitais.',
         type: 'Termo'
+    }],
+    TG: [{
+        acronym: 'TG',
+        meaning: 'Teoria dos Grafos',
+        type: 'Disciplina'
+    }], 
+    PIJAMA: [{
+        acronym: 'PIJAMA',
+        meaning: 'Relação de turmas, vagas e professores de um semestre',
+        type: 'Termo'
+    }],
+    LEITE: [{
+        acronym: 'LEITE',
+        meaning: 'Provas antigas de uma disciplina',
+        type: 'Termo'
+    }],
+    BOLA: [{
+        acronym: 'BOLA',
+        meaning: 'Ex-feras',
+        type: 'Termo'
     }]
 };
 
