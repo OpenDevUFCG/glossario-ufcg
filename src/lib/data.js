@@ -278,7 +278,7 @@ const acronyms = {
     "TECC": [
         {
             "acronym": "TECC", 
-            "meaning": "Tópicos Especiais em Ciência da Computação. As disciplinas com esse prfixo são consideradas como disciplinas optativas específicas. Como é o exemplo de [TECC] Jogos Digitais.", 
+            "meaning": "Tópicos Especiais em Ciência da Computação. As disciplinas com esse prefixo são consideradas como disciplinas optativas específicas. Como é o exemplo de [TECC] Jogos Digitais.", 
             "type": "Termo"
         }
     ], 

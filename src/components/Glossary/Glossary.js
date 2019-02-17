@@ -18,7 +18,13 @@ class Glossary extends Component {
         }
     }
 
+    componentDidMount = () => {
+        const selected = this.props.match.params.acronym;
+        if (selected) this.handleAcronymChange(selected);
+    }
+
     handleAcronymChange = async (selected) => {
+        this.props.history.push(`/${selected}`)
         await this.setState({
             currentAcronym: selected,
             currentMeaning: 0,
@@ -49,7 +55,7 @@ class Glossary extends Component {
 
     getCurrentObjLength = () => this.getCurrentObj().length;
 
-    getCurrentObj = () => acronyms[this.state.currentAcronym];
+    getCurrentObj = () => acronyms[this.state.currentAcronym.toUpperCase()];
 
     decreaseMeaning = async () => {
         const finalMeaningNum = this.state.currentMeaning === 0 ? this.getCurrentObjLength() - 1 : this.state.currentMeaning - 1;
