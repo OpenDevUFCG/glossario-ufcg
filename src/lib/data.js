@@ -218,19 +218,19 @@ const acronyms = {
         type: 'Disciplina'
     }], 
     PIJAMA: [{
-        acronym: 'PIJAMA',
+        acronym: 'Pijama',
         meaning: 'Relação de turmas, vagas e professores de um semestre',
-        type: 'Termo'
+        type: 'Gíria'
     }],
     LEITE: [{
-        acronym: 'LEITE',
+        acronym: 'Leite',
         meaning: 'Provas antigas de uma disciplina',
-        type: 'Termo'
+        type: 'Gíria'
     }],
     BOLA: [{
-        acronym: 'BOLA',
+        acronym: 'Bola',
         meaning: 'Ex-feras',
-        type: 'Termo'
+        type: 'Gíria'
     }]
 };
 
