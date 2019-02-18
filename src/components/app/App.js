@@ -1,10 +1,12 @@
 import * as React from 'react';
-import './App.css';
+import { Route } from 'react-router-dom';
 import Glossary from "../Glossary/Glossary";
+
+import './App.css';
 
 const App = () => (
     <div>
-        <Glossary/>
+        <Route path="/:acronym?/:meaningId?" component={Glossary}/>
     </div>
 );
 
