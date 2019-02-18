@@ -33,19 +33,19 @@ const acronyms = {
             "meaning": "Banco de Dados I", 
             "type": "Disciplina"
         }
-    ],
-    "BOLA": [
-        {
-            "acronym": "BOLA",
-            "meaning": "Ex-feras",
-            "type": "Gíria"
-        }
     ], 
     "BD2": [
         {
             "acronym": "BD2", 
             "meaning": "Banco de Dados II", 
             "type": "Disciplina"
+        }
+    ],
+    "BOLA": [
+        {
+            "acronym": "BOLA",
+            "meaning": "Ex-feras",
+            "type": "Gíria"
         }
     ], 
     "CC": [
@@ -288,13 +288,6 @@ const acronyms = {
             "meaning": "Teoria da Computação", 
             "type": "Disciplina"
         }
-    ],
-    "TG": [
-        {
-            "acronym": "TG",
-            "meaning": "Teoria dos Grafos",
-            "type": "Disciplina"
-        }
     ], 
     "TCC": [
         {
@@ -308,6 +301,13 @@ const acronyms = {
             "acronym": "TECC", 
             "meaning": "Tópicos Especiais em Ciência da Computação. As disciplinas com esse prefixo são consideradas como disciplinas optativas específicas. Como é o exemplo de [TECC] Jogos Digitais.", 
             "type": "Termo"
+        }
+    ],
+    "TG": [
+        {
+            "acronym": "TG",
+            "meaning": "Teoria dos Grafos",
+            "type": "Disciplina"
         }
     ], 
     "VC": [
