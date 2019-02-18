@@ -34,11 +34,13 @@ const acronyms = {
             "type": "Disciplina"
         }
     ],
-    "BOLA": [{
-        "acronym": "BOLA",
-        "meaning": "Ex-feras",
-        "type": "Gíria"
-    }], 
+    "BOLA": [
+        {
+            "acronym": "BOLA",
+            "meaning": "Ex-feras",
+            "type": "Gíria"
+        }
+    ], 
     "BD2": [
         {
             "acronym": "BD2", 
@@ -179,11 +181,13 @@ const acronyms = {
             "type": "Disciplina"
         }
     ],
-    "LEITE": [{
-        "acronym": "LEITE",
-        "meaning": "Provas antigas de uma disciplina",
-        "type": "Gíria"
-    }], 
+    "LEITE": [
+        {
+            "acronym": "LEITE",
+            "meaning": "Provas antigas de uma disciplina",
+            "type": "Gíria"
+        }
+    ], 
     "LOAC": [
         {
             "acronym": "LOAC", 
@@ -250,11 +254,13 @@ const acronyms = {
             "type": "Disciplina"
         }
     ],
-    "PIJAMA": [{
-        "acronym": 'PIJAMA',
-        "meaning": 'Relação de turmas, vagas e professores de um semestre',
-        "type": 'Gíria'
-    }], 
+    "PIJAMA": [
+        {
+            "acronym": 'PIJAMA',
+            "meaning": 'Relação de turmas, vagas e professores de um semestre',
+            "type": 'Gíria'
+        }
+    ], 
     "PLP": [
         {
             "acronym": "PLP", 
@@ -283,11 +289,13 @@ const acronyms = {
             "type": "Disciplina"
         }
     ],
-    "TG": [{
-        "acronym": 'TG',
-        "meaning": 'Teoria dos Grafos',
-        "type": 'Disciplina'
-    }], 
+    "TG": [
+        {
+            "acronym": 'TG',
+            "meaning": 'Teoria dos Grafos',
+            "type": 'Disciplina'
+        }
+    ], 
     "TCC": [
         {
             "acronym": "TCC", 
