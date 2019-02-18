@@ -256,9 +256,9 @@ const acronyms = {
     ],
     "PIJAMA": [
         {
-            "acronym": 'PIJAMA',
-            "meaning": 'Relação de turmas, vagas e professores de um semestre',
-            "type": 'Gíria'
+            "acronym": "PIJAMA",
+            "meaning": "Relação de turmas, vagas e professores de um semestre",
+            "type": "Gíria"
         }
     ], 
     "PLP": [
@@ -291,9 +291,9 @@ const acronyms = {
     ],
     "TG": [
         {
-            "acronym": 'TG',
-            "meaning": 'Teoria dos Grafos',
-            "type": 'Disciplina'
+            "acronym": "TG",
+            "meaning": "Teoria dos Grafos",
+            "type": "Disciplina"
         }
     ], 
     "TCC": [
