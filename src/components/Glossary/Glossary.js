@@ -55,7 +55,7 @@ class Glossary extends Component {
 
     getCurrentObjLength = () => this.getCurrentObj().length;
 
-    getCurrentObj = () => acronyms[this.state.currentAcronym.toUpperCase()];
+    getCurrentObj = () => acronyms[this.state.currentAcronym];
 
     decreaseMeaning = async () => {
         const finalMeaningNum = this.state.currentMeaning === 0 ? this.getCurrentObjLength() - 1 : this.state.currentMeaning - 1;
