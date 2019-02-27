@@ -40,6 +40,13 @@ const acronyms = {
             "meaning": "Banco de Dados II", 
             "type": "Disciplina"
         }
+    ],
+    "BOLA": [
+        {
+            "acronym": "BOLA",
+            "meaning": "Ex-feras",
+            "type": "Gíria"
+        }
     ], 
     "CC": [
         {
@@ -173,6 +180,13 @@ const acronyms = {
             "meaning": "Laboratório de Estrutura de Dados e Algoritmos", 
             "type": "Disciplina"
         }
+    ],
+    "LEITE": [
+        {
+            "acronym": "LEITE",
+            "meaning": "Provas antigas de uma disciplina",
+            "type": "Gíria"
+        }
     ], 
     "LOAC": [
         {
@@ -239,6 +253,13 @@ const acronyms = {
             "meaning": "Programação Concorrente", 
             "type": "Disciplina"
         }
+    ],
+    "PIJAMA": [
+        {
+            "acronym": "PIJAMA",
+            "meaning": "Relação de turmas, vagas e professores de um semestre",
+            "type": "Gíria"
+        }
     ], 
     "PLP": [
         {
@@ -280,6 +301,13 @@ const acronyms = {
             "acronym": "TECC", 
             "meaning": "Tópicos Especiais em Ciência da Computação. As disciplinas com esse prefixo são consideradas como disciplinas optativas específicas. Como é o exemplo de [TECC] Jogos Digitais.", 
             "type": "Termo"
+        }
+    ],
+    "TG": [
+        {
+            "acronym": "TG",
+            "meaning": "Teoria dos Grafos",
+            "type": "Disciplina"
         }
     ], 
     "VC": [
