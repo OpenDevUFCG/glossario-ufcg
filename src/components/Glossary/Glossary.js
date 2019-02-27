@@ -12,62 +12,44 @@ class Glossary extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentAcronym: "",
-            currentObj: {},
-            currentMeaning: -1,
+            currentMeaning: 0,
         }
     }
 
-    componentDidMount = () => {
-        const selected = this.props.match.params.acronym;
-        if (selected) this.handleAcronymChange(selected);
+    handleAcronymChange = (selected) => {
+        this.props.history.push(`/${selected}`)
+        this.handleMeaningChange(0);
     }
 
-    handleAcronymChange = async (selected) => {
-        this.props.history.push(`/${selected}`)
-        await this.setState({
-            currentAcronym: selected,
-            currentMeaning: 0,
-        });
-        this.handleCurrentObjChange();
-    };
-
-    handleMeaningChange = async (meaningSelected) => {
-        await this.setState({
+    handleMeaningChange = (meaningSelected) => {
+        this.setState({
             currentMeaning: meaningSelected,
         });
-        this.handleCurrentObjChange();
     };
 
-    handleCurrentObjChange = () => {
-        this.setState({
-            currentObj: this.getCurrentObj()[this.state.currentMeaning],
-        });
+    increaseMeaning = () => {
+        const { currentMeaning } = this.state;
+        const finalMeaningNum = (currentMeaning + 1) % this.getCurrentObjLength();
+        this.handleMeaningChange(finalMeaningNum);
     };
 
-    increaseMeaning = async () => {
-        const finalMeaningNum = this.state.currentMeaning === this.getCurrentObjLength() - 1 ? 0 : this.state.currentMeaning + 1;
-        await this.setState({
-            currentMeaning: finalMeaningNum,
-        });
-        this.handleCurrentObjChange();
+    getCurrentObjLength = () => this.getAcronymResults().length;
+
+    getAcronymResults = () => {
+        const acronym = this.props.match.params.acronym;
+        return acronyms[acronym] || []
+    }
+
+    decreaseMeaning = () => {
+        const { currentMeaning } = this.state;
+        const finalMeaningNum = Math.abs(currentMeaning - 1) % this.getCurrentObjLength();
+        this.handleMeaningChange(finalMeaningNum);
     };
-
-    getCurrentObjLength = () => this.getCurrentObj().length;
-
-    getCurrentObj = () => acronyms[this.state.currentAcronym];
-
-    decreaseMeaning = async () => {
-        const finalMeaningNum = this.state.currentMeaning === 0 ? this.getCurrentObjLength() - 1 : this.state.currentMeaning - 1;
-        await this.setState({
-            currentMeaning: finalMeaningNum,
-        });
-        this.handleCurrentObjChange();
-    };
-
 
     render() {
-        const selectionBarLength = this.getCurrentObj() ? this.getCurrentObjLength() : 0;
+        const { currentMeaning } = this.state;
+        const selectionBarLength = this.getCurrentObjLength();
+        const result = this.getAcronymResults()[currentMeaning] || {};
         return (
             <div className={"odu-card glossary__container"}>
                 <div className={"glossary__left-container"}>
@@ -78,7 +60,7 @@ class Glossary extends Component {
                 <VerticalSeparator/>
                 <div className={"flex-row"}>
                     <IconButton action={this.decreaseMeaning} icon={"keyboard_arrow_left"}/>
-                    <Description selectedObj={this.state.currentObj}/>
+                    <Description selectedObj={result}/>
                     <IconButton action={this.increaseMeaning} icon={"keyboard_arrow_right"}/>
                 </div>
             </div>
