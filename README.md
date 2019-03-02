@@ -1,5 +1,7 @@
 # Glossário UFCG [![Build Status](https://travis-ci.com/OpenDevUFCG/glossario-ufcg.svg?branch=master)](https://travis-ci.com/OpenDevUFCG/glossario-ufcg) [![Join the chat at https://gitter.im/OpenDevUFCG/glossario-ufcg](https://badges.gitter.im/OpenDevUFCG/glossario-ufcg.svg)](https://gitter.im/OpenDevUFCG/glossario-ufcg?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+![Glossário UFCG Logo](https://i.imgur.com/PBCURux.png)
+
 Glossário contendo significados de siglas e gírias usadas por alunos da UFCG - Campus Campina Grande.
 
 ## Setup
