@@ -1,23 +1,29 @@
 {
     "BOLA": [
         {
-            "acronym": "BOLA", 
-            "meaning": "Ex-feras", 
-            "type": "Gíria"
+            "acronym": "BOLA",
+            "meaning": "Ex-feras",
+            "type": "Gíria",
+            "entry": "Ex-feras",
+            "examples": []
         }
-    ], 
+    ],
     "LEITE": [
         {
-            "acronym": "LEITE", 
-            "meaning": "Provas antigas de uma disciplina", 
-            "type": "Gíria"
+            "acronym": "LEITE",
+            "meaning": "Provas antigas de uma disciplina",
+            "type": "Gíria",
+            "entry": "Provas antigas de uma disciplina",
+            "examples": []
         }
-    ], 
+    ],
     "PIJAMA": [
         {
-            "acronym": "PIJAMA", 
-            "meaning": "Relação de turmas, vagas e professores de um semestre", 
-            "type": "Gíria"
+            "acronym": "PIJAMA",
+            "meaning": "Relação de turmas, vagas e professores de um semestre",
+            "type": "Gíria",
+            "entry": "Relação de turmas, vagas e professores de um semestre",
+            "examples": []
         }
     ]
 }
