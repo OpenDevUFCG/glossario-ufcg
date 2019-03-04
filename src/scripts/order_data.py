@@ -4,7 +4,7 @@
 # Criado em 16/02/2019
 # Atualizado em 03/03/2019
 
-import json, os, termcolor
+import json, os
 
 cwd = os.getcwd()
 
@@ -20,7 +20,7 @@ def update_file(name):
         Exporta o arquivo de dados de modo que as siglas estejam ordenadas
         """
         json_text = json.dumps(datafile, sort_keys=True, indent=4, ensure_ascii=False).encode('utf8')
-        newdatajs.write(json_text)
+        newdatajs.write(json_text + '\n')
 
 path_to_data = '/src/lib/%s.json'
 data_files = ['cursos', 'disciplinas', 'girias', 'locais', 'outros']
