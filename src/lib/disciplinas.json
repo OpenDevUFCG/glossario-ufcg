@@ -1,4 +1,11 @@
 {
+    "AA": [
+        {
+            "acronym": "AA", 
+            "meaning": "Algoritmos Avançados", 
+            "type": "Disciplina"
+        }
+    ], 
     "ADSD": [
         {
             "acronym": "ADSD", 
@@ -33,7 +40,7 @@
             "meaning": "Banco de Dados II", 
             "type": "Disciplina"
         }
-    ],
+    ], 
     "CDD": [
         {
             "acronym": "CDD", 
@@ -131,14 +138,14 @@
             "meaning": "Jogos Digitais", 
             "type": "Disciplina"
         }
-    ],
+    ], 
     "LEDA": [
         {
             "acronym": "LEDA", 
             "meaning": "Laboratório de Estrutura de Dados e Algoritmos", 
             "type": "Disciplina"
         }
-    ],
+    ], 
     "LOAC": [
         {
             "acronym": "LOAC", 
@@ -204,7 +211,7 @@
             "meaning": "Programação Concorrente", 
             "type": "Disciplina"
         }
-    ],
+    ], 
     "PLP": [
         {
             "acronym": "PLP", 
@@ -239,11 +246,11 @@
             "meaning": "Trabalho de Conclusão de Curso", 
             "type": "Disciplina"
         }
-    ],
+    ], 
     "TG": [
         {
-            "acronym": "TG",
-            "meaning": "Teoria dos Grafos",
+            "acronym": "TG", 
+            "meaning": "Teoria dos Grafos", 
             "type": "Disciplina"
         }
     ], 
@@ -258,13 +265,6 @@
         {
             "acronym": "VVS", 
             "meaning": "Verificação e Validação de Software", 
-            "type": "Disciplina"
-        }
-    ],
-    "AA": [
-        {
-            "acronym": "AA", 
-            "meaning": "Algoritmos Avançados", 
             "type": "Disciplina"
         }
     ]
