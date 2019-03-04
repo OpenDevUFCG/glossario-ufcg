@@ -9,3 +9,5 @@ Fixes #ISSUE_NUMBER
 
 **TODO:**
 <!-- Descreva o que ainda deve ser feito nesse PR ou em PRs futuros. Se não existir um TODO, preencher com N/A-->
+
+<!-- Ao terminar a descrição do PR, apague todos os comentários -->
