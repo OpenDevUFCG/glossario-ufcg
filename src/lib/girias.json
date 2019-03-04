@@ -1,22 +1,22 @@
 {
     "BOLA": [
         {
-            "acronym": "BOLA", 
-            "meaning": "Ex-feras", 
+            "acronym": "BOLA",
+            "meaning": "Ex-feras",
             "type": "Gíria"
         }
-    ], 
+    ],
     "LEITE": [
         {
-            "acronym": "LEITE", 
-            "meaning": "Provas antigas de uma disciplina", 
+            "acronym": "LEITE",
+            "meaning": "Provas antigas de uma disciplina",
             "type": "Gíria"
         }
-    ], 
+    ],
     "PIJAMA": [
         {
-            "acronym": "PIJAMA", 
-            "meaning": "Relação de turmas, vagas e professores de um semestre", 
+            "acronym": "PIJAMA",
+            "meaning": "Relação de turmas, vagas e professores de um semestre",
             "type": "Gíria"
         }
     ]
