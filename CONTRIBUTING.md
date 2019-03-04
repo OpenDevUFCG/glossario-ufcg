@@ -1,11 +1,12 @@
 # Contributing
 
-Contribuições sempre serão bem vindas, sejam pequenas ou grandes. Conhece alguma sigla que não está presente no Glossário? Basta adiciona-la no arquivo [data.js](/src/lib/data.js), é só fazer uma PR (Pull Request). Não sabe como? Vamos explicar abaixo.
+Contribuições sempre serão bem vindas, sejam pequenas ou grandes. Conhece alguma sigla que não está presente no Glossário? Basta adiciona-la num dos arquivos `.json` dentro da pasta [src/lib/](/src/lib/) dependendo de como o que você quer adicionar melhor se encaixa, e então é só fazer uma PR (Pull Request). Não sabe como? Vamos explicar abaixo.
+
+* **PS**: Para contribuir é necessário que, na sua máquina, seja possível executar comandos em `Python`. Essa restrição é necessária pois existe [um script](/src/scripts/order_data.py) que mantém os nossos dados ordenados alfabeticamente e é executado a cada `commit`. Caso Python esteja instalado em sua máquina e ainda assim não é possível fazer commit nas suas alterações, entre em contato conosco no [nosso gitter](https://gitter.im/OpenDevUFCG/glossario-ufcg) :)
 
 ## Issues
 
 As issues são um espaço aberto para requisitar criação, mudança ou conserto. Também é livre para ser um espaço de discussão sobre as siglas, termos e gírias de ciência da computação da UFCG. É importante ter em mente que o tema da issue e das discussões sempre deve estar relacionado ao curso.
-
 
 ## Como Contribuir
 
@@ -14,7 +15,6 @@ Se você escolheu uma issue para contribuir, não esqueça de avisar lá que voc
 ### Clonar o repositório
 
 Após isso, você deve dar um fork do projeto. Existe um botão na página do github para isso. Quando ele terminar de realizar o fork, você deve copiar a url do repositório do fork e clonar na sua máquina. 
-
 
 Feito no terminal, será algo assim:
 ```sh
