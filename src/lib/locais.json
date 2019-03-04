@@ -1,0 +1,23 @@
+{
+    "LCC1": [
+        {
+            "acronym": "LCC1", 
+            "meaning": "Laboratório de Ciência da Computação 1", 
+            "type": "Sala"
+        }
+    ], 
+    "LCC2": [
+        {
+            "acronym": "LCC2", 
+            "meaning": "Laboratório de Ciência da Computação 2", 
+            "type": "Sala"
+        }
+    ], 
+    "LCC3": [
+        {
+            "acronym": "LCC3", 
+            "meaning": "Laboratório de Ciência da Computação 3", 
+            "type": "Sala"
+        }
+    ]
+}
