@@ -4,7 +4,9 @@
 # Criado em 16/02/2019
 # Atualizado em 03/03/2019
 
-import json, sys
+import json, os, termcolor
+
+cwd = os.getcwd()
 
 def update_file(name):
     with open(name, 'r') as datajs:
@@ -20,10 +22,10 @@ def update_file(name):
         json_text = json.dumps(datafile, sort_keys=True, indent=4, ensure_ascii=False).encode('utf8')
         newdatajs.write(json_text)
 
-path_to_data = '../lib/%s.json'
+path_to_data = '/src/lib/%s.json'
 data_files = ['cursos', 'disciplinas', 'girias', 'locais', 'outros']
 
-print "Reordenando arquivos de dados"
+termcolor.cprint('Reordenando arquivos de dados', color='yellow')
 
 for df in data_files:
-    update_file(path_to_data % df)
+    update_file((cwd + path_to_data) % df)
