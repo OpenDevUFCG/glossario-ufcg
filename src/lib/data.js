@@ -268,6 +268,13 @@ const acronyms = {
             "type": "Disciplina"
         }
     ], 
+    "RDM": [
+        {
+            "acronym": "RDM", 
+            "meaning": "Relação de disciplinas matriculadas", 
+            "type": "Termo"
+        }
+    ], 
     "SAD": [
         {
             "acronym": "SAD", 
