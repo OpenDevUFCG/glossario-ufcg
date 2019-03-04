@@ -7,6 +7,15 @@
             "type": "Curso",
             "examples": []
         }
-    ]
+    ],
+    "EE": [
+        {
+            "entry": "Engenharia Elétrica",
+            "acronym": "EE", 
+            "meaning": "Engenharia Elétrica", 
+            "type": "Curso",
+            "examples": []
+        }
+    ],
 }
     

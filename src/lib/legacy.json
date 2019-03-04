@@ -1,0 +1,56 @@
+{
+  "AD1": [
+    {
+      "acronym": "AD1",
+      "meaning": "Análise de Dados 1. Equivale a CDD no PPC atual.",
+      "type": "Disciplina",
+      "entry": "Análise de Dados 1",
+      "examples": []
+    }
+  ],
+  "AD2": [
+    {
+      "acronym": "AD2",
+      "meaning": "Análise de Dados 2. Equivale a CDP no PPC atual.",
+      "type": "Disciplina",
+      "entry": "Análise de Dados 2",
+      "examples": []
+    }
+  ], 
+  "SI1": [
+    {
+      "acronym": "SI1",
+      "meaning": "Sistemas de Informação 1. Equivale a PSoft no PPC atual.",
+      "type": "Disciplina",
+      "entry": "Sistemas de Informação 1",
+      "examples": []
+    }
+  ],
+  "SI2": [
+    {
+      "acronym": "SI2",
+      "meaning": "Sistemas de Informação 2. Equivale a AS no PPC atual.",
+      "type": "Disciplina",
+      "entry": "Sistemas de Informação 2",
+      "examples": []
+    }
+  ],
+  "LES": [
+    {
+      "acronym": "LES",
+      "meaning": "Laboratório de Engenharia de Software. Foi substituida no PPC atual por VVS e GP.",
+      "type": "Disciplina",
+      "entry": "Laboratório de Engenharia de Software",
+      "examples": []
+    }
+  ],
+  "LIRC": [
+    {
+      "acronym": "LIRC",
+      "meaning": "Laboratório de Interconexão e Redes de Computadores. Foi incluída em IRC no PPC atual, que passou a ser uma disciplina de 4 créditos.",
+      "type": "Disciplina",
+      "entry": "Laboratório de Interconexão e Redes de Computadores",
+      "examples": []
+    }
+  ]
+}
