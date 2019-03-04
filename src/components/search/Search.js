@@ -10,7 +10,7 @@ const renderOption = (item) => (
     </Option>
 )
 
-const Search = (props) => (
+const Search2 = (props) => (
     <AutoComplete
       className={"search-box"}
       dataSource={props.items.map(renderOption)}
@@ -21,5 +21,11 @@ const Search = (props) => (
     />
 );
 
+const Search = (props) => (
+  <div>
+    <input className={"search"} type="text" />
+    <button className={"search"} >Go!</button>
+  </div>
+);
 
 export default Search;

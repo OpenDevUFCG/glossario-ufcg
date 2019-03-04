@@ -1,3 +1,20 @@
-.search-box {
-    width: 100%;
+.search {
+    border: none;
+    height: 35px;
+}
+
+input.search {
+    width: 400px;
+    height: 35px;
+    background-color: #dcdcdc;
+    border-radius: 10px 0 0 10px;
+}
+
+button.search {
+    border-color: #30abae;
+    color: white;
+    background-color: #30abae;
+    height: 37px;
+    width: 50px;
+    border-radius: 0 10px 10px 0;
 }

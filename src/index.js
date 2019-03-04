@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './components/app/App'
 import { BrowserRouter } from 'react-router-dom'
 
-import 'antd/dist/antd.css';
 import './index.css';
 import './styles/material/colors.css';
 import './styles/odu/odu.css';

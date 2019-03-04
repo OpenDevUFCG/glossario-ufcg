@@ -3,13 +3,20 @@ html, body {
     width: 100%;
     font-family: 'Krub', sans-serif;
     font-size: 16px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Ikaros-Regular;
+    src: url(../assets/fonts/Ikaros-Regular.otf);
+}
+
+@font-face {
+    font-family: Jaapokki-Regular;
+    src: url(../assets/fonts/Jaapokki-Regular.otf);
 }
 
 #app {
-    background: #03a9f4;
+    background: #f2f2f2;
     height: 100%;
-    width: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
 }

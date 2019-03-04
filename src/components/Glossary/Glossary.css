@@ -1,10 +1,19 @@
 .glossary__container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.glossary__left-container {
-    display: grid;
-    grid-gap: 1rem;
+.glossary__container .glossary__container-row {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.glossary__container p {
+    margin-left: 50%;
+    margin-top: 0px;
 }

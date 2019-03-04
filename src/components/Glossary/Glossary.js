@@ -6,9 +6,11 @@ import VerticalSeparator from "../VerticalSeparator/VerticalSeparator"
 import SelectionBar from "../SelectionBar/SelectionBar"
 import IconButton from "../IconButton/IconButton"
 
+import glossarioLogo from '../../../assets/images/glossario-logo.svg';
+
 import acronyms from '../../lib/data';
 
-class Glossary extends Component {
+class Glossary2 extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -53,7 +55,7 @@ class Glossary extends Component {
         return (
             <div className={"odu-card glossary__container"}>
                 <div className={"glossary__left-container"}>
-                    <span className={"odu-title main-title"}>Glossário UFCG</span>
+                    <span className={"odu-title"}>Glossário UFCG</span>
                     <Search items={Object.keys(acronyms).sort()} handleSelect={this.handleAcronymChange}/>
                     <SelectionBar handleClick={this.handleMeaningChange} length={selectionBarLength}/>
                 </div>
@@ -67,5 +69,15 @@ class Glossary extends Component {
         )
     }
 }
+
+const Glossary = () => (
+    <div className={"glossary__container"}>
+        <div className={"glossary__container-row"}>
+            <img src={glossarioLogo} width="400px" />
+            <Search items={[]} />
+        </div>
+        <p>Você sabe o que é <a>tamburete</a>?</p>
+    </div>
+);
 
 export default Glossary;

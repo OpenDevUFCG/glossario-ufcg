@@ -5,8 +5,13 @@ import Glossary from "../Glossary/Glossary";
 import './App.css';
 
 const App = () => (
-    <div>
-        <Route path="/:acronym?/:meaningId?" component={Glossary}/>
+    <div className={"main"}>
+        <div className={"content"}>
+            <Route path="/:acronym?/:meaningId?" component={Glossary}/>
+        </div>
+        <div className={"footer"}>
+            Como contribuir?
+        </div>
     </div>
 );
 
