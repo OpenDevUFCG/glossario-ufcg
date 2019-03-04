@@ -1,16 +1,20 @@
 {
     "RDM": [
         {
+            "entry": "Relação de disciplinas matriculadas",
             "acronym": "RDM",
             "meaning": "Relação de disciplinas matriculadas",
-            "type": "Termo"
+            "type": "Termo",
+            "examples": []
         }
     ],
     "TECC": [
         {
+            "entry": "Tópicos Especiais em Ciência da Computação",
             "acronym": "TECC",
             "meaning": "Tópicos Especiais em Ciência da Computação. As disciplinas com esse prefixo são consideradas como disciplinas optativas específicas. Como é o exemplo de [TECC] Jogos Digitais.",
-            "type": "Termo"
+            "type": "Termo",
+            "examples": []
         }
     ]
 }

@@ -3,21 +3,27 @@
         {
             "acronym": "BOLA",
             "meaning": "Ex-feras",
-            "type": "Gíria"
+            "type": "Gíria",
+            "entry": "Ex-feras",
+            "examples": []
         }
     ],
     "LEITE": [
         {
             "acronym": "LEITE",
             "meaning": "Provas antigas de uma disciplina",
-            "type": "Gíria"
+            "type": "Gíria",
+            "entry": "Provas antigas de uma disciplina",
+            "examples": []
         }
     ],
     "PIJAMA": [
         {
             "acronym": "PIJAMA",
             "meaning": "Relação de turmas, vagas e professores de um semestre",
-            "type": "Gíria"
+            "type": "Gíria",
+            "entry": "Relação de turmas, vagas e professores de um semestre",
+            "examples": []
         }
     ]
 }
