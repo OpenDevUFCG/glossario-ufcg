@@ -2,8 +2,8 @@
     "CC": [
         {
             "entry": "Ciência da Computação",
-            "acronym": "CC", 
-            "meaning": "Ciência da Computação", 
+            "acronym": "CC",
+            "meaning": "Ciência da Computação",
             "type": "Curso",
             "examples": []
         }
@@ -18,4 +18,3 @@
         }
     ],
 }
-    

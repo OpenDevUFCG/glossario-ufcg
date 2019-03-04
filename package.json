@@ -17,7 +17,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "python src/scripts/order_data.py"
+      "pre-commit": "node src/scripts/orderData.js"
     }
   },
   "scripts": {

@@ -1,349 +1,349 @@
 {
-  "AA": [
-    {
-      "acronym": "AA",
-      "meaning": "Algoritmos Avançados",
-      "type": "Disciplina",
-      "entry": "Algoritmos Avançados",
-      "examples": []
-    }
-  ],
-  "ADSD": [
-    {
-      "acronym": "ADSD",
-      "meaning": "Avaliação de Desempenho de Sistemas Discretos",
-      "type": "Disciplina",
-      "entry": "Avaliação de Desempenho de Sistemas Discretos",
-      "examples": []
-    }
-  ],
-  "AS": [
-    {
-      "acronym": "AS",
-      "meaning": "Análise de Sistemas",
-      "type": "Disciplina",
-      "entry": "Análise de Sistemas",
-      "examples": []
-    }
-  ],
-  "ATAL": [
-    {
-      "acronym": "ATAL",
-      "meaning": "Análise e Técnicas de Algoritmos",
-      "type": "Disciplina",
-      "entry": "Análise e Técnicas de Algoritmos",
-      "examples": []
-    }
-  ],
-  "BD": [
-    {
-      "acronym": "BD",
-      "meaning": "Banco de Dados I",
-      "type": "Disciplina",
-      "entry": "Banco de Dados I",
-      "examples": []
-    }
-  ],
-  "BD2": [
-    {
-      "acronym": "BD2",
-      "meaning": "Banco de Dados II",
-      "type": "Disciplina",
-      "entry": "Banco de Dados II",
-      "examples": []
-    }
-  ],
-  "CDD": [
-    {
-      "acronym": "CDD",
-      "meaning": "Ciência de Dados Descritiva",
-      "type": "Disciplina",
-      "entry": "Ciência de Dados Descritiva",
-      "examples": []
-    }
-  ],
-  "CDP": [
-    {
-      "acronym": "CDP",
-      "meaning": "Ciência de Dados Preditiva",
-      "type": "Disciplina",
-      "entry": "Ciência de Dados Preditiva",
-      "examples": []
-    }
-  ],
-  "CG": [
-    {
-      "acronym": "CG",
-      "meaning": "Computação Gráfica",
-      "type": "Disciplina",
-      "entry": "Computação Gráfica",
-      "examples": []
-    }
-  ],
-  "DACA": [
-    {
-      "acronym": "DACA",
-      "meaning": "Desenvolvimento de Aplicações Corporativas Avançadas",
-      "type": "Disciplina",
-      "entry": "Desenvolvimento de Aplicações Corporativas Avançadas",
-      "examples": []
-    }
-  ],
-  "EDA": [
-    {
-      "acronym": "EDA",
-      "meaning": "Estrutura de Dados e Algoritmos",
-      "type": "Disciplina",
-      "entry": "Estrutura de Dados e Algoritmos",
-      "examples": []
-    }
-  ],
-  "ES": [
-    {
-      "acronym": "ES",
-      "meaning": "Engenharia de Software",
-      "type": "Disciplina",
-      "entry": "Engenharia de Software",
-      "examples": []
-    }
-  ],
-  "ETI": [
-    {
-      "acronym": "ETI",
-      "meaning": "Economia de Tecnologia da Informação",
-      "type": "Disciplina",
-      "entry": "Economia de Tecnologia da Informação",
-      "examples": []
-    }
-  ],
-  "FMCC1": [
-    {
-      "acronym": "FMCC1",
-      "meaning": "Fundamentos de Matemática para Ciência da Computação I",
-      "type": "Disciplina",
-      "entry": "Fundamentos de Matemática para Ciência da Computação I",
-      "examples": []
-    }
-  ],
-  "FMCC2": [
-    {
-      "acronym": "FMCC2",
-      "meaning": "Fundamentos de Matemática para Ciência da Computação II",
-      "type": "Disciplina",
-      "entry": "Fundamentos de Matemática para Ciência da Computação II",
-      "examples": []
-    }
-  ],
-  "GR": [
-    {
-      "acronym": "GR",
-      "meaning": "Gerência de Redes",
-      "type": "Disciplina",
-      "entry": "Gerência de Redes",
-      "examples": []
-    }
-  ],
-  "IA": [
-    {
-      "acronym": "IA",
-      "meaning": "Inteligência Artificial",
-      "type": "Disciplina",
-      "entry": "Inteligência Artificial",
-      "examples": []
-    }
-  ],
-  "IC": [
-    {
-      "acronym": "IC",
-      "meaning": "Introdução à Computação",
-      "type": "Disciplina",
-      "entry": "Introdução à Computação",
-      "examples": []
-    }
-  ],
-  "IRC": [
-    {
-      "acronym": "IRC",
-      "meaning": "Interconexão e Redes de Computadores",
-      "type": "Disciplina",
-      "entry": "Interconexão e Redes de Computadores",
-      "examples": []
-    }
-  ],
-  "JoDi": [
-    {
-      "acronym": "JoDi",
-      "meaning": "Jogos Digitais",
-      "type": "Disciplina",
-      "entry": "Jogos Digitais",
-      "examples": []
-    }
-  ],
-  "LEDA": [
-    {
-      "acronym": "LEDA",
-      "meaning": "Laboratório de Estrutura de Dados e Algoritmos",
-      "type": "Disciplina",
-      "entry": "Laboratório de Estrutura de Dados e Algoritmos",
-      "examples": []
-    }
-  ],
-  "LOAC": [
-    {
-      "acronym": "LOAC",
-      "meaning": "Laboratório de Organização e Arquitetura de Computadores",
-      "type": "Disciplina",
-      "entry": "Laboratório de Organização e Arquitetura de Computadores",
-      "examples": []
-    }
-  ],
-  "LP1": [
-    {
-      "acronym": "LP1",
-      "meaning": "Laboratório de Programação 1",
-      "type": "Disciplina",
-      "entry": "Laboratório de Programação 1",
-      "examples": []
-    }
-  ],
-  "LP2": [
-    {
-      "acronym": "LP2",
-      "meaning": "Laboratório de Programação 2",
-      "type": "Disciplina",
-      "entry": "Laboratório de Programação 2",
-      "examples": []
-    }
-  ],
-  "MSN": [
-    {
-      "acronym": "MSN",
-      "meaning": "Métodos e Softwares Numéricos",
-      "type": "Disciplina",
-      "entry": "Métodos e Softwares Numéricos",
-      "examples": []
-    }
-  ],
-  "OAC": [
-    {
-      "acronym": "OAC",
-      "meaning": "Organização e Arquitetura de Computadores",
-      "type": "Disciplina",
-      "entry": "Organização e Arquitetura de Computadores",
-      "examples": []
-    }
-  ],
-  "P1": [
-    {
-      "acronym": "P1",
-      "meaning": "Programação 1",
-      "type": "Disciplina",
-      "entry": "Programação 1",
-      "examples": []
-    },
-    {
-      "acronym": "P1",
-      "meaning": "Projeto 1",
-      "type": "Disciplina",
-      "entry": "Projeto 1",
-      "examples": []
-    }
-  ],
-  "P2": [
-    {
-      "acronym": "P2",
-      "meaning": "Programação 2",
-      "type": "Disciplina",
-      "entry": "Programação 2",
-      "examples": []
-    },
-    {
-      "acronym": "P2",
-      "meaning": "Projeto 2",
-      "type": "Disciplina",
-      "entry": "Projeto 2",
-      "examples": []
-    }
-  ],
-  "PC": [
-    {
-      "acronym": "PC",
-      "meaning": "Programação Concorrente",
-      "type": "Disciplina",
-      "entry": "Programação Concorrente",
-      "examples": []
-    }
-  ],
-  "PLP": [
-    {
-      "acronym": "PLP",
-      "meaning": "Paradigmas de Linguagem de Programação",
-      "type": "Disciplina",
-      "entry": "Paradigmas de Linguagem de Programação",
-      "examples": []
-    }
-  ],
-  "SAD": [
-    {
-      "acronym": "SAD",
-      "meaning": "Sistemas de Apoio à Decisão",
-      "type": "Disciplina",
-      "entry": "Sistemas de Apoio à Decisão",
-      "examples": []
-    }
-  ],
-  "SO": [
-    {
-      "acronym": "SO",
-      "meaning": "Sistemas Operacionais",
-      "type": "Disciplina",
-      "entry": "Sistemas Operacionais",
-      "examples": []
-    }
-  ],
-  "TC": [
-    {
-      "acronym": "TC",
-      "meaning": "Teoria da Computação",
-      "type": "Disciplina",
-      "entry": "Teoria da Computação",
-      "examples": []
-    }
-  ],
-  "TCC": [
-    {
-      "acronym": "TCC",
-      "meaning": "Trabalho de Conclusão de Curso",
-      "type": "Disciplina",
-      "entry": "Trabalho de Conclusão de Curso",
-      "examples": []
-    }
-  ],
-  "TG": [
-    {
-      "acronym": "TG",
-      "meaning": "Teoria dos Grafos",
-      "type": "Disciplina",
-      "entry": "Teoria dos Grafos",
-      "examples": []
-    }
-  ],
-  "VC": [
-    {
-      "acronym": "VC",
-      "meaning": "Visão Computacional",
-      "type": "Disciplina",
-      "entry": "Visão Computacional",
-      "examples": []
-    }
-  ],
-  "VVS": [
-    {
-      "acronym": "VVS",
-      "meaning": "Verificação e Validação de Software",
-      "type": "Disciplina",
-      "entry": "Verificação e Validação de Software",
-      "examples": []
-    }
-  ]
+    "AA": [
+        {
+            "acronym": "AA",
+            "meaning": "Algoritmos Avançados",
+            "type": "Disciplina",
+            "entry": "Algoritmos Avançados",
+            "examples": []
+        }
+    ],
+    "ADSD": [
+        {
+            "acronym": "ADSD",
+            "meaning": "Avaliação de Desempenho de Sistemas Discretos",
+            "type": "Disciplina",
+            "entry": "Avaliação de Desempenho de Sistemas Discretos",
+            "examples": []
+        }
+    ],
+    "AS": [
+        {
+            "acronym": "AS",
+            "meaning": "Análise de Sistemas",
+            "type": "Disciplina",
+            "entry": "Análise de Sistemas",
+            "examples": []
+        }
+    ],
+    "ATAL": [
+        {
+            "acronym": "ATAL",
+            "meaning": "Análise e Técnicas de Algoritmos",
+            "type": "Disciplina",
+            "entry": "Análise e Técnicas de Algoritmos",
+            "examples": []
+        }
+    ],
+    "BD": [
+        {
+            "acronym": "BD",
+            "meaning": "Banco de Dados I",
+            "type": "Disciplina",
+            "entry": "Banco de Dados I",
+            "examples": []
+        }
+    ],
+    "BD2": [
+        {
+            "acronym": "BD2",
+            "meaning": "Banco de Dados II",
+            "type": "Disciplina",
+            "entry": "Banco de Dados II",
+            "examples": []
+        }
+    ],
+    "CDD": [
+        {
+            "acronym": "CDD",
+            "meaning": "Ciência de Dados Descritiva",
+            "type": "Disciplina",
+            "entry": "Ciência de Dados Descritiva",
+            "examples": []
+        }
+    ],
+    "CDP": [
+        {
+            "acronym": "CDP",
+            "meaning": "Ciência de Dados Preditiva",
+            "type": "Disciplina",
+            "entry": "Ciência de Dados Preditiva",
+            "examples": []
+        }
+    ],
+    "CG": [
+        {
+            "acronym": "CG",
+            "meaning": "Computação Gráfica",
+            "type": "Disciplina",
+            "entry": "Computação Gráfica",
+            "examples": []
+        }
+    ],
+    "DACA": [
+        {
+            "acronym": "DACA",
+            "meaning": "Desenvolvimento de Aplicações Corporativas Avançadas",
+            "type": "Disciplina",
+            "entry": "Desenvolvimento de Aplicações Corporativas Avançadas",
+            "examples": []
+        }
+    ],
+    "EDA": [
+        {
+            "acronym": "EDA",
+            "meaning": "Estrutura de Dados e Algoritmos",
+            "type": "Disciplina",
+            "entry": "Estrutura de Dados e Algoritmos",
+            "examples": []
+        }
+    ],
+    "ES": [
+        {
+            "acronym": "ES",
+            "meaning": "Engenharia de Software",
+            "type": "Disciplina",
+            "entry": "Engenharia de Software",
+            "examples": []
+        }
+    ],
+    "ETI": [
+        {
+            "acronym": "ETI",
+            "meaning": "Economia de Tecnologia da Informação",
+            "type": "Disciplina",
+            "entry": "Economia de Tecnologia da Informação",
+            "examples": []
+        }
+    ],
+    "FMCC1": [
+        {
+            "acronym": "FMCC1",
+            "meaning": "Fundamentos de Matemática para Ciência da Computação I",
+            "type": "Disciplina",
+            "entry": "Fundamentos de Matemática para Ciência da Computação I",
+            "examples": []
+        }
+    ],
+    "FMCC2": [
+        {
+            "acronym": "FMCC2",
+            "meaning": "Fundamentos de Matemática para Ciência da Computação II",
+            "type": "Disciplina",
+            "entry": "Fundamentos de Matemática para Ciência da Computação II",
+            "examples": []
+        }
+    ],
+    "GR": [
+        {
+            "acronym": "GR",
+            "meaning": "Gerência de Redes",
+            "type": "Disciplina",
+            "entry": "Gerência de Redes",
+            "examples": []
+        }
+    ],
+    "IA": [
+        {
+            "acronym": "IA",
+            "meaning": "Inteligência Artificial",
+            "type": "Disciplina",
+            "entry": "Inteligência Artificial",
+            "examples": []
+        }
+    ],
+    "IC": [
+        {
+            "acronym": "IC",
+            "meaning": "Introdução à Computação",
+            "type": "Disciplina",
+            "entry": "Introdução à Computação",
+            "examples": []
+        }
+    ],
+    "IRC": [
+        {
+            "acronym": "IRC",
+            "meaning": "Interconexão e Redes de Computadores",
+            "type": "Disciplina",
+            "entry": "Interconexão e Redes de Computadores",
+            "examples": []
+        }
+    ],
+    "JoDi": [
+        {
+            "acronym": "JoDi",
+            "meaning": "Jogos Digitais",
+            "type": "Disciplina",
+            "entry": "Jogos Digitais",
+            "examples": []
+        }
+    ],
+    "LEDA": [
+        {
+            "acronym": "LEDA",
+            "meaning": "Laboratório de Estrutura de Dados e Algoritmos",
+            "type": "Disciplina",
+            "entry": "Laboratório de Estrutura de Dados e Algoritmos",
+            "examples": []
+        }
+    ],
+    "LOAC": [
+        {
+            "acronym": "LOAC",
+            "meaning": "Laboratório de Organização e Arquitetura de Computadores",
+            "type": "Disciplina",
+            "entry": "Laboratório de Organização e Arquitetura de Computadores",
+            "examples": []
+        }
+    ],
+    "LP1": [
+        {
+            "acronym": "LP1",
+            "meaning": "Laboratório de Programação 1",
+            "type": "Disciplina",
+            "entry": "Laboratório de Programação 1",
+            "examples": []
+        }
+    ],
+    "LP2": [
+        {
+            "acronym": "LP2",
+            "meaning": "Laboratório de Programação 2",
+            "type": "Disciplina",
+            "entry": "Laboratório de Programação 2",
+            "examples": []
+        }
+    ],
+    "MSN": [
+        {
+            "acronym": "MSN",
+            "meaning": "Métodos e Softwares Numéricos",
+            "type": "Disciplina",
+            "entry": "Métodos e Softwares Numéricos",
+            "examples": []
+        }
+    ],
+    "OAC": [
+        {
+            "acronym": "OAC",
+            "meaning": "Organização e Arquitetura de Computadores",
+            "type": "Disciplina",
+            "entry": "Organização e Arquitetura de Computadores",
+            "examples": []
+        }
+    ],
+    "P1": [
+        {
+            "acronym": "P1",
+            "meaning": "Programação 1",
+            "type": "Disciplina",
+            "entry": "Programação 1",
+            "examples": []
+        },
+        {
+            "acronym": "P1",
+            "meaning": "Projeto 1",
+            "type": "Disciplina",
+            "entry": "Projeto 1",
+            "examples": []
+        }
+    ],
+    "P2": [
+        {
+            "acronym": "P2",
+            "meaning": "Programação 2",
+            "type": "Disciplina",
+            "entry": "Programação 2",
+            "examples": []
+        },
+        {
+            "acronym": "P2",
+            "meaning": "Projeto 2",
+            "type": "Disciplina",
+            "entry": "Projeto 2",
+            "examples": []
+        }
+    ],
+    "PC": [
+        {
+            "acronym": "PC",
+            "meaning": "Programação Concorrente",
+            "type": "Disciplina",
+            "entry": "Programação Concorrente",
+            "examples": []
+        }
+    ],
+    "PLP": [
+        {
+            "acronym": "PLP",
+            "meaning": "Paradigmas de Linguagem de Programação",
+            "type": "Disciplina",
+            "entry": "Paradigmas de Linguagem de Programação",
+            "examples": []
+        }
+    ],
+    "SAD": [
+        {
+            "acronym": "SAD",
+            "meaning": "Sistemas de Apoio à Decisão",
+            "type": "Disciplina",
+            "entry": "Sistemas de Apoio à Decisão",
+            "examples": []
+        }
+    ],
+    "SO": [
+        {
+            "acronym": "SO",
+            "meaning": "Sistemas Operacionais",
+            "type": "Disciplina",
+            "entry": "Sistemas Operacionais",
+            "examples": []
+        }
+    ],
+    "TC": [
+        {
+            "acronym": "TC",
+            "meaning": "Teoria da Computação",
+            "type": "Disciplina",
+            "entry": "Teoria da Computação",
+            "examples": []
+        }
+    ],
+    "TCC": [
+        {
+            "acronym": "TCC",
+            "meaning": "Trabalho de Conclusão de Curso",
+            "type": "Disciplina",
+            "entry": "Trabalho de Conclusão de Curso",
+            "examples": []
+        }
+    ],
+    "TG": [
+        {
+            "acronym": "TG",
+            "meaning": "Teoria dos Grafos",
+            "type": "Disciplina",
+            "entry": "Teoria dos Grafos",
+            "examples": []
+        }
+    ],
+    "VC": [
+        {
+            "acronym": "VC",
+            "meaning": "Visão Computacional",
+            "type": "Disciplina",
+            "entry": "Visão Computacional",
+            "examples": []
+        }
+    ],
+    "VVS": [
+        {
+            "acronym": "VVS",
+            "meaning": "Verificação e Validação de Software",
+            "type": "Disciplina",
+            "entry": "Verificação e Validação de Software",
+            "examples": []
+        }
+    ]
 }
