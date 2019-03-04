@@ -23,5 +23,7 @@ def update_file(name):
 path_to_data = '../lib/%s.json'
 data_files = ['cursos', 'disciplinas', 'girias', 'locais', 'outros']
 
+print "Reordenando arquivos de dados"
+
 for df in data_files:
     update_file(path_to_data % df)
