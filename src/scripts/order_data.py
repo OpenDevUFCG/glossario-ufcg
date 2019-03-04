@@ -25,7 +25,7 @@ def update_file(name):
 path_to_data = '/src/lib/%s.json'
 data_files = ['cursos', 'disciplinas', 'girias', 'locais', 'outros']
 
-termcolor.cprint('Reordenando arquivos de dados', color='yellow', attrs=['bold'])
+print('\033[1;93m Reordenando arquivos de dados \033[0m')
 
 for df in data_files:
     update_file((cwd + path_to_data) % df)
