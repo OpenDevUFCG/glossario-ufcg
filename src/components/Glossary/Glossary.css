@@ -23,6 +23,7 @@
 
 .glossary__day-phrase {
     grid-area: day-phrase;
+    font-weight: bold;
     padding: 0 5px;
     color: var(--glossary-dark-accent);
 }
