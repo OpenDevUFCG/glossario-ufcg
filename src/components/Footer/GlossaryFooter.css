@@ -1,0 +1,11 @@
+.glossary-footer {
+    display: grid;
+    grid-template-areas:
+        "contribute about";
+    grid-template-columns: max-content max-content;
+    grid-template-rows: 100%;
+    grid-gap: 5em;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
