@@ -92,7 +92,7 @@
     "EDA": [
         {
             "acronym": "EDA",
-            "meaning": "EDA é uma disciplina obrigatória do 3º período do curso de Ciência de Computação na UFCG que visa o estudo de complexida de algoritmos, métodos de ordenação e estruturas de dados.",
+            "meaning": "Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação na UFCG que visa o estudo de complexidade de algoritmos, métodos de ordenação e estruturas de dados.",
             "type": "Disciplina",
             "entry": "Estrutura de Dados",
             "examples": ["Essa prova de EDA estava muito fácil.", "Vocês viram o resumo de EDA no Tamburetei? É muito bom!"]
@@ -182,9 +182,9 @@
     "LEDA": [
         {
             "acronym": "LEDA",
-            "meaning": "Laboratório de Estrutura de Dados",
+            "entry": "Laboratório de Estrutura de Dados",
             "type": "Disciplina",
-            "entry": "LEDA é uma disciplina obrigatória do 3º período do curso de Ciência de Computação que é paga em conjunto com EDA e Aprofundamento prático dos assuntos vistos em EDA.",
+            "meaning": "Laboratório de Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação que é paga em conjunto com EDA para o aprofundamento prático dos assuntos vistos em EDA.",
             "examples": ["Essa prova de LEDA eu só segurei na mão de Thanos e fui.","O roteiro de LEDA dessa semana é uma viagem!"]
         }
     ],
