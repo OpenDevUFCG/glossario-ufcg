@@ -1,8 +1,7 @@
 import * as React from 'react';
 import "./Search.css";
 import { AutoComplete } from 'antd';
-
-const Option = AutoComplete.Option;
+import Icon from "../Icon/Icon";
 
 const renderOption = (item) => (
     <Option key={item}>
@@ -21,10 +20,16 @@ const Search2 = (props) => (
     />
 );
 
+const CustomSearchButton = (props) => (
+    <button className={"search__button-container pointer-hover"}>
+        <Icon className={"search__button"} icon={"search"} iconColor={"#FFFFFF"}/>
+    </button>
+);
+
 const Search = (props) => (
-  <div>
-    <input className={"search"} type="text" />
-    <button className={"search"} >Go!</button>
+  <div className={"search"}>
+    <input className={"search__input"} type="text" />
+    <CustomSearchButton/>
   </div>
 );
 
