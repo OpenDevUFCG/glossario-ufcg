@@ -1,13 +1,17 @@
 .main {
-    display: flex;
-    flex-direction: column;
     height: 100%;
+    display: grid;
+    grid-template-areas:
+        'route'
+        'footer';
+    grid-template-columns: 100%;
+    grid-template-rows: auto max-content;
 }
 
-.content {
-    flex: 1 0 auto;
+.main__route {
+    grid-area: route;
 }
 
-.footer {
-    flex-shrink: 0;
+.main__footer {
+    grid-area: footer;
 }
