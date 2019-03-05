@@ -101,10 +101,10 @@
     "ES": [
         {
             "acronym": "ES",
-            "meaning": "Engenharia de Software",
+            "meaning": "Engenharia de Software é uma disciplina obrigatória do 5º período do curso de Ciência da Computação na UFCG na qual é estudado práticas de gerência de projetos voltados à especificação, desenvolvimento e manutenção de software.",
             "type": "Disciplina",
             "entry": "Engenharia de Software",
-            "examples": []
+            "examples": ["Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES", "Nossa, eu não consegui fazer o organizar de PLP que era só 5 pessoas, imagine o de ES que são 10...", "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"]
         }
     ],
     "ETI": [
@@ -191,10 +191,10 @@
     "LOAC": [
         {
             "acronym": "LOAC",
-            "meaning": "Laboratório de Organização e Arquitetura de Computadores",
+            "meaning": "LOAC é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que visa o estudo da arquitetura e funcionamento dos componentes presentes em computadores de uma forma prática, tendo grande foco em como projetar e programar um processador. A disciplina conta com experimentos avaliativos práticos a cada aula.",
             "type": "Disciplina",
             "entry": "Laboratório de Organização e Arquitetura de Computadores",
-            "examples": []
+            "examples": ["LOAC eh peso", "O LCC3 tá cheio de fio pelas mesas da aula de LOAC", "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"]
         }
     ],
     "LP1": [
