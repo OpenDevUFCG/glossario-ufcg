@@ -24,4 +24,5 @@
 .glossary__day-phrase {
     grid-area: day-phrase;
     padding: 0 5px;
+    color: var(--glossary-dark-accent);
 }

@@ -74,7 +74,7 @@ const Glossary = () => (
     <div className={"glossary__container"}>
         <img className={"glossary__logo"} src={glossarioLogo} width="400px" />
         <Search className={"glossary__search"} items={[]} />
-        <span className={"glossary__day-phrase glossary-text"}>Você sabe o que é <a>tamburete</a>?</span>
+        <span className={"glossary__day-phrase"}>Você sabe o que é <a className="emphasis pointer-hover">tamburete</a>?</span>
     </div>
 );
 
