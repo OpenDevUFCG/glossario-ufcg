@@ -194,7 +194,7 @@
             "meaning": "LOAC é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que visa o estudo da arquitetura e funcionamento dos componentes presentes em computadores de uma forma prática, tendo grande foco em como projetar e programar um processador. A disciplina conta com experimentos avaliativos práticos a cada aula.",
             "type": "Disciplina",
             "entry": "Laboratório de Organização e Arquitetura de Computadores",
-            "examples": ["LOAC eh peso", "O LCC3 tá cheio de fio pelas mesas da aula de LOAC", "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"]
+            "examples": ["LOAC é peso", "O LCC3 tá cheio de fio pelas mesas da aula de LOAC", "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"]
         }
     ],
     "LP1": [
