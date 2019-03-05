@@ -11,3 +11,16 @@
 .align-self-center {
     align-self: center;
 }
+
+.emphasis {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pointer-hover:hover {
+    cursor: pointer;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
