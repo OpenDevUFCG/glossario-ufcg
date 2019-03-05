@@ -1,12 +1,14 @@
 # Contributing
 
-Contribuições sempre serão bem vindas, sejam pequenas ou grandes. Conhece alguma sigla que não está presente no Glossário? Basta adiciona-la num dos arquivos `.json` dentro da pasta [src/lib/](/src/lib/) dependendo de como o que você quer adicionar melhor se encaixa, e então é só fazer uma PR (Pull Request). Não sabe como? Vamos explicar abaixo.
-
-* **PS**: Para contribuir é necessário que, na sua máquina, seja possível executar comandos em `Python`. Essa restrição é necessária pois existe [um script](/src/scripts/order_data.py) que mantém os nossos dados ordenados alfabeticamente e é executado a cada `commit`. Caso Python esteja instalado em sua máquina e ainda assim não é possível fazer commit nas suas alterações, entre em contato conosco no [nosso gitter](https://gitter.im/OpenDevUFCG/glossario-ufcg) :)
+Contribuições sempre serão bem vindas, sejam pequenas ou grandes. Veja abaixo as várias formas de contribuir conosco.
 
 ## Issues
 
-As issues são um espaço aberto para requisitar criação, mudança ou conserto. Também é livre para ser um espaço de discussão sobre as siglas, termos e gírias de ciência da computação da UFCG. É importante ter em mente que o tema da issue e das discussões sempre deve estar relacionado ao curso.
+As issues são um espaço aberto para requisitar criação, mudança ou conserto. Também é livre para ser um espaço de discussão sobre as siglas, termos e gírias da UFCG. É importante ter em mente que o tema da issue e das discussões sempre deve estar relacionado à universidade.
+
+## Adicionar/editar termos
+
+Você conhece um termo que ainda não está lá? ou sabe uma aplicação em frase de algum termo que gostaria de compartilhar conosco ou acha que o significado de algum termo está errado? Todos os dados que usamos se encontram em arquivos JSON dentro de `src/lib`. Poderá ver que lá tem 5 arquivos JSON, cada um deles contendo um objeto JSON com termos dos tipos indicados nos nomes dos arquivos, por exemplo, se você quiser encontrar o significado de LCC1... você vai no `src/lib/locais.json` pois LCC1 é um laboratório da universidade (um local). Caso o termo que você queira adicionar não se encaixe em nenhuma das categorias (local, disciplina, curso e gíria), ele deve estar em `outros.json`. **Recomendamos fortemente que antes de fazer qualquer alteração no JSON  veja [a documentação dos dados](https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/docs/TERMO.md) que explica com mais detalhes o conteúdo dos arquivos e quais os atributos cada termo pode/deve possuir.**
 
 ## Como Contribuir
 
@@ -61,9 +63,7 @@ Indo para página do seu fork, você irá visualizar um aviso solicitando que em
 
 [Tutorial mais detalhado](https://blog.da2k.com.br/2015/02/04/git-e-github-do-clone-ao-pull-request/).
 
-*Obs: Caso precise realizar um [rebase ou merge](https://gist.github.com/ravibhure/a7e0918ff4937c9ea1c456698dcd58aa)
-
 ## Indicações
 - Seja claro nos seus commits.
 - Sempre que for mudar algo, verifica se é necessário mudar alguma documentação. É importante que tudo esteja atualizado.
-- Caso esteja tendo dificuldades de trabalhar com o git, contate alguém da equipe e peça ajuda. 
+- Caso esteja tendo dificuldades de trabalhar com o git, contate alguém da equipe (nas issues ou no gitter) e peça ajuda.
