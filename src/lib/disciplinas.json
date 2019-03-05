@@ -343,7 +343,7 @@
             "meaning": "Verificação e Validação de Software é uma disciplina optativa do curso de Ciência da Computação na UFCG que visa o estudo de técnicas de teste e validação de software a fim de melhorar a qualidade e a manutenção do sistema.",
             "type": "Disciplina",
             "entry": "Verificação e Validação de Software",
-            "examples": ["Essa semana tem quizz de VVS", "O projeto de VVS é pra amanhã", "Nossa, vi em VVS que fazer testes faz muita diferença!"]
+            "examples": ["Essa semana tem quiz de VVS", "O projeto de VVS é pra amanhã", "Nossa, vi em VVS que fazer testes faz muita diferença!"]
         }
     ]
 }
