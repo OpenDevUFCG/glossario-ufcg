@@ -8,7 +8,15 @@ As issues são um espaço aberto para requisitar criação, mudança ou conserto
 
 ## Adicionar/editar termos
 
-Você conhece um termo que ainda não está lá? ou sabe uma aplicação em frase de algum termo que gostaria de compartilhar conosco ou acha que o significado de algum termo está errado? Todos os dados que usamos se encontram em arquivos JSON dentro de `src/lib`. Poderá ver que lá tem 5 arquivos JSON, cada um deles contendo um objeto JSON com termos dos tipos indicados nos nomes dos arquivos, por exemplo, se você quiser encontrar o significado de LCC1... você vai no `src/lib/locais.json` pois LCC1 é um laboratório da universidade (um local). Caso o termo que você queira adicionar não se encaixe em nenhuma das categorias (local, disciplina, curso e gíria), ele deve estar em `outros.json`. **Recomendamos fortemente que antes de fazer qualquer alteração no JSON  veja [a documentação dos dados](https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/docs/TERMO.md) que explica com mais detalhes o conteúdo dos arquivos e quais os atributos cada termo pode/deve possuir.**
+Você conhece um termo que ainda não está lá? ou sabe uma aplicação em frase de algum termo que gostaria de compartilhar conosco ou acha que o significado de algum termo está errado? 
+
+Nós encorajamos nossos contribuidores a fazer Pull Requests adicionando e editanto os termos que já existem, mas se por algum motivo você não possa ou não queira adicionar o termo por si mesmo, pode [criar uma nova issue](https://github.com/OpenDevUFCG/glossario-ufcg/issues/new/choose) do tipo "Adicionar novo termo" e preencher os campos solicitados. (Se o motivo for falta de habilidade com git ou forks e etc, fala com a gente no gitter ou pede ajuda na issue que tem um monte de gente aqui louca pra te ajudar :heart:)
+
+Caso queira adicionar/editar o termo você mesmo, ÓTIMO!!! Tudo que precisa saber está na seção seguinte :D
+
+## Adicionando/Editando um termo você mesmo
+
+Todos os dados que usamos se encontram em arquivos JSON dentro de `src/lib`. Poderá ver que lá tem 5 arquivos JSON, cada um deles contendo um objeto JSON com termos dos tipos indicados nos nomes dos arquivos, por exemplo, se você quiser encontrar o significado de LCC1... você vai no `src/lib/locais.json` pois LCC1 é um laboratório da universidade (um local). Caso o termo que você queira adicionar não se encaixe em nenhuma das categorias (local, disciplina, curso e gíria), ele deve estar em `outros.json`. **Recomendamos fortemente que antes de fazer qualquer alteração no JSON  veja [a documentação dos dados](https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/docs/TERMO.md) que explica com mais detalhes o conteúdo dos arquivos e quais os atributos cada termo pode/deve possuir.**
 
 ## Como Contribuir
 

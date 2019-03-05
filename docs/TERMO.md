@@ -4,14 +4,29 @@ Em todos os arquivos JSONs contendo os temos do glossário teremos um objeto con
 
 ```json
 {
+    "LP1": [
+        ...
+    ],
     "P1": [
         ...    
+    ]
+}
+```
+
+ou para gírias:
+
+```json
+{
+    "BOLA": [
+        ...    
     ],
-    "LP1": [
+    "LEITE": [
         ...
     ]
 }
 ```
+
+As chaves de busca são por padrão maiúsculas e estão ordenadas em ordem alfabética.
 
 ### Array de resultados
 
