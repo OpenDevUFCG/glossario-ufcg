@@ -92,19 +92,19 @@
     "EDA": [
         {
             "acronym": "EDA",
-            "meaning": "Estrutura de Dados e Algoritmos",
+            "meaning": "Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação na UFCG que visa o estudo de complexidade de algoritmos, métodos de ordenação e estruturas de dados.",
             "type": "Disciplina",
-            "entry": "Estrutura de Dados e Algoritmos",
-            "examples": []
+            "entry": "Estrutura de Dados",
+            "examples": ["Essa prova de EDA estava muito fácil.", "Vocês viram o resumo de EDA no Tamburetei? É muito bom!"]
         }
     ],
     "ES": [
         {
             "acronym": "ES",
-            "meaning": "Engenharia de Software é uma disciplina obrigatória do 5º período do curso de Ciência da Computação na UFCG na qual é estudado práticas de gerência de projetos voltados à especificação, desenvolvimento e manutenção de software.",
+            "meaning": "Engenharia de Software é uma disciplina obrigatória do 5º período do curso de Ciência da Computação na UFCG na qual são estudadas práticas de gerência de projetos voltados à especificação, desenvolvimento e manutenção de software.",
             "type": "Disciplina",
             "entry": "Engenharia de Software",
-            "examples": ["Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES", "Nossa, eu não consegui fazer o organizar de PLP que era só 5 pessoas, imagine o de ES que são 10...", "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"]
+            "examples": ["Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES", "Nossa, eu não consegui organizar o grupo de PLP que era só 5 pessoas, imagine o de ES que são 10...", "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"]
         }
     ],
     "ETI": [
@@ -182,19 +182,19 @@
     "LEDA": [
         {
             "acronym": "LEDA",
-            "meaning": "Laboratório de Estrutura de Dados e Algoritmos",
+            "entry": "Laboratório de Estrutura de Dados",
             "type": "Disciplina",
-            "entry": "Laboratório de Estrutura de Dados e Algoritmos",
-            "examples": []
+            "meaning": "Laboratório de Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação que é paga em conjunto com EDA para o aprofundamento prático dos assuntos vistos em EDA.",
+            "examples": ["Essa prova de LEDA eu só segurei na mão de Thanos e fui.","O roteiro de LEDA dessa semana é uma viagem!"]
         }
     ],
     "LOAC": [
         {
             "acronym": "LOAC",
-            "meaning": "LOAC é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que visa o estudo da arquitetura e funcionamento dos componentes presentes em computadores de uma forma prática, tendo grande foco em como projetar e programar um processador. A disciplina conta com experimentos avaliativos práticos a cada aula.",
+            "meaning": "Laboratório de Organização e Arquitetura de Computadores é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que visa o estudo da arquitetura e funcionamento dos componentes presentes em computadores de uma forma prática, tendo grande foco em como projetar e programar um processador. A disciplina conta com experimentos avaliativos práticos a cada aula.",
             "type": "Disciplina",
             "entry": "Laboratório de Organização e Arquitetura de Computadores",
-            "examples": ["LOAC eh peso", "O LCC3 tá cheio de fio pelas mesas da aula de LOAC", "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"]
+            "examples": ["LOAC é peso", "O LCC3 tá cheio de fio pelas mesas da aula de LOAC", "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"]
         }
     ],
     "LP1": [
