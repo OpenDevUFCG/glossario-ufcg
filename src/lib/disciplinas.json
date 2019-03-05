@@ -101,10 +101,10 @@
     "ES": [
         {
             "acronym": "ES",
-            "meaning": "Engenharia de Software é uma disciplina obrigatória do 5º período do curso de Ciência da Computação na UFCG na qual é estudado práticas de gerência de projetos voltados à especificação, desenvolvimento e manutenção de software.",
+            "meaning": "Engenharia de Software é uma disciplina obrigatória do 5º período do curso de Ciência da Computação na UFCG na qual são estudadas práticas de gerência de projetos voltados à especificação, desenvolvimento e manutenção de software.",
             "type": "Disciplina",
             "entry": "Engenharia de Software",
-            "examples": ["Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES", "Nossa, eu não consegui fazer o organizar de PLP que era só 5 pessoas, imagine o de ES que são 10...", "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"]
+            "examples": ["Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES", "Nossa, eu não consegui organizar o grupo de PLP que era só 5 pessoas, imagine o de ES que são 10...", "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"]
         }
     ],
     "ETI": [
