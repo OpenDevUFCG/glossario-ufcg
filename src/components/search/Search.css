@@ -1,19 +1,54 @@
+@import '~antd/dist/antd.css';
+
 .search {
     display: grid;
     grid-template-columns: 1fr max-content;
 }
 
 .search * {
-    outline: none;
-    border: none;
+    outline: none !important;
+    border: none !important;
 }
 
-.search__input {
+/* Custom autocomplete input element */
+.ant-select-selection {
     background-color: #dcdcdc;
     border-radius: 10px 0 0 10px;
     height: 100%;
     width: 400px;
-    padding: 0 10px;
+}
+
+.ant-input:focus, .ant-select-search__field:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.ant-select-select-focused {
+    background-color: #EEEEEE !important;
+    -webkit-animation-name: change-color-on-focus;
+    -moz-animation-name: change-color-on-focus;
+    -o-animation-name: change-color-on-focus;
+    animation-name: change-color-on-focus;
+    animation-duration: 0.5s;
+}
+
+/* Fix Autocomplete size to fill container */
+.ant-select-auto-complete.ant-select .ant-select-selection--single {
+    height: 100%;
+}
+
+/* Dropdown scrollbar */
+.ant-select-dropdown-menu::-webkit-scrollbar {
+    height: 0.3em;
+    width: 0.3em;
+}
+
+.ant-select-dropdown-menu::-webkit-scrollbar-track-piece {
+    background-color: #CCCCCC;
+}
+
+.ant-select-dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #30abae;
 }
 
 .search__button-container {
@@ -24,4 +59,13 @@
     justify-content: center;
     padding: 5px;
     border-radius: 0 10px 10px 0;
+}
+
+@keyframes change-color-on-focus {
+    0% {
+        background-color: #dcdcdc;
+    }
+    100% {
+        background-color: #EEEEEE;
+    }
 }
