@@ -10,9 +10,15 @@
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "antd": "^3.13.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
+    "husky": "^1.3.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "node src/scripts/orderData.js"
+    }
   },
   "scripts": {
     "start": "webpack-dev-server --progress --colors --inline --hot --host 0.0.0.0",
