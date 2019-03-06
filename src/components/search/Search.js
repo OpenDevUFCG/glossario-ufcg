@@ -28,7 +28,13 @@ const CustomSearchButton = (props) => (
 
 const Search = (props) => (
   <div className={"search"}>
-    <input className={"search__input"} type="text" />
+    <AutoComplete
+        dataSource={props.items.map(renderOption)}
+        optionLabelProp="meaning"
+        placeholder="Pesquise..."
+        onSelect={e => props.handleSelect(e)}
+        filterOption={(inputValue, option) => option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+    />
     <CustomSearchButton/>
   </div>
 );

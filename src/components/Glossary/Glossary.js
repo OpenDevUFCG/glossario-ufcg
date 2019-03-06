@@ -73,7 +73,7 @@ class Glossary2 extends Component {
 const Glossary = () => (
     <div className={"glossary__container"}>
         <img className={"glossary__logo"} src={glossarioLogo} width="400px" />
-        <Search className={"glossary__search"} items={[]} />
+        <Search className={"glossary__search"} items={Object.keys(acronyms).sort()} />
         <span className={"glossary__day-phrase"}>Você sabe o que é <a className="emphasis pointer-hover light-accent">tamburete</a>?</span>
     </div>
 );
