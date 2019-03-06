@@ -1,19 +1,29 @@
 .glossary__container {
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.glossary__container .glossary__container-row {
-    display: flex;
-    flex-direction: row;
-    grid-gap: 30px;
+    display: grid;
+    grid-template-areas:
+        'logo search'
+        '. day-phrase';
+    grid-gap: 0 1em;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: max-content max-content;
     align-items: center;
+    align-content: center;
     justify-content: center;
 }
 
-.glossary__container p {
-    margin-left: 50%;
-    margin-top: 0px;
+.glossary__logo {
+    grid-area: logo;
+}
+
+.glossary__search {
+    grid-area: search;
+    outline: none;
+}
+
+.glossary__day-phrase {
+    grid-area: day-phrase;
+    font-weight: bold;
+    padding: 0 5px;
+    color: var(--glossary-dark-accent);
 }

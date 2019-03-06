@@ -1,20 +1,27 @@
 .search {
-    border: none;
-    height: 35px;
+    display: grid;
+    grid-template-columns: 1fr max-content;
 }
 
-input.search {
-    width: 400px;
-    height: 35px;
+.search * {
+    outline: none;
+    border: none;
+}
+
+.search__input {
     background-color: #dcdcdc;
     border-radius: 10px 0 0 10px;
+    height: 100%;
+    width: 400px;
+    padding: 0 10px;
 }
 
-button.search {
-    border-color: #30abae;
-    color: white;
+.search__button-container {
     background-color: #30abae;
-    height: 37px;
-    width: 50px;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
     border-radius: 0 10px 10px 0;
 }
