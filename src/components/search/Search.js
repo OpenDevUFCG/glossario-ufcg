@@ -7,21 +7,10 @@ const renderOption = (item) => (
     <Option key={item}>
       {item}
     </Option>
-)
-
-const Search2 = (props) => (
-    <AutoComplete
-      className={"search-box"}
-      dataSource={props.items.map(renderOption)}
-      optionLabelProp="meaning"
-      placeholder="Pesquise..."
-      onSelect={e => props.handleSelect(e)}
-      filterOption={(inputValue, option) => option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
-    />
 );
 
 const CustomSearchButton = (props) => (
-    <button className={"search__button-container pointer-hover"}>
+    <button className={"search__button-container pointer-hover"} onClick={props.handleClick}>
         <Icon className={"search__button"} icon={"search"} iconColor={"#FFFFFF"}/>
     </button>
 );
