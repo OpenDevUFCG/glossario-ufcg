@@ -2,7 +2,7 @@
     "AA": [
         {
             "acronym": "AA",
-            "meaning": "Algoritmos Avançados",
+            "meaning": "Algoritmos Avançados é um disciplina optativa específica que foca no estudo de álgoritmos para uso em olimpíadas de programção.",
             "type": "Disciplina",
             "entry": "Algoritmos Avançados",
             "examples": ["Consegui resolver todos os problemas da lista de AA dessa semana!", "Tenho que terminar minha lista de AA até amanhã"]
@@ -209,7 +209,7 @@
     "LP2": [
         {
             "acronym": "LP2",
-            "meaning": "Laboratório de Programação 2",
+            "meaning": "Laboratório de Programação 2 é a disciplina obrigatória do 2º em que colocamos em prática o que aprendemos em Programação 2, cujo foco está em programação orientada ao objeto.",
             "type": "Disciplina",
             "entry": "Laboratório de Programação 2",
             "examples": ["Preciso terminar o terceiro lab de LP2", "Eu não sei se era melhor usar herança ou interface na prova de LP2" ]
@@ -227,7 +227,7 @@
     "OAC": [
         {
             "acronym": "OAC",
-            "meaning": "Organização e Arquitetura de Computadores",
+            "meaning": "Organização e Arquitetura de Computadores é uma discilina obrigatória do 4º em que aprendemos como é a arquitetura de um computador internamente e como funcionam seus componentes.",
             "type": "Disciplina",
             "entry": "Organização e Arquitetura de Computadores",
             "examples": ["Aprendi como funciona um processador em OAC, muito massa!", "A atividade de OAC tem que ser entregue até sexta"]
@@ -236,7 +236,7 @@
     "P1": [
         {
             "acronym": "P1",
-            "meaning": "Programação 1",
+            "meaning": "Programação 1 é uma disciplina obrigatória do 1º período em que tiramos dúvidas e aprendemos a lógica da programação usando a linguagem Python.",
             "type": "Disciplina",
             "entry": "Programação 1",
             "examples": ["Qual a tua turma de P1 essa semana?", "Quem é o professor da turma 2 de P1?"]
