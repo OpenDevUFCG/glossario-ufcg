@@ -2,7 +2,7 @@
     "AA": [
         {
             "acronym": "AA",
-            "meaning": "Algoritmos Avançados é um disciplina optativa específica que foca no estudo de álgoritmos para uso em olimpíadas de programção.",
+            "meaning": "Algoritmos Avançados é um disciplina optativa específica que foca no estudo de algoritmos para uso em olimpíadas de programção.",
             "type": "Disciplina",
             "entry": "Algoritmos Avançados",
             "examples": ["Consegui resolver todos os problemas da lista de AA dessa semana!", "Tenho que terminar minha lista de AA até amanhã"]
