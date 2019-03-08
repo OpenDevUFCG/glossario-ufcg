@@ -43,19 +43,9 @@
     .glossary__logo, .glossary__day-phrase {
         justify-self: center;
     }
-}
 
-@media screen and (max-width: 450px) {
     .glossary__logo {
-        width: 325px;
+        width: 80%;
         height: auto;
     }
-}
-
-@media screen and (max-width: 350px){
-    .glossary__logo {
-        width: 300px;
-        height: auto;
-    }
-
 }
