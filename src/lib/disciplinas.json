@@ -1,0 +1,349 @@
+{
+    "AA": [
+        {
+            "acronym": "AA",
+            "meaning": "Algoritmos Avançados é uma disciplina optativa do curso de Ciência da Computação na UFCG com foco em olimpíadas/maratonas de programação, mas também é procurada por alunos que desejam se preparar para entrevistas de emprego. Existem subcategorias de AA para se adequar ao conhecimento de cada aluno, pois envolve conteúdos de Teoria dos Grafos, EDA, MSN e ATAL.",
+            "type": "Disciplina",
+            "entry": "Algoritmos Avançados",
+            "examples": ["Olha só a galera do AA ali.", "Vai ter AA hoje ou é acompanhamento?", "Hoje eu vi programação dinâmica no AA, mas não entendi nada."]
+        }
+    ],
+    "ADSD": [
+        {
+            "acronym": "ADSD",
+            "meaning": "Avaliação de Desempenho de Sistemas Discretos",
+            "type": "Disciplina",
+            "entry": "Avaliação de Desempenho de Sistemas Discretos",
+            "examples": []
+        }
+    ],
+    "AS": [
+        {
+            "acronym": "AS",
+            "meaning": "Análise de Sistemas",
+            "type": "Disciplina",
+            "entry": "Análise de Sistemas",
+            "examples": []
+        }
+    ],
+    "ATAL": [
+        {
+            "acronym": "ATAL",
+            "meaning": "Análise e Técnicas de Algoritmos",
+            "type": "Disciplina",
+            "entry": "Análise e Técnicas de Algoritmos",
+            "examples": []
+        }
+    ],
+    "BD": [
+        {
+            "acronym": "BD",
+            "meaning": "Banco de Dados I",
+            "type": "Disciplina",
+            "entry": "Banco de Dados I",
+            "examples": []
+        }
+    ],
+    "BD2": [
+        {
+            "acronym": "BD2",
+            "meaning": "Banco de Dados II",
+            "type": "Disciplina",
+            "entry": "Banco de Dados II",
+            "examples": []
+        }
+    ],
+    "CDD": [
+        {
+            "acronym": "CDD",
+            "meaning": "Ciência de Dados Descritiva",
+            "type": "Disciplina",
+            "entry": "Ciência de Dados Descritiva",
+            "examples": []
+        }
+    ],
+    "CDP": [
+        {
+            "acronym": "CDP",
+            "meaning": "Ciência de Dados Preditiva",
+            "type": "Disciplina",
+            "entry": "Ciência de Dados Preditiva",
+            "examples": []
+        }
+    ],
+    "CG": [
+        {
+            "acronym": "CG",
+            "meaning": "Computação Gráfica",
+            "type": "Disciplina",
+            "entry": "Computação Gráfica",
+            "examples": []
+        }
+    ],
+    "DACA": [
+        {
+            "acronym": "DACA",
+            "meaning": "Desenvolvimento de Aplicações Corporativas Avançadas",
+            "type": "Disciplina",
+            "entry": "Desenvolvimento de Aplicações Corporativas Avançadas",
+            "examples": []
+        }
+    ],
+    "EDA": [
+        {
+            "acronym": "EDA",
+            "meaning": "Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação na UFCG que visa o estudo de complexidade de algoritmos, métodos de ordenação e estruturas de dados.",
+            "type": "Disciplina",
+            "entry": "Estrutura de Dados",
+            "examples": ["Essa prova de EDA estava muito fácil.", "Vocês viram o resumo de EDA no Tamburetei? É muito bom!"]
+        }
+    ],
+    "ES": [
+        {
+            "acronym": "ES",
+            "meaning": "Engenharia de Software é uma disciplina obrigatória do 5º período do curso de Ciência da Computação na UFCG na qual são estudadas práticas de gerência de projetos voltados à especificação, desenvolvimento e manutenção de software.",
+            "type": "Disciplina",
+            "entry": "Engenharia de Software",
+            "examples": ["Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES", "Nossa, eu não consegui organizar o grupo de PLP que era só 5 pessoas, imagine o de ES que são 10...", "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"]
+        }
+    ],
+    "ETI": [
+        {
+            "acronym": "ETI",
+            "meaning": "Economia de Tecnologia da Informação",
+            "type": "Disciplina",
+            "entry": "Economia de Tecnologia da Informação",
+            "examples": []
+        }
+    ],
+    "FMCC1": [
+        {
+            "acronym": "FMCC1",
+            "meaning": "Fundamentos de Matemática para Ciência da Computação I",
+            "type": "Disciplina",
+            "entry": "Fundamentos de Matemática para Ciência da Computação I",
+            "examples": []
+        }
+    ],
+    "FMCC2": [
+        {
+            "acronym": "FMCC2",
+            "meaning": "Fundamentos de Matemática para Ciência da Computação II",
+            "type": "Disciplina",
+            "entry": "Fundamentos de Matemática para Ciência da Computação II",
+            "examples": []
+        }
+    ],
+    "GR": [
+        {
+            "acronym": "GR",
+            "meaning": "Gerência de Redes",
+            "type": "Disciplina",
+            "entry": "Gerência de Redes",
+            "examples": []
+        }
+    ],
+    "IA": [
+        {
+            "acronym": "IA",
+            "meaning": "Inteligência Artificial",
+            "type": "Disciplina",
+            "entry": "Inteligência Artificial",
+            "examples": []
+        }
+    ],
+    "IC": [
+        {
+            "acronym": "IC",
+            "meaning": "Introdução à Computação",
+            "type": "Disciplina",
+            "entry": "Introdução à Computação",
+            "examples": []
+        }
+    ],
+    "IRC": [
+        {
+            "acronym": "IRC",
+            "meaning": "Interconexão e Redes de Computadores",
+            "type": "Disciplina",
+            "entry": "Interconexão e Redes de Computadores",
+            "examples": []
+        }
+    ],
+    "JoDi": [
+        {
+            "acronym": "JoDi",
+            "meaning": "Jogos Digitais",
+            "type": "Disciplina",
+            "entry": "Jogos Digitais",
+            "examples": []
+        }
+    ],
+    "LEDA": [
+        {
+            "acronym": "LEDA",
+            "entry": "Laboratório de Estrutura de Dados",
+            "type": "Disciplina",
+            "meaning": "Laboratório de Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação que é paga em conjunto com EDA para o aprofundamento prático dos assuntos vistos em EDA.",
+            "examples": ["Essa prova de LEDA eu só segurei na mão de Thanos e fui.","O roteiro de LEDA dessa semana é uma viagem!"]
+        }
+    ],
+    "LOAC": [
+        {
+            "acronym": "LOAC",
+            "meaning": "Laboratório de Organização e Arquitetura de Computadores é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que visa o estudo da arquitetura e funcionamento dos componentes presentes em computadores de uma forma prática, tendo grande foco em como projetar e programar um processador. A disciplina conta com experimentos avaliativos práticos a cada aula.",
+            "type": "Disciplina",
+            "entry": "Laboratório de Organização e Arquitetura de Computadores",
+            "examples": ["LOAC é peso", "O LCC3 tá cheio de fio pelas mesas da aula de LOAC", "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"]
+        }
+    ],
+    "LP1": [
+        {
+            "acronym": "LP1",
+            "meaning": "Laboratório de Programação 1",
+            "type": "Disciplina",
+            "entry": "Laboratório de Programação 1",
+            "examples": []
+        }
+    ],
+    "LP2": [
+        {
+            "acronym": "LP2",
+            "meaning": "Laboratório de Programação 2",
+            "type": "Disciplina",
+            "entry": "Laboratório de Programação 2",
+            "examples": []
+        }
+    ],
+    "MSN": [
+        {
+            "acronym": "MSN",
+            "meaning": "Métodos e Softwares Numéricos é uma disciplina optativa do curso Ciência da Computação na UFCG inspirada em Cálculo Numérico, mas voltada para Ciência da Computação. Os principais conceitos abordados são: cálculo de erro, encontrar o zero de funções, ajustar um polinômio entre pontos e calcular integrais. A matéria era obrigatória no plano de curso pré 2018.1.",
+            "type": "Disciplina",
+            "entry": "Métodos e Softwares Numéricos",
+            "examples": ["Acho que vou pagar MSN pra completar minhas horas complementares.", "Ei, você já pagou MSN? Coloquei na matrícula, mas estou com medo da matéria.", "Socorro, onde eu encontro leites de MSN?"]
+        }
+    ],
+    "OAC": [
+        {
+            "acronym": "OAC",
+            "meaning": "Organização e Arquitetura de Computadores",
+            "type": "Disciplina",
+            "entry": "Organização e Arquitetura de Computadores",
+            "examples": []
+        }
+    ],
+    "P1": [
+        {
+            "acronym": "P1",
+            "meaning": "Programação 1",
+            "type": "Disciplina",
+            "entry": "Programação 1",
+            "examples": []
+        },
+        {
+            "acronym": "P1",
+            "meaning": "Projeto 1",
+            "type": "Disciplina",
+            "entry": "Projeto 1",
+            "examples": []
+        }
+    ],
+    "P2": [
+        {
+            "acronym": "P2",
+            "meaning": "Programação 2",
+            "type": "Disciplina",
+            "entry": "Programação 2",
+            "examples": []
+        },
+        {
+            "acronym": "P2",
+            "meaning": "Projeto 2",
+            "type": "Disciplina",
+            "entry": "Projeto 2",
+            "examples": []
+        }
+    ],
+    "PC": [
+        {
+            "acronym": "PC",
+            "meaning": "Programação Concorrente",
+            "type": "Disciplina",
+            "entry": "Programação Concorrente",
+            "examples": []
+        }
+    ],
+    "PLP": [
+        {
+            "acronym": "PLP",
+            "meaning": "Paradigmas de Linguagem de Programação",
+            "type": "Disciplina",
+            "entry": "Paradigmas de Linguagem de Programação",
+            "examples": []
+        }
+    ],
+    "SAD": [
+        {
+            "acronym": "SAD",
+            "meaning": "Sistemas de Apoio à Decisão",
+            "type": "Disciplina",
+            "entry": "Sistemas de Apoio à Decisão",
+            "examples": []
+        }
+    ],
+    "SO": [
+        {
+            "acronym": "SO",
+            "meaning": "Sistemas Operacionais",
+            "type": "Disciplina",
+            "entry": "Sistemas Operacionais",
+            "examples": []
+        }
+    ],
+    "TC": [
+        {
+            "acronym": "TC",
+            "meaning": "Teoria da Computação",
+            "type": "Disciplina",
+            "entry": "Teoria da Computação",
+            "examples": []
+        }
+    ],
+    "TCC": [
+        {
+            "acronym": "TCC",
+            "meaning": "Trabalho de Conclusão de Curso",
+            "type": "Disciplina",
+            "entry": "Trabalho de Conclusão de Curso",
+            "examples": []
+        }
+    ],
+    "TG": [
+        {
+            "acronym": "TG",
+            "meaning": "Teoria dos Grafos",
+            "type": "Disciplina",
+            "entry": "Teoria dos Grafos",
+            "examples": []
+        }
+    ],
+    "VC": [
+        {
+            "acronym": "VC",
+            "meaning": "Visão Computacional",
+            "type": "Disciplina",
+            "entry": "Visão Computacional",
+            "examples": []
+        }
+    ],
+    "VVS": [
+        {
+            "acronym": "VVS",
+            "meaning": "Verificação e Validação de Software é uma disciplina optativa do curso de Ciência da Computação na UFCG que visa o estudo de técnicas de teste e validação de software a fim de melhorar a qualidade e a manutenção do sistema.",
+            "type": "Disciplina",
+            "entry": "Verificação e Validação de Software",
+            "examples": ["Essa semana tem quiz de VVS", "O projeto de VVS é pra amanhã", "Nossa, vi em VVS que fazer testes faz muita diferença!"]
+        }
+    ]
+}
