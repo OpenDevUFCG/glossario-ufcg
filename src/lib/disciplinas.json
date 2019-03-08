@@ -2,7 +2,7 @@
     "AA": [
         {
             "acronym": "AA",
-            "meaning": "Algoritmos Avançados é uma disciplina optativa com foco em olimpíadas/maratonas de programação, mas também é procurada por alunos que desejam se preparar para entrevistas de emprego. Existem subcategorias de AA para se adequar ao conhecimento de cada aluno, pois envolve conteúdos de Teoria dos Grafos, EDA, MSN e ATAL.",
+            "meaning": "Algoritmos Avançados é uma disciplina optativa do curso de Ciência da Computação na UFCG com foco em olimpíadas/maratonas de programação, mas também é procurada por alunos que desejam se preparar para entrevistas de emprego. Existem subcategorias de AA para se adequar ao conhecimento de cada aluno, pois envolve conteúdos de Teoria dos Grafos, EDA, MSN e ATAL.",
             "type": "Disciplina",
             "entry": "Algoritmos Avançados",
             "examples": ["Olha só a galera do AA ali.", "Vai ter AA hoje ou é acompanhamento?", "Hoje eu vi programação dinâmica no AA, mas não entendi nada."]
@@ -218,7 +218,7 @@
     "MSN": [
         {
             "acronym": "MSN",
-            "meaning": "Métodos e Softwares Numéricos é uma disciplina optativa (na nova grade) inspirada em Cálculo Numérico, mas voltada para Ciência da Computação. Os principais conceitos abordados são: cálculo de erro, encontrar o zero de funções, ajustar um polinômio entre pontos e calcular integrais.",
+            "meaning": "Métodos e Softwares Numéricos é uma disciplina optativa do curso Ciência da Computação na UFCG inspirada em Cálculo Numérico, mas voltada para Ciência da Computação. Os principais conceitos abordados são: cálculo de erro, encontrar o zero de funções, ajustar um polinômio entre pontos e calcular integrais. A matéria era obrigatória no plano de curso pré 2018.1.",
             "type": "Disciplina",
             "entry": "Métodos e Softwares Numéricos",
             "examples": ["Acho que vou pagar MSN pra completar minhas horas complementares.", "Ei, você já pagou MSN? Coloquei na matrícula, mas estou com medo da matéria.", "Socorro, onde eu encontro leites de MSN?"]
