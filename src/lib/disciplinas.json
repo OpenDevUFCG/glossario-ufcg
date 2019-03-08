@@ -2,10 +2,10 @@
     "AA": [
         {
             "acronym": "AA",
-            "meaning": "Algoritmos Avançados",
+            "meaning": "Algoritmos Avançados é uma disciplina optativa com foco em olimpíadas/maratonas de programação, mas também é procurada por alunos que desejam se preparar para entrevistas de emprego. Existem subcategorias de AA para se adequar ao conhecimento de cada aluno, pois envolve conteúdos de Teoria dos Grafos, EDA, MSN e ATAL.",
             "type": "Disciplina",
             "entry": "Algoritmos Avançados",
-            "examples": []
+            "examples": ["Olha só a galera do AA ali.", "Vai ter AA hoje ou é acompanhamento?", "Hoje eu vi programação dinâmica no AA, mas não entendi nada."]
         }
     ],
     "ADSD": [
