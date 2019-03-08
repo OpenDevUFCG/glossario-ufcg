@@ -44,3 +44,18 @@
         justify-self: center;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .glossary__logo {
+        width: 325px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .glossary__logo {
+        width: 300px;
+        height: auto;
+    }
+
+}

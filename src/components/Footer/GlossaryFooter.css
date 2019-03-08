@@ -9,3 +9,28 @@
     justify-content: center;
     padding: 24px;
 }
+
+@media screen and (max-width: 475px){
+    .glossary-footer {
+        grid-gap: 2em;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 380px){
+    .glossary-footer {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .glossary-footer {
+        grid-template-areas:
+            'contribute'
+            'about';
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+        grid-gap: 0;
+    }
+}
