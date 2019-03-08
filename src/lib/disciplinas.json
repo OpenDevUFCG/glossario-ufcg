@@ -218,10 +218,10 @@
     "MSN": [
         {
             "acronym": "MSN",
-            "meaning": "Métodos e Softwares Numéricos",
+            "meaning": "Métodos e Softwares Numéricos é uma disciplina optativa (na nova grade) inspirada em Cálculo Numérico, mas voltada para Ciência da Computação. Os principais conceitos abordados são: cálculo de erro, encontrar o zero de funções, ajustar um polinômio entre pontos e calcular integrais.",
             "type": "Disciplina",
             "entry": "Métodos e Softwares Numéricos",
-            "examples": []
+            "examples": ["Acho que vou pagar MSN pra completar minhas horas complementares.", "Ei, você já pagou MSN? Coloquei na matrícula, mas estou com medo da matéria.", "Socorro, onde eu encontro leites de MSN?"]
         }
     ],
     "OAC": [
