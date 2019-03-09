@@ -16,5 +16,14 @@
             "type": "Termo",
             "examples": []
         }
+    ],
+    "TST": [
+        {
+            "entry": "TST",
+            "acronym": "TST",
+            "meaning": "TST é uma ferramenta usada por professores em algumas disciplinas para verificar e testar exercícios de programação dos alunos. Esta ferramenta pode ser usada na linha de comando como também existe um site com questões cadastradas.",
+            "type": "Termo",
+            "examples": ["Não consegui terminar as questões do TST de P1.", "Tentei a noite toda resolver aquela questão de TST mas fica dando erro nos testes.", "Aquela questão da prova de EDA tinha no TST."]
+        }
     ]
 }
