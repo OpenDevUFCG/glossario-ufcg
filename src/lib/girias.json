@@ -4,7 +4,10 @@
             "meaning": "Fera -> Ex-fera -> Esfera -> Bola. Bola é uma gíria usada para se referir aos estudantes que saíram do primeiro período, ou seja, não são mais feras.",
             "type": "Gíria",
             "entry": "Bola",
-            "examples": ["Vindo de short, sandália, só com a caneta pra universidade? Certeza que é bola", "Ah, deixei de ser fera, sou bola agora"]
+            "examples": [
+                "Vindo de short, sandália, só com a caneta pra universidade? Certeza que é bola",
+                "Ah, deixei de ser fera, sou bola agora"
+            ]
         }
     ],
     "FERA": [
@@ -12,7 +15,11 @@
             "meaning": "Fera é uma gíria usada para se referir aos estudantes que acabaram de entrar na universidade e estão no primeiro período do curso.",
             "type": "Gíria",
             "entry": "Fera",
-            "examples": ["Tá sorrindo por aí? Só pode ser fera", "Esse negócio de ficar andando em bando é coisa de fera", "Sejam todos amigáveis com os feras!"]
+            "examples": [
+                "Tá sorrindo por aí? Só pode ser fera",
+                "Esse negócio de ficar andando em bando é coisa de fera",
+                "Sejam todos amigáveis com os feras!"
+            ]
         }
     ],
     "LEITE": [
@@ -20,7 +27,10 @@
             "meaning": "Leites são provas de períodos passados de uma disciplina. Muitos alunos usam para estudar para a prova pois muitas vezes a prova possui questões semelhantes às dos períodos anteriores. Inclusive, dá uma olhada lá no Tamburetei que tem alguns disponíveis!",
             "type": "Gíria",
             "entry": "Leite",
-            "examples": ["Lá em Genilda tem leite de cálculo", "Eita, caiu na prova as mesmas questões do leite!"]
+            "examples": [
+                "Lá em Genilda tem leite de cálculo",
+                "Eita, caiu na prova as mesmas questões do leite!"
+            ]
         }
     ],
     "PIJAMA": [
@@ -28,7 +38,10 @@
             "meaning": "Além de roupa de dormir, pijama é a relação de disciplinas ofertadas naquele período, contendo os professores e horários de cada disciplina.",
             "type": "Gíria",
             "entry": "Pijama",
-            "examples": ["Corram, a coordenação mandou o pijama no email do CCC", "Eita, vi no pijama que abriu um monte de optativa esse período"]
+            "examples": [
+                "Corram, a coordenação mandou o pijama no email do CCC",
+                "Eita, vi no pijama que abriu um monte de optativa esse período"
+            ]
         }
     ]
 }

@@ -9,3 +9,15 @@
     justify-content: center;
     padding: 24px;
 }
+
+@media screen and (max-width: 475px){
+    .glossary-footer {
+        grid-template-areas:
+            'contribute'
+            'about';
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+        grid-gap: 0.5em;
+    }
+
+}
