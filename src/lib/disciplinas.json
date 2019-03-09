@@ -200,10 +200,10 @@
     "LP1": [
         {
             "acronym": "LP1",
-            "meaning": "Laboratório de Programação 1",
+            "meaning": "Laboratório de Programação 1 é uma disciplina obrigatória do 1º período de Ciência da Computação na UFCG que é paga em conjunto com P1 e visa a ensinar aplicação prática dos assuntos teórios de P1.",
             "type": "Disciplina",
             "entry": "Laboratório de Programação 1",
-            "examples": []
+            "examples": ["Esse mini teste de LP1 tava bom demais."]
         }
     ],
     "LP2": [
@@ -236,10 +236,10 @@
     "P1": [
         {
             "acronym": "P1",
-            "meaning": "Programação 1",
+            "meaning": "Programação 1 é uma disciplina obrigatória do 1º período de Ciência da Computação na UFCG que visa ensinar conceitos básicos de programação que serão a base para todo o curso.",
             "type": "Disciplina",
             "entry": "Programação 1",
-            "examples": []
+            "examples": ["Amanhã vai ter aula de P1.", "Fui tirar uma dúvida de P1 e o professor mandou eu perguntar ao shell do python."]
         },
         {
             "acronym": "P1",
