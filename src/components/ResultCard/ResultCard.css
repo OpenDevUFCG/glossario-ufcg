@@ -13,22 +13,22 @@
         'left-content right-content';
 }
 
-.result-card__container h1 {
+.result-card__title-1 {
     grid-area: title;
     margin: 0;
     line-height: 1.2em;
 }
 
-.result-card__container ul {
+.result-card__list-phrase {
     padding-left: 15px
 }
 
-.result-card__container li {
+.result-card__item-phrase {
     margin-bottom: 10px;
     font-style: italic;
 }
 
-.result-card__container .result-card__subtitle {
+.result-card__subtitle {
     grid-area: subtitle;
     font-family: 'Krub', 'sans-serif';
     font-weight: 500;
@@ -36,7 +36,7 @@
     font-style: italic;
 }
 
-.result-card__container .result-card__content h2 {
+.result-card__title-2 {
     margin-top: 20px;
     color: gray;
 }
