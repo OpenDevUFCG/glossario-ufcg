@@ -5,7 +5,11 @@
             "meaning": "Algoritmos Avançados é uma disciplina optativa do curso de Ciência da Computação na UFCG com foco em olimpíadas/maratonas de programação, mas também é procurada por alunos que desejam se preparar para entrevistas de emprego. Existem subcategorias de AA para se adequar ao conhecimento de cada aluno, pois envolve conteúdos de Teoria dos Grafos, EDA, MSN e ATAL.",
             "type": "Disciplina",
             "entry": "Algoritmos Avançados",
-            "examples": ["Olha só a galera do AA ali.", "Vai ter AA hoje ou é acompanhamento?", "Hoje eu vi programação dinâmica no AA, mas não entendi nada."]
+            "examples": [
+                "Olha só a galera do AA ali.",
+                "Vai ter AA hoje ou é acompanhamento?",
+                "Hoje eu vi programação dinâmica no AA, mas não entendi nada."
+            ]
         }
     ],
     "ADSD": [
@@ -95,7 +99,10 @@
             "meaning": "Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação na UFCG que visa o estudo de complexidade de algoritmos, métodos de ordenação e estruturas de dados.",
             "type": "Disciplina",
             "entry": "Estrutura de Dados",
-            "examples": ["Essa prova de EDA estava muito fácil.", "Vocês viram o resumo de EDA no Tamburetei? É muito bom!"]
+            "examples": [
+                "Essa prova de EDA estava muito fácil.",
+                "Vocês viram o resumo de EDA no Tamburetei? É muito bom!"
+            ]
         }
     ],
     "ES": [
@@ -104,7 +111,11 @@
             "meaning": "Engenharia de Software é uma disciplina obrigatória do 5º período do curso de Ciência da Computação na UFCG na qual são estudadas práticas de gerência de projetos voltados à especificação, desenvolvimento e manutenção de software.",
             "type": "Disciplina",
             "entry": "Engenharia de Software",
-            "examples": ["Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES", "Nossa, eu não consegui organizar o grupo de PLP que era só 5 pessoas, imagine o de ES que são 10...", "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"]
+            "examples": [
+                "Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES",
+                "Nossa, eu não consegui organizar o grupo de PLP que era só 5 pessoas, imagine o de ES que são 10...",
+                "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"
+            ]
         }
     ],
     "ETI": [
@@ -185,7 +196,10 @@
             "entry": "Laboratório de Estrutura de Dados",
             "type": "Disciplina",
             "meaning": "Laboratório de Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação que é paga em conjunto com EDA para o aprofundamento prático dos assuntos vistos em EDA.",
-            "examples": ["Essa prova de LEDA eu só segurei na mão de Thanos e fui.","O roteiro de LEDA dessa semana é uma viagem!"]
+            "examples": [
+                "Essa prova de LEDA eu só segurei na mão de Thanos e fui.",
+                "O roteiro de LEDA dessa semana é uma viagem!"
+            ]
         }
     ],
     "LOAC": [
@@ -194,7 +208,11 @@
             "meaning": "Laboratório de Organização e Arquitetura de Computadores é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que visa o estudo da arquitetura e funcionamento dos componentes presentes em computadores de uma forma prática, tendo grande foco em como projetar e programar um processador. A disciplina conta com experimentos avaliativos práticos a cada aula.",
             "type": "Disciplina",
             "entry": "Laboratório de Organização e Arquitetura de Computadores",
-            "examples": ["LOAC é peso", "O LCC3 tá cheio de fio pelas mesas da aula de LOAC", "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"]
+            "examples": [
+                "LOAC é peso",
+                "O LCC3 tá cheio de fio pelas mesas da aula de LOAC",
+                "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"
+            ]
         }
     ],
     "LP1": [
@@ -221,7 +239,11 @@
             "meaning": "Métodos e Softwares Numéricos é uma disciplina optativa do curso Ciência da Computação na UFCG inspirada em Cálculo Numérico, mas voltada para Ciência da Computação. Os principais conceitos abordados são: cálculo de erro, encontrar o zero de funções, ajustar um polinômio entre pontos e calcular integrais. A matéria era obrigatória no plano de curso pré 2018.1.",
             "type": "Disciplina",
             "entry": "Métodos e Softwares Numéricos",
-            "examples": ["Acho que vou pagar MSN pra completar minhas horas complementares.", "Ei, você já pagou MSN? Coloquei na matrícula, mas estou com medo da matéria.", "Socorro, onde eu encontro leites de MSN?"]
+            "examples": [
+                "Acho que vou pagar MSN pra completar minhas horas complementares.",
+                "Ei, você já pagou MSN? Coloquei na matrícula, mas estou com medo da matéria.",
+                "Socorro, onde eu encontro leites de MSN?"
+            ]
         }
     ],
     "OAC": [
@@ -343,7 +365,11 @@
             "meaning": "Verificação e Validação de Software é uma disciplina optativa do curso de Ciência da Computação na UFCG que visa o estudo de técnicas de teste e validação de software a fim de melhorar a qualidade e a manutenção do sistema.",
             "type": "Disciplina",
             "entry": "Verificação e Validação de Software",
-            "examples": ["Essa semana tem quiz de VVS", "O projeto de VVS é pra amanhã", "Nossa, vi em VVS que fazer testes faz muita diferença!"]
+            "examples": [
+                "Essa semana tem quiz de VVS",
+                "O projeto de VVS é pra amanhã",
+                "Nossa, vi em VVS que fazer testes faz muita diferença!"
+            ]
         }
     ]
 }
