@@ -8,19 +8,6 @@
             "examples": []
         }
     ],
-    "TST": [
-        {
-            "entry": "TST",
-            "acronym": "TST",
-            "meaning": "TST é uma ferramenta usada por professores em algumas disciplinas para verificar e testar exercícios de programação dos alunos. Esta ferramenta pode ser usada na linha de comando como também existe um site com questões cadastradas.",
-            "type": "Termo",
-            "examples": [
-                "Não consegui terminar todas as questões do TST de P1.",
-                "Tentei a noite toda resolver aquela questão de TST mas fica dando erro nos testes.",
-                "Aquela questão da prova de EDA tinha no TST."
-            ]
-        }
-    ],
     "TECC": [
         {
             "entry": "Tópicos Especiais em Ciência da Computação",
@@ -28,6 +15,19 @@
             "meaning": "Tópicos Especiais em Ciência da Computação. As disciplinas com esse prefixo são consideradas como disciplinas optativas específicas. Como é o exemplo de [TECC] Jogos Digitais.",
             "type": "Termo",
             "examples": []
+        }
+    ],
+    "TST": [
+        {
+            "entry": "TST",
+            "acronym": "TST",
+            "meaning": "TST é uma ferramenta usada por professores em algumas disciplinas de ciência da computação para verificar e testar exercícios de programação dos alunos. Esta ferramenta pode ser usada na linha de comando como também existe um site com questões cadastradas.",
+            "type": "Termo",
+            "examples": [
+                "Não consegui terminar todas as questões do TST de P1.",
+                "Tentei a noite toda resolver aquela questão de TST mas fica dando erro nos testes.",
+                "Aquela questão da prova de EDA tinha no TST."
+            ]
         }
     ]
 }
