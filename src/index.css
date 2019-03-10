@@ -7,12 +7,12 @@ html, body {
 }
 
 @font-face {
-    font-family: Ikaros-Regular;
+    font-family: Ikaros;
     src: url(../assets/fonts/Ikaros-Regular.otf);
 }
 
 @font-face {
-    font-family: Jaapokki-Regular;
+    font-family: Jaapokki;
     src: url(../assets/fonts/Jaapokki-Regular.otf);
 }
 

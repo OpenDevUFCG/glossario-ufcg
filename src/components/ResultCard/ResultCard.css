@@ -1,0 +1,42 @@
+.result-card__container {
+    background: #fff;
+    font-family: 'Ikaros', sans-serif;
+    border-radius: 10px;
+    padding: 30px 50px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    width: 100%;
+    display: grid;
+    grid-gap: 0 2em;
+    grid-template-areas:
+        'title title'
+        'subtitle subtitle'
+        'left-content right-content';
+}
+
+.result-card__title-1 {
+    grid-area: title;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+.result-card__list-phrase {
+    padding-left: 15px
+}
+
+.result-card__item-phrase {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.result-card__subtitle {
+    grid-area: subtitle;
+    font-family: 'Krub', 'sans-serif';
+    font-weight: 500;
+    color: gray;
+    font-style: italic;
+}
+
+.result-card__title-2 {
+    margin-top: 20px;
+    color: gray;
+}
