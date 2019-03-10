@@ -16,7 +16,7 @@
             "type": "Gíria",
             "entry": "Cadeira",
             "examples": [
-                "Quais cadeiras tu vai pagar esse período?",
+                "Em quais cadeiras tu vai se matricular esse período?",
                 "Me matriculei em 8 cadeiras esse período, vamo ver no que dá"
             ]
         }
@@ -46,12 +46,13 @@
     ],
     "PAGAR": [
         {
-            "meaning": "Pagar é uma gíria usada na universidade que pode estar relacionada a se matricular em uma cadeira e também pode ser usada para dizer que foi aprovado em alguma cadeira.",
+            "meaning": "Pagar é uma gíria usada na universidade que pode estar relacionada a se matricular em uma disciplina e também pode ser usada para dizer que foi aprovado em alguma disciplina.",
             "type": "Gíria",
             "entry": "Pagar",
             "examples": [
                 "Quais disciplinas tu vai pagar esse período?",
-                "Paguei cálculo com 10!!!"
+                "Paguei cálculo com 10!!!",
+                "Não paguei Linear de primeira, reprovei por causa de meio ponto"
             ]
         }
     ],
