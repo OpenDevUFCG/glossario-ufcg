@@ -20,10 +20,10 @@
     "AS": [
         {
             "acronym": "AS",
-            "meaning": "Análise de Sistemas",
+            "meaning": "Análise de Sistemas é uma disciplina obrigatória do 5º período de Ciência da Computação na UFCG com foco nas metodologias, processos e artefatos utilizados na computação para o desenvolvimento de um sistema de software.",
             "type": "Disciplina",
             "entry": "Análise de Sistemas",
-            "examples": []
+            "examples": ["Hoje aprendi como se faz um diagrama de classe em AS.", "AS é uma cadeira legal de ser paga com Engenharia de Software."]
         }
     ],
     "ATAL": [
@@ -38,10 +38,10 @@
     "BD": [
         {
             "acronym": "BD",
-            "meaning": "Banco de Dados I",
+            "meaning": "Banco de Dados I é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG com foco em persistência de dados utilizando linguagem estruturada de consulta.",
             "type": "Disciplina",
             "entry": "Banco de Dados I",
-            "examples": []
+            "examples": ["Me falaram que BD tem geralmente duas turmas."]
         }
     ],
     "BD2": [
@@ -65,10 +65,10 @@
     "CDP": [
         {
             "acronym": "CDP",
-            "meaning": "Ciência de Dados Preditiva",
+            "meaning": "Ciência de Dados Preditiva é uma disciplina optativa do curso de Ciência da Computação na UFCG com foco em algoritmos e técnicas de IA para a predição de valores a partir de dados prévios.",
             "type": "Disciplina",
             "entry": "Ciência de Dados Preditiva",
-            "examples": []
+            "examples": ["CDP envolve muito Cálculo.", "Hoje teve quiz em CDP?"]
         }
     ],
     "CG": [
@@ -146,10 +146,10 @@
     "IA": [
         {
             "acronym": "IA",
-            "meaning": "Inteligência Artificial",
+            "meaning": "Inteligência Artificial é uma disciplina obrigatória do 6º período de Ciência da Computação na UFCG com foco no estudo das principais técnicas de inteligência artificial, dentre elas: machine learning, PLN, robótica e visão computacional.",
             "type": "Disciplina",
             "entry": "Inteligência Artificial",
-            "examples": []
+            "examples": ["IA casa muito bem com CDP.", "A aula de IA hoje teve lógica fuzzy. Saudades lógica!", "Usei regressão linear no projeto de IA."]
         }
     ],
     "IC": [
