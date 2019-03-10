@@ -119,19 +119,19 @@
     "FMCC1": [
         {
             "acronym": "FMCC1",
-            "meaning": "Fundamentos de Matemática para Ciência da Computação I",
+            "meaning": "Fundamentos de Matemática para Ciência da Computação I é uma disciplina obrigatória do 1º período do curso de Ciência da Computação na UFCG que visa estudar conceitos matemáticos básicos que serão usados por todo o curso.",
             "type": "Disciplina",
             "entry": "Fundamentos de Matemática para Ciência da Computação I",
-            "examples": []
+            "examples": ["Amanhã tem aula de FMCC1.", "A prova de FMCC1 tava muito ruim."]
         }
     ],
     "FMCC2": [
         {
             "acronym": "FMCC2",
-            "meaning": "Fundamentos de Matemática para Ciência da Computação II",
+            "meaning": "Fundamentos de Matemática para Ciência da Computação II é uma disciplina obrigatória do 2º período do curso de Ciência da Computação na UFCG que visa o estudo de um conjunto de ferramentas matemáticas essenciais para Computação",
             "type": "Disciplina",
             "entry": "Fundamentos de Matemática para Ciência da Computação II",
-            "examples": []
+            "examples": ["Vocês fizeram o mini teste de FMCC2?", "Essa aula de FMCC2 foi muito boa!"]
         }
     ],
     "GR": [
@@ -155,10 +155,10 @@
     "IC": [
         {
             "acronym": "IC",
-            "meaning": "Introdução à Computação",
+            "meaning": "Introdução à Computação é uma disciplina obrigatória do 1º período de Ciência da Computação na UFCG que tem como foco mostrar uma visão geral do curso de Ciência da Computação, assim como ensinar conceitos básicos de Hardware e Software.",
             "type": "Disciplina",
             "entry": "Introdução à Computação",
-            "examples": []
+            "examples": ["A aula de IC hoje foi muito massa.", "Os resumos de IC do Tamburetei são muito bons."]
         }
     ],
     "IRC": [
@@ -252,10 +252,10 @@
     "P2": [
         {
             "acronym": "P2",
-            "meaning": "Programação 2",
+            "meaning": "Programação 2 é uma disciplina obrigatória do 2º período de Ciência da Computação na UFCG que visa ensinar conceitos de programação orientada a objeto. ",
             "type": "Disciplina",
             "entry": "Programação 2",
-            "examples": []
+            "examples": ["A prova de P2 estava muito boa.", "Amanhã vai ter aula de P2."]
         },
         {
             "acronym": "P2",
@@ -277,10 +277,10 @@
     "PLP": [
         {
             "acronym": "PLP",
-            "meaning": "Paradigmas de Linguagem de Programação",
+            "meaning": "Paradigmas de Linguagem de Programação é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que tem como foco estudar conceitos de linguagens de programação e os principais paradigmas que dão origem a diferentes estilos de programação.",
             "type": "Disciplina",
             "entry": "Paradigmas de Linguagem de Programação",
-            "examples": []
+            "examples": ["Meu Deus a gente vai ter que aprender três linguagens em PLP", "Essa prática de PLP foi mamão com açúcar."]
         }
     ],
     "SAD": [
@@ -322,10 +322,10 @@
     "TG": [
         {
             "acronym": "TG",
-            "meaning": "Teoria dos Grafos",
+            "meaning": "Teoria dos Grafos é uma disciplina obrigatória do 3º período de Ciência da Computação na UFCG que visa o estudo de problemas representados por grafos, assim como algoritmos conhecidos na teoria dos grafos.",
             "type": "Disciplina",
             "entry": "Teoria dos Grafos",
-            "examples": []
+            "examples": ["Só existe vídeo de indiano explicando esse assunto de TG", "Essa prática de TG estava muito boa."]
         }
     ],
     "VC": [
