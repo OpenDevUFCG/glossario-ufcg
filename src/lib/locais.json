@@ -2,28 +2,37 @@
     "LCC1": [
         {
             "acronym": "LCC1",
-            "meaning": "Laboratório de Ciência da Computação 1",
+            "meaning": "Laboratório de Ciência da Computação 1 é o laboratório mais antigo do curso de Ciência da Computação da UFCG e atualmente é usado principalmente para aulas em algumas disciplinas. Localiza-se no térreo do REENGE (bloco CB).",
             "type": "Sala",
             "entry": "Laboratório de Ciência da Computação 1",
-            "examples": []
+            "examples": [
+                "O miniteste de amanhã será no LCC1!",
+                "Pessoal, amanhã a nossa aula será no LCC1."
+            ]
         }
     ],
     "LCC2": [
         {
             "acronym": "LCC2",
-            "meaning": "Laboratório de Ciência da Computação 2",
+            "meaning": "Laboratório de Ciência da Computação 2 é o laboratório liberado para o uso dos alunos do curso de Ciência da Computação da UFCG nos horários em que não estiver tendo aula ou algum evento. Localiza-se no térreo do bloco CN.",
             "type": "Sala",
             "entry": "Laboratório de Ciência da Computação 2",
-            "examples": []
+            "examples": [
+                "Depois do almoço, vamos para o LCC2?",
+                "Pessoal, amanhã a nossa aula será no LCC2."
+            ]
         }
     ],
     "LCC3": [
         {
             "acronym": "LCC3",
-            "meaning": "Laboratório de Ciência da Computação 3",
+            "meaning": "Laboratório de Ciência da Computação 3 é o laboratório mais recente do curso de Ciência da Computação da UFCG e é usado para aulas de diversas disciplinas. Localiza-se no segundo andar do Prédio Camilo Lélis (bloco CP1).",
             "type": "Sala",
             "entry": "Laboratório de Ciência da Computação 3",
-            "examples": []
+            "examples": [
+                "A sala do PET é no bloco do LCC3!",
+                "Pessoal, amanhã a nossa aula será no LCC3."
+            ]
         }
     ]
 }
