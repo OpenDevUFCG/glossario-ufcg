@@ -5,7 +5,9 @@
             "meaning": "Centro de Engenharia Elétrica e Informática. É o Centro responsável pelos Departamentos de Ciência da Computação e Engenharia Elétrica.",
             "type": "Centro",
             "entry": "Centro de Engenharia Elétrica e Informática",
-            "examples": ["Nesse \"Centro\" pode preencher CEEI, ou tem que ser por extenso?"]
+            "examples": [
+                "Nesse \"Centro\" pode preencher CEEI, ou tem que ser por extenso?"
+            ]
         }
     ],
     "DSC": [
@@ -14,7 +16,9 @@
             "meaning": "Departamento de Sistemas e Computação. É o Departamento da Universidade responsável pelo curso de Ciência da Computação.",
             "type": "Departamento",
             "entry": "Departamento de Sistemas e Computação",
-            "examples": ["Tou indo na secretaria do DSC entregar o relatório da monitoria"]
+            "examples": [
+                "Tou indo na secretaria do DSC entregar o relatório da monitoria"
+            ]
         }
     ],
     "PPC": [
@@ -35,7 +39,10 @@
             "acronym": "RDM",
             "meaning": "A relação de disciplinas matriculadas é um documento emitido pela coordenação do curso ao ser realizada a matrícula das disciplinas no início do período. O RDM possui todas as disciplinas matriculadas e serve como comprovante de que você está vinculado à universidade.",
             "type": "Termo",
-            "examples": ["Vou lá em Fatinha pedir meu RDM", "Fui lá na coordenação pegar meu histórico e RDM"]
+            "examples": [
+                "Vou lá em Fatinha pedir meu RDM",
+                "Fui lá na coordenação pegar meu histórico e RDM"
+            ]
         }
     ],
     "TECC": [
@@ -44,7 +51,9 @@
             "acronym": "TECC",
             "meaning": "Tópicos Especiais em Ciência da Computação é um termo usado para disciplinas optativas específicas do curso de Ciência da Computação, como é o exemplo de [TECC] Jogos Digitais.",
             "type": "Termo",
-            "examples": ["Você está matriculado em [TECC] Jogos Digitais"]
+            "examples": [
+                "Você está matriculado em [TECC] Jogos Digitais"
+            ]
         }
     ],
     "TST": [
@@ -66,7 +75,9 @@
             "meaning": "Unidade Acadêmica de Sistemas e Computação. Equivale ao DSC.",
             "type": "Departamento",
             "entry": "Unidade Acadêmica de Sistemas e Computação",
-            "examples": ["A unidade acadêmica da gente é UASC ou DSC?"]
+            "examples": [
+                "A unidade acadêmica da gente é UASC ou DSC?"
+            ]
         }
     ]
 }
