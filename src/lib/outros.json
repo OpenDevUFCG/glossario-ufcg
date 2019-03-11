@@ -1,4 +1,31 @@
 {
+    "CEEI": [
+        {
+            "acronym": "CEEI",
+            "meaning": "Centro de Engenharia Elétrica e Informática. É o Centro responsável pelos Departamentos de Ciência da Computação e Engenharia Elétrica.",
+            "type": "Centro",
+            "entry": "Centro de Engenharia Elétrica e Informática",
+            "examples": []
+        }
+    ],
+    "DSC": [
+        {
+            "acronym": "DSC",
+            "meaning": "Departamento de Sistemas e Computação. É o Departamento da Universidade responsável pelo curso de Ciência da Computação.",
+            "type": "Departamento",
+            "entry": "Departamento de Sistemas e Computação",
+            "examples": []
+        }
+    ],
+    "PPC": [
+        {
+            "entry": "Projeto Pedagógico do Curso",
+            "acronym": "PPC",
+            "meaning": "Projeto Pedagógico do Curso. Se refere à estrutura das disciplinas do curso, como o período em que é recomendado cursar cada disciplina, os pré-requisitos, e similares. É importante ressaltar que em 2017/2018 o PPC foi alterado, dividindo os alunos em \"PPC Novo\" e \"PPC Antigo\" ",
+            "type": "Termo",
+            "examples": []
+        }
+    ],
     "RDM": [
         {
             "entry": "Relação de disciplinas matriculadas",
@@ -17,40 +44,13 @@
             "examples": []
         }
     ],
-    "PPC": [
-        {
-            "entry": "Projeto Pedagógico do Curso",
-            "acronym": "PPC", 
-            "meaning": "Projeto Pedagógico do Curso. Se refere à estrutura das disciplinas do curso, como o período em que é recomendado cursar cada disciplina, os pré-requisitos, e similares. É importante ressaltar que em 2017/2018 o PPC foi alterado, dividindo os alunos em \"PPC Novo\" e \"PPC Antigo\" ",
-            "type": "Termo",
-            "examples": []
-        }
-    ],
-    "DSC": [
-        {
-          "acronym": "DSC",
-          "meaning": "Departamento de Sistemas e Computação. É o Departamento da Universidade responsável pelo curso de Ciência da Computação.",
-          "type": "Departamento",
-          "entry": "Departamento de Sistemas e Computação",
-          "examples": []
-        }
-    ],
     "UASC": [
         {
-          "acronym": "UASC",
-          "meaning": "Unidade Acadêmica de Sistemas e Computação. Equivale ao DSC.",
-          "type": "Departamento",
-          "entry": "Unidade Acadêmica de Sistemas e Computação",
-          "examples": []
-        }
-    ],
-    "CEEI": [
-        {
-          "acronym": "CEEI",
-          "meaning": "Centro de Engenharia Elétrica e Informática. É o Centro responsável pelos Departamentos de Ciência da Computação e Engenharia Elétrica.",
-          "type": "Centro",
-          "entry": "Centro de Engenharia Elétrica e Informática",
-          "examples": []
+            "acronym": "UASC",
+            "meaning": "Unidade Acadêmica de Sistemas e Computação. Equivale ao DSC.",
+            "type": "Departamento",
+            "entry": "Unidade Acadêmica de Sistemas e Computação",
+            "examples": []
         }
     ]
 }
