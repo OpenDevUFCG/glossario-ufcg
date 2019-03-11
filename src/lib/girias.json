@@ -10,6 +10,17 @@
             ]
         }
     ],
+    "CADEIRA": [
+        {
+            "meaning": "Cadeira é uma gíria usada por alunos e professores para se referir às disciplinas.",
+            "type": "Gíria",
+            "entry": "Cadeira",
+            "examples": [
+                "Em quais cadeiras tu vai se matricular esse período?",
+                "Me matriculei em 8 cadeiras esse período, vamo ver no que dá"
+            ]
+        }
+    ],
     "FERA": [
         {
             "meaning": "Fera é uma gíria usada para se referir aos estudantes que acabaram de entrar na universidade e estão no primeiro período do curso.",
@@ -33,6 +44,18 @@
             ]
         }
     ],
+    "PAGAR": [
+        {
+            "meaning": "Pagar é uma gíria usada na universidade que pode estar relacionada a se matricular em uma disciplina e também pode ser usada para dizer que foi aprovado em alguma disciplina.",
+            "type": "Gíria",
+            "entry": "Pagar",
+            "examples": [
+                "Quais disciplinas tu vai pagar esse período?",
+                "Paguei cálculo com 10!!!",
+                "Não paguei Linear de primeira, reprovei por causa de meio ponto"
+            ]
+        }
+    ],
     "PIJAMA": [
         {
             "meaning": "Além de roupa de dormir, pijama é a relação de disciplinas ofertadas naquele período, contendo os professores e horários de cada disciplina.",
@@ -41,6 +64,17 @@
             "examples": [
                 "Corram, a coordenação mandou o pijama no email do CCC",
                 "Eita, vi no pijama que abriu um monte de optativa esse período"
+            ]
+        }
+    ],
+    "RASGAR": [
+        {
+            "meaning": "Rasgar é um verbo usado por alunos da universidade para dizer que algo foi muito fácil, ou que se saiu muito bem em algo. Geralmente aplicado a provas ou disciplinas.",
+            "type": "Gíria",
+            "entry": "Rasgar",
+            "examples": [
+                "A prova de Cálculo foi rasgada",
+                "Rasguei Estatística esse período"
             ]
         }
     ]
