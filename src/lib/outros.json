@@ -6,7 +6,7 @@
             "type": "Centro",
             "entry": "Centro de Engenharia Elétrica e Informática",
             "examples": [
-                "Nesse \"Centro\" pode preencher CEEI, ou tem que ser por extenso?"
+                "Nesse campo \"Centro\" pode preencher CEEI, ou tem que ser por extenso?"
             ]
         }
     ],
@@ -17,7 +17,7 @@
             "type": "Departamento",
             "entry": "Departamento de Sistemas e Computação",
             "examples": [
-                "Tou indo na secretaria do DSC entregar o relatório da monitoria"
+                "Tou indo na secretaria do DSC entregar o relatório da monitoria."
             ]
         }
     ],
@@ -29,7 +29,7 @@
             "type": "Termo",
             "examples": [
                 "A gente tá no PCC novo ou antigo?",
-                "Essa é a última turma do PCC antigo, né?"
+                "Esse é o último período no PCC antigo, né?"
             ]
         }
     ],

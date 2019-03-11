@@ -49,7 +49,9 @@
             "type": "Disciplina",
             "entry": "Banco de Dados I",
             "examples": [
-                "Me falaram que BD tem geralmente duas turmas."
+                "Me falaram que BD tem geralmente duas turmas.",
+                "Em BD a gente só aprende teoria, ou usa SQL também?",
+                "BD foi horrível no meu período."
             ]
         }
     ],
@@ -244,17 +246,21 @@
             "type": "Disciplina",
             "entry": "Laboratório de Programação 1",
             "examples": [
-                "Esse mini teste de LP1 tava bom demais."
+                "Esse mini teste de LP1 tava bom demais.",
+                "Nem passei de unidade no miniteste de LP1, hoje :("
             ]
         }
     ],
     "LP2": [
         {
             "acronym": "LP2",
-            "meaning": "Laboratório de Programação 2",
+            "meaning": "Laboratório de Programação 2 é uma disciplina obrigatória do 2º período de Ciência da Computação. Nela, são postos em prática os conceitos aprendidos nas aulas de P2 através de Labs, Quizzes e Provas.",
             "type": "Disciplina",
             "entry": "Laboratório de Programação 2",
-            "examples": []
+            "examples": [
+                "Quando começa o próximo lab de LP2?",
+                "Tem muitos monitores em LP2, né?"
+            ]
         }
     ],
     "MSN": [
@@ -273,10 +279,10 @@
     "OAC": [
         {
             "acronym": "OAC",
-            "meaning": "Organização e Arquitetura de Computadores",
+            "meaning": "Organização e Arquitetura de Computadores é uma disciplina obrigatória do curso de Ciência da Computação. Ela apresenta diversos conceitos teóricos sobre hardware, com ênfase nos elementos que compoem a placa-mãe, sua evolução ao longo de tempo e como funcionam.",
             "type": "Disciplina",
             "entry": "Organização e Arquitetura de Computadores",
-            "examples": []
+            "examples": ["Consegui subir meu CRA com as atividades extras de OAC", "Queria que o conteúdo de OAC fosse mais próximo do que a gente faz em LOAC..."]
         }
     ],
     "P1": [
@@ -359,10 +365,13 @@
     "TC": [
         {
             "acronym": "TC",
-            "meaning": "Teoria da Computação",
+            "meaning": "Teoria da Computação é uma disciplina obrigatória do 5º período de Ciência da Computação. Nela, são vistos os conceitos de máquina de estados, expresões regulares, autômatos finitos, autômatos de pilha e máquina de Turing. Aborda a Ciência da Computação no mais alto nível teórico.",
             "type": "Disciplina",
             "entry": "Teoria da Computação",
-            "examples": []
+            "examples": [
+                "Demorei bastante pra aprender o problema da parada, em TC.",
+                "Até hoje me confundo na hora de fazer Regex, e olha que a gente estudou em TC."
+            ]
         }
     ],
     "TCC": [

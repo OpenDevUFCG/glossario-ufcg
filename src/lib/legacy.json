@@ -52,7 +52,8 @@
             "type": "Disciplina",
             "entry": "Sistemas de Informação 1",
             "examples": [
-                "É em SI 1 que a gente começa a mexer com Web, né?"
+                "É em SI 1 que a gente começa a mexer com Web?",
+                "Passei um tempão aprendendo a usar Angular.js pro Lab de SI"
             ]
         }
     ],
@@ -63,7 +64,8 @@
             "type": "Disciplina",
             "entry": "Sistemas de Informação 2",
             "examples": [
-                "Em SI 2 que vê bem direitinho aquelas coisas de UML, né?"
+                "Em SI 2 que vê bem direitinho aquelas coisas de UML, né?",
+                "No período que tu pagou SI 2, vocês estudaram conversão de diagrama em texto?"
             ]
         }
     ]
