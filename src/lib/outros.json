@@ -30,18 +30,31 @@
         {
             "entry": "Relação de disciplinas matriculadas",
             "acronym": "RDM",
-            "meaning": "Relação de disciplinas matriculadas",
+            "meaning": "A relação de disciplinas matriculadas é um documento emitido pela coordenação do curso ao ser realizada a matrícula das disciplinas no início do período. O RDM possui todas as disciplinas matriculadas e serve como comprovante de que você está vinculado à universidade.",
             "type": "Termo",
-            "examples": []
+            "examples": ["Vou lá em Fatinha pedir meu RDM", "Fui lá na coordenação pegar meu histórico e RDM"]
         }
     ],
     "TECC": [
         {
             "entry": "Tópicos Especiais em Ciência da Computação",
             "acronym": "TECC",
-            "meaning": "Tópicos Especiais em Ciência da Computação. As disciplinas com esse prefixo são consideradas como disciplinas optativas específicas. Como é o exemplo de [TECC] Jogos Digitais.",
+            "meaning": "Tópicos Especiais em Ciência da Computação é um termo usado para disciplinas optativas específicas do curso de Ciência da Computação, como é o exemplo de [TECC] Jogos Digitais.",
             "type": "Termo",
-            "examples": []
+            "examples": ["Você está matriculado em [TECC] Jogos Digitais"]
+        }
+    ],
+    "TST": [
+        {
+            "entry": "TST",
+            "acronym": "TST",
+            "meaning": "TST é uma ferramenta usada por professores em algumas disciplinas de ciência da computação para verificar e testar exercícios de programação dos alunos. Esta ferramenta pode ser usada na linha de comando como também existe um site com questões cadastradas.",
+            "type": "Termo",
+            "examples": [
+                "Não consegui terminar todas as questões do TST de P1.",
+                "Tentei a noite toda resolver aquela questão de TST mas fica dando erro nos testes.",
+                "Aquela questão da prova de EDA tinha no TST."
+            ]
         }
     ],
     "UASC": [
