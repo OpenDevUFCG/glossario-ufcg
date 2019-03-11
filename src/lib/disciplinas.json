@@ -282,7 +282,10 @@
             "meaning": "Organização e Arquitetura de Computadores é uma disciplina obrigatória do curso de Ciência da Computação. Ela apresenta diversos conceitos teóricos sobre hardware, com ênfase nos elementos que compoem a placa-mãe, sua evolução ao longo de tempo e como funcionam.",
             "type": "Disciplina",
             "entry": "Organização e Arquitetura de Computadores",
-            "examples": ["Consegui subir meu CRA com as atividades extras de OAC", "Queria que o conteúdo de OAC fosse mais próximo do que a gente faz em LOAC..."]
+            "examples": [
+                "Consegui subir meu CRA com as atividades extras de OAC",
+                "Queria que o conteúdo de OAC fosse mais próximo do que a gente faz em LOAC..."
+            ]
         }
     ],
     "P1": [
