@@ -5,7 +5,7 @@
             "meaning": "Análise de Dados 1. Equivale a CDD no PPC atual.",
             "type": "Disciplina",
             "entry": "Análise de Dados 1",
-            "examples": []
+            "examples": ["Eu tou pagando AD1 agora, tá muito massa!", "As atividades de AD1 tomam muito tempo, mas vc acaba aprendendo muito"]
         }
     ],
     "AD2": [
@@ -14,7 +14,7 @@
             "meaning": "Análise de Dados 2. Equivale a CDP no PPC atual.",
             "type": "Disciplina",
             "entry": "Análise de Dados 2",
-            "examples": []
+            "examples": ["Eu tou pagando AD2 agora, que é CDP na grade nova", "Em AD2 é que a gente aprende o básico de Machine Learning na prática"]
         }
     ],
     "LES": [
@@ -23,7 +23,7 @@
             "meaning": "Laboratório de Engenharia de Software. Foi substituida no PPC atual por VVS e GP.",
             "type": "Disciplina",
             "entry": "Laboratório de Engenharia de Software",
-            "examples": []
+            "examples": ["Gestão de Projetos é parecida com LES?"]
         }
     ],
     "LIRC": [
@@ -32,7 +32,7 @@
             "meaning": "Laboratório de Interconexão e Redes de Computadores. Foi incluída em IRC no PPC atual, que passou a ser uma disciplina de 4 créditos.",
             "type": "Disciplina",
             "entry": "Laboratório de Interconexão e Redes de Computadores",
-            "examples": []
+            "examples": ["LIRC e IRC agora são uma disciplina só, né?"]
         }
     ],
     "SI1": [
@@ -41,7 +41,7 @@
             "meaning": "Sistemas de Informação 1. Equivale a PSoft no PPC atual.",
             "type": "Disciplina",
             "entry": "Sistemas de Informação 1",
-            "examples": []
+            "examples": ["É em SI 1 que a gente começa a mexer com Web, né?"]
         }
     ],
     "SI2": [
@@ -50,7 +50,7 @@
             "meaning": "Sistemas de Informação 2. Equivale a AS no PPC atual.",
             "type": "Disciplina",
             "entry": "Sistemas de Informação 2",
-            "examples": []
+            "examples": ["Em SI 2 que vê bem direitinho aquelas coisas de UML, né?"]
         }
     ]
 }

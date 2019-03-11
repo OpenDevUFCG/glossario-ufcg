@@ -5,7 +5,7 @@
             "acronym": "CC",
             "meaning": "Ciência da Computação",
             "type": "Curso",
-            "examples": []
+            "examples": ["Os ferinhas de CC tão participando da Semana do Fera agora"]
         }
     ],
     "EE": [
@@ -14,7 +14,7 @@
             "acronym": "EE",
             "meaning": "Engenharia Elétrica",
             "type": "Curso",
-            "examples": []
+            "examples": ["Tentei convencer um amigo meu a fazer CC, mas ele preferiu ficar em EE"]
         }
     ]
 }

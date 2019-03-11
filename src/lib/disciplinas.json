@@ -72,7 +72,11 @@
             "meaning": "Ciência de Dados Preditiva é uma disciplina optativa do curso de Ciência da Computação na UFCG com foco em algoritmos e técnicas de IA para a predição de valores a partir de dados prévios.",
             "type": "Disciplina",
             "entry": "Ciência de Dados Preditiva",
-            "examples": ["CDP envolve muito Cálculo.", "Hoje teve quiz em CDP?"]
+            "examples": [
+                "CDP envolve muito Cálculo.",
+                "Hoje teve quiz em CDP?",
+                "Passei o final de semana treinando os classificadores pro lab de CDP."
+            ]
         }
     ],
     "CG": [
