@@ -1,15 +1,11 @@
 import React, {Component} from "react";
 import "./Glossary.css"
 import Search from "../search/Search";
+import { Link } from "react-router-dom";
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
 import acronyms from '../../lib/data';
-import ResultCard from "../ResultCard/ResultCard";
-
-const Results = ({ results }) => {
-    return results.lenght !== 0 ? results.map(ResultCard) : "";
-};
 
 class Glossary extends Component {
     constructor(props) {
@@ -20,23 +16,21 @@ class Glossary extends Component {
         this.props.history.push(`/${selected}`);
     };
 
-    getAcronymResults = () => {
-        const acronym = this.props.match.params.acronym;
-        return acronyms[acronym] || [];
-    };
+    getRandomEntry = () => {
+        const entries = Object.keys(acronyms);
+        const index = Math.floor(Math.random() * entries.length);
+        return entries[index];
+    }
 
     render() {
+        const randomEntry = this.getRandomEntry();
         return (
-            <div className={"outter-container"}>
-                <div className={"glossary__container"}>
-                    <img className={"glossary__logo"} src={glossarioLogo} width="400px"/>
-                    <Search className={"glossary__search"}
-                            items={Object.keys(acronyms).sort()}
-                            handleSelect={this.handleAcronymChange}/>
-                </div>
-                <div className={"results__container"}>
-                    <Results results={this.getAcronymResults()}/>
-                </div>
+            <div className={"glossary__container"}>
+                <img className={"glossary__logo"} src={glossarioLogo} />
+                <Search className={"glossary__search"}
+                        items={Object.keys(acronyms).sort()}
+                        handleSelect={this.handleAcronymChange}/>
+                <span className={"glossary__day-phrase"}>Você sabe o que é <Link className="emphasis pointer-hover light-accent" to={`/${randomEntry}`}>{ randomEntry }</Link>?</span>
             </div>
         );
     }

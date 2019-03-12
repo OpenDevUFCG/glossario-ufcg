@@ -3,7 +3,7 @@
 .search {
     display: grid;
     grid-template-columns: 1fr max-content;
-    padding: 0 1em;
+    padding: 0;
 }
 
 .search * {
