@@ -20,6 +20,9 @@
 
 .results-page__results-container {
     background-color: #30abae;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     height: 100%;
     flex: 1;
     padding: 2em 20%;
