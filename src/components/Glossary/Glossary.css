@@ -32,10 +32,12 @@
     .glossary__container {
         grid-template-areas:
             'logo'
-            'search';
+            'search'
+            'day-phrase';
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, max-content);
         grid-gap: 1em;
+        padding: 1.5em;
     }
 
     .glossary__logo, .glossary__day-phrase {
