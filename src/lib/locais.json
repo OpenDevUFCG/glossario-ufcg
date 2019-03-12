@@ -1,4 +1,16 @@
 {
+    "CEEI": [
+        {
+            "acronym": "CEEI",
+            "meaning": "Centro de Engenharia Elétrica e Informática. É o Centro responsável pelos Departamentos de Ciência da Computação e Engenharia Elétrica. É nele onde se situam as coordenações dos cursos de CC e EE.",
+            "type": "Centro",
+            "entry": "Centro de Engenharia Elétrica e Informática",
+            "examples": [
+                "Nesse campo \"Centro\" pode preencher CEEI, ou tem que ser por extenso?",
+                "Tou indo lá no CEEI, ver se Fatinha tá na coordenação."
+            ]
+        }
+    ],
     "LCC1": [
         {
             "acronym": "LCC1",

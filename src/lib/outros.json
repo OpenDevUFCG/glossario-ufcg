@@ -1,15 +1,4 @@
 {
-    "CEEI": [
-        {
-            "acronym": "CEEI",
-            "meaning": "Centro de Engenharia Elétrica e Informática. É o Centro responsável pelos Departamentos de Ciência da Computação e Engenharia Elétrica.",
-            "type": "Centro",
-            "entry": "Centro de Engenharia Elétrica e Informática",
-            "examples": [
-                "Nesse campo \"Centro\" pode preencher CEEI, ou tem que ser por extenso?"
-            ]
-        }
-    ],
     "DSC": [
         {
             "acronym": "DSC",
@@ -25,7 +14,7 @@
         {
             "entry": "Projeto Pedagógico do Curso",
             "acronym": "PPC",
-            "meaning": "Projeto Pedagógico do Curso. Se refere à estrutura das disciplinas do curso, como o período em que é recomendado cursar cada disciplina, os pré-requisitos, e similares. É importante ressaltar que em 2017/2018 o PPC foi alterado, dividindo os alunos em \"PPC Novo\" e \"PPC Antigo\" ",
+            "meaning": "Projeto Pedagógico do Curso. Se refere à estrutura das disciplinas do curso, como o período em que é recomendado cursar cada disciplina, os pré-requisitos, e similares. É importante ressaltar que em 2017/2018 o PPC foi alterado, dividindo os alunos em \"PPC Novo\" e \"PPC Antigo\". O uso desse termo apenas é coerente quando no contexto do curso de CC.",
             "type": "Termo",
             "examples": [
                 "A gente tá no PCC novo ou antigo?",

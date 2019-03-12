@@ -3,7 +3,7 @@
 
 const fs = require('fs');
 
-const dataFiles = ['cursos', 'disciplinas', 'girias', 'legacy', 'locais', 'outros'];
+const dataFiles = ['cursos', 'disciplinas', 'girias', 'locais', 'outros'];
 
 function sortFile(file) {
     let orderedFile = {};
