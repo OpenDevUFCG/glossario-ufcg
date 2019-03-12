@@ -7,7 +7,7 @@ const Examples = ({ entry, examples }) => examples.map((ex, index) => (
 ));
 
 const ExamplesIfExists = ({ entry, examples }) => {
-    if (examples.length === 0) return (<p>Esse termo ainda não possui aplicações em frase cadastradas. Caso saiba alguma <a href="https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/CONTRIBUTING.md">Faça uma contribuição!</a></p>)
+    if (examples.length === 0) return (<p>Esse termo ainda não possui aplicações em frase cadastradas. Caso saiba alguma, <a href="https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/CONTRIBUTING.md">faça uma contribuição!</a></p>)
     return (
         <ul className={"result-card__list-phrase"}>
             <Examples entry={ entry } examples={ examples } />
