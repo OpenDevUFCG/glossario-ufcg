@@ -7,6 +7,7 @@
     width: 100%;
     display: grid;
     grid-gap: 0 2em;
+    grid-template-columns: 1.5fr 1fr;
     grid-template-areas:
         'title title'
         'subtitle subtitle'
@@ -40,3 +41,22 @@
     margin-top: 20px;
     color: gray;
 }
+
+
+@media screen and (max-width: 720px) {
+    .result-card__container {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'title'
+            'subtitle'
+            'content-left'
+            'content-right';
+    }
+
+    .result-card__title-2 {
+        margin-top: 0;
+    }
+}
+

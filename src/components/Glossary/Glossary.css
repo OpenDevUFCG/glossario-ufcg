@@ -1,14 +1,10 @@
-.outter-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .glossary__container {
     height: 100%;
     width: 100%;
     display: grid;
     grid-template-areas:
-        'logo search';
+        'logo search'
+        '. day-phrase';
     grid-gap: 0 1em;
     grid-template-columns: max-content minmax(max-content, 400px);
     grid-template-rows: max-content;
@@ -17,21 +13,18 @@
     justify-content: center;
 }
 
-.results__container {
-    background-color: #30abae;
-    height: 100%;
-    flex: 1;
-    padding: 1em;
-    display: grid;
-    grid-gap: 1em;
+.glossary__day-phrase {
+    grid-area: day-phrase;
 }
 
 .glossary__logo {
     grid-area: logo;
+    width: 400px;
 }
 
 .glossary__search {
     grid-area: search;
+    margin: 0;
     outline: none;
 }
 
