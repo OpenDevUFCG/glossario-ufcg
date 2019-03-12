@@ -1,5 +1,11 @@
+.outter-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .glossary__container {
     height: 100%;
+    width: 100%;
     display: grid;
     grid-template-areas:
         'logo search';
@@ -9,7 +15,15 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    padding: 0 1em;
+}
+
+.results__container {
+    background-color: #30abae;
+    height: 100%;
+    flex: 1;
+    padding: 1em;
+    display: grid;
+    grid-gap: 1em;
 }
 
 .glossary__logo {

@@ -27,12 +27,16 @@ class Glossary extends Component {
 
     render() {
         return (
-            <div className={"glossary__container"}>
-                <img className={"glossary__logo"} src={glossarioLogo} width="400px"/>
-                <Search className={"glossary__search"}
-                        items={Object.keys(acronyms).sort()}
-                        handleSelect={this.handleAcronymChange}/>
-                <Results results={this.getAcronymResults()}/>
+            <div className={"outter-container"}>
+                <div className={"glossary__container"}>
+                    <img className={"glossary__logo"} src={glossarioLogo} width="400px"/>
+                    <Search className={"glossary__search"}
+                            items={Object.keys(acronyms).sort()}
+                            handleSelect={this.handleAcronymChange}/>
+                </div>
+                <div className={"results__container"}>
+                    <Results results={this.getAcronymResults()}/>
+                </div>
             </div>
         );
     }
