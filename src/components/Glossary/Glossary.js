@@ -8,7 +8,7 @@ import acronyms from '../../lib/data';
 import ResultCard from "../ResultCard/ResultCard";
 
 const Results = ({ results }) => {
-    return results.lenght !== 0 ? results.map(ResultCard) : [];
+    return results.lenght !== 0 ? results.map(ResultCard) : "";
 };
 
 class Glossary extends Component {
