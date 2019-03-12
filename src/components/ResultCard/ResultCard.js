@@ -6,7 +6,7 @@ const Examples = ({ key, examples }) => examples.map((ex, index) => (
     <li className={"result-card__list-phrase"} key={`${key}${index}`}>{ ex }</li>
 ));
 
-const ResultCard = ({ result }) => (
+const ResultCard = (result) => (
     <div className={"result-card__container"}>
         <h1 className={"result-card__title-1"}>{ result.entry }</h1>
         <span className={"result-card__subtitle"}>{ result.type }</span>

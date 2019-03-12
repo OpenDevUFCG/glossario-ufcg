@@ -5,6 +5,11 @@ import Search from "../search/Search";
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
 import acronyms from '../../lib/data';
+import ResultCard from "../ResultCard/ResultCard";
+
+const Results = ({ results }) => {
+    return results.lenght !== 0 ? results.map(ResultCard) : [];
+};
 
 class Glossary extends Component {
     constructor(props) {
@@ -15,15 +20,12 @@ class Glossary extends Component {
         this.props.history.push(`/${selected}`);
     };
 
-    getCurrentObjLength = () => this.getAcronymResults().length;
-
     getAcronymResults = () => {
         const acronym = this.props.match.params.acronym;
-        return acronyms[acronym] || []
+        return acronyms[acronym] || [];
     };
 
     render() {
-        const selectionBarLength = this.getCurrentObjLength();
         return (
             <div className={"glossary__container"}>
                 <img className={"glossary__logo"} src={glossarioLogo} width="400px"/>
@@ -32,6 +34,7 @@ class Glossary extends Component {
                         handleSelect={this.handleAcronymChange}/>
                 <span className={"glossary__day-phrase"}>Você sabe o que é <a
                     className="emphasis pointer-hover light-accent">tamburete</a>?</span>
+                <Results results={this.getAcronymResults()}/>
             </div>
         );
     }
