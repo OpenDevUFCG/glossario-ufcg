@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import "./Glossary.css"
 import Search from "../search/Search";
+import { Link } from "react-router-dom";
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
@@ -15,23 +16,21 @@ class Glossary extends Component {
         this.props.history.push(`/${selected}`);
     };
 
-    getCurrentObjLength = () => this.getAcronymResults().length;
-
-    getAcronymResults = () => {
-        const acronym = this.props.match.params.acronym;
-        return acronyms[acronym] || []
-    };
+    getRandomEntry = () => {
+        const entries = Object.keys(acronyms);
+        const index = Math.floor(Math.random() * entries.length);
+        return entries[index];
+    }
 
     render() {
-        const selectionBarLength = this.getCurrentObjLength();
+        const randomEntry = this.getRandomEntry();
         return (
             <div className={"glossary__container"}>
-                <img className={"glossary__logo"} src={glossarioLogo} width="400px"/>
+                <img className={"glossary__logo"} src={glossarioLogo} />
                 <Search className={"glossary__search"}
                         items={Object.keys(acronyms).sort()}
                         handleSelect={this.handleAcronymChange}/>
-                <span className={"glossary__day-phrase"}>Você sabe o que é <a
-                    className="emphasis pointer-hover light-accent">tamburete</a>?</span>
+                <span className={"glossary__day-phrase"}>Você sabe o que é <Link className="emphasis pointer-hover light-accent" to={`/${randomEntry}`}>{ randomEntry }</Link>?</span>
             </div>
         );
     }

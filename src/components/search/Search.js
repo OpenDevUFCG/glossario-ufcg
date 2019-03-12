@@ -1,12 +1,12 @@
 import * as React from 'react';
 import "./Search.css";
-import { AutoComplete } from 'antd';
+import { AutoComplete, Select } from 'antd';
 import Icon from "../Icon/Icon";
 
 const renderOption = (item) => (
-    <Option key={item}>
+    <Select.Option key={item}>
       {item}
-    </Option>
+    </Select.Option>
 );
 
 const CustomSearchButton = (props) => (
