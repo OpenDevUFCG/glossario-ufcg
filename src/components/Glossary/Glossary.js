@@ -32,8 +32,6 @@ class Glossary extends Component {
                 <Search className={"glossary__search"}
                         items={Object.keys(acronyms).sort()}
                         handleSelect={this.handleAcronymChange}/>
-                <span className={"glossary__day-phrase"}>Você sabe o que é <a
-                    className="emphasis pointer-hover light-accent">tamburete</a>?</span>
                 <Results results={this.getAcronymResults()}/>
             </div>
         );
