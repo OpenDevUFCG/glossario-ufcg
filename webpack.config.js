@@ -24,8 +24,14 @@ const config = {
                 use: 'babel-loader',
             },
             {
-                test: /\.(ttf|eot|svg|woff|woff2|png|gif)$/,
-                use: 'url-loader?limit=10000',
+                test: /\.(jpg|jpeg|gif|png|svg)$/,
+                exclude: /node_modules/,
+                loader:'url-loader?limit=10000&name=assets/images/[name].[ext]'
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                exclude: /node_modules/,
+                loader: 'url-loader?limit=10000&name=assets/fonts/[name].[ext]'
             },
             {
                 test: /\.(sa|sc|c)ss$/,

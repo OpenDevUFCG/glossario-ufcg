@@ -300,12 +300,13 @@
     "LP2": [
         {
             "acronym": "LP2",
-            "meaning": "Laboratório de Programação 2 é uma disciplina obrigatória do 2º período de Ciência da Computação. Nela, são postos em prática os conceitos aprendidos nas aulas de P2 através de Labs, Quizzes e Provas.",
+            "meaning": "Laboratório de Programação 2 é a disciplina obrigatória do 2º período do curso Ciência da Computação na UFCG na qual colocamos em prática o que aprendemos na disciplina Programação 2, cujo foco está em programação orientada ao objeto, através de Labs, Quizzes e Provas.",
             "type": "Disciplina",
             "entry": "Laboratório de Programação 2",
             "examples": [
                 "Quando começa o próximo lab de LP2?",
-                "Tem muitos monitores em LP2, né?"
+                "Preciso terminar o terceiro lab de LP2",
+                "Eu não sei se era melhor usar herança ou interface na prova de LP2"
             ]
         }
     ],
@@ -325,10 +326,12 @@
     "OAC": [
         {
             "acronym": "OAC",
-            "meaning": "Organização e Arquitetura de Computadores é uma disciplina obrigatória do curso de Ciência da Computação. Ela apresenta diversos conceitos teóricos sobre hardware, com ênfase nos elementos que compoem a placa-mãe, sua evolução ao longo de tempo e como funcionam.",
+            "meaning": "Organização e Arquitetura de Computadores é uma discilina obrigatória do 4º período do curso Ciência da Computação na UFCG na qual aprendemos como é a arquitetura de um computador internamente e como funcionam seus componentes. Ela apresenta diversos conceitos teóricos sobre hardware, com ênfase nos elementos que compoem a placa-mãe, sua evolução ao longo de tempo e como funcionam.",
             "type": "Disciplina",
             "entry": "Organização e Arquitetura de Computadores",
             "examples": [
+                "Aprendi como funciona um processador em OAC, muito massa!",
+                "A atividade de OAC tem que ser entregue até sexta",
                 "Consegui subir meu CRA com as atividades extras de OAC",
                 "Queria que o conteúdo de OAC fosse mais próximo do que a gente faz em LOAC..."
             ]

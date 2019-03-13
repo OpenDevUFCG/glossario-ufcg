@@ -46,5 +46,58 @@
                 "Pessoal, amanhã a nossa aula será no LCC3."
             ]
         }
+    ],
+    "CN": [
+        {
+            "meaning": "CN é o bloco que abriga o famoso LCC2, salas de projetos de diferentes laboratórios e também salas de professores do curso de Ciência da Computação da UFCG. Em frente ao CN tem um lindo e gigante Flamboyant (uma árvore que dá flores vermelhas em certas épocas do ano) e é o último dos blocos antes de chegar na 'florestinha/mato'.",
+            "type": "Bloco",
+            "entry": "CN",
+            "examples": [
+                "A professora Joseana disse que a sala dela é no CN.",
+                "A secretária do DSC fica no CN."
+            ]
+        }
+    ],
+    "CP1": [
+        {
+            "meaning": "CP1 é o bloco mais recente do curso de Ciência da Computação da UFCG e é mais conhecido como 'o prédio do LCC3'. Nele estão localizados o LCC3, o PET do curso de Ciência da Computação da UFCG, o CAESI, a sala do ELAS, a sala da empresa júnior CodeX e futuramente salas que serão ocupadas para aulas e projetos.",
+            "type": "Bloco",
+            "entry": "CP1",
+            "examples": [
+                "A palestra da empresa X vai ser lá no CP1, o prédio do LCC3"
+            ]
+        }
+    ],
+    "Joab": [
+        {
+            "meaning": "Joab é como é conhecida a lanchonete mais próxima do CAA, fica bem ao lado da Xerox Amarelinha. Essa lanchonete é praticamente por trás do CAA e é muito frequentada por pessoas do curso de Ciência da Computação assim como por pessoas de outros cursos que se localizam majoritariamente no setor de exatas.",
+            "type": "Lanchonete",
+            "entry": "Joab",
+            "examples": [
+                "Te encontro lá em Joab quando acabar a aula",
+                "Vamos tomar um café em Joab?"
+            ]
+        }
+    ],
+    "Quiosque": [
+        {
+            "meaning": "Quiosque é a lanchonete que fica ao lado do laguinho, não tem como errar, ela é a única ali. No Quiosque você encontra lanches e também é servido almoço.",
+            "type": "Lanchonete",
+            "entry": "Quiosque",
+            "examples": [
+                "Vou comer uma tapioca com café batido lá no Quiosque."
+            ]
+        }
+    ],
+    "CAA": [
+        {
+            "meaning": "CAA é um dos principais blocos de aula do setor de exatas. O CAA fica localizado em frente à biblioteca e normalmente você encontra pessoas de diferentes cursos no CAA.",
+            "type": "Bloco",
+            "entry": "CAA",
+            "examples": [
+                "As aulas de Probabilidade esse semestre são no CAA 408.",
+                "Te encontro perto dos elevadores do"
+            ]
+        }
     ]
 }
