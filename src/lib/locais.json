@@ -76,5 +76,16 @@
                 "Vou comer uma tapioca com café batido lá no Quiosque."
             ]
         }
+    ],
+    "CAA": [
+        {
+            "meaning": "CAA é um dos principais blocos de aula do setor de exatas. O CAA fica localizado em frente à biblioteca e normalmente você encontra pessoas de diferentes cursos no CAA.",
+            "type": "Bloco",
+            "entry": "CAA",
+            "examples": [
+                "As aulas de Probabilidade esse semestre são no CAA 408.",
+                "Te encontro perto dos elevadores do"
+            ]
+        }
     ]
 }
