@@ -1,3 +1,8 @@
 :root {
     --odu-color-card-bg: #FFF;
+    --glossary-dark-accent: #4d8E79;
+}
+
+.light-accent {
+    color: #30abae;
 }

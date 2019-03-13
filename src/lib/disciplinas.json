@@ -27,7 +27,10 @@
             "meaning": "Análise de Sistemas é uma disciplina obrigatória do 5º período de Ciência da Computação na UFCG com foco nas metodologias, processos e artefatos utilizados na computação para o desenvolvimento de um sistema de software.",
             "type": "Disciplina",
             "entry": "Análise de Sistemas",
-            "examples": ["Hoje aprendi como se faz um diagrama de classe em AS.", "AS é uma cadeira legal de ser paga com Engenharia de Software."]
+            "examples": [
+                "Hoje aprendi como se faz um diagrama de classe em AS.",
+                "AS é uma cadeira legal de ser paga com Engenharia de Software."
+            ]
         }
     ],
     "ATAL": [
@@ -45,7 +48,9 @@
             "meaning": "Banco de Dados I é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG com foco em persistência de dados utilizando linguagem estruturada de consulta.",
             "type": "Disciplina",
             "entry": "Banco de Dados I",
-            "examples": ["Me falaram que BD tem geralmente duas turmas."]
+            "examples": [
+                "Me falaram que BD tem geralmente duas turmas."
+            ]
         }
     ],
     "BD2": [
@@ -72,7 +77,10 @@
             "meaning": "Ciência de Dados Preditiva é uma disciplina optativa do curso de Ciência da Computação na UFCG com foco em algoritmos e técnicas de IA para a predição de valores a partir de dados prévios.",
             "type": "Disciplina",
             "entry": "Ciência de Dados Preditiva",
-            "examples": ["CDP envolve muito Cálculo.", "Hoje teve quiz em CDP?"]
+            "examples": [
+                "CDP envolve muito Cálculo.",
+                "Hoje teve quiz em CDP?"
+            ]
         }
     ],
     "CG": [
@@ -133,7 +141,10 @@
             "meaning": "Fundamentos de Matemática para Ciência da Computação I é uma disciplina obrigatória do 1º período do curso de Ciência da Computação na UFCG que visa estudar conceitos matemáticos básicos que serão usados por todo o curso.",
             "type": "Disciplina",
             "entry": "Fundamentos de Matemática para Ciência da Computação I",
-            "examples": ["Amanhã tem aula de FMCC1.", "A prova de FMCC1 tava muito ruim."]
+            "examples": [
+                "Amanhã tem aula de FMCC1.",
+                "A prova de FMCC1 tava muito ruim."
+            ]
         }
     ],
     "FMCC2": [
@@ -142,7 +153,10 @@
             "meaning": "Fundamentos de Matemática para Ciência da Computação II é uma disciplina obrigatória do 2º período do curso de Ciência da Computação na UFCG que visa o estudo de um conjunto de ferramentas matemáticas essenciais para Computação",
             "type": "Disciplina",
             "entry": "Fundamentos de Matemática para Ciência da Computação II",
-            "examples": ["Vocês fizeram o mini teste de FMCC2?", "Essa aula de FMCC2 foi muito boa!"]
+            "examples": [
+                "Vocês fizeram o mini teste de FMCC2?",
+                "Essa aula de FMCC2 foi muito boa!"
+            ]
         }
     ],
     "GR": [
@@ -160,7 +174,11 @@
             "meaning": "Inteligência Artificial é uma disciplina obrigatória do 6º período de Ciência da Computação na UFCG com foco no estudo das principais técnicas de inteligência artificial, dentre elas: machine learning, PLN, robótica e visão computacional.",
             "type": "Disciplina",
             "entry": "Inteligência Artificial",
-            "examples": ["IA casa muito bem com CDP.", "A aula de IA hoje teve lógica fuzzy. Saudades lógica!", "Usei regressão linear no projeto de IA."]
+            "examples": [
+                "IA casa muito bem com CDP.",
+                "A aula de IA hoje teve lógica fuzzy. Saudades lógica!",
+                "Usei regressão linear no projeto de IA."
+            ]
         }
     ],
     "IC": [
@@ -169,7 +187,10 @@
             "meaning": "Introdução à Computação é uma disciplina obrigatória do 1º período de Ciência da Computação na UFCG que tem como foco mostrar uma visão geral do curso de Ciência da Computação, assim como ensinar conceitos básicos de Hardware e Software.",
             "type": "Disciplina",
             "entry": "Introdução à Computação",
-            "examples": ["A aula de IC hoje foi muito massa.", "Os resumos de IC do Tamburetei são muito bons."]
+            "examples": [
+                "A aula de IC hoje foi muito massa.",
+                "Os resumos de IC do Tamburetei são muito bons."
+            ]
         }
     ],
     "IRC": [
@@ -221,7 +242,9 @@
             "meaning": "Laboratório de Programação 1 é uma disciplina obrigatória do 1º período de Ciência da Computação na UFCG que é paga em conjunto com P1 e visa a ensinar aplicação prática dos assuntos teórios de P1.",
             "type": "Disciplina",
             "entry": "Laboratório de Programação 1",
-            "examples": ["Esse mini teste de LP1 tava bom demais."]
+            "examples": [
+                "Esse mini teste de LP1 tava bom demais."
+            ]
         }
     ],
     "LP2": [
@@ -261,7 +284,10 @@
             "meaning": "Programação 1 é uma disciplina obrigatória do 1º período de Ciência da Computação na UFCG que visa ensinar conceitos básicos de programação que serão a base para todo o curso.",
             "type": "Disciplina",
             "entry": "Programação 1",
-            "examples": ["Amanhã vai ter aula de P1.", "Fui tirar uma dúvida de P1 e o professor mandou eu perguntar ao shell do python."]
+            "examples": [
+                "Amanhã vai ter aula de P1.",
+                "Fui tirar uma dúvida de P1 e o professor mandou eu perguntar ao shell do python."
+            ]
         },
         {
             "acronym": "P1",
@@ -277,7 +303,10 @@
             "meaning": "Programação 2 é uma disciplina obrigatória do 2º período de Ciência da Computação na UFCG que visa ensinar conceitos de programação orientada a objeto. ",
             "type": "Disciplina",
             "entry": "Programação 2",
-            "examples": ["A prova de P2 estava muito boa.", "Amanhã vai ter aula de P2."]
+            "examples": [
+                "A prova de P2 estava muito boa.",
+                "Amanhã vai ter aula de P2."
+            ]
         },
         {
             "acronym": "P2",
@@ -302,7 +331,10 @@
             "meaning": "Paradigmas de Linguagem de Programação é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que tem como foco estudar conceitos de linguagens de programação e os principais paradigmas que dão origem a diferentes estilos de programação.",
             "type": "Disciplina",
             "entry": "Paradigmas de Linguagem de Programação",
-            "examples": ["Meu Deus a gente vai ter que aprender três linguagens em PLP", "Essa prática de PLP foi mamão com açúcar."]
+            "examples": [
+                "Meu Deus a gente vai ter que aprender três linguagens em PLP",
+                "Essa prática de PLP foi mamão com açúcar."
+            ]
         }
     ],
     "SAD": [
@@ -347,7 +379,10 @@
             "meaning": "Teoria dos Grafos é uma disciplina obrigatória do 3º período de Ciência da Computação na UFCG que visa o estudo de problemas representados por grafos, assim como algoritmos conhecidos na teoria dos grafos.",
             "type": "Disciplina",
             "entry": "Teoria dos Grafos",
-            "examples": ["Só existe vídeo de indiano explicando esse assunto de TG", "Essa prática de TG estava muito boa."]
+            "examples": [
+                "Só existe vídeo de indiano explicando esse assunto de TG",
+                "Essa prática de TG estava muito boa."
+            ]
         }
     ],
     "VC": [
