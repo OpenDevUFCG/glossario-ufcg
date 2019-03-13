@@ -77,5 +77,16 @@
                 "Rasguei Estatística esse período"
             ]
         }
+    ],
+    "TAMBURETE": [
+        {
+            "meaning": "Tamburete é uma gíria usada para se referir a cadeiras na qual os alunos tem pouca dificuldade.",
+            "type": "Gíria",
+            "entry": "Tamburete",
+            "examples": [
+                "Aquela disciplina né uma cadeira não, é um tamburete",
+                "Venha fazer de tamburete as cadeiras de CC com o Tamburetei!"
+            ]
+        }
     ]
 }
