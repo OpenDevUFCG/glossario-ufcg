@@ -34,5 +34,16 @@
                 "Pessoal, amanhã a nossa aula será no LCC3."
             ]
         }
+    ],
+    "CN": [
+        {
+            "meaning": "CN é o bloco que abriga o famoso LCC2, salas de projetos de diferentes laboratórios e também salas de professores do curso de Ciência da Computação da UFCG. Em frente ao CN tem um lindo e gigante Flamboyant (uma árvore que dá flores vermelhas em certas épocas do ano) e é o último dos blocos antes de chegar na 'florestinha/mato'.",
+            "type": "Bloco",
+            "entry": "CN",
+            "examples": [
+                "A professora Joseana disse que a sala dela é no CN.",
+                "A secretária do DSC fica no CN."
+            ]
+        }
     ]
 }
