@@ -2,10 +2,14 @@
     "AA": [
         {
             "acronym": "AA",
-            "meaning": "Algoritmos Avançados é um disciplina optativa específica que foca no estudo de algoritmos para uso em olimpíadas de programção.",
+            "meaning": "Algoritmos Avançados é uma disciplina optativa do curso de Ciência da Computação na UFCG com foco em olimpíadas/maratonas de programação, mas também é procurada por alunos que desejam se preparar para entrevistas de emprego. Existem subcategorias de AA para se adequar ao conhecimento de cada aluno, pois envolve conteúdos de Teoria dos Grafos, EDA, MSN e ATAL.",
             "type": "Disciplina",
             "entry": "Algoritmos Avançados",
-            "examples": ["Consegui resolver todos os problemas da lista de AA dessa semana!", "Tenho que terminar minha lista de AA até amanhã"]
+            "examples": [
+                "Olha só a galera do AA ali.",
+                "Vai ter AA hoje ou é acompanhamento?",
+                "Hoje eu vi programação dinâmica no AA, mas não entendi nada."
+            ]
         }
     ],
     "ADSD": [
@@ -20,10 +24,13 @@
     "AS": [
         {
             "acronym": "AS",
-            "meaning": "Análise de Sistemas",
+            "meaning": "Análise de Sistemas é uma disciplina obrigatória do 5º período de Ciência da Computação na UFCG com foco nas metodologias, processos e artefatos utilizados na computação para o desenvolvimento de um sistema de software.",
             "type": "Disciplina",
             "entry": "Análise de Sistemas",
-            "examples": []
+            "examples": [
+                "Hoje aprendi como se faz um diagrama de classe em AS.",
+                "AS é uma cadeira legal de ser paga com Engenharia de Software."
+            ]
         }
     ],
     "ATAL": [
@@ -38,10 +45,12 @@
     "BD": [
         {
             "acronym": "BD",
-            "meaning": "Banco de Dados I",
+            "meaning": "Banco de Dados I é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG com foco em persistência de dados utilizando linguagem estruturada de consulta.",
             "type": "Disciplina",
             "entry": "Banco de Dados I",
-            "examples": []
+            "examples": [
+                "Me falaram que BD tem geralmente duas turmas."
+            ]
         }
     ],
     "BD2": [
@@ -65,10 +74,13 @@
     "CDP": [
         {
             "acronym": "CDP",
-            "meaning": "Ciência de Dados Preditiva",
+            "meaning": "Ciência de Dados Preditiva é uma disciplina optativa do curso de Ciência da Computação na UFCG com foco em algoritmos e técnicas de IA para a predição de valores a partir de dados prévios.",
             "type": "Disciplina",
             "entry": "Ciência de Dados Preditiva",
-            "examples": []
+            "examples": [
+                "CDP envolve muito Cálculo.",
+                "Hoje teve quiz em CDP?"
+            ]
         }
     ],
     "CG": [
@@ -95,7 +107,10 @@
             "meaning": "Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação na UFCG que visa o estudo de complexidade de algoritmos, métodos de ordenação e estruturas de dados.",
             "type": "Disciplina",
             "entry": "Estrutura de Dados",
-            "examples": ["Essa prova de EDA estava muito fácil.", "Vocês viram o resumo de EDA no Tamburetei? É muito bom!"]
+            "examples": [
+                "Essa prova de EDA estava muito fácil.",
+                "Vocês viram o resumo de EDA no Tamburetei? É muito bom!"
+            ]
         }
     ],
     "ES": [
@@ -104,7 +119,11 @@
             "meaning": "Engenharia de Software é uma disciplina obrigatória do 5º período do curso de Ciência da Computação na UFCG na qual são estudadas práticas de gerência de projetos voltados à especificação, desenvolvimento e manutenção de software.",
             "type": "Disciplina",
             "entry": "Engenharia de Software",
-            "examples": ["Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES", "Nossa, eu não consegui organizar o grupo de PLP que era só 5 pessoas, imagine o de ES que são 10...", "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"]
+            "examples": [
+                "Eu hoje sou uma nova pessoa depois que aprendi a usar o GTD em ES",
+                "Nossa, eu não consegui organizar o grupo de PLP que era só 5 pessoas, imagine o de ES que são 10...",
+                "Ah ES nem é uma cadeira tão difícil assim, só toma um pouco de tempo"
+            ]
         }
     ],
     "ETI": [
@@ -119,19 +138,25 @@
     "FMCC1": [
         {
             "acronym": "FMCC1",
-            "meaning": "Fundamentos de Matemática para Ciência da Computação I",
+            "meaning": "Fundamentos de Matemática para Ciência da Computação I é uma disciplina obrigatória do 1º período do curso de Ciência da Computação na UFCG que visa estudar conceitos matemáticos básicos que serão usados por todo o curso.",
             "type": "Disciplina",
             "entry": "Fundamentos de Matemática para Ciência da Computação I",
-            "examples": []
+            "examples": [
+                "Amanhã tem aula de FMCC1.",
+                "A prova de FMCC1 tava muito ruim."
+            ]
         }
     ],
     "FMCC2": [
         {
             "acronym": "FMCC2",
-            "meaning": "Fundamentos de Matemática para Ciência da Computação II",
+            "meaning": "Fundamentos de Matemática para Ciência da Computação II é uma disciplina obrigatória do 2º período do curso de Ciência da Computação na UFCG que visa o estudo de um conjunto de ferramentas matemáticas essenciais para Computação",
             "type": "Disciplina",
             "entry": "Fundamentos de Matemática para Ciência da Computação II",
-            "examples": []
+            "examples": [
+                "Vocês fizeram o mini teste de FMCC2?",
+                "Essa aula de FMCC2 foi muito boa!"
+            ]
         }
     ],
     "GR": [
@@ -146,19 +171,26 @@
     "IA": [
         {
             "acronym": "IA",
-            "meaning": "Inteligência Artificial",
+            "meaning": "Inteligência Artificial é uma disciplina obrigatória do 6º período de Ciência da Computação na UFCG com foco no estudo das principais técnicas de inteligência artificial, dentre elas: machine learning, PLN, robótica e visão computacional.",
             "type": "Disciplina",
             "entry": "Inteligência Artificial",
-            "examples": []
+            "examples": [
+                "IA casa muito bem com CDP.",
+                "A aula de IA hoje teve lógica fuzzy. Saudades lógica!",
+                "Usei regressão linear no projeto de IA."
+            ]
         }
     ],
     "IC": [
         {
             "acronym": "IC",
-            "meaning": "Introdução à Computação",
+            "meaning": "Introdução à Computação é uma disciplina obrigatória do 1º período de Ciência da Computação na UFCG que tem como foco mostrar uma visão geral do curso de Ciência da Computação, assim como ensinar conceitos básicos de Hardware e Software.",
             "type": "Disciplina",
             "entry": "Introdução à Computação",
-            "examples": []
+            "examples": [
+                "A aula de IC hoje foi muito massa.",
+                "Os resumos de IC do Tamburetei são muito bons."
+            ]
         }
     ],
     "IRC": [
@@ -185,7 +217,10 @@
             "entry": "Laboratório de Estrutura de Dados",
             "type": "Disciplina",
             "meaning": "Laboratório de Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação que é paga em conjunto com EDA para o aprofundamento prático dos assuntos vistos em EDA.",
-            "examples": ["Essa prova de LEDA eu só segurei na mão de Thanos e fui.","O roteiro de LEDA dessa semana é uma viagem!"]
+            "examples": [
+                "Essa prova de LEDA eu só segurei na mão de Thanos e fui.",
+                "O roteiro de LEDA dessa semana é uma viagem!"
+            ]
         }
     ],
     "LOAC": [
@@ -194,22 +229,28 @@
             "meaning": "Laboratório de Organização e Arquitetura de Computadores é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que visa o estudo da arquitetura e funcionamento dos componentes presentes em computadores de uma forma prática, tendo grande foco em como projetar e programar um processador. A disciplina conta com experimentos avaliativos práticos a cada aula.",
             "type": "Disciplina",
             "entry": "Laboratório de Organização e Arquitetura de Computadores",
-            "examples": ["LOAC é peso", "O LCC3 tá cheio de fio pelas mesas da aula de LOAC", "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"]
+            "examples": [
+                "LOAC é peso",
+                "O LCC3 tá cheio de fio pelas mesas da aula de LOAC",
+                "Estudei nada ainda pra prova do fim do mundo de LOAC amanhã"
+            ]
         }
     ],
     "LP1": [
         {
             "acronym": "LP1",
-            "meaning": "Laboratório de Programação 1",
+            "meaning": "Laboratório de Programação 1 é uma disciplina obrigatória do 1º período de Ciência da Computação na UFCG que é paga em conjunto com P1 e visa a ensinar aplicação prática dos assuntos teórios de P1.",
             "type": "Disciplina",
             "entry": "Laboratório de Programação 1",
-            "examples": []
+            "examples": [
+                "Esse mini teste de LP1 tava bom demais."
+            ]
         }
     ],
     "LP2": [
         {
             "acronym": "LP2",
-            "meaning": "Laboratório de Programação 2 é a disciplina obrigatória do 2º em que colocamos em prática o que aprendemos em Programação 2, cujo foco está em programação orientada ao objeto.",
+            "meaning": "Laboratório de Programação 2 é a disciplina obrigatória do 2º período do curso Ciência da Computação na UFCG na qual colocamos em prática o que aprendemos na disciplina Programação 2, cujo foco está em programação orientada ao objeto.",
             "type": "Disciplina",
             "entry": "Laboratório de Programação 2",
             "examples": ["Preciso terminar o terceiro lab de LP2", "Eu não sei se era melhor usar herança ou interface na prova de LP2" ]
@@ -218,16 +259,20 @@
     "MSN": [
         {
             "acronym": "MSN",
-            "meaning": "Métodos e Softwares Numéricos",
+            "meaning": "Métodos e Softwares Numéricos é uma disciplina optativa do curso Ciência da Computação na UFCG inspirada em Cálculo Numérico, mas voltada para Ciência da Computação. Os principais conceitos abordados são: cálculo de erro, encontrar o zero de funções, ajustar um polinômio entre pontos e calcular integrais. A matéria era obrigatória no plano de curso pré 2018.1.",
             "type": "Disciplina",
             "entry": "Métodos e Softwares Numéricos",
-            "examples": []
+            "examples": [
+                "Acho que vou pagar MSN pra completar minhas horas complementares.",
+                "Ei, você já pagou MSN? Coloquei na matrícula, mas estou com medo da matéria.",
+                "Socorro, onde eu encontro leites de MSN?"
+            ]
         }
     ],
     "OAC": [
         {
             "acronym": "OAC",
-            "meaning": "Organização e Arquitetura de Computadores é uma discilina obrigatória do 4º em que aprendemos como é a arquitetura de um computador internamente e como funcionam seus componentes.",
+            "meaning": "Organização e Arquitetura de Computadores é uma discilina obrigatória do 4º período do curso Ciência da Computação na UFCG na qual aprendemos como é a arquitetura de um computador internamente e como funcionam seus componentes.",
             "type": "Disciplina",
             "entry": "Organização e Arquitetura de Computadores",
             "examples": ["Aprendi como funciona um processador em OAC, muito massa!", "A atividade de OAC tem que ser entregue até sexta"]
@@ -236,10 +281,13 @@
     "P1": [
         {
             "acronym": "P1",
-            "meaning": "Programação 1 é uma disciplina obrigatória do 1º período em que tiramos dúvidas e aprendemos a lógica da programação usando a linguagem Python.",
+            "meaning": "Programação 1 é uma disciplina obrigatória do 1º período de Ciência da Computação na UFCG que visa ensinar conceitos básicos de programação que serão a base para todo o curso.",
             "type": "Disciplina",
             "entry": "Programação 1",
-            "examples": ["Qual a tua turma de P1 essa semana?", "Quem é o professor da turma 2 de P1?"]
+            "examples": [
+                "Amanhã vai ter aula de P1.",
+                "Fui tirar uma dúvida de P1 e o professor mandou eu perguntar ao shell do python."
+            ]
         },
         {
             "acronym": "P1",
@@ -252,10 +300,13 @@
     "P2": [
         {
             "acronym": "P2",
-            "meaning": "Programação 2",
+            "meaning": "Programação 2 é uma disciplina obrigatória do 2º período de Ciência da Computação na UFCG que visa ensinar conceitos de programação orientada a objeto. ",
             "type": "Disciplina",
             "entry": "Programação 2",
-            "examples": []
+            "examples": [
+                "A prova de P2 estava muito boa.",
+                "Amanhã vai ter aula de P2."
+            ]
         },
         {
             "acronym": "P2",
@@ -277,10 +328,13 @@
     "PLP": [
         {
             "acronym": "PLP",
-            "meaning": "Paradigmas de Linguagem de Programação",
+            "meaning": "Paradigmas de Linguagem de Programação é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que tem como foco estudar conceitos de linguagens de programação e os principais paradigmas que dão origem a diferentes estilos de programação.",
             "type": "Disciplina",
             "entry": "Paradigmas de Linguagem de Programação",
-            "examples": []
+            "examples": [
+                "Meu Deus a gente vai ter que aprender três linguagens em PLP",
+                "Essa prática de PLP foi mamão com açúcar."
+            ]
         }
     ],
     "SAD": [
@@ -322,10 +376,13 @@
     "TG": [
         {
             "acronym": "TG",
-            "meaning": "Teoria dos Grafos",
+            "meaning": "Teoria dos Grafos é uma disciplina obrigatória do 3º período de Ciência da Computação na UFCG que visa o estudo de problemas representados por grafos, assim como algoritmos conhecidos na teoria dos grafos.",
             "type": "Disciplina",
             "entry": "Teoria dos Grafos",
-            "examples": []
+            "examples": [
+                "Só existe vídeo de indiano explicando esse assunto de TG",
+                "Essa prática de TG estava muito boa."
+            ]
         }
     ],
     "VC": [
@@ -343,7 +400,11 @@
             "meaning": "Verificação e Validação de Software é uma disciplina optativa do curso de Ciência da Computação na UFCG que visa o estudo de técnicas de teste e validação de software a fim de melhorar a qualidade e a manutenção do sistema.",
             "type": "Disciplina",
             "entry": "Verificação e Validação de Software",
-            "examples": ["Essa semana tem quiz de VVS", "O projeto de VVS é pra amanhã", "Nossa, vi em VVS que fazer testes faz muita diferença!"]
+            "examples": [
+                "Essa semana tem quiz de VVS",
+                "O projeto de VVS é pra amanhã",
+                "Nossa, vi em VVS que fazer testes faz muita diferença!"
+            ]
         }
     ]
 }
