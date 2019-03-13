@@ -55,5 +55,15 @@
                 "A palestra da empresa X vai ser lá no CP1, o prédio do LCC3"
             ]
         }
+    ],
+    "Joab": [
+        {
+            "meaning": "Joab é como é conhecida a lanchonete mais próxima do CAA, fica bem ao lado da Xerox Amarelinha. Essa lanchonete é praticamente atrás do CAA e é muito frequentada por pessoas do curso de Ciência da Computação assim como por pessoas de outros cursos que se localizam marjoritariamente no setor de exatas.",
+            "type": "Bloco",
+            "entry": "CN",
+            "examples": [
+                "A palestra da empresa X vai ser lá no CP1, o prédio do LCC3"
+            ]
+        }
     ]
 }
