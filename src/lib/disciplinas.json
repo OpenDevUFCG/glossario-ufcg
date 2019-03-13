@@ -12,6 +12,30 @@
             ]
         }
     ],
+    "AD1": [
+        {
+            "acronym": "AD1",
+            "meaning": "Análise de Dados 1 era uma disciplina optativa do curso de Ciência da Computação. Equivale a CDD no PPC atual.",
+            "type": "Disciplina",
+            "entry": "Análise de Dados 1",
+            "examples": [
+                "Eu tou pagando AD1 agora, tá muito massa!",
+                "As atividades de AD1 tomam muito tempo, mas vc acaba aprendendo muito"
+            ]
+        }
+    ],
+    "AD2": [
+        {
+            "acronym": "AD2",
+            "meaning": "Análise de Dados 2 era uma disciplina optativa do curso de Ciência da Computação. Equivale a CDP no PPC atual.",
+            "type": "Disciplina",
+            "entry": "Análise de Dados 2",
+            "examples": [
+                "Eu tou pagando AD2 agora, que é CDP na grade nova",
+                "Em AD2 é que a gente aprende o básico de Machine Learning na prática"
+            ]
+        }
+    ],
     "ADSD": [
         {
             "acronym": "ADSD",
@@ -49,7 +73,9 @@
             "type": "Disciplina",
             "entry": "Banco de Dados I",
             "examples": [
-                "Me falaram que BD tem geralmente duas turmas."
+                "Me falaram que BD tem geralmente duas turmas.",
+                "Em BD a gente só aprende teoria, ou usa SQL também?",
+                "BD foi horrível no meu período."
             ]
         }
     ],
@@ -79,7 +105,8 @@
             "entry": "Ciência de Dados Preditiva",
             "examples": [
                 "CDP envolve muito Cálculo.",
-                "Hoje teve quiz em CDP?"
+                "Hoje teve quiz em CDP?",
+                "Passei o final de semana treinando os classificadores pro lab de CDP."
             ]
         }
     ],
@@ -223,6 +250,28 @@
             ]
         }
     ],
+    "LES": [
+        {
+            "acronym": "LES",
+            "meaning": "Laboratório de Engenharia de Software. Foi substituida no PPC atual por VVS e GP.",
+            "type": "Disciplina",
+            "entry": "Laboratório de Engenharia de Software",
+            "examples": [
+                "Gestão de Projetos é parecida com LES?"
+            ]
+        }
+    ],
+    "LIRC": [
+        {
+            "acronym": "LIRC",
+            "meaning": "Laboratório de Interconexão e Redes de Computadores era uma disciplina optativa do curso de Ciência da Computação. Foi incluída em IRC no PPC atual, que passou a ser uma disciplina de 4 créditos.",
+            "type": "Disciplina",
+            "entry": "Laboratório de Interconexão e Redes de Computadores",
+            "examples": [
+                "LIRC e IRC agora são uma disciplina só, né?"
+            ]
+        }
+    ],
     "LOAC": [
         {
             "acronym": "LOAC",
@@ -243,17 +292,22 @@
             "type": "Disciplina",
             "entry": "Laboratório de Programação 1",
             "examples": [
-                "Esse mini teste de LP1 tava bom demais."
+                "Esse mini teste de LP1 tava bom demais.",
+                "Nem passei de unidade no miniteste de LP1, hoje :("
             ]
         }
     ],
     "LP2": [
         {
             "acronym": "LP2",
-            "meaning": "Laboratório de Programação 2 é a disciplina obrigatória do 2º período do curso Ciência da Computação na UFCG na qual colocamos em prática o que aprendemos na disciplina Programação 2, cujo foco está em programação orientada ao objeto.",
+            "meaning": "Laboratório de Programação 2 é a disciplina obrigatória do 2º período do curso Ciência da Computação na UFCG na qual colocamos em prática o que aprendemos na disciplina Programação 2, cujo foco está em programação orientada ao objeto, através de Labs, Quizzes e Provas.",
             "type": "Disciplina",
             "entry": "Laboratório de Programação 2",
-            "examples": ["Preciso terminar o terceiro lab de LP2", "Eu não sei se era melhor usar herança ou interface na prova de LP2" ]
+            "examples": [
+                "Quando começa o próximo lab de LP2?",
+                "Preciso terminar o terceiro lab de LP2",
+                "Eu não sei se era melhor usar herança ou interface na prova de LP2"
+            ]
         }
     ],
     "MSN": [
@@ -272,10 +326,15 @@
     "OAC": [
         {
             "acronym": "OAC",
-            "meaning": "Organização e Arquitetura de Computadores é uma discilina obrigatória do 4º período do curso Ciência da Computação na UFCG na qual aprendemos como é a arquitetura de um computador internamente e como funcionam seus componentes.",
+            "meaning": "Organização e Arquitetura de Computadores é uma discilina obrigatória do 4º período do curso Ciência da Computação na UFCG na qual aprendemos como é a arquitetura de um computador internamente e como funcionam seus componentes. Ela apresenta diversos conceitos teóricos sobre hardware, com ênfase nos elementos que compoem a placa-mãe, sua evolução ao longo de tempo e como funcionam.",
             "type": "Disciplina",
             "entry": "Organização e Arquitetura de Computadores",
-            "examples": ["Aprendi como funciona um processador em OAC, muito massa!", "A atividade de OAC tem que ser entregue até sexta"]
+            "examples": [
+                "Aprendi como funciona um processador em OAC, muito massa!",
+                "A atividade de OAC tem que ser entregue até sexta",
+                "Consegui subir meu CRA com as atividades extras de OAC",
+                "Queria que o conteúdo de OAC fosse mais próximo do que a gente faz em LOAC..."
+            ]
         }
     ],
     "P1": [
@@ -346,6 +405,30 @@
             "examples": []
         }
     ],
+    "SI1": [
+        {
+            "acronym": "SI1",
+            "meaning": "Sistemas de Informação 1 era uma disciplina obrigatória do 4º semestre no curso de Ciência da Computação. Equivale a PSoft no PPC atual.",
+            "type": "Disciplina",
+            "entry": "Sistemas de Informação 1",
+            "examples": [
+                "É em SI 1 que a gente começa a mexer com Web?",
+                "Passei um tempão aprendendo a usar Angular.js pro Lab de SI"
+            ]
+        }
+    ],
+    "SI2": [
+        {
+            "acronym": "SI2",
+            "meaning": "Sistemas de Informação 2 era uma disciplina obrigatória do 5º semestre no curso de Ciência da Computação. Equivale a AS no PPC atual.",
+            "type": "Disciplina",
+            "entry": "Sistemas de Informação 2",
+            "examples": [
+                "Em SI 2 que vê bem direitinho aquelas coisas de UML, né?",
+                "No período que tu pagou SI 2, vocês estudaram conversão de diagrama em texto?"
+            ]
+        }
+    ],
     "SO": [
         {
             "acronym": "SO",
@@ -358,10 +441,13 @@
     "TC": [
         {
             "acronym": "TC",
-            "meaning": "Teoria da Computação",
+            "meaning": "Teoria da Computação é uma disciplina obrigatória do 5º período de Ciência da Computação. Nela, são vistos os conceitos de máquina de estados, expresões regulares, autômatos finitos, autômatos de pilha e máquina de Turing. Aborda a Ciência da Computação no mais alto nível teórico.",
             "type": "Disciplina",
             "entry": "Teoria da Computação",
-            "examples": []
+            "examples": [
+                "Demorei bastante pra aprender o problema da parada, em TC.",
+                "Até hoje me confundo na hora de fazer Regex, e olha que a gente estudou em TC."
+            ]
         }
     ],
     "TCC": [

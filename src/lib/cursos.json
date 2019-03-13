@@ -3,9 +3,22 @@
         {
             "entry": "Ciência da Computação",
             "acronym": "CC",
-            "meaning": "Ciência da Computação",
+            "meaning": "Ciência da Computação é um dos mais antigos cursos da UFCG, que teve sua primeira turma em 1976. Tem foco no estudo, aprendizado, análise, planejamento e desenvolvimento de software.",
             "type": "Curso",
-            "examples": []
+            "examples": [
+                "Os ferinhas de CC tão participando da Semana do Fera agora"
+            ]
+        }
+    ],
+    "EE": [
+        {
+            "entry": "Engenharia Elétrica",
+            "acronym": "EE",
+            "meaning": "Engenharia Elétrica é um dos mais antigos cursos da UFCG, que teve sua primeira turma em 1963. Tem foco na geração, transmissão e distribuição da energia elétrica, além de projetar e construir sistemas de controle e automação para produção em linhas industriais.",
+            "type": "Curso",
+            "examples": [
+                "Tentei convencer um amigo meu a fazer CC, mas ele preferiu ficar em EE"
+            ]
         }
     ]
 }
