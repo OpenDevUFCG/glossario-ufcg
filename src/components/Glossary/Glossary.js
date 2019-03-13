@@ -26,8 +26,8 @@ class Glossary extends Component {
         const randomEntry = this.getRandomEntry();
         return (
             <div className={"glossary__container"}>
-                <Link to={""}>
-                    <img className={"glossary__logo"} src={glossarioLogo} />
+                <Link to={""} className={"glossary__logo"}>
+                    <img src={glossarioLogo} />
                 </Link>
                 <Search className={"glossary__search"}
                         items={Object.keys(acronyms).sort()}
