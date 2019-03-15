@@ -417,7 +417,7 @@
     "SAD": [
         {
             "acronym": "SAD",
-            "meaning": "Sistemas de Apoio à Decisão",
+            "meaning": "Sistemas de Apoio à Decisão é uma disciplina optativa específica que explora sistemas de decisão sob a ótica de BI - Business Intelligence, na qual são explorados conceitos de data warehousing, OLAP, mineração de dados, visualização e aplicações analíticas. Tem como pré-requisito a disciplina de Banco de dados 1.",
             "type": "Disciplina",
             "entry": "Sistemas de Apoio à Decisão",
             "examples": []
