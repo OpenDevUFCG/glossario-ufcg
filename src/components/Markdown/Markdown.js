@@ -2,10 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
 
-const parseHtml = htmlParser({
-    isValidNode: node => node.type !== 'script',
-    processingInstructions: [/* ... */],
-});
+const parseHtml = htmlParser();
 
 const disallow = [
   'image',
