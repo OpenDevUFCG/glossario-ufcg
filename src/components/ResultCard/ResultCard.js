@@ -1,4 +1,5 @@
 import React from 'react';
+import Markdown from '../Markdown/Markdown';
 
 import './ResultCard.css';
 
@@ -22,7 +23,7 @@ const ResultCard = ({ result }) => (
 
         <div className="result-card__content">
             <h2 className={"result-card__title-2"}>Descrição</h2>
-            <p>{ result.meaning }</p>
+            <Markdown src={result.meaning} />
         </div>
 
         <div className="result-card__content">
