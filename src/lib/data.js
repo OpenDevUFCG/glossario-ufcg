@@ -9,7 +9,7 @@ const merge = (original, newObject) => {
         if (original[key] === undefined) {
             original[key] = newObject[key];
         } else {
-            original[key].concat(newObject[key]);
+            original[key] = original[key].concat(newObject[key]);
         }
     });
 };
