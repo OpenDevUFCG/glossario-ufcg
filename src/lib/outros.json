@@ -1,4 +1,27 @@
 {
+    "CI": [
+        {
+            "acronym": "CI",
+            "meaning": "Continuous Integration, ou CI, se refere ao processo de desenvolvimento no qual os desenvolvedores adicionam código aos poucos e de forma contínua. Para verificar as contribuições feitas pelos desenvolvedores, é comum que haja um mecanismo de checagem de erros e outras verificações. Exemplos desses mecanismos são o [Gitlab CI](https://about.gitlab.com/product/continuous-integration/) e [Travis](https://travis-ci.org/).",
+            "type": "Termo Técnico",
+            "entry": "Continuous Integration",
+            "examples": [
+                "A gente usava Jenkins, mas preferiu integrar tudo no Gitlab CI."
+            ]
+        }
+    ],
+    "COMMIT": [
+        {
+            "acronym": "COMMIT",
+            "meaning": "Commit se refere à um envio de arquivos e modificações à um repositório no git. Ele pode ser feito através do comando `git commit -m \"Sua mensagem aqui\"`. Você pode ler mais sobre commits [aqui](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line).",
+            "type": "Termo Técnico",
+            "entry": "Commit",
+            "examples": [
+                "Já dei commit com as coisas que tu me pediu na revisão.",
+                "Nosso projeto em P2 tinha mais de 100 commits."
+            ]
+        }
+    ],
     "DSC": [
         {
             "acronym": "DSC",
@@ -7,6 +30,30 @@
             "entry": "Departamento de Sistemas e Computação",
             "examples": [
                 "Tou indo na secretaria do DSC entregar o relatório da monitoria."
+            ]
+        }
+    ],
+    "FORK": [
+        {
+            "acronym": "FORK",
+            "meaning": "Um Fork é um clone público de um repositório no GitHub. Ele é bastante útil quando você não é dono do repositório nem colaborador, mas ainda assim deseja contribuir com alguma issue ou corrigir algum bug. Leia mais sobre os forks [aqui](https://help.github.com/en/articles/fork-a-repo).",
+            "type": "Termo Técnico",
+            "entry": "Fork",
+            "examples": [
+                "Eu tinha achado um bug no repositório, fiz um fork, corrigi e eles aceitaram meu PR.",
+                "Façam um fork do repositório de exemplo, implementem a atividade, e mandem o link do repositório para a avaliação."
+            ]
+        }
+    ],
+    "ISSUE": [
+        {
+            "acronym": "ISSUE",
+            "meaning": "Issue é um termo usado para se referir às discussões nos repositórios. Muitas vezes quando usamos alguma aplicação Open Source, encontramos erros ou ficamos com vontade de sugerir funcionalidades novas à aplicação, e fazemos isso através das issues. Assim, podemos entender que as issues são abertas para reportar erros, tirar dúvidas, solicitar melhorias, entre outros similares. Leia mais sobre issues [aqui](https://help.github.com/en/articles/creating-an-issue).",
+            "type": "Termo Técnico",
+            "entry": "Issue",
+            "examples": [
+                "No mutirão de carnaval, o glossário tava focado em contribuir com a issue #44.",
+                "Abri uma issue num repositório pra relatar um bug que achei, e ai eles confirmaram e corrigiram."
             ]
         }
     ],
@@ -19,14 +66,13 @@
             "examples": [
                 "O PET Computação tem mais de 20 anos de existência.",
                 "O PET Matemática oferece apoio acadêmico."
-
             ]
         }
     ],
     "PIBIC": [
         {
             "acronym": "PIBIC",
-            "meaning": "Programa Institucional de Bolsas de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa, por meio da concessão de bolsas a estudantes de graduação.", 
+            "meaning": "Programa Institucional de Bolsas de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa, por meio da concessão de bolsas a estudantes de graduação.",
             "type": "Programa",
             "entry": "Programa Institucional de Bolsas de Iniciação Científica",
             "examples": [
@@ -37,7 +83,7 @@
     "PIVIC": [
         {
             "acronym": "PIVIC",
-            "meaning": "Programa Institucional de Volutários de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa com estudantes de graduação.", 
+            "meaning": "Programa Institucional de Volutários de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa com estudantes de graduação.",
             "type": "Programa",
             "entry": "Programa Institucional de Volutários de Iniciação Científica",
             "examples": [
@@ -54,6 +100,18 @@
             "examples": [
                 "A gente tá no PCC novo ou antigo?",
                 "Esse é o último período no PCC antigo, né?"
+            ]
+        }
+    ],
+    "PR": [
+        {
+            "acronym": "PR",
+            "meaning": "Pull Request é uma expressão utilizada quando alguém está fazendo uma contribuição num repositório: geralmente, antes de qualquer contribuição ser aceita, o código modificado e/ou adicionado passa por um processo de teste e revisão de código. O PR serve para que os responsáveis pelo repositório revisem as modificações, aceitando-as ou requisitando modificações para aquele que o fez, antes de adicionar qualquer código ao repositório original. Leia mais sobre PRs [aqui](https://help.github.com/en/articles/about-pull-requests).",
+            "type": "Termo Técnico",
+            "entry": "Pull Request",
+            "examples": [
+                "Corrigi umas coisas e fiz um PR, me revisem.",
+                "Fiz um PR pra contribuir com a #44."
             ]
         }
     ],
@@ -103,5 +161,17 @@
                 "A unidade acadêmica da gente é UASC ou DSC?"
             ]
         }
-    ]   
+    ],
+    "WIP": [
+        {
+            "acronym": "WIP",
+            "meaning": "Work in Progress é um termo utilizado quando estamos desenvolvendo algo e já existe uma PR enquanto desenvolvemos. Utilizamos então o termo WIP no título da PR para indicar que aquela PR ainda não está finalizada, e ainda não é necessário o processo de revisão de código e que ainda não deve ser feito merge no código.",
+            "type": "Termo Técnico",
+            "entry": "Work In Progress",
+            "examples": [
+                "Já criei a PR, mas ainda tá WIP.",
+                "Quando ainda não tiver terminado as coisas da PR, deixa WIP no título, ok?"
+            ]
+        }
+    ]
 }
