@@ -7,7 +7,16 @@ const parseHtml = htmlParser({
     processingInstructions: [/* ... */],
 });
 
-const disallow = ['image', 'imageReference', 'table', 'tableHead', 'tableBody', 'tableRow', 'tableCell'];
+const disallow = [
+  'image',
+  'imageReference',
+  'table',
+  'tableHead',
+  'tableBody',
+  'tableRow',
+  'tableCell',
+  'heading'
+];
 
 const Markdown = ({ src }) => (
     <ReactMarkdown
