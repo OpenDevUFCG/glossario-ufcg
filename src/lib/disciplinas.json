@@ -398,6 +398,18 @@
             ]
         }
     ],
+    "Prob": [
+        {
+            "acronym": "Prob",
+            "meaning": "Probabilidade e Introdução à probabilidade são disciplinas oferecida pela Unidade Acadêmica de Estatística para diversos cursos da UFCG.",
+            "type": "Disciplina",
+            "entry": "Probabilidade",
+            "examples": [
+                "A prova de prob estava muito ruim.",
+                "Prob foi a melhor disciplina do meu período"
+            ]
+        }
+    ],
     "SAD": [
         {
             "acronym": "SAD",

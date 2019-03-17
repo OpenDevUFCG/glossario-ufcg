@@ -10,6 +10,41 @@
             ]
         }
     ],
+    "PET": [
+        {
+            "acronym": "PET",
+            "meaning": "Programa de Educação Tutorial é um programa do Governo Federal brasileiro de estímulo a atividades de pesquisa, ensino e extensão universitárias, no nível de graduação. O PET desenvolve diversas atividades sociais, levando o conhecimento para além da universidade, assim ajudando a sociedade.",
+            "type": "Programa",
+            "entry": "Programa de Educação Tutorial",
+            "examples": [
+                "O PET Computação tem mais de 20 anos de existência.",
+                "O PET Matemática oferece apoio acadêmico."
+
+            ]
+        }
+    ],
+    "PIBIC": [
+        {
+            "acronym": "PIBIC",
+            "meaning": "Programa Institucional de Bolsas de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa, por meio da concessão de bolsas a estudantes de graduação.", 
+            "type": "Programa",
+            "entry": "Programa Institucional de Bolsas de Iniciação Científica",
+            "examples": [
+                "Meu PIBIC é sobre a presença feminina no cangaço."
+            ]
+        }
+    ],
+    "PIVIC": [
+        {
+            "acronym": "PIVIC",
+            "meaning": "Programa Institucional de Volutários de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa com estudantes de graduação.", 
+            "type": "Programa",
+            "entry": "Programa Institucional de Volutários de Iniciação Científica",
+            "examples": [
+                "Meu contrato do PIVIC acaba em fevereiro."
+            ]
+        }
+    ],
     "PPC": [
         {
             "entry": "Projeto Pedagógico do Curso",
@@ -68,5 +103,5 @@
                 "A unidade acadêmica da gente é UASC ou DSC?"
             ]
         }
-    ]
+    ]   
 }
