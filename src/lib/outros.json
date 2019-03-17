@@ -13,11 +13,13 @@
     "PET": [
         {
             "acronym": "PET",
-            "meaning": "Programa de Educação Tutorial é um programa do Governo Federal brasileiro de estímulo a atividades de pesquisa, ensino e extensão universitárias, no nível de graduação.",
+            "meaning": "Programa de Educação Tutorial é um programa do Governo Federal brasileiro de estímulo a atividades de pesquisa, ensino e extensão universitárias, no nível de graduação. O PET desenvolve diversas atividades sociais, levando o conhecimento para além da universidade, assim ajudando a sociedade.",
             "type": "Programa",
             "entry": "Programa de Educação Tutorial",
             "examples": [
-                "O PET computação tem mais de 20 anos de existência."
+                "O PET Computação tem mais de 20 anos de existência.",
+                "O PET Matemática oferece apoio acadêmico."
+
             ]
         }
     ],
@@ -101,5 +103,5 @@
                 "A unidade acadêmica da gente é UASC ou DSC?"
             ]
         }
-    ]
+    ]   
 }
