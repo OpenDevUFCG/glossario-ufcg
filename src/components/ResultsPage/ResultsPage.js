@@ -1,12 +1,13 @@
 import React, {Component} from "react";
 import "./ResultsPage.css"
 import Search from "../search/Search";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
 import acronyms from '../../lib/data';
 import ResultCard from "../ResultCard/ResultCard";
+import NotFound from "../404/NotFound";
 
 const Results = ({ results }) => results.map(result => (
         <ResultCard result={result} key={result.entry + result.meaning}/>
@@ -43,7 +44,10 @@ class ResultsPage extends Component {
                             handleSelect={this.handleAcronymChange}/>
                 </div>
                 <div className={"results-page__results-container"}>
-                    <Results results={this.getAcronymResults()}/>
+                    {!this.isResultEmpty() ?
+                        <Results results={this.getAcronymResults()} /> :
+                        <NotFound termo={this.props.match.params.acronym} />
+                    }
                 </div>
             </div>
         );
