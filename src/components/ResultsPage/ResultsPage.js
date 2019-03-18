@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import "./ResultsPage.css"
 import Search from "../search/Search";
-import { Link, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
