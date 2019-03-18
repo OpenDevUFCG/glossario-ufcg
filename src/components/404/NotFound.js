@@ -3,7 +3,7 @@ import ResultCard from '../ResultCard/ResultCard';
 
 const notFoundCard = termo => ({
     acronym: "404",
-    meaning: `O termo \`${termo}\`, que você buscou, não foi encontrado :(. Se você acha que o termo deveria ser adicionado, contribua com [nosso repositório](https://github.com/OpenDevUFCG/glossario-ufcg/) adicionando-o.`,
+    meaning: `O termo \`${termo}\`, que você buscou, não foi encontrado :(. Se você acha que o termo deveria ser adicionado, [sugira a sua adição](https://github.com/OpenDevUFCG/glossario-ufcg/issues/new?template=new_term.md) ou [adicione você mesmo](https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/CONTRIBUTING.md).`,
     type: "Página não encontrada",
     entry: "404 - Página não encontrada",
     examples: [
