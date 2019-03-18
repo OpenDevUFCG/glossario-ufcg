@@ -25,7 +25,6 @@ class ResultsPage extends Component {
 
     getAcronymResults = () => {
         const acronym = this.props.match.params.acronym;
-        console.log(this.props);
         return acronyms[acronym] || [];
     };
 
