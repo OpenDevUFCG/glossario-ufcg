@@ -8,7 +8,7 @@ const parentDir = path.join(__dirname, '../');
 const config = {
     entry: ['react-dev-utils/webpackHotDevClient', `${parentDir}/src/index.js`],
     output: {
-        path: path.resolve(parentDir, 'public'),
+        path: `${parentDir}/public/`,
         filename: 'bundle.[hash].js',
     },
     module: {
@@ -51,7 +51,7 @@ const config = {
             filename: 'style.css',
         }),
         new HtmlWebPackPlugin({
-            template: __dirname + "/src/index.html",
+            template: `${parentDir}/src/index.html`,
             filename: "index.html"
         })
     ]
