@@ -6,9 +6,9 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const parentDir = path.join(__dirname, '../');
 
 const config = {
-    entry: ['react-dev-utils/webpackHotDevClient', `${parentDir}/src/index.js`],
+    entry: [`${parentDir}/src/index.js`],
     output: {
-        path: `${parentDir}/public/`,
+        path: `${parentDir}public/`,
         filename: 'bundle.[hash].js',
     },
     module: {
