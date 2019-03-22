@@ -2,7 +2,7 @@
 
 ![Glossário UFCG Logo](https://i.imgur.com/PBCURux.png)
 
-Glossário contendo significados de siglas e gírias usadas por alunos da UFCG - Campus Campina Grande.
+[Glossário](https://glossario.opendevufcg.org/) contendo significados de siglas e gírias usadas por alunos da UFCG - Campus Campina Grande.
 
 ## Executar localmente
 
