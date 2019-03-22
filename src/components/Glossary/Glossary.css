@@ -17,7 +17,7 @@
     grid-area: day-phrase;
 }
 
-.glossary__day-phrase:hover {
+.emphasis:hover {
     opacity: 0.67;
 }
 
