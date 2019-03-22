@@ -17,6 +17,10 @@
     grid-area: day-phrase;
 }
 
+.glossary__day-phrase__term:hover {
+    opacity: 0.67;
+}
+
 .glossary__logo {
     grid-area: logo;
     width: 400px;
