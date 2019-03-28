@@ -1,4 +1,5 @@
-# Glossário UFCG [![Build Status](https://travis-ci.com/OpenDevUFCG/glossario-ufcg.svg?branch=master)](https://travis-ci.com/OpenDevUFCG/glossario-ufcg) [![Join the chat at https://gitter.im/OpenDevUFCG/glossario-ufcg](https://badges.gitter.im/OpenDevUFCG/glossario-ufcg.svg)](https://gitter.im/OpenDevUFCG/glossario-ufcg?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Glossário UFCG [![Build Status](https://travis-ci.com/OpenDevUFCG/glossario-ufcg.svg?branch=master)](https://travis-ci.com/OpenDevUFCG/glossario-ufcg) [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/YT7NvM)
+![Tamburetei Logo](https://i.imgur.com/FOgBKcI.png)
 
 ![Glossário UFCG Logo](https://i.imgur.com/PBCURux.png)
 
