@@ -1,5 +1,4 @@
 # Glossário UFCG [![Build Status](https://travis-ci.com/OpenDevUFCG/glossario-ufcg.svg?branch=master)](https://travis-ci.com/OpenDevUFCG/glossario-ufcg) [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/YT7NvM)
-![Tamburetei Logo](https://i.imgur.com/FOgBKcI.png)
 
 ![Glossário UFCG Logo](https://i.imgur.com/PBCURux.png)
 
