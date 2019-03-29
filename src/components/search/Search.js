@@ -10,7 +10,7 @@ const renderOption = (item) => (
 );
 
 const CustomSearchButton = (props) => (
-    <button className={"search__button-container pointer-hover"} onClick={props.handleClick}>
+    <button className={"search__button-container pointer-hover lighter-hover"} onClick={props.handleClick}>
         <Icon className={"search__button"} icon={"search"} iconColor={"#FFFFFF"}/>
     </button>
 );
