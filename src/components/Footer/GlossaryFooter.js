@@ -8,10 +8,10 @@ const aboutLink = "https://opendevufcg.org/";
 
 const GlossaryFooter = (props) => (
     <div className={'glossary-footer'}>
-        <a className={"pointer-hover no-decoration"} href={contributionLink}>
+        <a className={"pointer-hover no-decoration lighter-hover"} href={contributionLink}>
             <IconWithText icon={"inbox"} text={"Como contribuir?"}/>
         </a>
-        <a className={"pointer-hover no-decoration"} href={aboutLink}>
+        <a className={"pointer-hover no-decoration lighter-hover"} href={aboutLink}>
             <IconWithText icon={"people"} text={"Quem somos?"}/>
         </a>
     </div>
