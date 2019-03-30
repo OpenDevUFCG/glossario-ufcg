@@ -17,8 +17,6 @@ build:
 
 lint:
   stage: lint
-  except:
-    - "master"
   script:
     - yarn run lint
 
