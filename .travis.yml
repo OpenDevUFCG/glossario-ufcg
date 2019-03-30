@@ -7,6 +7,16 @@ cache:
 script:
   - yarn run build
 
+stages:
+  - lint
+
+lint:
+  stage: lint
+  except:
+    - "master"
+  script:
+    - yarn run lint
+
 deploy:
   provider: pages
   skip_cleanup: true
