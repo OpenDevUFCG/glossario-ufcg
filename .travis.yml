@@ -4,11 +4,16 @@ node_js:
 cache:
   directories:
   - node_modules
-script:
-  - yarn run build
 
 stages:
+  - build
   - lint
+  - deploy
+
+build:
+  stage: build
+  script:
+    - yarn run build
 
 lint:
   stage: lint
