@@ -6,7 +6,7 @@ import IconWithText from "../IconWithText/IconWithText"
 const contributionLink = "https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/CONTRIBUTING.md";
 const aboutLink = "https://opendevufcg.org/";
 
-const GlossaryFooter = (props) => (
+const GlossaryFooter = () => (
     <div className={'glossary-footer'}>
         <a className={"pointer-hover no-decoration lighter-hover"} href={contributionLink}>
             <IconWithText icon={"inbox"} text={"Como contribuir?"}/>

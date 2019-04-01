@@ -1,13 +1,14 @@
 import React, {Component} from "react";
-import "./ResultsPage.css"
+import PropTypes from 'prop-types';
 import Search from "../search/Search";
 import { Link } from "react-router-dom";
-
-import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
 import acronyms from '../../lib/data';
 import ResultCard from "../ResultCard/ResultCard";
 import NotFound from "../404/NotFound";
+
+import glossarioLogo from '../../../assets/images/glossario-logo.svg';
+import "./ResultsPage.css"
 
 const Results = ({ results }) => results.map(result => (
         <ResultCard result={result} key={result.entry + result.meaning}/>
@@ -53,5 +54,10 @@ class ResultsPage extends Component {
         );
     }
 }
+
+ResultsPage.propTypes = {
+    match: PropTypes.object,
+    history: PropTypes.object,
+};
 
 export default ResultsPage;

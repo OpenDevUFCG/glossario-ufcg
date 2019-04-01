@@ -1,6 +1,8 @@
 // Script original em python por Júlio Barreto,
 // traduzido para javascript por Paulo Leitão.
 
+/* eslint no-console: 0 */
+
 const fs = require('fs');
 
 const dataFiles = ['cursos', 'disciplinas', 'girias', 'locais', 'outros'];
@@ -23,8 +25,8 @@ function updateFile(name) {
     fs.writeFileSync(path, dataString);
 }
 
-console.log('\033[1;93m Reordenando arquivos de dados... \033[0m');
+console.log('\0o33[1;93m Reordenando arquivos de dados... \0o33[0m');
 
 dataFiles.forEach(df => updateFile(df));
 
-console.log('\033[1;93m Pronto! :) \033[0m');
+console.log('\0o33[1;93m Pronto! :) \0o33[0m');

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ResultCard from '../ResultCard/ResultCard';
 
 const notFoundCard = termo => ({
@@ -15,5 +16,9 @@ const notFoundCard = termo => ({
 const NotFound = ({ termo }) => (
     <ResultCard result={notFoundCard(termo)} />
 );
+
+NotFound.propTypes = {
+    termo: PropTypes.string,
+};
 
 export default NotFound;

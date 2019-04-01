@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+const webpack = require('webpack'); // eslint-disable-line no-unused-vars
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebPackPlugin = require("html-webpack-plugin");

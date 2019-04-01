@@ -1,13 +1,19 @@
 import React from 'react';
-import "./IconWithText.css"
-
+import PropTypes from 'prop-types';
 import Icon from "../Icon/Icon"
 
-const IconWithText = (props) => (
+import "./IconWithText.css"
+
+const IconWithText = ({ icon, text }) => (
     <div className={"icon-with-text light-accent"}>
-        <Icon icon={props.icon} size={"30px"}/>
-        <span>{props.text}</span>
+        <Icon icon={icon} size={"30px"}/>
+        <span>{text}</span>
     </div>
 );
+
+IconWithText.propTypes = {
+    icon: PropTypes.any,
+    text: PropTypes.string,
+};
 
 export default IconWithText;

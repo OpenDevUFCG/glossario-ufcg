@@ -1,7 +1,8 @@
-import React, {Component} from "react";
-import "./Glossary.css"
-import Search from "../search/Search";
+import React, { Component } from "react";
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
+import Search from "../search/Search";
+import "./Glossary.css"
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
@@ -37,5 +38,9 @@ class Glossary extends Component {
         );
     }
 }
+
+Glossary.propTypes = {
+    history: PropTypes.object,
+};
 
 export default Glossary;

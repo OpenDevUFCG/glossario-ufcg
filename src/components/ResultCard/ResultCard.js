@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Markdown from '../Markdown/Markdown';
 
 import './ResultCard.css';
@@ -14,7 +15,12 @@ const ExamplesIfExists = ({ entry, examples }) => {
             <Examples entry={ entry } examples={ examples } />
         </ul>
     );
-}
+};
+
+ExamplesIfExists.propTypes = {
+    examples: PropTypes.array,
+    entry: PropTypes.string,
+};
 
 const ResultCard = ({ result }) => (
     <div className={"result-card__container"}>
@@ -32,5 +38,9 @@ const ResultCard = ({ result }) => (
         </div>
     </div>
 );
+
+ResultCard.propTypes = {
+    result: PropTypes.object,
+};
 
 export default ResultCard;
