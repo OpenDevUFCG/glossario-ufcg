@@ -7,10 +7,10 @@ cache:
 
 jobs:
   include:
-    - stage: build
-      script: yarn run build
     - stage: lint
       script: yarn run lint
+    - stage: build
+      script: yarn run build
     - stage: deploy
 
 deploy:
