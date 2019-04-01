@@ -12,11 +12,12 @@ jobs:
     - stage: lint
       script: yarn run lint
     - stage: deploy
-      deploy:
-        provider: pages
-        skip_cleanup: true
-        github_token: $github_token
-        local_dir: public
-        fqdn: glossario.opendevufcg.org
-        on:
-          branch: master
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: public
+  fqdn: glossario.opendevufcg.org
+  on:
+    branch: master
