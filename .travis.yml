@@ -4,24 +4,14 @@ node_js:
 cache:
   directories:
   - node_modules
-script:
-  - yarn run build
 
 jobs:
   include:
     - stage: build
+      script: yarn run build
     - stage: lint
+      script: yarn run lint
     - stage: deploy
-
-build:
-  stage: build
-  script:
-    - yarn run build
-
-lint:
-  stage: lint
-  script:
-    - yarn run lint
 
 deploy:
   provider: pages
