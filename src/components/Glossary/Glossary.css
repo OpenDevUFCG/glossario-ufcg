@@ -13,6 +13,7 @@
 }
 
 .glossary__search-tools {
+    padding: 1em;
     height: 100%;
     width: 100%;
     display: grid;
@@ -51,7 +52,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, max-content);
         grid-gap: 1em;
-        padding: 1.5em;
+        padding: 0.5em 1em 0;
     }
 
     .glossary__logo, .glossary__day-phrase {
