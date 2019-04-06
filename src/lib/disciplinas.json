@@ -471,7 +471,7 @@
     "TCC": [
         {
             "acronym": "TCC",
-            "meaning": "Trabalho de Conclusão de Curso, é um trabalho obrigatório para concluir o curso de Ciência da Computação.",
+            "meaning": "Trabalho de Conclusão de Curso, é um trabalho acadêmico obrigatório de muitos cursos de graduação que tem como função ser o instrumento de avaliação final de um curso superior.",
             "type": "Disciplina",
             "entry": "Trabalho de Conclusão de Curso",
             "examples": [
