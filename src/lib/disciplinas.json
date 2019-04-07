@@ -233,11 +233,15 @@
     ],
     "JoDi": [
         {
-            "acronym": "JoDi",
-            "meaning": "Jogos Digitais",
+            "acronym": "Jogos",
+            "meaning": "Jogos Digitais é uma cadeira optativa específica do curso de Ciência da Computação.",
             "type": "Disciplina",
             "entry": "Jogos Digitais",
-            "examples": []
+            "examples": [
+                "A prova de jogos tava muito boa",
+                "Hoje tem aula de jogos?",
+                "Se eu cursar jogos, posso ficar jogando candy crush na aula?"
+            ]
         }
     ],
     "LEDA": [
@@ -245,7 +249,7 @@
             "acronym": "LEDA",
             "entry": "Laboratório de Estrutura de Dados",
             "type": "Disciplina",
-            "meaning": "Laboratório de Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência de Computação que é paga em conjunto com EDA para o aprofundamento prático dos assuntos vistos em EDA.",
+            "meaning": "Laboratório de Estrutura de Dados é uma disciplina obrigatória do 3º período do curso de Ciência da Computação que é paga em conjunto com EDA para o aprofundamento prático dos assuntos vistos em EDA.",
             "examples": [
                 "Essa prova de LEDA eu só segurei na mão de Thanos e fui.",
                 "O roteiro de LEDA dessa semana é uma viagem!"
@@ -467,10 +471,13 @@
     "TCC": [
         {
             "acronym": "TCC",
-            "meaning": "Trabalho de Conclusão de Curso",
+            "meaning": "Trabalho de Conclusão de Curso, é um trabalho acadêmico obrigatório de muitos cursos de graduação que tem como função ser o instrumento de avaliação final de um curso superior.",
             "type": "Disciplina",
             "entry": "Trabalho de Conclusão de Curso",
-            "examples": []
+            "examples": [
+                "Só falta o TCC pra acabar o curso.",
+                "E esse TCC sai ou não sai?"
+            ]
         }
     ],
     "TG": [
