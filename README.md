@@ -22,7 +22,7 @@ O glossário estará disponível em http://localhost:8000/
 
 Caso você deseje adicionar/editar os termos ou contribuir com qualquer outra coisa no Glossário, leia o [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Sinta-se livre para reportar erros, tirar dúvidas, dar sugestões e mandar mensagens bonitinhas pra gente nas issues :heart: e não esquece de entrar no [nosso channel no gitter](https://gitter.im/OpenDevUFCG/glossario-ufcg) pra conversar com a gente!!
+Sinta-se livre para reportar erros, tirar dúvidas, dar sugestões e mandar mensagens bonitinhas pra gente nas issues :heart: e não esquece de entrar no [nosso channel no discord](https://discordapp.com/invite/vFFGGEE) pra conversar com a gente!!
 
 ## Galerinha top que ajuda a gente :heart:
 
