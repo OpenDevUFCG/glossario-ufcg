@@ -1,12 +1,12 @@
 import React from 'react';
-import "./GlossaryFooter.css"
+import "./Footer.css"
 
-import IconWithText from "../IconWithText/IconWithText"
+import IconWithText from "../../commons/IconWithText/IconWithText"
 
 const contributionLink = "https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/CONTRIBUTING.md";
 const aboutLink = "https://opendevufcg.org/";
 
-const GlossaryFooter = (props) => (
+const Footer = () => (
     <div className={'glossary-footer'}>
         <a className={"pointer-hover no-decoration lighter-hover"} href={contributionLink}>
             <IconWithText icon={"inbox"} text={"Como contribuir?"}/>
@@ -18,4 +18,4 @@ const GlossaryFooter = (props) => (
 );
 
 
-export default GlossaryFooter;
+export default Footer;

@@ -1,4 +1,4 @@
-.result-card__container {
+.term-card__container {
     background: #fff;
     font-family: 'Ikaros', sans-serif;
     border-radius: 10px;
@@ -14,22 +14,22 @@
         'left-content right-content';
 }
 
-.result-card__title-1 {
+.term-card__title-1 {
     grid-area: title;
     margin: 0;
     line-height: 1.2em;
 }
 
-.result-card__list-phrase {
+.term-card__list-phrase {
     padding-left: 15px
 }
 
-.result-card__item-phrase {
+.term-card__item-phrase {
     margin-bottom: 10px;
     font-style: italic;
 }
 
-.result-card__subtitle {
+.term-card__subtitle {
     grid-area: subtitle;
     font-family: 'Krub', 'sans-serif';
     font-weight: 500;
@@ -37,14 +37,14 @@
     font-style: italic;
 }
 
-.result-card__title-2 {
+.term-card__title-2 {
     margin-top: 20px;
     color: gray;
 }
 
 
 @media screen and (max-width: 720px) {
-    .result-card__container {
+    .term-card__container {
         display: grid;
         grid-gap: 1em;
         grid-template-columns: 1fr;
@@ -55,7 +55,7 @@
             'content-right';
     }
 
-    .result-card__title-2 {
+    .term-card__title-2 {
         margin-top: 0;
     }
 }

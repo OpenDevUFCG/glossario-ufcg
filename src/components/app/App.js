@@ -1,18 +1,18 @@
 import * as React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Glossary from "../Glossary/Glossary";
-import GlossaryFooter from "../Footer/GlossaryFooter"
+import GlossaryPage from "../glossary/GlossaryPage";
+import Footer from "./Footer/Footer"
 
 import './App.css';
-import ResultsPage from '../ResultsPage/ResultsPage';
+import TermPage from '../term/TermPage';
 
 const App = () => (
     <div className={"main"}>
         <Switch className={"main__route"}>
-            <Route path="/" exact component={Glossary}/>
-            <Route path="/:acronym" component={ResultsPage}/>
+            <Route path="/" exact component={GlossaryPage}/>
+            <Route path="/:acronym" component={TermPage}/>
         </Switch>
-        <GlossaryFooter className={"main__footer"}/>
+        <Footer className={"main__footer"}/>
     </div>
 );
 
