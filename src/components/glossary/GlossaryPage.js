@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./GlossaryPage.css"
-import Search from "../commons/search/Search";
+import Search from "../common/search/Search";
 import { Link } from "react-router-dom";
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Footer.css"
 
-import IconWithText from "../../commons/IconWithText/IconWithText"
+import IconWithText from "../../common/IconWithText/IconWithText"
 
 const contributionLink = "https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/CONTRIBUTING.md";
 const aboutLink = "https://opendevufcg.org/";
