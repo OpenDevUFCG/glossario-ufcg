@@ -19,17 +19,17 @@ class TermPage extends Component {
         super(props);
     }
 
-    handleAcronymChange = (selected) => {
+    handleTermChange = (selected) => {
         this.props.history.push(`/${selected}`);
     };
 
-    getAcronymResults = () => {
-        const acronym = this.props.match.params.acronym;
-        return terms[acronym] || [];
+    getTermResults = () => {
+        const term = this.props.match.params.term;
+        return terms[term] || [];
     };
 
     isResultEmpty = () => {
-        return this.getAcronymResults().length === 0;
+        return this.getTermResults().length === 0;
     }
 
     render() {
@@ -41,12 +41,12 @@ class TermPage extends Component {
                     </Link>
                     <Search className={"results-page__search"}
                             items={Object.keys(terms).sort()}
-                            handleSelect={this.handleAcronymChange}/>
+                            handleSelect={this.handleTermChange}/>
                 </div>
                 <div className={"results-page__results-container"}>
                     {!this.isResultEmpty() ?
-                        <Results results={this.getAcronymResults()} /> :
-                        <NotFound termo={this.props.match.params.acronym} />
+                        <Results results={this.getTermResults()} /> :
+                        <NotFound termo={this.props.match.params.term} />
                     }
                 </div>
             </div>

@@ -10,7 +10,7 @@ const App = () => (
     <div className={"main"}>
         <Switch className={"main__route"}>
             <Route path="/" exact component={GlossaryPage}/>
-            <Route path="/:acronym" component={TermPage}/>
+            <Route path="/:term" component={TermPage}/>
         </Switch>
         <Footer className={"main__footer"}/>
     </div>
