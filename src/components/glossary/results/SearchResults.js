@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./TermPage.css"
+import "./SearchResults.css"
 
 import terms from '../../../lib/data';
 import { TermCard } from '../../common/index'
@@ -10,7 +10,7 @@ const Results = ({ results }) => results.map(result => (
     )
 );
 
-class TermPage extends Component {
+class SearchResults extends Component {
     constructor(props) {
         super(props);
     }
@@ -23,7 +23,7 @@ class TermPage extends Component {
 
     render() {
         return (
-            <div className={"results-page__results-container"}>
+            <div className={"search-results__results-container"}>
                 {!this.isResultEmpty() ?
                     <Results results={this.getTermResults()} /> :
                     <NotFound termo={this.getTerm()} />
@@ -33,4 +33,4 @@ class TermPage extends Component {
     }
 }
 
-export default TermPage;
+export default SearchResults;

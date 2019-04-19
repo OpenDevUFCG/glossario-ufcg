@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
 import terms from '../../lib/data';
-import TermPage from "./term/TermPage";
+import SearchResults from "./results/SearchResults";
 
 const DayPhrase = ({ entry }) => {
     return (
@@ -54,7 +54,7 @@ class GlossaryPage extends Component {
                     }
                 </div>
                 {!this.isSearchEmpty() ?
-                    <TermPage term={this.getTerm()}/> :
+                    <SearchResults term={this.getTerm()}/> :
                     ""
                 }
             </div>

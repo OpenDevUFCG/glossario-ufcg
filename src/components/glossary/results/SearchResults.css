@@ -1,4 +1,4 @@
-.results-page__results-container {
+.search-results__results-container {
     background-color: #30abae;
     align-items: center;
     align-content: center;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 720px) {
 
-    .results-page__results-container {
+    .search-results__results-container {
         padding: 2em 1em;
     }
 }
