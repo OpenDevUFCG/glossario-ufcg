@@ -42,7 +42,7 @@ class Glossary extends Component {
         const randomEntry = this.getRandomEntry();
         const glossaryContainerClass = this.isSearchEmpty() ? "glossary__container--has-not-search" : "glossary__container--has-search";
         return (
-            <div className={"glossary__container " + glossaryContainerClass}>
+            <div className={`glossary__container ${glossaryContainerClass}`}>
                 <div className={"glossary__search-tools"}>
                     <Link to={""} className={"glossary__logo"}>
                         <img src={glossarioLogo} />
