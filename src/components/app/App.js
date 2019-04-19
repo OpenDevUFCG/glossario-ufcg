@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { Route } from 'react-router-dom';
-import Glossary from "../Glossary/Glossary";
-import GlossaryFooter from "../Footer/GlossaryFooter"
+import GlossaryPage from "../glossary/GlossaryPage";
+import Footer from "./Footer/Footer"
 
 import './App.css';
 
 const App = () => (
     <div className={"main"}>
-        <Route path="/:acronym?" component={Glossary}/>
-        <GlossaryFooter className={"main__footer"}/>
+        <Route path="/:term?" component={GlossaryPage}/>
+        <Footer className={"main__footer"}/>
     </div>
 );
 

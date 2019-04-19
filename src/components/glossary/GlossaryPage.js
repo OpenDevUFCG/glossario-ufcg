@@ -1,12 +1,12 @@
 import React, {Component} from "react";
-import "./Glossary.css"
-import Search from "../search/Search";
+import "./GlossaryPage.css"
+import { Search } from "../common/index";
 import { Link } from "react-router-dom";
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
-import acronyms from '../../lib/data';
-import ResultsPage from "../ResultsPage/ResultsPage";
+import terms from '../../lib/data';
+import TermPage from "./term/TermPage";
 
 const DayPhrase = ({ entry }) => {
     return (
@@ -15,7 +15,7 @@ const DayPhrase = ({ entry }) => {
         </span>)
 };
 
-class Glossary extends Component {
+class GlossaryPage extends Component {
     constructor(props) {
         super(props);
     }
@@ -25,18 +25,16 @@ class Glossary extends Component {
     };
 
     getRandomEntry = () => {
-        const entries = Object.keys(acronyms);
+        const entries = Object.keys(terms);
         const index = Math.floor(Math.random() * entries.length);
         return entries[index];
-    }
+    };
 
-    getAcronym() {
-        return this.props.match.params.acronym;
-    }
+    getTerm = () => this.props.match.params.term;
 
     isSearchEmpty = () => {
-        return this.getAcronym() === undefined;
-    }
+        return this.getTerm() === undefined;
+    };
 
     render() {
         const randomEntry = this.getRandomEntry();
@@ -48,7 +46,7 @@ class Glossary extends Component {
                         <img src={glossarioLogo} />
                     </Link>
                     <Search className={"glossary__search"}
-                            items={Object.keys(acronyms).sort()}
+                            items={Object.keys(terms).sort()}
                             handleSelect={this.handleAcronymChange}/>
                     {this.isSearchEmpty() ?
                         <DayPhrase entry={randomEntry}/> :
@@ -56,7 +54,7 @@ class Glossary extends Component {
                     }
                 </div>
                 {!this.isSearchEmpty() ?
-                    <ResultsPage acronym={this.getAcronym()}/> :
+                    <TermPage term={this.getTerm()}/> :
                     ""
                 }
             </div>
@@ -64,4 +62,4 @@ class Glossary extends Component {
     }
 }
 
-export default Glossary;
+export default GlossaryPage;
