@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import "./TermPage.css"
 
-import terms from '../../lib/data';
-import { TermCard } from "../common/index";
+import terms from '../../../lib/data';
+import { TermCard } from '../../common/index'
 import NotFound from "./404/NotFound";
 
 const Results = ({ results }) => results.map(result => (
