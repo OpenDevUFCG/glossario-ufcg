@@ -1,5 +1,5 @@
 import React from 'react';
-import ResultCard from '../ResultCard/ResultCard';
+import { TermCard } from '../../common/index';
 
 const notFoundCard = termo => ({
     acronym: "404",
@@ -13,7 +13,7 @@ const notFoundCard = termo => ({
 });
 
 const NotFound = ({ termo }) => (
-    <ResultCard result={notFoundCard(termo)} />
+    <TermCard term={notFoundCard(termo)} />
 );
 
 export default NotFound;

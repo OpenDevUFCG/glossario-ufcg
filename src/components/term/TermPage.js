@@ -1,35 +1,35 @@
 import React, {Component} from "react";
-import "./ResultsPage.css"
-import Search from "../search/Search";
+import "./TermPage.css"
+import { Search } from "../common/index";
 import { Link } from "react-router-dom";
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
-import acronyms from '../../lib/data';
-import ResultCard from "../ResultCard/ResultCard";
-import NotFound from "../404/NotFound";
+import terms from '../../lib/data';
+import { TermCard } from "../common/index";
+import NotFound from "./404/NotFound";
 
 const Results = ({ results }) => results.map(result => (
-        <ResultCard result={result} key={result.entry + result.meaning}/>
+        <TermCard term={result} key={result.entry + result.meaning}/>
     )
 );
 
-class ResultsPage extends Component {
+class TermPage extends Component {
     constructor(props) {
         super(props);
     }
 
-    handleAcronymChange = (selected) => {
+    handleTermChange = (selected) => {
         this.props.history.push(`/${selected}`);
     };
 
-    getAcronymResults = () => {
-        const acronym = this.props.match.params.acronym;
-        return acronyms[acronym] || [];
+    getTermResults = () => {
+        const term = this.props.match.params.term;
+        return terms[term] || [];
     };
 
     isResultEmpty = () => {
-        return this.getAcronymResults().length === 0;
+        return this.getTermResults().length === 0;
     }
 
     render() {
@@ -40,13 +40,13 @@ class ResultsPage extends Component {
                         <img src={glossarioLogo} />
                     </Link>
                     <Search className={"results-page__search"}
-                            items={Object.keys(acronyms).sort()}
-                            handleSelect={this.handleAcronymChange}/>
+                            items={Object.keys(terms).sort()}
+                            handleSelect={this.handleTermChange}/>
                 </div>
                 <div className={"results-page__results-container"}>
                     {!this.isResultEmpty() ?
-                        <Results results={this.getAcronymResults()} /> :
-                        <NotFound termo={this.props.match.params.acronym} />
+                        <Results results={this.getTermResults()} /> :
+                        <NotFound termo={this.props.match.params.term} />
                     }
                 </div>
             </div>
@@ -54,4 +54,4 @@ class ResultsPage extends Component {
     }
 }
 
-export default ResultsPage;
+export default TermPage;

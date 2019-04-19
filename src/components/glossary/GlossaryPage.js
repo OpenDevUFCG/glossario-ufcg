@@ -1,13 +1,13 @@
 import React, {Component} from "react";
-import "./Glossary.css"
-import Search from "../search/Search";
+import "./GlossaryPage.css"
+import { Search } from "../common/index";
 import { Link } from "react-router-dom";
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
-import acronyms from '../../lib/data';
+import terms from '../../lib/data';
 
-class Glossary extends Component {
+class GlossaryPage extends Component {
     constructor(props) {
         super(props);
     }
@@ -17,7 +17,7 @@ class Glossary extends Component {
     };
 
     getRandomEntry = () => {
-        const entries = Object.keys(acronyms);
+        const entries = Object.keys(terms);
         const index = Math.floor(Math.random() * entries.length);
         return entries[index];
     }
@@ -30,7 +30,7 @@ class Glossary extends Component {
                     <img src={glossarioLogo} />
                 </Link>
                 <Search className={"glossary__search"}
-                        items={Object.keys(acronyms).sort()}
+                        items={Object.keys(terms).sort()}
                         handleSelect={this.handleAcronymChange}/>
                 <span className={"glossary__day-phrase"}>Você sabe o que é <Link className="emphasis pointer-hover light-accent lighter-hover" to={`/${randomEntry}`}>{ randomEntry }</Link>?</span>
             </div>
@@ -38,4 +38,4 @@ class Glossary extends Component {
     }
 }
 
-export default Glossary;
+export default GlossaryPage;
