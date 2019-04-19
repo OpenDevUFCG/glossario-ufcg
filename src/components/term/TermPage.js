@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import "./TermPage.css"
-import Search from "../common/Search/Search";
+import { Search } from "../common/index";
 import { Link } from "react-router-dom";
 
 import glossarioLogo from '../../../assets/images/glossario-logo.svg';
 
 import terms from '../../lib/data';
-import TermCard from "../common/TermCard/TermCard";
+import { TermCard } from "../common/index";
 import NotFound from "./404/NotFound";
 
 const Results = ({ results }) => results.map(result => (
