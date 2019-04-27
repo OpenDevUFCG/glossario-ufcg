@@ -115,6 +115,17 @@
             ]
         }
     ],
+    "PyLadies": [
+        {
+            "acronym": "PyLadies",
+            "meaning": "PyLadies é um grupo de mulheres desenvolvedoras amantes da programação em Python. A comunidade tem como objetivo de incentivar e apoiar mulheres na tecnologia.",
+            "type": "Organização",
+            "examples": [
+                "Hoje vai ter minicurso de Deep Learning do PyLadies!",
+                "Quero entrar muito no PyLadies."
+            ]
+        }
+    ],
     "RDM": [
         {
             "entry": "Relação de disciplinas matriculadas",
