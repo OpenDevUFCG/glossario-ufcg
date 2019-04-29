@@ -139,12 +139,11 @@
             ]
         }
     ],
-
     "SAD": [
         {
             "entry": "Sistema de avaliação docente",
             "acronym": "SAD",
-            "meaning":"Sistema no qual os alunos que acabaram de cursar a disciplina forneçam um feedback para aspectos como sistema de avaliação utilizado, se a disciplina seguiu a ementa, domínio do professor com relação ao conteúdo lecionado e, até mesmo, aspectos físicos, como a limpeza da sala, utilização de recursos digitais, etc. Sendo que, tudo isso é feito através de notas de classificação e comentários. Não é obrigatório responder o SAD, mas é muito importante para melhorar a forma que a disciplina é conduzida, até porque, ao final, os professores recebem estas avaliações e adequam-as para o próximo semestre. Um ponto importante é que a avaliação é ANÔNIMA. Ok, mas onde encontro o SAD? Calma o link de cada disciplina cursada é enviado ao final de cada período para seu e-mail.",
+            "meaning": "Sistema no qual os alunos que acabaram de cursar a disciplina forneçam um feedback para aspectos como sistema de avaliação utilizado, se a disciplina seguiu a ementa, domínio do professor com relação ao conteúdo lecionado e, até mesmo, aspectos físicos, como a limpeza da sala, utilização de recursos digitais, etc. Sendo que, tudo isso é feito através de notas de classificação e comentários. Não é obrigatório responder o SAD, mas é muito importante para melhorar a forma que a disciplina é conduzida, até porque, ao final, os professores recebem estas avaliações e adequam-as para o próximo semestre. Um ponto importante é que a avaliação é ANÔNIMA. Ok, mas onde encontro o SAD? Calma o link de cada disciplina cursada é enviado ao final de cada período para seu e-mail.",
             "type": "Termo",
             "examples": [
                 "Chegou e-mail do SAD.",
@@ -152,7 +151,6 @@
             ]
         }
     ],
-    
     "TECC": [
         {
             "entry": "Tópicos Especiais em Ciência da Computação",
