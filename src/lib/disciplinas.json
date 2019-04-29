@@ -93,10 +93,12 @@
     "CDD": [
         {
             "acronym": "CDD",
-            "meaning": "Ciência de Dados Descritiva",
+            "meaning": "Ciência de Dados Descritiva é uma discplina optativa do curso de Ciência da computação na UFCG com o foco de identificar oportunidades latentes na análise de dados, definir métodos de análise ou previsão mais adequado para responder uma questão relevante a um negócio com base na análise de dados e a aplicar o método definido em massas de dados",
             "type": "Disciplina",
             "entry": "Ciência de Dados Descritiva",
-            "examples": []
+            "examples": [
+                "CDD é como se fosse a disciplina de Estatística aplicada na prática."
+            ]
         }
     ],
     "CDP": [
