@@ -60,10 +60,12 @@
     "ATAL": [
         {
             "acronym": "ATAL",
-            "meaning": "Análise e Técnicas de Algoritmos",
+            "meaning": "Análise e Técnicas de Algoritmos é uma disciplina obrigatória do 7º período de Ciência da computação na UFCG com o foco em metodologias de análise de corretude e complexidade de algoritmos, aliado à exposição de técnicas para resolução de problemas de forma eficiente.",
             "type": "Disciplina",
             "entry": "Análise e Técnicas de Algoritmos",
-            "examples": []
+            "examples": [
+                "Será que hoje tem miniteste de atal?"
+            ]
         }
     ],
     "BD": [
