@@ -1,5 +1,5 @@
 import React from 'react';
-import { TermCard } from '../../common/index';
+import { TermCard } from '../../../common';
 
 const notFoundCard = termo => ({
     acronym: "404",

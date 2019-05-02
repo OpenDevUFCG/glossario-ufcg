@@ -2,6 +2,21 @@
     height: 100%;
     width: 100%;
     display: grid;
+}
+
+.glossary__container--has-not-search {
+    grid-template-rows: 100% 0;
+}
+
+.glossary__container--has-search {
+    grid-template-rows: max-content auto;
+}
+
+.glossary__search-tools {
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+    display: grid;
     grid-template-areas:
         'logo search'
         '. day-phrase';
@@ -29,7 +44,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .glossary__container {
+    .glossary__search-tools {
         grid-template-areas:
             'logo'
             'search'
@@ -37,7 +52,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, max-content);
         grid-gap: 1em;
-        padding: 1.5em;
+        padding: 0.5em 1em 0;
     }
 
     .glossary__logo, .glossary__day-phrase {
