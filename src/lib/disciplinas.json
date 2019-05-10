@@ -60,10 +60,12 @@
     "ATAL": [
         {
             "acronym": "ATAL",
-            "meaning": "Análise e Técnicas de Algoritmos",
+            "meaning": "Análise e Técnicas de Algoritmos é uma disciplina obrigatória do 7º período de Ciência da computação na UFCG com o foco em metodologias de análise de corretude e complexidade de algoritmos, aliado à exposição de técnicas para resolução de problemas de forma eficiente.",
             "type": "Disciplina",
             "entry": "Análise e Técnicas de Algoritmos",
-            "examples": []
+            "examples": [
+                "Será que hoje tem miniteste de atal?"
+            ]
         }
     ],
     "BD": [
@@ -91,10 +93,12 @@
     "CDD": [
         {
             "acronym": "CDD",
-            "meaning": "Ciência de Dados Descritiva",
+            "meaning": "Ciência de Dados Descritiva é uma discplina optativa do curso de Ciência da computação na UFCG com o foco de identificar oportunidades latentes na análise de dados, definir métodos de exploração ou previsão mais adequados para responder questões relevantes a um negócio e aplicar o método definido em massas de dados",
             "type": "Disciplina",
             "entry": "Ciência de Dados Descritiva",
-            "examples": []
+            "examples": [
+                "CDD tem muito da disciplina de Estatística aplicada."
+            ]
         }
     ],
     "CDP": [
@@ -417,7 +421,7 @@
     "SAD": [
         {
             "acronym": "SAD",
-            "meaning": "Sistemas de Apoio à Decisão",
+            "meaning": "Sistemas de Apoio à Decisão é uma disciplina optativa específica que explora sistemas de decisão sob a ótica de BI - Business Intelligence, na qual são explorados conceitos de data warehousing, OLAP, mineração de dados, visualização e aplicações analíticas. Tem como pré-requisito a disciplina de Banco de dados 1.",
             "type": "Disciplina",
             "entry": "Sistemas de Apoio à Decisão",
             "examples": []
