@@ -115,6 +115,19 @@
             ]
         }
     ],
+    "PRE": [
+        {
+            "acronym": "PRE",
+            "meaning": "A Pró-Reitoria de Ensino é um órgão assessor da direção superior responsável pelo planejamento, coordenação e supervisão das atividades de ensino nos cursos de graduação, sequenciais e de educação básica em todas as suas modalidades.",
+            "type": "Órgão",
+            "entry": "Pró-Reitoria de Ensino",
+            "examples": [
+                "A PRE não sinalizou mudança no calendário por causa da paralisação.",
+                "O Controle Acadêmico é um sistema da PRE.",
+                "O bloco da PRE é aquele azul, logo na entrada da UFCG."
+            ]
+        }
+    ],
     "PyLadies": [
         {
             "entry": "PyLadies",
@@ -148,6 +161,17 @@
             "examples": [
                 "Chegou e-mail do SAD.",
                 "Já respondeu o SAD?"
+            ]
+        }
+    ],
+    "SEI": [
+        {
+            "acronym": "SEI",
+            "meaning": "O SEI (Sistema Eletrônico de Informações) é um software que visa gerenciar toda a documentação administrativa em ambiente virtual, desenvolvido Tribunal Regional Federal da 4ª Região (TRF4) e escolhido pelo Ministério do Planejamento, para ser a ferramenta de trabalho que engloba um conjunto de módulos e funcionalidades que promovem a eficiência administrativa.",
+            "type": "Software",
+            "entry": "Sistema Eletronico de Informações",
+            "examples": [
+                "A orientação é de que sejam inclusos como documentos externos no SEI somente PDF's ou imagens JPG."
             ]
         }
     ],
