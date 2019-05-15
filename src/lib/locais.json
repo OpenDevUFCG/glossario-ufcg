@@ -99,5 +99,27 @@
                 "Vou comer uma tapioca com café batido lá no Quiosque."
             ]
         }
+    ],
+    "AMARELINHA": [
+        {
+            "meaning": "A Xerox Amarelinha é uma gráfica que fica próxima ao coreto por trás do CAA, vizinha à lanchonete de Joab. É um lugar muito frequentado por estudantes de Ciência da Computação e outros cursos que se localizam no setor de exatas, quando querem imprimir ou tirar xerox de algum documento.",
+            "type": "Gráfica",
+            "entry": "Xerox Amarelinha",
+            "examples": [
+                "Me encontra lá perto da amarelinha.",
+                "Vou tirar xerox do resumo lá na amarelinha."
+            ]
+        }
+    ],
+    "LAGUINHO": [
+        {
+            "meaning": "O Laguinho é o nome dado ao lago que se localiza entre os blocos A e C da UFCG, que surgiu através de projetos da própria instituição que consistiam em amenizar os impactos advindos das chuvas, além de ter o intuito de ser um local bonito e agradável para todos.",
+            "type": "Ambiente de convivência",
+            "entry": "Laguinho",
+            "examples": [
+                "Bora conversar lá nos bancos do laguinho?",
+                "Vou comer lá no quiosque do laguinho, tu vai?"
+            ]
+        }
     ]
 }
