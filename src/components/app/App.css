@@ -1,6 +1,6 @@
 section {
     height: 100%;
     display: grid;
-    grid-template-rows: auto max-content;
+    grid-template-rows: auto 14%;
 }
 
