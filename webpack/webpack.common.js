@@ -5,7 +5,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const parentDir = path.join(__dirname, '../');
 
 const config = {
-    entry: [`${parentDir}/src/index.js`],
+    entry: [`${parentDir}src/index.js`],
     output: {
         path: `${parentDir}public/`,
         filename: 'bundle.[hash].js',
@@ -50,7 +50,7 @@ const config = {
             filename: 'style.css',
         }),
         new HtmlWebPackPlugin({
-            template: `${parentDir}/src/index.html`,
+            template: `${parentDir}src/index.html`,
             filename: "index.html"
         })
     ]

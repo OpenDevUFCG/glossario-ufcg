@@ -6,10 +6,12 @@ import Footer from "./Footer/Footer"
 import './App.css';
 
 const App = () => (
-    <div className={"main"}>
-        <Route path="/:term?" component={GlossaryPage}/>
-        <Footer className={"main__footer"}/>
-    </div>
+  <section>
+    <main>
+      <Route path="/:term?" component={GlossaryPage}/>
+    </main>
+    <Footer/>
+  </section>
 );
 
 export default App;
