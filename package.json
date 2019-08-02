@@ -13,6 +13,7 @@
     "husky": "^1.3.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.12.10",
     "react-markdown": "^4.0.6",
     "react-scripts": "2.1.3",
     "webpack-merge": "^4.2.1"
@@ -23,7 +24,7 @@
     }
   },
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack/webpack.dev.js --progress --colors --inline --hot --host 0.0.0.0",
+    "start": "webpack-dev-server --config ./webpack/webpack.dev.js --hot --inline",
     "build": "webpack --config ./webpack/webpack.prod.js",
     "lint": "eslint ."
   },

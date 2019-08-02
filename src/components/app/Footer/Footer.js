@@ -12,8 +12,8 @@ const Footer = () => (
     <a className={linkClass} href={contributionLink}>
       <IconWithText icon='inbox' text='Como contribuir?'/>
     </a>
-    <a className={linkClass} href={aboutLink}>
-      <IconWithText icon='people' text='Quem somos?'/>
+    <a className={"pointer-hover no-decoration lighter-hover"} href={aboutLink}>
+      <IconWithText icon={"people"} text={"Quem somos?"}/>
     </a>
   </footer>
 );
