@@ -7,6 +7,7 @@
     place-content: center;
     place-items: center;
 }
+
 @media screen and (max-width: 475px){
     .glossary-footer {
         grid-template-areas:
