@@ -5,13 +5,15 @@ const common = require('./webpack.common');
 const parentDir = path.join(__dirname, '../');
 
 module.exports = merge(common, {
-    entry: ['react-hot-loader/patch',`${parentDir}src`],
+    entry: ['react-hot-loader/patch'],
     devServer: {
         port: 8000,
-        contentBase: [`${parentDir}public`, `${parentDir}src`],
+        contentBase: [`${parentDir}public`],
         historyApiFallback: true,
         watchContentBase: true,
-        hotOnly: true,
+        hot: true,
+        inline: true,
+        host: '0.0.0.0',
     },
     mode: 'development',
 });

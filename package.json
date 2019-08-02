@@ -24,7 +24,7 @@
     }
   },
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack/webpack.dev.js --hot --inline",
+    "start": "webpack-dev-server --config ./webpack/webpack.dev.js --progress --colors",
     "build": "webpack --config ./webpack/webpack.prod.js",
     "lint": "eslint ."
   },
