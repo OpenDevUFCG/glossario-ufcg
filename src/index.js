@@ -4,7 +4,6 @@ import App from './components/app/App'
 import { HashRouter } from 'react-router-dom'
 
 import './index.css';
-import './styles/material/colors.css';
 import './styles/odu/odu.css';
 import './styles/odu/colors.css';
 import './styles/utils.css';
