@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Icon = (props) => (
-    <i className="material-icons" style={{color: props.iconColor, fontSize: props.size}}>
-        {props.icon}
+const Icon = ({ icon, iconColor, size }) => (
+    <i className="material-icons" style={{color: iconColor, fontSize: size}}>
+        {icon}
     </i>
 );
 

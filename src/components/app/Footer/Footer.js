@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { IconWithText } from "../../common/index"
+import { IconWithText } from "../../common"
 import "./Footer.css"
 
 const contributionLink = "https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/CONTRIBUTING.md";
 const aboutLink = "https://opendevufcg.org/";
-const linkClass = "pointer-hover no-decoration lighter-hover"
+const linkClass = "pointer-hover no-decoration lighter-hover";
 
 const Footer = () => (
   <footer className='glossary-footer'>

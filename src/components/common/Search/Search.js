@@ -1,7 +1,7 @@
 import * as React from 'react';
 import "./Search.css";
 import { AutoComplete, Select } from 'antd';
-import Icon from "../Icon/Icon";
+import { Icon } from "../Icon";
 
 const renderOption = (item) => (
     <Select.Option key={item}>
