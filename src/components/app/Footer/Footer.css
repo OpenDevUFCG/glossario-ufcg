@@ -2,12 +2,10 @@
     display: grid;
     grid-template-areas:
         "contribute about";
-    grid-template-columns: max-content max-content;
     grid-template-rows: 100%;
     grid-gap: 5em;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
+    place-content: center;
+    place-items: center;
 }
 
 @media screen and (max-width: 475px){
@@ -19,5 +17,4 @@
         grid-template-rows: max-content max-content;
         grid-gap: 0.5em;
     }
-
 }

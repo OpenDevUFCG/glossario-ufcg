@@ -48,15 +48,13 @@ class GlossaryPage extends Component {
                     <Search className={"glossary__search"}
                             items={Object.keys(terms).sort()}
                             handleSelect={this.handleAcronymChange}/>
-                    {this.isSearchEmpty() ?
-                        <DayPhrase entry={randomEntry}/> :
-                        ""
-                    }
+                    {this.isSearchEmpty() && (
+                        <DayPhrase entry={randomEntry}/>
+                    )}
                 </div>
-                {!this.isSearchEmpty() ?
-                    <SearchResults term={this.getTerm()}/> :
-                    ""
-                }
+                {!this.isSearchEmpty() && (
+                    <SearchResults term={this.getTerm()}/>
+                )}
             </div>
         );
     }

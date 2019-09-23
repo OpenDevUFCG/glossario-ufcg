@@ -1,7 +1,7 @@
 import * as React from 'react';
 import "./Search.css";
 import { AutoComplete, Select } from 'antd';
-import Icon from "../Icon/Icon";
+import { Icon } from "../Icon";
 
 const renderOption = (item) => (
     <Select.Option key={item}>
@@ -9,23 +9,26 @@ const renderOption = (item) => (
     </Select.Option>
 );
 
-const CustomSearchButton = (props) => (
-    <button className={"search__button-container pointer-hover lighter-hover"} onClick={props.handleClick}>
-        <Icon className={"search__button"} icon={"search"} iconColor={"#FFFFFF"}/>
-    </button>
+const CustomSearchButton = ({ handleClick }) => (
+  <button
+    className='search__button-container pointer-hover lighter-hover'
+    onClick={handleClick}
+  >
+    <Icon className='search__button' icon='search' iconColor='#FFFFFF"'/>
+  </button>
 );
 
-const Search = (props) => (
-  <div className={"search"}>
+const Search = ({ items, handleSelect }) => (
+  <aside className='search'>
     <AutoComplete
-        dataSource={props.items.map(renderOption)}
-        optionLabelProp="meaning"
-        placeholder="Pesquise..."
-        onSelect={e => props.handleSelect(e)}
-        filterOption={(inputValue, option) => option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+      dataSource={items.map(renderOption)}
+      optionLabelProp='meaning'
+      placeholder='Pesquise...'
+      onSelect={e => handleSelect(e)}
+      filterOption={(inputValue, option) => option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
     />
     <CustomSearchButton/>
-  </div>
+  </aside>
 );
 
 export default Search;
