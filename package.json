@@ -20,7 +20,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "node src/scripts/orderData.js"
+      "pre-commit": "node src/scripts/orderData.js && git add ."
     }
   },
   "scripts": {
