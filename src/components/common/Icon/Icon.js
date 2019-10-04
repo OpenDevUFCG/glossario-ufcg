@@ -10,7 +10,7 @@ const Icon = ({ icon, iconColor, size }) => (
 Icon.propTypes = {
     icon: PropTypes.string,
     color: PropTypes.string,
-    size: PropTypes.number
+    size: PropTypes.string
 }
 
 export default Icon;
