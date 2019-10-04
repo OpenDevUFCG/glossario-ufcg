@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React from 'react';
+=======
+import React, { Component } from 'react';
+>>>>>>> Adicionado .prettierrc e consertada formatação dos arquivos
 import './GlossaryPage.css';
 import { Search } from '../common/index';
 import { Link } from 'react-router-dom';
@@ -11,9 +15,15 @@ import SearchResults from './results/SearchResults';
 const DayPhrase = ({ entry }) => {
   return (
     <span className={'glossary__day-phrase'}>
+<<<<<<< HEAD
       Você sabe o que é&nbsp;
       <Link
         className='emphasis pointer-hover light-accent lighter-hover'
+=======
+      Você sabe o que é{' '}
+      <Link
+        className="emphasis pointer-hover light-accent lighter-hover"
+>>>>>>> Adicionado .prettierrc e consertada formatação dos arquivos
         to={`/${entry}`}
       >
         {entry}
@@ -23,17 +33,31 @@ const DayPhrase = ({ entry }) => {
   );
 };
 
+<<<<<<< HEAD
 const GlossaryPage = props => {
   const handleAcronymChange = selected => {
     props.history.push(`/${selected}`);
   };
 
   const getRandomEntry = () => {
+=======
+class GlossaryPage extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  handleAcronymChange = selected => {
+    this.props.history.push(`/${selected}`);
+  };
+
+  getRandomEntry = () => {
+>>>>>>> Adicionado .prettierrc e consertada formatação dos arquivos
     const entries = Object.keys(terms);
     const index = Math.floor(Math.random() * entries.length);
     return entries[index];
   };
 
+<<<<<<< HEAD
   const getTerm = () => props.match.params.term;
 
   const isSearchEmpty = () => {
