@@ -41,6 +41,7 @@ TermCard.propTypes = {
         meaning: PropTypes.meaning,
         type: PropTypes.string,
         examples: PropTypes.arrayOf(PropTypes.string),
+        acronym: PropTypes.string
     })
 }
 
