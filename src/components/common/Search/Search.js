@@ -2,6 +2,7 @@ import * as React from 'react';
 import "./Search.css";
 import { AutoComplete, Select } from 'antd';
 import { Icon } from "../Icon";
+import PropTypes from 'prop-types';
 
 const renderOption = (item) => (
     <Select.Option key={item}>
@@ -30,5 +31,10 @@ const Search = ({ items, handleSelect }) => (
     <CustomSearchButton/>
   </aside>
 );
+
+Search.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.string),
+  handleSelect: PropTypes.func
+}
 
 export default Search;
