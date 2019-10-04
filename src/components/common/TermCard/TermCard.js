@@ -3,6 +3,8 @@ import Markdown from '../Markdown/Markdown';
 
 import './TermCard.css';
 
+import PropTypes from 'prop-types';
+
 const Examples = ({ entry, examples }) => examples.map((ex, index) => (
     <li className={"term-card__list-phrase"} key={`${entry}${index}`}>{ ex }</li>
 ));
@@ -32,5 +34,15 @@ const TermCard = ({ term }) => (
         </div>
     </div>
 );
+
+TermCard.propTypes = {
+    term: PropTypes.shape({
+        entry: PropTypes.string,
+        meaning: PropTypes.meaning,
+        type: PropTypes.string,
+        examples: PropTypes.arrayOf(PropTypes.string),
+        acronym: PropTypes.string
+    })
+}
 
 export default TermCard;
