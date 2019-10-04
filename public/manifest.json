@@ -1,0 +1,17 @@
+{
+  "name": "Glossário UFCG",
+  "short_name": "Glossário",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#30ABAE",
+  "background_color": "#F2F2F2",
+  "description": "Glossário de siglas e gírias da UFCG",
+  "icons": [
+      {
+          "src": "/icons/glossario_icon.png",
+          "type": "image/png",
+          "sizes": "192x192 512x512"
+      }
+  ]
+}
