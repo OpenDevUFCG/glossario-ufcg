@@ -18,7 +18,7 @@ const config = {
                 use: 'babel-loader'
             },
             {
-                test: /\.(jpg|jpeg|gif|png|svg)$/,
+                test: /\.(jpg|jpeg|gif|png|svg|ico)$/,
                 exclude: /node_modules/,
                 loader:'url-loader?limit=10000&name=assets/images/[name].[ext]'
             },
