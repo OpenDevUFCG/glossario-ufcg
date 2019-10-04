@@ -1,36 +1,31 @@
-import React, {Component} from "react";
-import "./SearchResults.css"
+import React, { Component } from 'react';
+import './SearchResults.css';
 
 import terms from '../../../lib/data';
-import { TermCard } from '../../common/index'
-import NotFound from "./404/NotFound";
+import { TermCard } from '../../common/index';
+import NotFound from './404/NotFound';
 
-const Results = ({ results }) => results.map(result => (
-        <TermCard term={result} key={result.entry + result.meaning}/>
-    )
-);
+const Results = ({ results }) =>
+  results.map(result => (
+    <TermCard term={result} key={result.entry + result.meaning} />
+  ));
 
-class SearchResults extends Component {
-    constructor(props) {
-        super(props);
-    }
+const SearchResults = props => {
+  const getTermResults = () => terms[getTerm()] || [];
 
-    getTermResults = () => terms[this.getTerm()] || [];
+  const getTerm = () => props.term;
 
-    getTerm = () => this.props.term;
+  const isResultEmpty = () => getTermResults().length === 0;
 
-    isResultEmpty = () => this.getTermResults().length === 0;
-
-    render() {
-        return (
-            <div className={"search-results__results-container"}>
-                {!this.isResultEmpty() ?
-                    <Results results={this.getTermResults()} /> :
-                    <NotFound termo={this.getTerm()} />
-                }
-            </div>
-        );
-    }
-}
+  return (
+    <div className={'search-results__results-container'}>
+      {!isResultEmpty() ? (
+        <Results results={getTermResults()} />
+      ) : (
+        <NotFound termo={getTerm()} />
+      )}
+    </div>
+  );
+};
 
 export default SearchResults;
