@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React from 'react';
 import './GlossaryPage.css';
 import { Search } from '../common/index';
 import { Link } from 'react-router-dom';
