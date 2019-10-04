@@ -7,7 +7,7 @@ const parentDir = path.join(__dirname, '../');
 module.exports = merge(common, {
     entry: ['react-hot-loader/patch'],
     devServer: {
-        port: 8000,
+        port: 8080,
         contentBase: [`${parentDir}public`],
         historyApiFallback: true,
         watchContentBase: true,
