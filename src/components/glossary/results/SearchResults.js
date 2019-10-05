@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './SearchResults.css';
 
 import terms from '../../../lib/data';
