@@ -11,7 +11,7 @@ import SearchResults from './results/SearchResults';
 const DayPhrase = ({ entry }) => {
   return (
     <span className={'glossary__day-phrase'}>
-      Você sabe o que é{' '}
+      Você sabe o que é
       <Link
         className='emphasis pointer-hover light-accent lighter-hover'
         to={`/${entry}`}
@@ -40,7 +40,6 @@ const GlossaryPage = props => {
     return getTerm() === undefined;
   };
 
-  const randomEntry = getRandomEntry();
   const glossaryContainerClass = isSearchEmpty()
     ? 'glossary__container--has-not-search'
     : 'glossary__container--has-search';
@@ -55,7 +54,7 @@ const GlossaryPage = props => {
           items={Object.keys(terms).sort()}
           handleSelect={handleAcronymChange}
         />
-        {isSearchEmpty() && <DayPhrase entry={randomEntry} />}
+        {isSearchEmpty() && <DayPhrase entry={getRandomEntry()} />}
       </div>
       {!isSearchEmpty() && <SearchResults term={getTerm()} />}
     </div>
