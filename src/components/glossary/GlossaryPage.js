@@ -7,16 +7,6 @@ import SearchResults from './results/SearchResults';
 import Header from '../common/Header/Header';
 
 const GlossaryPage = props => {
-  const handleAcronymChange = selected => {
-    props.history.push(`/${selected}`);
-  };
-
-  const getRandomEntry = () => {
-    const entries = Object.keys(terms);
-    const index = Math.floor(Math.random() * entries.length);
-    return entries[index];
-  };
-
   const getTerm = () => props.match.params.term;
 
   const isSearchEmpty = () => {
