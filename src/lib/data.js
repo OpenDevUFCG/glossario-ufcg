@@ -5,16 +5,16 @@ import locais from './locais.json';
 import outros from './outros.json';
 
 const merge = (original, newObject) => {
-    Object.keys(newObject).map(key => {
-        if (original[key] === undefined) {
-            original[key] = newObject[key];
-        } else {
-            original[key] = original[key].concat(newObject[key]);
-        }
-    });
+  Object.keys(newObject).map(key => {
+    if (original[key] === undefined) {
+      original[key] = newObject[key];
+    } else {
+      original[key] = original[key].concat(newObject[key]);
+    }
+  });
 };
 
-const terms = { };
+const terms = {};
 
 merge(terms, cursos);
 merge(terms, disciplinas);

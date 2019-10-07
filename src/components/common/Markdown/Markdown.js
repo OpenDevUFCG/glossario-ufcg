@@ -13,20 +13,20 @@ const disallow = [
   'tableBody',
   'tableRow',
   'tableCell',
-  'heading'
+  'heading',
 ];
 
 const Markdown = ({ src }) => (
-    <ReactMarkdown
-      source={src}
-      disallowedTypes={disallow}
-      astPlugins={[parseHtml]}
-      escapeHtml={false}
-    />
+  <ReactMarkdown
+    source={src}
+    disallowedTypes={disallow}
+    astPlugins={[parseHtml]}
+    escapeHtml={false}
+  />
 );
 
 Markdown.propTypes = {
-  src: PropTypes.string
-}
+  src: PropTypes.string,
+};
 
 export default Markdown;
