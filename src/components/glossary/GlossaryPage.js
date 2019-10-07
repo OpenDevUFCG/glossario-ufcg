@@ -60,36 +60,5 @@ const GlossaryPage = props => {
     </div>
   );
 };
-=======
-  getTerm = () => this.props.match.params.term;
-
-  isSearchEmpty = () => {
-    return this.getTerm() === undefined;
-  };
-
-  render() {
-    const randomEntry = this.getRandomEntry();
-    const glossaryContainerClass = this.isSearchEmpty()
-      ? 'glossary__container--has-not-search'
-      : 'glossary__container--has-search';
-    return (
-      <div className={`glossary__container ${glossaryContainerClass}`}>
-        <div className={'glossary__search-tools'}>
-          <Link to={''} className={'glossary__logo'}>
-            <img src={glossarioLogo} />
-          </Link>
-          <Search
-            className={'glossary__search'}
-            items={Object.keys(terms).sort()}
-            handleSelect={this.handleAcronymChange}
-          />
-          {this.isSearchEmpty() && <DayPhrase entry={randomEntry} />}
-        </div>
-        {!this.isSearchEmpty() && <SearchResults term={this.getTerm()} />}
-      </div>
-    );
-  }
-}
->>>>>>> Adicionado .prettierrc e consertada formatação dos arquivos
 
 export default GlossaryPage;
