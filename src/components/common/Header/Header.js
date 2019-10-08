@@ -28,7 +28,8 @@ DayPhrase.propTypes = {
   entry: PropTypes.string
 }
 
-export default function Header(props) {
+const Header = (props) => {}
+export default Header
 
   const handleAcronymChange = selected => {
     props.history.push(`/${selected}`);
