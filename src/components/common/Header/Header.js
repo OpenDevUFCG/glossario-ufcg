@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ReactRouterPropTypes from 'react-router-prop-types';
+import ReactRouterPropTypes from 'react-router-prop-types'
 
 import glossarioLogo from '../../../../assets/images/glossario-logo.svg'
 import { Search } from '../index'
 import { Link } from 'react-router-dom'
-import terms from '../../../lib/data';
+import terms from '../../../lib/data'
 
 import './Header.css'
 
@@ -28,9 +28,7 @@ DayPhrase.propTypes = {
   entry: PropTypes.string
 }
 
-const Header = (props) => {}
-export default Header
-
+const Header = (props) => {
   const handleAcronymChange = selected => {
     props.history.push(`/${selected}`);
   };
@@ -63,3 +61,5 @@ Header.propTypes = {
   location: ReactRouterPropTypes.location,
   match: ReactRouterPropTypes.match.isRequired
 }
+
+export default Header
