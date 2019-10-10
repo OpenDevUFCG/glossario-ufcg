@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "node src/scripts/orderData.js && git add src/lib"
+      "pre-commit": "npm run lint && node src/scripts/orderData.js && git add src/lib"
     }
   },
   "scripts": {
