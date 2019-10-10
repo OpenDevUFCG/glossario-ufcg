@@ -52,7 +52,8 @@ const config = {
         }),
         new HtmlWebPackPlugin({
             template: `${parentDir}/src/index.html`,
-            filename: "index.html"
+            filename: "index.html",
+            favicon: "./assets/images/favicon.ico"
         })
     ]
 };
