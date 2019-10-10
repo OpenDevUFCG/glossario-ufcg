@@ -1,0 +1,20 @@
+.glossary-footer {
+    display: grid;
+    grid-template-areas:
+        "contribute about";
+    grid-template-rows: 100%;
+    grid-gap: 5em;
+    place-content: center;
+    place-items: center;
+}
+
+@media screen and (max-width: 475px){
+    .glossary-footer {
+        grid-template-areas:
+            'contribute'
+            'about';
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+        grid-gap: 0.5em;
+    }
+}

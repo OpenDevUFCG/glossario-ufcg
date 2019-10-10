@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
@@ -6,7 +5,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const parentDir = path.join(__dirname, '../');
 
 const config = {
-    entry: [`${parentDir}/src/index.js`],
+    entry: [`${parentDir}src/index.js`],
     output: {
         path: `${parentDir}public/`,
         filename: 'bundle.[hash].js',
@@ -16,10 +15,10 @@ const config = {
             {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                use: 'babel-loader',
+                use: 'babel-loader'
             },
             {
-                test: /\.(jpg|jpeg|gif|png|svg)$/,
+                test: /\.(jpg|jpeg|gif|png|svg|ico)$/,
                 exclude: /node_modules/,
                 loader:'url-loader?limit=10000&name=assets/images/[name].[ext]'
             },

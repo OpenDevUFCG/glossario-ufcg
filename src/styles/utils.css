@@ -24,3 +24,7 @@
 .no-decoration {
     text-decoration: none;
 }
+
+.lighter-hover:hover {
+    opacity: 0.67;
+}

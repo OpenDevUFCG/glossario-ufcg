@@ -1,17 +1,6 @@
 .main {
     height: 100%;
     display: grid;
-    grid-template-areas:
-        'route'
-        'footer';
-    grid-template-columns: 100%;
-    grid-template-rows: auto max-content;
+    grid-template-rows: auto 14%;
 }
 
-.main__route {
-    grid-area: route;
-}
-
-.main__footer {
-    grid-area: footer;
-}

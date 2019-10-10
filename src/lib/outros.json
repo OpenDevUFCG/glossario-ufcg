@@ -115,6 +115,31 @@
             ]
         }
     ],
+    "PRE": [
+        {
+            "acronym": "PRE",
+            "meaning": "A Pró-Reitoria de Ensino é um órgão assessor da direção superior responsável pelo planejamento, coordenação e supervisão das atividades de ensino nos cursos de graduação, sequenciais e de educação básica em todas as suas modalidades.",
+            "type": "Órgão",
+            "entry": "Pró-Reitoria de Ensino",
+            "examples": [
+                "A PRE não sinalizou mudança no calendário por causa da paralisação.",
+                "O Controle Acadêmico é um sistema da PRE.",
+                "O bloco da PRE é aquele azul, logo na entrada da UFCG."
+            ]
+        }
+    ],
+    "PyLadies": [
+        {
+            "entry": "PyLadies",
+            "acronym": "PyLadies",
+            "meaning": "PyLadies é um grupo de mulheres desenvolvedoras amantes da programação em Python. A comunidade tem como objetivo de incentivar e apoiar mulheres na tecnologia.",
+            "type": "Organização",
+            "examples": [
+                "Hoje vai ter minicurso de Deep Learning do PyLadies!",
+                "Quero entrar muito no PyLadies."
+            ]
+        }
+    ],
     "RDM": [
         {
             "entry": "Relação de disciplinas matriculadas",
@@ -124,6 +149,29 @@
             "examples": [
                 "Vou lá em Fatinha pedir meu RDM",
                 "Fui lá na coordenação pegar meu histórico e RDM"
+            ]
+        }
+    ],
+    "SAD": [
+        {
+            "entry": "Sistema de avaliação docente",
+            "acronym": "SAD",
+            "meaning": "Sistema no qual os alunos que acabaram de cursar a disciplina forneçam um feedback para aspectos como sistema de avaliação utilizado, se a disciplina seguiu a ementa, domínio do professor com relação ao conteúdo lecionado e, até mesmo, aspectos físicos, como a limpeza da sala, utilização de recursos digitais, etc. Sendo que, tudo isso é feito através de notas de classificação e comentários. Não é obrigatório responder o SAD, mas é muito importante para melhorar a forma que a disciplina é conduzida, até porque, ao final, os professores recebem estas avaliações e adequam-as para o próximo semestre. Um ponto importante é que a avaliação é ANÔNIMA. Ok, mas onde encontro o SAD? Calma o link de cada disciplina cursada é enviado ao final de cada período para seu e-mail.",
+            "type": "Termo",
+            "examples": [
+                "Chegou e-mail do SAD.",
+                "Já respondeu o SAD?"
+            ]
+        }
+    ],
+    "SEI": [
+        {
+            "acronym": "SEI",
+            "meaning": "O SEI (Sistema Eletrônico de Informações) é um software que visa gerenciar toda a documentação administrativa em ambiente virtual, desenvolvido Tribunal Regional Federal da 4ª Região (TRF4) e escolhido pelo Ministério do Planejamento, para ser a ferramenta de trabalho que engloba um conjunto de módulos e funcionalidades que promovem a eficiência administrativa.",
+            "type": "Software",
+            "entry": "Sistema Eletronico de Informações",
+            "examples": [
+                "A orientação é de que sejam inclusos como documentos externos no SEI somente PDF's ou imagens JPG."
             ]
         }
     ],

@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const merge = require('webpack-merge');
 const path = require('path');
 const common = require('./webpack.common');
@@ -6,11 +5,16 @@ const common = require('./webpack.common');
 const parentDir = path.join(__dirname, '../');
 
 module.exports = merge(common, {
-    entry: ['react-dev-utils/webpackHotDevClient'],
+    entry: ['react-hot-loader/patch'],
     devServer: {
         port: 8000,
-        contentBase: `${parentDir}public`,
+        contentBase: [`${parentDir}public`],
         historyApiFallback: true,
+        watchContentBase: true,
+        hot: true,
+        inline: true,
+        host: '0.0.0.0',
     },
     mode: 'development',
 });
+

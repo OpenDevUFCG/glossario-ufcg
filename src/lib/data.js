@@ -5,21 +5,21 @@ import locais from './locais.json';
 import outros from './outros.json';
 
 const merge = (original, newObject) => {
-    Object.keys(newObject).map(key => {
-        if (original[key] === undefined) {
-            original[key] = newObject[key];
-        } else {
-            original[key] = original[key].concat(newObject[key]);
-        }
-    });
+  Object.keys(newObject).map(key => {
+    if (original[key] === undefined) {
+      original[key] = newObject[key];
+    } else {
+      original[key] = original[key].concat(newObject[key]);
+    }
+  });
 };
 
-const acronyms = { };
+const terms = {};
 
-merge(acronyms, cursos);
-merge(acronyms, disciplinas);
-merge(acronyms, girias);
-merge(acronyms, locais);
-merge(acronyms, outros);
+merge(terms, cursos);
+merge(terms, disciplinas);
+merge(terms, girias);
+merge(terms, locais);
+merge(terms, outros);
 
-export default acronyms;
+export default terms;

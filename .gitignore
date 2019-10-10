@@ -10,7 +10,6 @@
 
 # production
 /build
-/public
 
 # misc
 .DS_Store
@@ -25,3 +24,6 @@ yarn-error.log*
 
 # IDE Files
 .idea/
+
+# Git
+*.orig
