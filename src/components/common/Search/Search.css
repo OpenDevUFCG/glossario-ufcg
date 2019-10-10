@@ -1,54 +1,55 @@
 @import '~antd/dist/antd.css';
 
 .search {
-    display: grid;
-    grid-template-columns: 1fr max-content;
-    padding: 0;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  padding: 0;
 }
 
 .search * {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
 
 /* Custom autocomplete input element */
 .ant-select-selection {
-    background-color: #dcdcdc;
-    border-radius: 10px 0 0 10px;
-    height: 100%;
-    width: 100%;
+  background-color: #dcdcdc;
+  border-radius: 10px 0 0 10px;
+  height: 100%;
+  width: 100%;
 }
 
-.ant-input:focus, .ant-select-search__field:focus {
-    box-shadow: none;
-    -webkit-box-shadow: none;
+.ant-input:focus,
+.ant-select-search__field:focus {
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 /* Fix Autocomplete size to fill container */
 .ant-select-auto-complete.ant-select .ant-select-selection--single {
-    height: 100%;
+  height: 100%;
 }
 
 /* Dropdown scrollbar */
 .ant-select-dropdown-menu::-webkit-scrollbar {
-    height: 0.3em;
-    width: 0.3em;
+  height: 0.3em;
+  width: 0.3em;
 }
 
 .ant-select-dropdown-menu::-webkit-scrollbar-track-piece {
-    background-color: #CCCCCC;
+  background-color: #cccccc;
 }
 
 .ant-select-dropdown-menu::-webkit-scrollbar-thumb {
-    background-color: #30abae;
+  background-color: #30abae;
 }
 
 .search__button-container {
-    background-color: #30abae;
-    height: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    border-radius: 0 10px 10px 0;
+  background-color: #30abae;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 0 10px 10px 0;
 }
