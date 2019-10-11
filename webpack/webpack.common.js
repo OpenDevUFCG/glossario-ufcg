@@ -46,8 +46,9 @@ const config = {
       filename: 'style.css',
     }),
     new HtmlWebPackPlugin({
-      template: `${parentDir}src/index.html`,
+      template: `${parentDir}/src/index.html`,
       filename: 'index.html',
+      favicon: './assets/images/favicon.ico',
     }),
   ],
 };
