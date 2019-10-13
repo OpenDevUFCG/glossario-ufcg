@@ -1,13 +1,12 @@
 .icon-with-text {
-    display: grid;
-    grid-template-areas:
-        'icon text';
-    grid-template-columns: max-content max-content;
-    grid-template-rows: 100%;
-    grid-gap: 1em;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    margin: 0;
-    font-size: 1.2em;
+  display: grid;
+  grid-template-areas: 'icon text';
+  grid-template-columns: max-content max-content;
+  grid-template-rows: 100%;
+  grid-gap: 1em;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.2em;
 }

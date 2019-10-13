@@ -1,62 +1,60 @@
 .term-card__container {
-    background: #fff;
-    font-family: 'Ikaros', sans-serif;
-    border-radius: 10px;
-    padding: 30px 50px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    width: 100%;
-    display: grid;
-    grid-gap: 0 2em;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-areas:
-        'title title'
-        'subtitle subtitle'
-        'left-content right-content';
+  background: #fff;
+  font-family: 'Ikaros', sans-serif;
+  border-radius: 10px;
+  padding: 30px 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  width: 100%;
+  display: grid;
+  grid-gap: 0 2em;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-areas:
+    'title title'
+    'subtitle subtitle'
+    'left-content right-content';
 }
 
 .term-card__title-1 {
-    grid-area: title;
-    margin: 0;
-    line-height: 1.2em;
+  grid-area: title;
+  margin: 0;
+  line-height: 1.2em;
 }
 
 .term-card__list-phrase {
-    padding-left: 15px
+  padding-left: 15px;
 }
 
 .term-card__item-phrase {
-    margin-bottom: 10px;
-    font-style: italic;
+  margin-bottom: 10px;
+  font-style: italic;
 }
 
 .term-card__subtitle {
-    grid-area: subtitle;
-    font-family: 'Krub', 'sans-serif';
-    font-weight: 500;
-    color: gray;
-    font-style: italic;
+  grid-area: subtitle;
+  font-family: 'Krub', 'sans-serif';
+  font-weight: 500;
+  color: gray;
+  font-style: italic;
 }
 
 .term-card__title-2 {
-    margin-top: 20px;
-    color: gray;
+  margin-top: 20px;
+  color: gray;
 }
-
 
 @media screen and (max-width: 720px) {
-    .term-card__container {
-        display: grid;
-        grid-gap: 1em;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            'title'
-            'subtitle'
-            'content-left'
-            'content-right';
-    }
+  .term-card__container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'title'
+      'subtitle'
+      'content-left'
+      'content-right';
+  }
 
-    .term-card__title-2 {
-        margin-top: 0;
-    }
+  .term-card__title-2 {
+    margin-top: 0;
+  }
 }
-

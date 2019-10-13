@@ -1,19 +1,18 @@
 .search-results__results-container {
-    background-color: #30abae;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    height: 100%;
-    flex: 1;
-    padding: 2em 20%;
-    display: grid;
-    grid-auto-rows: max-content;
-    grid-gap: 1em;
+  background-color: #30abae;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+  padding: 2em 20%;
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-gap: 1em;
 }
 
 @media screen and (max-width: 720px) {
-
-    .search-results__results-container {
-        padding: 2em 1em;
-    }
+  .search-results__results-container {
+    padding: 2em 1em;
+  }
 }
