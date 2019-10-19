@@ -164,6 +164,16 @@
             ]
         }
     ],
+    "SDF": [
+        {
+            "acronym": "SDF",
+            "meaning": "A SDF(Semana do Fera) é um evento realizado na primeira semana no curso de Computação todos os periodos, com o intuito de dar boas-vindas aos novos estudantes(feras).",
+            "type": "Termo",
+            "examples": [
+                "No fim da SDF vai ter Just Dance."
+            ]
+        }
+    ],
     "SEI": [
         {
             "acronym": "SEI",
