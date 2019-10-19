@@ -122,4 +122,15 @@
             ]
         }
     ]
+    "BIG XEROX": [
+        {
+            "meaning": "Big-Xerox é a xerox que fica localizada ao lado do ponto de ônibus que é em frente a UFCG, é a xerox que possui valor de cópia e impressão mais barata.",
+            "type": "Gráfica",
+            "entry": "Big-Xerox",
+            "examples": [
+                "Vou tirar xerox do livro de Redes na Big-Xerox.",
+                "O ponto de ônibus da UFCG é ao lado da Big-Xerox."
+            ]
+        }
+    ]
 }
