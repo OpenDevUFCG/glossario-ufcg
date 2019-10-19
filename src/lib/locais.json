@@ -112,6 +112,16 @@
             ]
         }
     ],
+    "LSD": [
+        {
+            "meaning": "O Laboratório de Sistemas Distribuídos (LSD) localiza-se no bloco CO e parte do bloco CN da UFCG. Atualmente, o laboratório faz parte da Unidade Acadêmica de Sistema de Computação, do Centro de Engenharia Elétrica e Informática da UFCG.",
+            "type": "Laboratório",
+            "entry": "Laboratório de Sistemas Distribuídos",
+            "examples": [
+                "A sala da professora Lívia fica no LSD"
+            ]
+        }
+    ],
     "Quiosque": [
         {
             "meaning": "Quiosque é a lanchonete que fica ao lado do laguinho, não tem como errar, ela é a única ali. No Quiosque você encontra lanches e também é servido almoço.",
@@ -119,6 +129,16 @@
             "entry": "Quiosque",
             "examples": [
                 "Vou comer uma tapioca com café batido lá no Quiosque."
+            ]
+        }
+    ],
+    "SPLab": [
+        {
+            "meaning": "O Laboratório de Práticas de Software (SPLab) locariza-se por trás do bloco CP1 (Onde fica a sala do lcc3). Atualmente, o laboratório faz parte do Departamento de Computação e Sistemas",
+            "type": "Laboratório",
+            "entry": "Software Practices Laboratory",
+            "examples": [
+                "A sala da professor Dalton fica no SPLab"
             ]
         }
     ]
