@@ -134,6 +134,17 @@
             ]
         }
     ],
+    "DC": [
+        {
+            "acronym": "DC",
+            "meaning": "Direito e Cidadania, ou DC é uma disciplina optativa do curso de Ciência da Computação que têm como objetivo estudar noções gerais do Direito, além da legislação de Informática.",
+            "type": "Disciplina",
+            "entry": "Direito e Cidadania",
+            "examples": [
+                "Eu estou pagando Direito e Cidadania."
+            ]
+        }
+    ],
     "EDA": [
         {
             "acronym": "EDA",
