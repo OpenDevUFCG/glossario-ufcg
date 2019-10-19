@@ -128,6 +128,17 @@
             ]
         }
     ],
+    "PSI": [
+        {
+            "acronym": "PSI",
+            "meaning": "Sistema que contém o acesso ao Sistema de Integração de Bibliotecas - SABI, Sistema de Controle Acadêmico de Pós-Graduação (Scapos), Sistema de Gerenciamento de Registro Eletrônico de Ponto (SIGREP) e SIEO.",
+            "type": "Sistema",
+            "entry": "Portal de Sistemas Integrados",
+            "examples": [
+                "Preciso acessar o PSI para renovar o emprestimo do meu livro."
+            ]
+        }
+    ],
     "PyLadies": [
         {
             "entry": "PyLadies",
