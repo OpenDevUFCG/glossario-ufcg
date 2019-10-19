@@ -112,6 +112,28 @@
             ]
         }
     ],
+    "LQD": [
+        {
+            "meaning": "O Laboratório de Qualidade de Dados é um grupo de pesquisa que investiga e desenvolve novas técnicas, abordagens, processos e ferramentas para avaliar e melhorar a qualidade dos conjuntos de dados, levando em consideração aspectos críticos da análise de dados contemporânea: confiabilidade e desempenho.",
+            "type": "Laboratório",
+            "entry": "Laboratório de Qualidade de Dados",
+            "examples": [
+                "O LQD desenvolveu um jogo didático.",
+                "Alguns artigos do LQD receberam indicações."
+            ]
+        }
+    ],
+    "LSI": [
+        {
+            "meaning": "Os integrantes do grupo SINBAD desenvolvem atividades de pesquisa científica e aplicada, ensino e extensão na área de Sistemas de Informação e Banco de Dados. ",
+            "type": "Laboratório",
+            "entry": "LABORATÓRIO DE SISTEMAS DA INFORMAÇÃO",
+            "examples": [
+                "Tulio está trabalhando em um projeto do LSI.",
+                "Pessoal, vamos nos encontrar na frente do LSI."
+            ]
+        }
+    ],
     "Quiosque": [
         {
             "meaning": "Quiosque é a lanchonete que fica ao lado do laguinho, não tem como errar, ela é a única ali. No Quiosque você encontra lanches e também é servido almoço.",
