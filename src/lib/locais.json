@@ -122,4 +122,14 @@
             ]
         }
     ]
+   "Humanas": [
+        {
+            "meaning": "Humanas é a praça de alimentação que fica perto do portão principal.",
+            "type": "Lanchonete",
+            "entry": "Humanas",
+            "examples": [
+                "Vou almoçar lá em humanas hoje."
+            ]
+        }
+    ]
 }
