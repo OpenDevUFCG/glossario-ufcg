@@ -112,6 +112,17 @@
             ]
         }
     ],
+    "LSD": [
+        {
+            "acronym": "LSD",
+            "meaning": "Laboratório de Sistemas Distribuídos é um dos mais dinâmicos laboratórios de pesquisa da UFCG. Hoje, as pesquisas desenvolvidas pelo LSD são concentradas nas áreas de Computação em Nuvem, Mineração de dados, Computação Social, Big Data e Aplicações. Localiza-se no bloco CO e parte do bloco CN da UFCG",
+            "type": "Laboratorio",
+            "entry": "Laboratório de Sistemas Distribuídos",
+            "examples": [
+                "A sala da professora Lívia fica no LSD"
+            ]
+        }
+    ],
     "Quiosque": [
         {
             "meaning": "Quiosque é a lanchonete que fica ao lado do laguinho, não tem como errar, ela é a única ali. No Quiosque você encontra lanches e também é servido almoço.",
@@ -119,6 +130,18 @@
             "entry": "Quiosque",
             "examples": [
                 "Vou comer uma tapioca com café batido lá no Quiosque."
+            ]
+        }
+    ],
+    "SPLab": [
+        {
+            "acronym": "SPLab",
+            "meaning": "SPLab é a sigla em inglês para Software Practices Laboratory, a missão do laboratório é promover o desenvolvimento do estado da arte na teoria e na prática da Engenharia de Software, conduzindo projetos em cooperação com parceiros acadêmicos e industriais e oferecendo educação de alto nível.",
+            "type": "Laboratorio",
+            "entry": "Software Practices Laboratory",
+            "examples": [
+                "A aula de P1 hoje será no SPLab.",
+                "A sala de Gaudêncio é no SPLab."
             ]
         }
     ]
