@@ -8,7 +8,6 @@ import PropTypes from 'prop-types';
 
 import 'ol/ol.css';
 import Map from 'ol/Map';
-import {transform} from 'ol/proj';
 import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
