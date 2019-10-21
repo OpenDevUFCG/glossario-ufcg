@@ -134,6 +134,17 @@
             ]
         }
     ],
+    "Direito": [
+        {
+            "acronym": "Direito",
+            "meaning": "Direito e Cidadania é uma disciplina optativa geral do curso de Ciência da Computação na UFCG, que visa analisar, de forma crítica, o fenômeno jurídico dos direitos humanos e da cidadania.",
+            "type": "Disciplina",
+            "entry": "Direito e Cidadania",
+            "examples": [
+                "A atividade de Direito é para entregar até sexta."
+            ]
+        }
+    ],
     "EDA": [
         {
             "acronym": "EDA",
@@ -317,6 +328,18 @@
                 "Quando começa o próximo lab de LP2?",
                 "Preciso terminar o terceiro lab de LP2",
                 "Eu não sei se era melhor usar herança ou interface na prova de LP2"
+            ]
+        }
+    ],
+    "LPT": [
+        {
+            "acronym": "LPT",
+            "meaning": "Língua Portuguesa (antes chamada de Leitura e Produção de Textos) é uma disciplina optativa geral do curso de Ciência da Computação na UFCG, que visa crar condições para que o aluno desenvolva aspectos comunicativos e discursivos, assim como sua capacidade de adequar a língua aos diferentes contextos.",
+            "type": "Disciplina",
+            "entry": "Língua Portuguesa",
+            "examples": [
+                "A apresentação do seminário de LPT é amanhã.",
+                "Essa semana tem resumo de LPT para entregar."
             ]
         }
     ],
