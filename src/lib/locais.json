@@ -122,6 +122,16 @@
             ]
         }
     ],
+    "LQD": [
+        {
+            "meaning": "O LQD (Laboratório de Qualidade de Dados) fica no bloco CN (Bloco do lCC2) e o seu grupo de pesquisa investiga e desenvolve novas técnicas, abordagens, processos e ferramentas para avaliar e melhorar a qualidade dos conjuntos de dados.",
+            "type": "Laboratório",
+            "entry": "Laboratório de Qualidade de Dados",
+            "examples": [
+                "Pedro não quer mais sair do LQD."
+            ]
+        }
+    ],
     "Quiosque": [
         {
             "meaning": "Quiosque é a lanchonete que fica ao lado do laguinho, não tem como errar, ela é a única ali. No Quiosque você encontra lanches e também é servido almoço.",
