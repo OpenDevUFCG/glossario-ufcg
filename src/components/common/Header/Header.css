@@ -1,4 +1,5 @@
 .header__search-tools {
+  align-self: center;
   display: grid;
   grid-template-areas:
     'logo'
@@ -23,6 +24,7 @@
 
 .header__day-phrase {
   grid-area: day-phrase;
+  text-align: center;
 }
 
 @media screen and (min-width: 700px) {
@@ -43,5 +45,9 @@
 
   .header__logo {
     width: 400px;
+  }
+
+  .header__day-phrase {
+    text-align: left;
   }
 }
