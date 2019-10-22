@@ -25,4 +25,8 @@ function updateFile(name) {
   fs.writeFileSync(path, dataString);
 }
 
+console.log('\033[1;93m Reordenando arquivos de dados... \033[0m');
+
 dataFiles.forEach(df => updateFile(df));
+
+console.log('\033[1;93m Pronto! :) \033[0m');
