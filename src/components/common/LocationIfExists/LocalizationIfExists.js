@@ -14,14 +14,14 @@ import {defaults} from 'ol/control';
 
 import mapPin from '../../../../assets/images/map-pin.png';
 
-const LocalizationIfExists = ({ entry, localization }) => {
+const LocationIfExists = ({ entry, location }) => {
 
-    if (localization && localization.length === 2) {
+    if (location.latitude && location.longitude) {
   
-      const lonLatLocalization = [localization[1], localization[0]];
+      const lonLatlocation = [location.longitude, location.latitude];
   
       let iconFeature = new Feature({
-        geometry: new Point(lonLatLocalization),
+        geometry: new Point(lonLatlocation),
         name: entry
       })
   
@@ -59,7 +59,7 @@ const LocalizationIfExists = ({ entry, localization }) => {
           target: 'map',
           view: new View({
             projection: 'EPSG:4326',
-            center: lonLatLocalization,
+            center: lonLatlocation,
             zoom: 18
           })
         });
@@ -75,4 +75,4 @@ const LocalizationIfExists = ({ entry, localization }) => {
       return <></>;
 };
 
-export default LocalizationIfExists;
+export default LocationIfExists;

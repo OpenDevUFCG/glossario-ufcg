@@ -8,10 +8,10 @@
                 "Me encontra lá perto da amarelinha.",
                 "Vou tirar xerox do resumo lá na amarelinha."
             ],
-            "localization": [
-                -7.21401,
-                -35.90765
-            ]
+            "location": {
+                "latitude": -7.21401,
+                "longitude": -35.90765
+            }
         }
     ],
     "CAA": [
@@ -23,10 +23,10 @@
                 "As aulas de Probabilidade esse semestre são no CAA 408.",
                 "Te encontro perto dos elevadores do CAA."
             ],
-            "localization": [
-                -7.2142,
-                -35.90824
-            ]
+            "location": {
+                "latitude": -7.2142,
+                "longitude": -35.90824
+            }
         }
     ],
     "CEEI": [
@@ -39,10 +39,10 @@
                 "Nesse campo \"Centro\" pode preencher CEEI, ou tem que ser por extenso?",
                 "Tou indo lá no CEEI, ver se Fatinha tá na coordenação."
             ],
-            "localization": [
-                -7.213166,
-                -35.908628
-            ]
+            "location": {
+                "latitude": -7.213166,
+                "longitude": -35.908628
+            }
         }
     ],
     "CN": [
@@ -54,10 +54,10 @@
                 "A professora Joseana disse que a sala dela é no CN.",
                 "A secretária do DSC fica no CN."
             ],
-            "localization": [
-                -7.21333,
-                -35.90732
-            ]
+            "location": {
+                "latitude": -7.21333,
+                "longitude": -35.90732
+            }
         }
     ],
     "CP1": [
@@ -102,10 +102,10 @@
                 "O miniteste de amanhã será no LCC1!",
                 "Pessoal, amanhã a nossa aula será no LCC1."
             ],
-            "localization": [
-                -7.21383,
-                -35.90899
-            ]
+            "location": {
+                "latitude": -7.21383,
+                "longitude": -35.90899
+            }
         }
     ],
     "LCC2": [
