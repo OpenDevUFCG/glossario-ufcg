@@ -16,11 +16,11 @@ import mapPin from '../../../../assets/images/map-pin.png';
 
 const LocationIfExists = ({ entry, location }) => {
 
-    if (location.latitude && location.longitude) {
+    if (location) {
   
       const lonLatlocation = [location.longitude, location.latitude];
   
-      let iconFeature = new Feature({
+      const iconFeature = new Feature({
         geometry: new Point(lonLatlocation),
         name: entry
       })
