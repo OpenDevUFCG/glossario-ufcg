@@ -72,7 +72,7 @@ const LocalizationIfExists = ({ entry, localization }) => {
         </div>
       );
     } else
-      return (<div/>);
+      return <></>;
 };
 
 export default LocalizationIfExists;
