@@ -237,6 +237,17 @@
             ]
         }
     ],
+    "INFOSOC": [
+        {
+            "acronym": "INFOSOC",
+            "meaning": "Informática e Sociedade é uma disciplina optativa geral do curso de Ciência da Computação na UFCG.",
+            "type": "Disciplina",
+            "entry": "Informática e Sociedade",
+            "examples": [
+                "Amanhã tem resumo de INFOSOC?"
+            ]
+        }
+    ],
     "IRC": [
         {
             "acronym": "IRC",
