@@ -25,7 +25,7 @@ const LocalizationIfExists = ({ entry, localization }) => {
         name: entry
       })
   
-      let iconStyle = new Style({
+      const iconStyle = new Style({
         image: new Icon({
           anchor: [0.5, 0.5],
           anchorXUnits: 'fraction',
