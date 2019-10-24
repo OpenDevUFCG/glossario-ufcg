@@ -1,45 +1,46 @@
 .odu-card {
-    display: grid;
-    grid-gap: 1em;
-    background-color: var(--odu-color-card-bg);
-    height: fit-content;
-    width: fit-content;
-    border-radius: 1em;
-    margin: 1em;
-    padding: 2em;
+  display: grid;
+  grid-gap: 1em;
+  background-color: var(--odu-color-card-bg);
+  height: fit-content;
+  width: fit-content;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 2em;
 }
 
 .odu-title {
-    font-size: 2em;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.8);
+  font-size: 2em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .odu-button {
-    width: 100%;
-    background-color: #EEE;
-    outline: none;
-    border: gray 1px solid;
+  width: 100%;
+  background-color: #eee;
+  outline: none;
+  border: gray 1px solid;
 }
 
-.odu-button:hover, .odu-icon-button:hover {
-    background-color: #DDD;
+.odu-button:hover,
+.odu-icon-button:hover {
+  background-color: #ddd;
 }
 
-.odu-button:active, .odu-icon-button:active {
-    background-color: #CCC;
+.odu-button:active,
+.odu-icon-button:active {
+  background-color: #ccc;
 }
 
 .odu-icon-button {
-    outline: none;
-    border: none;
-    height: fit-content;
-    width: fit-content;
-    border-radius: 50%;
-    padding: 0;
-    display: flex;
-    background-color: transparent;
-    align-content: center;
-    justify-content: center;
+  outline: none;
+  border: none;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  background-color: transparent;
+  align-content: center;
+  justify-content: center;
 }
-

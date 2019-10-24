@@ -22,13 +22,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "node src/scripts/orderData.js && git add src/lib"
+      "pre-commit": "yarn run lint && node src/scripts/orderData.js && git add src/lib"
     }
   },
   "scripts": {
     "start": "webpack-dev-server --config ./webpack/webpack.dev.js --progress --colors",
     "build": "webpack --config ./webpack/webpack.prod.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prettier": "prettier --write '**/*.{js,jsx,html,css}'"
   },
   "eslintConfig": {
     "extends": "react-app"

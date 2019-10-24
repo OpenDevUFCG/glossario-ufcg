@@ -1,35 +1,36 @@
 .glossary__container {
-    height: 100%;
-    width: 100%;
-    display: grid;
+  height: 100%;
+  width: 100%;
+  display: grid;
 }
 
 .glossary__container--has-not-search {
-    grid-template-rows: 100% 0;
+  grid-template-rows: 100% 0;
 }
 
 .glossary__container--has-search {
-    grid-template-rows: max-content auto;
+  grid-template-rows: max-content auto;
 }
 
 @media screen and (max-width: 700px) {
-    .glossary__search-tools {
-        grid-template-areas:
-            'logo'
-            'search'
-            'day-phrase';
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, max-content);
-        grid-gap: 1em;
-        padding: 0.5em 1em 0;
-    }
+  .glossary__search-tools {
+    grid-template-areas:
+      'logo'
+      'search'
+      'day-phrase';
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, max-content);
+    grid-gap: 1em;
+    padding: 0.5em 1em 0;
+  }
 
-    .glossary__logo, .glossary__day-phrase {
-        justify-self: center;
-    }
+  .glossary__logo,
+  .glossary__day-phrase {
+    justify-self: center;
+  }
 
-    .glossary__logo {
-        width: 80%;
-        height: auto;
-    }
+  .glossary__logo {
+    width: 80%;
+    height: auto;
+  }
 }

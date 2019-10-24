@@ -4,7 +4,8 @@ node_js:
 cache:
   directories:
   - node_modules
-script:
+script:  
+  - yarn run lint
   - yarn run build
 
 deploy:

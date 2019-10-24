@@ -33,6 +33,18 @@
             ]
         }
     ],
+    "ELAS": [
+        {
+            "acronym": "ELAS",
+            "meaning": "Elas@Computação é uma comunidade de mulheres(ou que se identificam como tal) do curso de Ciência da Computação da UFCG, que inclui alunas e professoras. O grupo foi criado com o intuito de reunir as mulheres do curso, que enfrentam constantes dificuldades em um ambiente majoritariamente masculino.",
+            "type": "Comunidade da UFCG",
+            "entry": "Elas@Computação",
+            "examples": [
+                "O Elas está cuidando disso.",
+                "Hoje haverá reunião do Elas"
+            ]
+        }
+    ],
     "FORK": [
         {
             "acronym": "FORK",

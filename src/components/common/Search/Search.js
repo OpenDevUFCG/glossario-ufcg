@@ -15,6 +15,10 @@ const CustomSearchButton = ({ handleClick }) => (
   </button>
 );
 
+CustomSearchButton.propTypes = {
+  handleClick: PropTypes.func,
+}
+
 const Search = ({ items, handleSelect }) => (
   <aside className="search">
     <AutoComplete

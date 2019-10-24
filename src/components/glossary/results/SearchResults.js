@@ -5,9 +5,11 @@ import terms from '../../../lib/data';
 import { TermCard } from '../../common/index';
 import NotFound from './404/NotFound';
 
+import PropTypes from 'prop-types';
+
 const Results = ({ results }) =>
   results.map(result => (
-   <TermCard term={result} key={`${result.entry}${result.meaning}`} />
+    <TermCard term={result} key={`${result.entry}${result.meaning}`} />
   ));
 
 const SearchResults = props => {
@@ -27,5 +29,9 @@ const SearchResults = props => {
     </div>
   );
 };
+
+SearchResults.propTypes = {
+  term: PropTypes.string,
+}
 
 export default SearchResults;

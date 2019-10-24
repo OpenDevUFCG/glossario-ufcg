@@ -7,6 +7,10 @@
             "examples": [
                 "Me encontra lá perto da amarelinha.",
                 "Vou tirar xerox do resumo lá na amarelinha."
+            ],
+            "localization": [
+                -7.21401,
+                -35.90765
             ]
         }
     ],
@@ -17,7 +21,11 @@
             "entry": "CAA",
             "examples": [
                 "As aulas de Probabilidade esse semestre são no CAA 408.",
-                "Te encontro perto dos elevadores do"
+                "Te encontro perto dos elevadores do CAA."
+            ],
+            "localization": [
+                -7.2142,
+                -35.90824
             ]
         }
     ],
@@ -30,6 +38,10 @@
             "examples": [
                 "Nesse campo \"Centro\" pode preencher CEEI, ou tem que ser por extenso?",
                 "Tou indo lá no CEEI, ver se Fatinha tá na coordenação."
+            ],
+            "localization": [
+                -7.213166,
+                -35.908628
             ]
         }
     ],
@@ -41,6 +53,10 @@
             "examples": [
                 "A professora Joseana disse que a sala dela é no CN.",
                 "A secretária do DSC fica no CN."
+            ],
+            "localization": [
+                -7.21333,
+                -35.90732
             ]
         }
     ],
@@ -85,6 +101,10 @@
             "examples": [
                 "O miniteste de amanhã será no LCC1!",
                 "Pessoal, amanhã a nossa aula será no LCC1."
+            ],
+            "localization": [
+                -7.21383,
+                -35.90899
             ]
         }
     ],
@@ -97,6 +117,10 @@
             "examples": [
                 "Depois do almoço, vamos para o LCC2?",
                 "Pessoal, amanhã a nossa aula será no LCC2."
+            ],
+            "localization": [
+                -7.2136349,
+                -35.907708
             ]
         }
     ],
@@ -112,6 +136,26 @@
             ]
         }
     ],
+    "LQD": [
+        {
+            "meaning": "O LQD (Laboratório de Qualidade de Dados) fica no bloco CN (Bloco do lCC2) e o seu grupo de pesquisa investiga e desenvolve novas técnicas, abordagens, processos e ferramentas para avaliar e melhorar a qualidade dos conjuntos de dados.",
+            "type": "Laboratório",
+            "entry": "Laboratório de Qualidade de Dados",
+            "examples": [
+                "Pedro não quer mais sair do LQD."
+            ]
+        }
+    ],
+    "LSD": [
+        {
+            "meaning": "O Laboratório de Sistemas Distribuídos (LSD) localiza-se no bloco CO e parte do bloco CN da UFCG. Atualmente, o laboratório faz parte da Unidade Acadêmica de Sistema de Computação, do Centro de Engenharia Elétrica e Informática da UFCG.",
+            "type": "Laboratório",
+            "entry": "Laboratório de Sistemas Distribuídos",
+            "examples": [
+                "A sala da professora Lívia fica no LSD"
+            ]
+        }
+    ],
     "Quiosque": [
         {
             "meaning": "Quiosque é a lanchonete que fica ao lado do laguinho, não tem como errar, ela é a única ali. No Quiosque você encontra lanches e também é servido almoço.",
@@ -119,6 +163,16 @@
             "entry": "Quiosque",
             "examples": [
                 "Vou comer uma tapioca com café batido lá no Quiosque."
+            ]
+        }
+    ],
+    "SPLab": [
+        {
+            "meaning": "O Laboratório de Práticas de Software (SPLab) locariza-se por trás do bloco CP1 (Onde fica a sala do lcc3). Atualmente, o laboratório faz parte do Departamento de Computação e Sistemas",
+            "type": "Laboratório",
+            "entry": "Software Practices Laboratory",
+            "examples": [
+                "A sala da professor Dalton fica no SPLab"
             ]
         }
     ]
