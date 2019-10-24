@@ -1,8 +1,8 @@
-# Glossário UFCG [![Build Status](https://travis-ci.com/OpenDevUFCG/glossario-ufcg.svg?branch=master)](https://travis-ci.com/OpenDevUFCG/glossario-ufcg) [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/vFFGGEE)
+# [Glossário UFCG](https://glossario.opendevufcg.org/) [![Build Status](https://travis-ci.com/OpenDevUFCG/glossario-ufcg.svg?branch=master)](https://travis-ci.com/OpenDevUFCG/glossario-ufcg) [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/vFFGGEE)
 
 ![Glossário UFCG Logo](https://i.imgur.com/PBCURux.png)
 
-[Glossário](https://glossario.opendevufcg.org/) contendo significados de siglas e gírias usadas por alunos da UFCG - Campus Campina Grande.
+Glossário contendo significados de siglas e gírias usadas por alunos da UFCG - Campus Campina Grande.
 
 ## Executar localmente
 
