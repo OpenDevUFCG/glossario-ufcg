@@ -16,7 +16,7 @@ import mapPin from '../../../../assets/images/map-pin.png';
 
 const LocationIfExists = ({ entry, location }) => {
 
-    if (location) {
+    if (location && location.latitude && location.longitude) {
   
       const lonLatlocation = [location.longitude, location.latitude];
   
