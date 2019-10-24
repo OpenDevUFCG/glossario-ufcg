@@ -67,6 +67,10 @@
             "entry": "CP1",
             "examples": [
                 "A palestra da empresa X vai ser lá no CP1, o prédio do LCC3"
+            ],
+            "localization": [
+                -7.212764,
+                -35.907370
             ]
         }
     ],
@@ -133,6 +137,10 @@
             "examples": [
                 "A sala do PET é no bloco do LCC3!",
                 "Pessoal, amanhã a nossa aula será no LCC3."
+            ],
+            "localization": [
+                -7.212780,
+                -35.907486
             ]
         }
     ],
@@ -143,6 +151,10 @@
             "entry": "Laboratório de Sistemas Distribuídos",
             "examples": [
                 "A sala da professora Lívia fica no LSD"
+            ],
+            "localization": [
+                -7.213099,
+                -35.907174
             ]
         }
     ],
@@ -173,6 +185,10 @@
             "entry": "Software Practices Laboratory",
             "examples": [
                 "A sala da professor Dalton fica no SPLab"
+            ],
+            "localization": [
+                -7.212450,
+                -35.907368
             ]
         }
     ]
