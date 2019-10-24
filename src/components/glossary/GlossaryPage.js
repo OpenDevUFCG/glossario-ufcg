@@ -1,10 +1,10 @@
 import React from 'react';
 import './GlossaryPage.css';
-import { Link } from 'react-router-dom';
 
-import terms from '../../lib/data';
 import SearchResults from './results/SearchResults';
 import Header from '../common/Header/Header';
+
+import PropTypes from 'prop-types';
 
 const GlossaryPage = props => {
   const getTerm = () => props.match.params.term;
@@ -23,5 +23,13 @@ const GlossaryPage = props => {
     </div>
   );
 };
+
+GlossaryPage.propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      term: PropTypes.string,
+    }),
+  }),
+}
 
 export default GlossaryPage;
