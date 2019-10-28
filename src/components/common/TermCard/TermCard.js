@@ -31,6 +31,11 @@ const ExamplesIfExists = ({ entry, examples }) => {
   );
 };
 
+ExamplesIfExists.propTypes = {
+  entry: PropTypes.string,
+  examples: PropTypes.arrayOf(PropTypes.string),
+}
+
 const TermCard = ({ term }) => (
   <div className={'term-card__container'}>
     <h1 className={'term-card__title-1'}>{term.entry}</h1>
