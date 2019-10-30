@@ -34,7 +34,7 @@ const ExamplesIfExists = ({ entry, examples }) => {
 ExamplesIfExists.propTypes = {
   entry: PropTypes.string,
   examples: PropTypes.arrayOf(PropTypes.string),
-}
+};
 
 const TermCard = ({ term }) => (
   <div className={'term-card__container'}>
@@ -51,7 +51,7 @@ const TermCard = ({ term }) => (
       <ExamplesIfExists entry={term.entry} examples={term.examples} />
     </div>
 
-    <LocationIfExists entry={term.entry} location={term.location} />
+    <LocationIfExists entry={term.entry} location={term.localization} />
   </div>
 );
 
@@ -64,7 +64,7 @@ TermCard.propTypes = {
     acronym: PropTypes.string,
     localization: PropTypes.shape({
       latitude: PropTypes.number,
-      longitude: PropTypes.number
+      longitude: PropTypes.number,
     }),
   }),
 };

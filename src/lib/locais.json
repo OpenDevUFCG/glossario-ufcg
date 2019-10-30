@@ -74,6 +74,17 @@
             }
         }
     ],
+    "GENILDA": [
+        {
+            "meaning": "A Xerox da Genilda é uma gráfica que fica próxima a praça de alimentação do CH, entre o bloco BD e o bloco BG.",
+            "type": "Gráfica.",
+            "entry": "Xerox da Genilda.",
+            "examples": [
+                "O material da nossa aula está disponível lá na Xerox da Genilda.",
+                "Eu gosto de tirar xerox lá em Genilda, o preço é ótimo."
+            ]
+        }
+    ],
     "Joab": [
         {
             "meaning": "Joab é como é conhecida a lanchonete mais próxima do CAA, fica bem ao lado da Xerox Amarelinha. Essa lanchonete é praticamente por trás do CAA e é muito frequentada por pessoas do curso de Ciência da Computação assim como por pessoas de outros cursos que se localizam majoritariamente no setor de exatas.",
@@ -118,7 +129,6 @@
                 "latitude": -7.21383,
                 "longitude": -35.90899
             }
-
         }
     ],
     "LCC2": [
@@ -175,7 +185,7 @@
                 "O minicurso será no auditório do LSD"
             ],
             "location": {
-                "latitude": -7.213050,
+                "latitude": -7.21305,
                 "longitude": -35.907182
             }
         }
@@ -196,20 +206,6 @@
     ],
     "SPLab": [
         {
-            "meaning": "O Laboratório de Práticas de Software (SPLab) locariza-se por trás do bloco CP1 (Onde fica a sala do lcc3). Atualmente, o laboratório faz parte do Departamento de Computação e Sistemas",
-            "type": "Laboratório",
-            "entry": "Software Practices Laboratory",
-            "examples": [
-                "A sala da professor Dalton fica no SPLab"
-            ],
-            "location": {
-                "latitude": -7.212417,
-                "longitude": -35.907320
-            }
-        }
-    ],
-    "SPLab": [
-        {
             "acronym": "SPLab",
             "meaning": "SPLab é a sigla em inglês para Software Practices Laboratory, a missão do laboratório é promover o desenvolvimento do estado da arte na teoria e na prática da Engenharia de Software, conduzindo projetos em cooperação com parceiros acadêmicos e industriais e oferecendo educação de alto nível.",
             "type": "Laboratorio",
@@ -220,16 +216,5 @@
                 "A sala de Gaudêncio é no SPLab."
             ]
         }
-    ],
-    "GENILDA": [
-        {   
-            "meaning": "A Xerox da Genilda é uma gráfica que fica próxima a praça de alimentação do CH, entre o bloco BD e o bloco BG.",
-            "type": "Gráfica.",
-            "entry": "Xerox da Genilda.",
-            "examples":[
-                "O material da nossa aula está disponível lá na Xerox da Genilda.",
-                "Eu gosto de tirar xerox lá em Genilda, o preço é ótimo."
-            ]
-        }
-     ]       
+    ]
 }
