@@ -22,4 +22,12 @@ merge(terms, girias);
 merge(terms, locais);
 merge(terms, outros);
 
+const lowerCaseTerms = {};
+Object.keys(terms).map((key) => {
+  lowerCaseTerms[key.toLowerCase()] = terms[key];
+});
+
 export default terms;
+export {
+  lowerCaseTerms,
+};

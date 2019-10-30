@@ -1,7 +1,7 @@
 import React from 'react';
 import './SearchResults.css';
 
-import terms from '../../../lib/data';
+import { lowerCaseTerms } from '../../../lib/data';
 import { TermCard } from '../../common/index';
 import NotFound from './404/NotFound';
 
@@ -13,9 +13,9 @@ const Results = ({ results }) =>
   ));
 
 const SearchResults = props => {
-  const getTermResults = () => terms[getTerm()] || [];
+  const getTermResults = () => lowerCaseTerms[getTerm()] || [];
 
-  const getTerm = () => props.term;
+  const getTerm = () => props.term.toLowerCase();
 
   const isResultEmpty = () => getTermResults().length === 0;
 
