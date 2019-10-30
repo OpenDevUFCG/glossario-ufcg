@@ -153,16 +153,6 @@
             }
         }
     ],
-    "LSD": [
-        {
-            "meaning": "O Laboratório de Sistemas Distribuídos (LSD) localiza-se no bloco CO e parte do bloco CN da UFCG. Atualmente, o laboratório faz parte da Unidade Acadêmica de Sistema de Computação, do Centro de Engenharia Elétrica e Informática da UFCG.",
-            "type": "Laboratório",
-            "entry": "Laboratório de Sistemas Distribuídos",
-            "examples": [
-                "A sala da professora Lívia fica no LSD"
-            ]
-        }
-    ],
     "LQD": [
         {
             "meaning": "O LQD (Laboratório de Qualidade de Dados) fica no bloco CN (Bloco do lCC2) e o seu grupo de pesquisa investiga e desenvolve novas técnicas, abordagens, processos e ferramentas para avaliar e melhorar a qualidade dos conjuntos de dados.",
@@ -170,6 +160,16 @@
             "entry": "Laboratório de Qualidade de Dados",
             "examples": [
                 "Pedro não quer mais sair do LQD."
+            ]
+        }
+    ],
+    "LSD": [
+        {
+            "meaning": "O Laboratório de Sistemas Distribuídos (LSD) localiza-se no bloco CO e parte do bloco CN da UFCG. Atualmente, o laboratório faz parte da Unidade Acadêmica de Sistema de Computação, do Centro de Engenharia Elétrica e Informática da UFCG.",
+            "type": "Laboratório",
+            "entry": "Laboratório de Sistemas Distribuídos",
+            "examples": [
+                "A sala da professora Lívia fica no LSD"
             ]
         }
     ],
