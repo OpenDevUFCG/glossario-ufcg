@@ -1,6 +1,8 @@
 import React from 'react';
 import { TermCard } from '../../../common';
 
+import PropTypes from 'prop-types';
+
 const notFoundCard = termo => ({
   acronym: '404',
   meaning: `O termo \`${termo}\`, que você buscou, não foi encontrado :(. Se você acha que o termo deveria ser adicionado, [sugira a sua adição](https://github.com/OpenDevUFCG/glossario-ufcg/issues/new?template=new_term.md) ou [adicione você mesmo](https://github.com/OpenDevUFCG/glossario-ufcg/blob/master/CONTRIBUTING.md).`,
@@ -13,5 +15,9 @@ const notFoundCard = termo => ({
 });
 
 const NotFound = ({ termo }) => <TermCard term={notFoundCard(termo)} />;
+
+NotFound.propTypes = {
+  termo: PropTypes.string,
+}
 
 export default NotFound;

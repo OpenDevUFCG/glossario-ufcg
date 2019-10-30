@@ -9,7 +9,7 @@ const Icon = ({ icon, iconColor, size }) => (
 
 Icon.propTypes = {
   icon: PropTypes.string,
-  color: PropTypes.string,
+  iconColor: PropTypes.string,
   size: PropTypes.string,
 };
 
