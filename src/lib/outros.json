@@ -1,225 +1,235 @@
 {
-    "CI": [
-        {
-            "acronym": "CI",
-            "meaning": "Continuous Integration, ou CI, se refere ao processo de desenvolvimento no qual os desenvolvedores adicionam código aos poucos e de forma contínua. Para verificar as contribuições feitas pelos desenvolvedores, é comum que haja um mecanismo de checagem de erros e outras verificações. Exemplos desses mecanismos são o [Gitlab CI](https://about.gitlab.com/product/continuous-integration/) e [Travis](https://travis-ci.org/).",
-            "type": "Termo Técnico",
-            "entry": "Continuous Integration",
-            "examples": [
-                "A gente usava Jenkins, mas preferiu integrar tudo no Gitlab CI."
-            ]
-        }
-    ],
-    "COMMIT": [
-        {
-            "acronym": "COMMIT",
-            "meaning": "Commit se refere à um envio de arquivos e modificações à um repositório no git. Ele pode ser feito através do comando `git commit -m \"Sua mensagem aqui\"`. Você pode ler mais sobre commits [aqui](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line).",
-            "type": "Termo Técnico",
-            "entry": "Commit",
-            "examples": [
-                "Já dei commit com as coisas que tu me pediu na revisão.",
-                "Nosso projeto em P2 tinha mais de 100 commits."
-            ]
-        }
-    ],
-    "DSC": [
-        {
-            "acronym": "DSC",
-            "meaning": "Departamento de Sistemas e Computação. É o Departamento da Universidade responsável pelo curso de Ciência da Computação.",
-            "type": "Departamento",
-            "entry": "Departamento de Sistemas e Computação",
-            "examples": [
-                "Tou indo na secretaria do DSC entregar o relatório da monitoria."
-            ]
-        }
-    ],
-    "FORK": [
-        {
-            "acronym": "FORK",
-            "meaning": "Um Fork é um clone público de um repositório no GitHub. Ele é bastante útil quando você não é dono do repositório nem colaborador, mas ainda assim deseja contribuir com alguma issue ou corrigir algum bug. Leia mais sobre os forks [aqui](https://help.github.com/en/articles/fork-a-repo).",
-            "type": "Termo Técnico",
-            "entry": "Fork",
-            "examples": [
-                "Eu tinha achado um bug no repositório, fiz um fork, corrigi e eles aceitaram meu PR.",
-                "Façam um fork do repositório de exemplo, implementem a atividade, e mandem o link do repositório para a avaliação."
-            ]
-        }
-    ],
-    "ISSUE": [
-        {
-            "acronym": "ISSUE",
-            "meaning": "Issue é um termo usado para se referir às discussões nos repositórios. Muitas vezes quando usamos alguma aplicação Open Source, encontramos erros ou ficamos com vontade de sugerir funcionalidades novas à aplicação, e fazemos isso através das issues. Assim, podemos entender que as issues são abertas para reportar erros, tirar dúvidas, solicitar melhorias, entre outros similares. Leia mais sobre issues [aqui](https://help.github.com/en/articles/creating-an-issue).",
-            "type": "Termo Técnico",
-            "entry": "Issue",
-            "examples": [
-                "No mutirão de carnaval, o glossário tava focado em contribuir com a issue #44.",
-                "Abri uma issue num repositório pra relatar um bug que achei, e ai eles confirmaram e corrigiram."
-            ]
-        }
-    ],
-    "PET": [
-        {
-            "acronym": "PET",
-            "meaning": "Programa de Educação Tutorial é um programa do Governo Federal brasileiro de estímulo a atividades de pesquisa, ensino e extensão universitárias, no nível de graduação. O PET desenvolve diversas atividades sociais, levando o conhecimento para além da universidade, assim ajudando a sociedade.",
-            "type": "Programa",
-            "entry": "Programa de Educação Tutorial",
-            "examples": [
-                "O PET Computação tem mais de 20 anos de existência.",
-                "O PET Matemática oferece apoio acadêmico."
-            ]
-        }
-    ],
-    "PIBIC": [
-        {
-            "acronym": "PIBIC",
-            "meaning": "Programa Institucional de Bolsas de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa, por meio da concessão de bolsas a estudantes de graduação.",
-            "type": "Programa",
-            "entry": "Programa Institucional de Bolsas de Iniciação Científica",
-            "examples": [
-                "Meu PIBIC é sobre a presença feminina no cangaço."
-            ]
-        }
-    ],
-    "PIVIC": [
-        {
-            "acronym": "PIVIC",
-            "meaning": "Programa Institucional de Volutários de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa com estudantes de graduação.",
-            "type": "Programa",
-            "entry": "Programa Institucional de Volutários de Iniciação Científica",
-            "examples": [
-                "Meu contrato do PIVIC acaba em fevereiro."
-            ]
-        }
-    ],
-    "PPC": [
-        {
-            "entry": "Projeto Pedagógico do Curso",
-            "acronym": "PPC",
-            "meaning": "Projeto Pedagógico do Curso. Se refere à estrutura das disciplinas do curso, como o período em que é recomendado cursar cada disciplina, os pré-requisitos, e similares. É importante ressaltar que em 2017/2018 o PPC foi alterado, dividindo os alunos em \"PPC Novo\" e \"PPC Antigo\". O uso desse termo apenas é coerente quando no contexto do curso de CC.",
-            "type": "Termo",
-            "examples": [
-                "A gente tá no PCC novo ou antigo?",
-                "Esse é o último período no PCC antigo, né?"
-            ]
-        }
-    ],
-    "PR": [
-        {
-            "acronym": "PR",
-            "meaning": "Pull Request é uma expressão utilizada quando alguém está fazendo uma contribuição num repositório: geralmente, antes de qualquer contribuição ser aceita, o código modificado e/ou adicionado passa por um processo de teste e revisão de código. O PR serve para que os responsáveis pelo repositório revisem as modificações, aceitando-as ou requisitando modificações para aquele que o fez, antes de adicionar qualquer código ao repositório original. Leia mais sobre PRs [aqui](https://help.github.com/en/articles/about-pull-requests).",
-            "type": "Termo Técnico",
-            "entry": "Pull Request",
-            "examples": [
-                "Corrigi umas coisas e fiz um PR, me revisem.",
-                "Fiz um PR pra contribuir com a #44."
-            ]
-        }
-    ],
-    "PRE": [
-        {
-            "acronym": "PRE",
-            "meaning": "A Pró-Reitoria de Ensino é um órgão assessor da direção superior responsável pelo planejamento, coordenação e supervisão das atividades de ensino nos cursos de graduação, sequenciais e de educação básica em todas as suas modalidades.",
-            "type": "Órgão",
-            "entry": "Pró-Reitoria de Ensino",
-            "examples": [
-                "A PRE não sinalizou mudança no calendário por causa da paralisação.",
-                "O Controle Acadêmico é um sistema da PRE.",
-                "O bloco da PRE é aquele azul, logo na entrada da UFCG."
-            ]
-        }
-    ],
-    "PyLadies": [
-        {
-            "entry": "PyLadies",
-            "acronym": "PyLadies",
-            "meaning": "PyLadies é um grupo de mulheres desenvolvedoras amantes da programação em Python. A comunidade tem como objetivo de incentivar e apoiar mulheres na tecnologia.",
-            "type": "Organização",
-            "examples": [
-                "Hoje vai ter minicurso de Deep Learning do PyLadies!",
-                "Quero entrar muito no PyLadies."
-            ]
-        }
-    ],
-    "RDM": [
-        {
-            "entry": "Relação de disciplinas matriculadas",
-            "acronym": "RDM",
-            "meaning": "A relação de disciplinas matriculadas é um documento emitido pela coordenação do curso ao ser realizada a matrícula das disciplinas no início do período. O RDM possui todas as disciplinas matriculadas e serve como comprovante de que você está vinculado à universidade.",
-            "type": "Termo",
-            "examples": [
-                "Vou lá em Fatinha pedir meu RDM",
-                "Fui lá na coordenação pegar meu histórico e RDM"
-            ]
-        }
-    ],
-    "SAD": [
-        {
-            "entry": "Sistema de avaliação docente",
-            "acronym": "SAD",
-            "meaning": "Sistema no qual os alunos que acabaram de cursar a disciplina forneçam um feedback para aspectos como sistema de avaliação utilizado, se a disciplina seguiu a ementa, domínio do professor com relação ao conteúdo lecionado e, até mesmo, aspectos físicos, como a limpeza da sala, utilização de recursos digitais, etc. Sendo que, tudo isso é feito através de notas de classificação e comentários. Não é obrigatório responder o SAD, mas é muito importante para melhorar a forma que a disciplina é conduzida, até porque, ao final, os professores recebem estas avaliações e adequam-as para o próximo semestre. Um ponto importante é que a avaliação é ANÔNIMA. Ok, mas onde encontro o SAD? Calma o link de cada disciplina cursada é enviado ao final de cada período para seu e-mail.",
-            "type": "Termo",
-            "examples": [
-                "Chegou e-mail do SAD.",
-                "Já respondeu o SAD?"
-            ]
-        }
-    ],
-    "SEI": [
-        {
-            "acronym": "SEI",
-            "meaning": "O SEI (Sistema Eletrônico de Informações) é um software que visa gerenciar toda a documentação administrativa em ambiente virtual, desenvolvido Tribunal Regional Federal da 4ª Região (TRF4) e escolhido pelo Ministério do Planejamento, para ser a ferramenta de trabalho que engloba um conjunto de módulos e funcionalidades que promovem a eficiência administrativa.",
-            "type": "Software",
-            "entry": "Sistema Eletronico de Informações",
-            "examples": [
-                "A orientação é de que sejam inclusos como documentos externos no SEI somente PDF's ou imagens JPG."
-            ]
-        }
-    ],
-    "TECC": [
-        {
-            "entry": "Tópicos Especiais em Ciência da Computação",
-            "acronym": "TECC",
-            "meaning": "Tópicos Especiais em Ciência da Computação é um termo usado para disciplinas optativas específicas do curso de Ciência da Computação, como é o exemplo de [TECC] Jogos Digitais.",
-            "type": "Termo",
-            "examples": [
-                "Você está matriculado em [TECC] Jogos Digitais"
-            ]
-        }
-    ],
-    "TST": [
-        {
-            "entry": "TST",
-            "acronym": "TST",
-            "meaning": "TST é uma ferramenta usada por professores em algumas disciplinas de ciência da computação para verificar e testar exercícios de programação dos alunos. Esta ferramenta pode ser usada na linha de comando como também existe um site com questões cadastradas.",
-            "type": "Termo",
-            "examples": [
-                "Não consegui terminar todas as questões do TST de P1.",
-                "Tentei a noite toda resolver aquela questão de TST mas fica dando erro nos testes.",
-                "Aquela questão da prova de EDA tinha no TST."
-            ]
-        }
-    ],
-    "UASC": [
-        {
-            "acronym": "UASC",
-            "meaning": "Unidade Acadêmica de Sistemas e Computação. Equivale ao DSC.",
-            "type": "Departamento",
-            "entry": "Unidade Acadêmica de Sistemas e Computação",
-            "examples": [
-                "A unidade acadêmica da gente é UASC ou DSC?"
-            ]
-        }
-    ],
-    "WIP": [
-        {
-            "acronym": "WIP",
-            "meaning": "Work in Progress é um termo utilizado quando estamos desenvolvendo algo e já existe uma PR enquanto desenvolvemos. Utilizamos então o termo WIP no título da PR para indicar que aquela PR ainda não está finalizada, e ainda não é necessário o processo de revisão de código e que ainda não deve ser feito merge no código.",
-            "type": "Termo Técnico",
-            "entry": "Work In Progress",
-            "examples": [
-                "Já criei a PR, mas ainda tá WIP.",
-                "Quando ainda não tiver terminado as coisas da PR, deixa WIP no título, ok?"
-            ]
-        }
-    ]
+  "CI": [
+    {
+      "acronym": "CI",
+      "meaning": "Continuous Integration, ou CI, se refere ao processo de desenvolvimento no qual os desenvolvedores adicionam código aos poucos e de forma contínua. Para verificar as contribuições feitas pelos desenvolvedores, é comum que haja um mecanismo de checagem de erros e outras verificações. Exemplos desses mecanismos são o [Gitlab CI](https://about.gitlab.com/product/continuous-integration/) e [Travis](https://travis-ci.org/).",
+      "type": "Termo Técnico",
+      "entry": "Continuous Integration",
+      "examples": [
+        "A gente usava Jenkins, mas preferiu integrar tudo no Gitlab CI."
+      ]
+    }
+  ],
+  "COMMIT": [
+    {
+      "acronym": "COMMIT",
+      "meaning": "Commit se refere à um envio de arquivos e modificações à um repositório no git. Ele pode ser feito através do comando `git commit -m \"Sua mensagem aqui\"`. Você pode ler mais sobre commits [aqui](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line).",
+      "type": "Termo Técnico",
+      "entry": "Commit",
+      "examples": [
+        "Já dei commit com as coisas que tu me pediu na revisão.",
+        "Nosso projeto em P2 tinha mais de 100 commits."
+      ]
+    }
+  ],
+  "DSC": [
+    {
+      "acronym": "DSC",
+      "meaning": "Departamento de Sistemas e Computação. É o Departamento da Universidade responsável pelo curso de Ciência da Computação.",
+      "type": "Departamento",
+      "entry": "Departamento de Sistemas e Computação",
+      "examples": [
+        "Tou indo na secretaria do DSC entregar o relatório da monitoria."
+      ]
+    }
+  ],
+  "ELAS": [
+    {
+      "acronym": "ELAS",
+      "meaning": "Elas@Computação é uma comunidade de mulheres(ou que se identificam como tal) do curso de Ciência da Computação da UFCG, que inclui alunas e professoras. O grupo foi criado com o intuito de reunir as mulheres do curso, que enfrentam constantes dificuldades em um ambiente majoritariamente masculino.",
+      "type": "Comunidade da UFCG",
+      "entry": "Elas@Computação",
+      "examples": ["O Elas está cuidando disso.", "Hoje haverá reunião do Elas"]
+    }
+  ],
+  "FORK": [
+    {
+      "acronym": "FORK",
+      "meaning": "Um Fork é um clone público de um repositório no GitHub. Ele é bastante útil quando você não é dono do repositório nem colaborador, mas ainda assim deseja contribuir com alguma issue ou corrigir algum bug. Leia mais sobre os forks [aqui](https://help.github.com/en/articles/fork-a-repo).",
+      "type": "Termo Técnico",
+      "entry": "Fork",
+      "examples": [
+        "Eu tinha achado um bug no repositório, fiz um fork, corrigi e eles aceitaram meu PR.",
+        "Façam um fork do repositório de exemplo, implementem a atividade, e mandem o link do repositório para a avaliação."
+      ]
+    }
+  ],
+  "GIT": [
+    {
+      "acronym": "GIT",
+      "meaning": "O Git é um sistema open-source de controle de versão utilizado pela grande maioria dos desenvolvedores atualmente. Com ele podemos criar todo histórico de alterações no código do nosso projeto e facilmente voltar para qualquer ponto para saber como o código estava naquela data. Além disso, o Git nos ajuda muito a controlar o fluxo de novas funcionalidades entre vários desenvolvedores no mesmo projeto com ferramentas para análise e resolução de conflitos quando o mesmo arquivo é editado por mais de uma pessoa em funcionalidades diferentes.",
+      "type": "Termo Técnico",
+      "entry": "Git",
+      "examples": [
+        "Vou subir o projeto X para o GIT.",
+        "Conseguir recuperar a versão X através do GIT."
+      ]
+    }
+  ],
+  "ISSUE": [
+    {
+      "acronym": "ISSUE",
+      "meaning": "Issue é um termo usado para se referir às discussões nos repositórios. Muitas vezes quando usamos alguma aplicação Open Source, encontramos erros ou ficamos com vontade de sugerir funcionalidades novas à aplicação, e fazemos isso através das issues. Assim, podemos entender que as issues são abertas para reportar erros, tirar dúvidas, solicitar melhorias, entre outros similares. Leia mais sobre issues [aqui](https://help.github.com/en/articles/creating-an-issue).",
+      "type": "Termo Técnico",
+      "entry": "Issue",
+      "examples": [
+        "No mutirão de carnaval, o glossário tava focado em contribuir com a issue #44.",
+        "Abri uma issue num repositório pra relatar um bug que achei, e ai eles confirmaram e corrigiram."
+      ]
+    }
+  ],
+  "PET": [
+    {
+      "acronym": "PET",
+      "meaning": "Programa de Educação Tutorial é um programa do Governo Federal brasileiro de estímulo a atividades de pesquisa, ensino e extensão universitárias, no nível de graduação. O PET desenvolve diversas atividades sociais, levando o conhecimento para além da universidade, assim ajudando a sociedade.",
+      "type": "Programa",
+      "entry": "Programa de Educação Tutorial",
+      "examples": [
+        "O PET Computação tem mais de 20 anos de existência.",
+        "O PET Matemática oferece apoio acadêmico."
+      ]
+    }
+  ],
+  "PIBIC": [
+    {
+      "acronym": "PIBIC",
+      "meaning": "Programa Institucional de Bolsas de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa, por meio da concessão de bolsas a estudantes de graduação.",
+      "type": "Programa",
+      "entry": "Programa Institucional de Bolsas de Iniciação Científica",
+      "examples": ["Meu PIBIC é sobre a presença feminina no cangaço."]
+    }
+  ],
+  "PIVIC": [
+    {
+      "acronym": "PIVIC",
+      "meaning": "Programa Institucional de Volutários de Iniciação Científica visa apoiar a política de Iniciação Científica desenvolvida nas Instituições de Ensino e/ou Pesquisa com estudantes de graduação.",
+      "type": "Programa",
+      "entry": "Programa Institucional de Volutários de Iniciação Científica",
+      "examples": ["Meu contrato do PIVIC acaba em fevereiro."]
+    }
+  ],
+  "PPC": [
+    {
+      "entry": "Projeto Pedagógico do Curso",
+      "acronym": "PPC",
+      "meaning": "Projeto Pedagógico do Curso. Se refere à estrutura das disciplinas do curso, como o período em que é recomendado cursar cada disciplina, os pré-requisitos, e similares. É importante ressaltar que em 2017/2018 o PPC foi alterado, dividindo os alunos em \"PPC Novo\" e \"PPC Antigo\". O uso desse termo apenas é coerente quando no contexto do curso de CC.",
+      "type": "Termo",
+      "examples": [
+        "A gente tá no PCC novo ou antigo?",
+        "Esse é o último período no PCC antigo, né?"
+      ]
+    }
+  ],
+  "PR": [
+    {
+      "acronym": "PR",
+      "meaning": "Pull Request é uma expressão utilizada quando alguém está fazendo uma contribuição num repositório: geralmente, antes de qualquer contribuição ser aceita, o código modificado e/ou adicionado passa por um processo de teste e revisão de código. O PR serve para que os responsáveis pelo repositório revisem as modificações, aceitando-as ou requisitando modificações para aquele que o fez, antes de adicionar qualquer código ao repositório original. Leia mais sobre PRs [aqui](https://help.github.com/en/articles/about-pull-requests).",
+      "type": "Termo Técnico",
+      "entry": "Pull Request",
+      "examples": [
+        "Corrigi umas coisas e fiz um PR, me revisem.",
+        "Fiz um PR pra contribuir com a #44."
+      ]
+    }
+  ],
+  "PRE": [
+    {
+      "acronym": "PRE",
+      "meaning": "A Pró-Reitoria de Ensino é um órgão assessor da direção superior responsável pelo planejamento, coordenação e supervisão das atividades de ensino nos cursos de graduação, sequenciais e de educação básica em todas as suas modalidades.",
+      "type": "Órgão",
+      "entry": "Pró-Reitoria de Ensino",
+      "examples": [
+        "A PRE não sinalizou mudança no calendário por causa da paralisação.",
+        "O Controle Acadêmico é um sistema da PRE.",
+        "O bloco da PRE é aquele azul, logo na entrada da UFCG."
+      ]
+    }
+  ],
+  "PyLadies": [
+    {
+      "entry": "PyLadies",
+      "acronym": "PyLadies",
+      "meaning": "PyLadies é um grupo de mulheres desenvolvedoras amantes da programação em Python. A comunidade tem como objetivo de incentivar e apoiar mulheres na tecnologia.",
+      "type": "Organização",
+      "examples": [
+        "Hoje vai ter minicurso de Deep Learning do PyLadies!",
+        "Quero entrar muito no PyLadies."
+      ]
+    }
+  ],
+  "RDM": [
+    {
+      "entry": "Relação de disciplinas matriculadas",
+      "acronym": "RDM",
+      "meaning": "A relação de disciplinas matriculadas é um documento emitido pela coordenação do curso ao ser realizada a matrícula das disciplinas no início do período. O RDM possui todas as disciplinas matriculadas e serve como comprovante de que você está vinculado à universidade.",
+      "type": "Termo",
+      "examples": [
+        "Vou lá em Fatinha pedir meu RDM",
+        "Fui lá na coordenação pegar meu histórico e RDM"
+      ]
+    }
+  ],
+  "SAD": [
+    {
+      "entry": "Sistema de avaliação docente",
+      "acronym": "SAD",
+      "meaning": "Sistema no qual os alunos que acabaram de cursar a disciplina forneçam um feedback para aspectos como sistema de avaliação utilizado, se a disciplina seguiu a ementa, domínio do professor com relação ao conteúdo lecionado e, até mesmo, aspectos físicos, como a limpeza da sala, utilização de recursos digitais, etc. Sendo que, tudo isso é feito através de notas de classificação e comentários. Não é obrigatório responder o SAD, mas é muito importante para melhorar a forma que a disciplina é conduzida, até porque, ao final, os professores recebem estas avaliações e adequam-as para o próximo semestre. Um ponto importante é que a avaliação é ANÔNIMA. Ok, mas onde encontro o SAD? Calma o link de cada disciplina cursada é enviado ao final de cada período para seu e-mail.",
+      "type": "Termo",
+      "examples": ["Chegou e-mail do SAD.", "Já respondeu o SAD?"]
+    }
+  ],
+  "SEI": [
+    {
+      "acronym": "SEI",
+      "meaning": "O SEI (Sistema Eletrônico de Informações) é um software que visa gerenciar toda a documentação administrativa em ambiente virtual, desenvolvido Tribunal Regional Federal da 4ª Região (TRF4) e escolhido pelo Ministério do Planejamento, para ser a ferramenta de trabalho que engloba um conjunto de módulos e funcionalidades que promovem a eficiência administrativa.",
+      "type": "Software",
+      "entry": "Sistema Eletronico de Informações",
+      "examples": [
+        "A orientação é de que sejam inclusos como documentos externos no SEI somente PDF's ou imagens JPG."
+      ]
+    }
+  ],
+  "TECC": [
+    {
+      "entry": "Tópicos Especiais em Ciência da Computação",
+      "acronym": "TECC",
+      "meaning": "Tópicos Especiais em Ciência da Computação é um termo usado para disciplinas optativas específicas do curso de Ciência da Computação, como é o exemplo de [TECC] Jogos Digitais.",
+      "type": "Termo",
+      "examples": ["Você está matriculado em [TECC] Jogos Digitais"]
+    }
+  ],
+  "TST": [
+    {
+      "entry": "TST",
+      "acronym": "TST",
+      "meaning": "TST é uma ferramenta usada por professores em algumas disciplinas de ciência da computação para verificar e testar exercícios de programação dos alunos. Esta ferramenta pode ser usada na linha de comando como também existe um site com questões cadastradas.",
+      "type": "Termo",
+      "examples": [
+        "Não consegui terminar todas as questões do TST de P1.",
+        "Tentei a noite toda resolver aquela questão de TST mas fica dando erro nos testes.",
+        "Aquela questão da prova de EDA tinha no TST."
+      ]
+    }
+  ],
+  "UASC": [
+    {
+      "acronym": "UASC",
+      "meaning": "Unidade Acadêmica de Sistemas e Computação. Equivale ao DSC.",
+      "type": "Departamento",
+      "entry": "Unidade Acadêmica de Sistemas e Computação",
+      "examples": ["A unidade acadêmica da gente é UASC ou DSC?"]
+    }
+  ],
+  "WIP": [
+    {
+      "acronym": "WIP",
+      "meaning": "Work in Progress é um termo utilizado quando estamos desenvolvendo algo e já existe uma PR enquanto desenvolvemos. Utilizamos então o termo WIP no título da PR para indicar que aquela PR ainda não está finalizada, e ainda não é necessário o processo de revisão de código e que ainda não deve ser feito merge no código.",
+      "type": "Termo Técnico",
+      "entry": "Work In Progress",
+      "examples": [
+        "Já criei a PR, mas ainda tá WIP.",
+        "Quando ainda não tiver terminado as coisas da PR, deixa WIP no título, ok?"
+      ]
+    }
+  ]
 }
