@@ -180,7 +180,7 @@
             }
         }
     ],
-    "Quiosque": [
+    "QUIOSQUE": [
         {
             "meaning": "Quiosque é a lanchonete que fica ao lado do laguinho, não tem como errar, ela é a única ali. No Quiosque você encontra lanches e também é servido almoço.",
             "type": "Lanchonete",
@@ -220,5 +220,16 @@
                 "A sala de Gaudêncio é no SPLab."
             ]
         }
-    ]
+    ],
+    "GENILDA": [
+        {   
+            "meaning": "A Xerox da Genilda é uma gráfica que fica próxima a praça de alimentação do CH, entre o bloco BD e o bloco BG.",
+            "type": "Gráfica.",
+            "entry": "Xerox da Genilda.",
+            "examples":[
+                "O material da nossa aula está disponível lá na Xerox da Genilda.",
+                "Eu gosto de tirar xerox lá em Genilda, o preço é ótimo."
+            ]
+        }
+     ]       
 }
