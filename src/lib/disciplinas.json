@@ -134,14 +134,14 @@
             ]
         }
     ],
-    "Direito": [
+    "DC": [
         {
-            "acronym": "Direito",
-            "meaning": "Direito e Cidadania é uma disciplina optativa geral do curso de Ciência da Computação na UFCG, que visa analisar, de forma crítica, o fenômeno jurídico dos direitos humanos e da cidadania.",
+            "acronym": "DC",
+            "meaning": "Direito e Cidadania, ou DC é uma disciplina optativa geral do curso de Ciência da Computação na UFCG, que têm como objetivo estudar, de forma crítica, noções gerais do Direito, da Cidadania, e da legislação de Informática.",
             "type": "Disciplina",
             "entry": "Direito e Cidadania",
             "examples": [
-                "A atividade de Direito é para entregar até sexta."
+                "Eu estou pagando Direito e Cidadania."
             ]
         }
     ],
