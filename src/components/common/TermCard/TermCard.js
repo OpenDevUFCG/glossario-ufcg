@@ -2,6 +2,7 @@ import React from 'react';
 import Markdown from '../Markdown/Markdown';
 
 import './TermCard.css';
+import LocationIfExists from '../LocationIfExists/LocalizationIfExists';
 
 import PropTypes from 'prop-types';
 
@@ -49,6 +50,8 @@ const TermCard = ({ term }) => (
       <h2 className={'term-card__title-2'}>Aplicações em frase</h2>
       <ExamplesIfExists entry={term.entry} examples={term.examples} />
     </div>
+
+    <LocationIfExists entry={term.entry} location={term.location} />
   </div>
 );
 
@@ -59,6 +62,10 @@ TermCard.propTypes = {
     type: PropTypes.string,
     examples: PropTypes.arrayOf(PropTypes.string),
     acronym: PropTypes.string,
+    localization: PropTypes.shape({
+      latitude: PropTypes.number,
+      longitude: PropTypes.number
+    }),
   }),
 };
 

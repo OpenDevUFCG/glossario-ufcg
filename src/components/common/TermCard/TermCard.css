@@ -11,7 +11,8 @@
   grid-template-areas:
     'title title'
     'subtitle subtitle'
-    'left-content right-content';
+    'left-content right-content'
+    'map map';
 }
 
 .term-card__title-1 {
@@ -42,6 +43,15 @@
   color: gray;
 }
 
+.term-card__content-map {
+  grid-area: map;
+}
+
+.map-size {
+  width: 100%;
+  height: 27vh;
+}
+
 @media screen and (max-width: 720px) {
   .term-card__container {
     display: grid;
@@ -51,7 +61,8 @@
       'title'
       'subtitle'
       'content-left'
-      'content-right';
+      'content-right'
+      'map';
   }
 
   .term-card__title-2 {
