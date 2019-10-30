@@ -134,6 +134,17 @@
             ]
         }
     ],
+    "DC": [
+        {
+            "acronym": "DC",
+            "meaning": "Direito e Cidadania, ou DC é uma disciplina optativa geral do curso de Ciência da Computação na UFCG, que têm como objetivo estudar, de forma crítica, noções gerais do Direito, da Cidadania, e da legislação de Informática.",
+            "type": "Disciplina",
+            "entry": "Direito e Cidadania",
+            "examples": [
+                "Eu estou pagando Direito e Cidadania."
+            ]
+        }
+    ],
     "EDA": [
         {
             "acronym": "EDA",
@@ -223,6 +234,17 @@
             "examples": [
                 "A aula de IC hoje foi muito massa.",
                 "Os resumos de IC do Tamburetei são muito bons."
+            ]
+        }
+    ],
+    "INFOSOC": [
+        {
+            "acronym": "INFOSOC",
+            "meaning": "Informática e Sociedade é uma disciplina optativa geral do curso de Ciência da Computação na UFCG.",
+            "type": "Disciplina",
+            "entry": "Informática e Sociedade",
+            "examples": [
+                "Amanhã tem resumo de INFOSOC?"
             ]
         }
     ],
@@ -317,6 +339,18 @@
                 "Quando começa o próximo lab de LP2?",
                 "Preciso terminar o terceiro lab de LP2",
                 "Eu não sei se era melhor usar herança ou interface na prova de LP2"
+            ]
+        }
+    ],
+    "LPT": [
+        {
+            "acronym": "LPT",
+            "meaning": "Língua Portuguesa (antes chamada de Leitura e Produção de Textos) é uma disciplina optativa geral do curso de Ciência da Computação na UFCG, que visa crar condições para que o aluno desenvolva aspectos comunicativos e discursivos, assim como sua capacidade de adequar a língua aos diferentes contextos.",
+            "type": "Disciplina",
+            "entry": "Língua Portuguesa",
+            "examples": [
+                "A apresentação do seminário de LPT é amanhã.",
+                "Essa semana tem resumo de LPT para entregar."
             ]
         }
     ],

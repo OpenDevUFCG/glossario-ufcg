@@ -178,6 +178,7 @@
       "examples": ["Chegou e-mail do SAD.", "Já respondeu o SAD?"]
     }
   ],
+
   "SDF": [
     {
         "acronym": "SDF",
@@ -188,6 +189,8 @@
         ]
     }
   ],
+=======
+
   "SEI": [
     {
       "acronym": "SEI",

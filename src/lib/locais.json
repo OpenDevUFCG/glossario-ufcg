@@ -7,7 +7,11 @@
             "examples": [
                 "Me encontra lá perto da amarelinha.",
                 "Vou tirar xerox do resumo lá na amarelinha."
-            ]
+            ],
+            "location": {
+                "latitude": -7.21401,
+                "longitude": -35.90765
+            }
         }
     ],
     "CAA": [
@@ -17,8 +21,12 @@
             "entry": "CAA",
             "examples": [
                 "As aulas de Probabilidade esse semestre são no CAA 408.",
-                "Te encontro perto dos elevadores do"
-            ]
+                "Te encontro perto dos elevadores do CAA."
+            ],
+            "location": {
+                "latitude": -7.2142,
+                "longitude": -35.90824
+            }
         }
     ],
     "CEEI": [
@@ -30,7 +38,11 @@
             "examples": [
                 "Nesse campo \"Centro\" pode preencher CEEI, ou tem que ser por extenso?",
                 "Tou indo lá no CEEI, ver se Fatinha tá na coordenação."
-            ]
+            ],
+            "location": {
+                "latitude": -7.213166,
+                "longitude": -35.908628
+            }
         }
     ],
     "CN": [
@@ -41,7 +53,11 @@
             "examples": [
                 "A professora Joseana disse que a sala dela é no CN.",
                 "A secretária do DSC fica no CN."
-            ]
+            ],
+            "location": {
+                "latitude": -7.21333,
+                "longitude": -35.90732
+            }
         }
     ],
     "CP1": [
@@ -51,7 +67,11 @@
             "entry": "CP1",
             "examples": [
                 "A palestra da empresa X vai ser lá no CP1, o prédio do LCC3"
-            ]
+            ],
+            "location": {
+                "latitude": -7.2129,
+                "longitude": -35.90748
+            }
         }
     ],
     "Joab": [
@@ -62,7 +82,11 @@
             "examples": [
                 "Te encontro lá em Joab quando acabar a aula",
                 "Vamos tomar um café em Joab?"
-            ]
+            ],
+            "location": {
+                "latitude": -7.21395,
+                "longitude": -35.90765
+            }
         }
     ],
     "LAGUINHO": [
@@ -73,7 +97,11 @@
             "examples": [
                 "Bora conversar lá nos bancos do laguinho?",
                 "Vou comer lá no quiosque do laguinho, tu vai?"
-            ]
+            ],
+            "location": {
+                "latitude": -7.21484,
+                "longitude": -35.90927
+            }
         }
     ],
     "LCC1": [
@@ -85,7 +113,12 @@
             "examples": [
                 "O miniteste de amanhã será no LCC1!",
                 "Pessoal, amanhã a nossa aula será no LCC1."
-            ]
+            ],
+            "location": {
+                "latitude": -7.21383,
+                "longitude": -35.90899
+            }
+
         }
     ],
     "LCC2": [
@@ -97,7 +130,11 @@
             "examples": [
                 "Depois do almoço, vamos para o LCC2?",
                 "Pessoal, amanhã a nossa aula será no LCC2."
-            ]
+            ],
+            "location": {
+                "latitude": -7.21339,
+                "longitude": -35.9074
+            }
         }
     ],
     "LCC3": [
@@ -109,17 +146,90 @@
             "examples": [
                 "A sala do PET é no bloco do LCC3!",
                 "Pessoal, amanhã a nossa aula será no LCC3."
+            ],
+            "location": {
+                "latitude": -7.21289,
+                "longitude": -35.90752
+            }
+        }
+    ],
+    "LQD": [
+        {
+            "meaning": "O LQD (Laboratório de Qualidade de Dados) fica no bloco CN (Bloco do lCC2) e o seu grupo de pesquisa investiga e desenvolve novas técnicas, abordagens, processos e ferramentas para avaliar e melhorar a qualidade dos conjuntos de dados.",
+            "type": "Laboratório",
+            "entry": "Laboratório de Qualidade de Dados",
+            "examples": [
+                "Pedro não quer mais sair do LQD."
             ]
         }
     ],
-    "Quiosque": [
+    "LSD": [
+        {
+            "acronym": "LSD",
+            "meaning": "Laboratório de Sistemas Distribuídos é um dos mais dinâmicos laboratórios de pesquisa da UFCG. Hoje, as pesquisas desenvolvidas pelo LSD são concentradas nas áreas de Computação em Nuvem, Mineração de dados, Computação Social, Big Data e Aplicações. A missão desse laboratório é executar de maneira coordenada, em um ambiente catalisador de formação, projetos de ensino, pesquisa e extensão de caráter inovador. Localiza-se no bloco CO e parte do bloco CN da UFCG",
+            "type": "Laboratorio",
+            "entry": "Laboratório de Sistemas Distribuídos",
+            "examples": [
+                "A sala da professora Lívia fica no LSD",
+                "A sala de Manel fica no LSD",
+                "O minicurso será no auditório do LSD"
+            ],
+            "location": {
+                "latitude": -7.213050,
+                "longitude": -35.907182
+            }
+        }
+    ],
+    "QUIOSQUE": [
         {
             "meaning": "Quiosque é a lanchonete que fica ao lado do laguinho, não tem como errar, ela é a única ali. No Quiosque você encontra lanches e também é servido almoço.",
             "type": "Lanchonete",
             "entry": "Quiosque",
             "examples": [
                 "Vou comer uma tapioca com café batido lá no Quiosque."
+            ],
+            "location": {
+                "latitude": -7.21476,
+                "longitude": -35.90896
+            }
+        }
+    ],
+    "SPLab": [
+        {
+            "meaning": "O Laboratório de Práticas de Software (SPLab) locariza-se por trás do bloco CP1 (Onde fica a sala do lcc3). Atualmente, o laboratório faz parte do Departamento de Computação e Sistemas",
+            "type": "Laboratório",
+            "entry": "Software Practices Laboratory",
+            "examples": [
+                "A sala da professor Dalton fica no SPLab"
+            ],
+            "location": {
+                "latitude": -7.212417,
+                "longitude": -35.907320
+            }
+        }
+    ],
+    "SPLab": [
+        {
+            "acronym": "SPLab",
+            "meaning": "SPLab é a sigla em inglês para Software Practices Laboratory, a missão do laboratório é promover o desenvolvimento do estado da arte na teoria e na prática da Engenharia de Software, conduzindo projetos em cooperação com parceiros acadêmicos e industriais e oferecendo educação de alto nível.",
+            "type": "Laboratorio",
+            "entry": "Software Practices Laboratory",
+            "examples": [
+                "A sala da professor Dalton fica no SPLab",
+                "A aula de P1 hoje será no SPLab.",
+                "A sala de Gaudêncio é no SPLab."
             ]
         }
-    ]
+    ],
+    "GENILDA": [
+        {   
+            "meaning": "A Xerox da Genilda é uma gráfica que fica próxima a praça de alimentação do CH, entre o bloco BD e o bloco BG.",
+            "type": "Gráfica.",
+            "entry": "Xerox da Genilda.",
+            "examples":[
+                "O material da nossa aula está disponível lá na Xerox da Genilda.",
+                "Eu gosto de tirar xerox lá em Genilda, o preço é ótimo."
+            ]
+        }
+     ]       
 }
