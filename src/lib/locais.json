@@ -115,11 +115,13 @@
     "LSD": [
         {
             "acronym": "LSD",
-            "meaning": "Laboratório de Sistemas Distribuídos é um dos mais dinâmicos laboratórios de pesquisa da UFCG. Hoje, as pesquisas desenvolvidas pelo LSD são concentradas nas áreas de Computação em Nuvem, Mineração de dados, Computação Social, Big Data e Aplicações. Localiza-se no bloco CO e parte do bloco CN da UFCG",
+            "meaning": "Laboratório de Sistemas Distribuídos é um dos mais dinâmicos laboratórios de pesquisa da UFCG. Hoje, as pesquisas desenvolvidas pelo LSD são concentradas nas áreas de Computação em Nuvem, Mineração de dados, Computação Social, Big Data e Aplicações. A missão desse laboratório é executar de maneira coordenada, em um ambiente catalisador de formação, projetos de ensino, pesquisa e extensão de caráter inovador. Localiza-se no bloco CO e parte do bloco CN da UFCG",
             "type": "Laboratorio",
             "entry": "Laboratório de Sistemas Distribuídos",
             "examples": [
-                "A sala da professora Lívia fica no LSD"
+                "A sala da professora Lívia fica no LSD",
+                "A sala de Manel fica no LSD",
+                "O minicurso será no auditório do LSD"
             ]
         }
     ],
@@ -140,6 +142,7 @@
             "type": "Laboratorio",
             "entry": "Software Practices Laboratory",
             "examples": [
+                "A sala da professor Dalton fica no SPLab",
                 "A aula de P1 hoje será no SPLab.",
                 "A sala de Gaudêncio é no SPLab."
             ]
