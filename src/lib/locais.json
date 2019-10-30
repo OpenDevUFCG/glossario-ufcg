@@ -170,7 +170,11 @@
             "entry": "Laboratório de Sistemas Distribuídos",
             "examples": [
                 "A sala da professora Lívia fica no LSD"
-            ]
+            ],
+            "location": {
+                "latitude": -7.213050,
+                "longitude": -35.907182
+            }
         }
     ],
     "Quiosque": [
@@ -194,7 +198,11 @@
             "entry": "Software Practices Laboratory",
             "examples": [
                 "A sala da professor Dalton fica no SPLab"
-            ]
+            ],
+            "location": {
+                "latitude": -7.212417,
+                "longitude": -35.907320
+            }
         }
     ]
 }
