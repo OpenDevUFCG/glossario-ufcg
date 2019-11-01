@@ -461,6 +461,15 @@
             ]
         }
     ],
+    "RC": [
+        {
+            "acronym": "RC",
+            "meaning": "A disciplina tem a missão de repassar o conhecimento dos conceitos de Redes permitem aos estudantes das áreas de tecnologia da informação os fundamentos para analisar, desenvolver e utilizar os diversos recursos existentes nestas tecnologias",
+            "type": "Disciplina",
+            "entry": "Redes de Computadores",
+            "examples": []
+        }
+    ],
     "SAD": [
         {
             "acronym": "SAD",
