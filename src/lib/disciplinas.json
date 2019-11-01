@@ -354,6 +354,15 @@
             ]
         }
     ],
+    "MC": [
+        {
+            "acronym": "MC",
+            "meaning": "Metodologia Científica é uma disciplina obrigatório com missão de ensinar os métodos ou os instrumentos necessários para a elaboração de um trabalho científico.",
+            "type": "Disciplina",
+            "entry": "Metodologia Científica",
+            "examples": []
+        }
+    ],
     "MSN": [
         {
             "acronym": "MSN",
