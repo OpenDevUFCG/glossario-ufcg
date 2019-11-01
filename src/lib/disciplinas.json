@@ -145,6 +145,19 @@
             ]
         }
     ],
+    "ECONOMIA": [
+        {
+            "acronym": "ECON",
+            "meaning": "Economia é uma disciplina optativa geral do curso de Ciência da Computação na UFCG que tem como objetivo o estudo de forma introdutória da Ciência Econômica",
+            "type": "Disciplina",
+            "entry": "Economia",
+            "examples" : [
+                "Estou pagando Economia como optativa nesse período",
+                "Passei o dia todo estudando para a prova de Economia"
+            ]
+        }
+
+    ],
     "EDA": [
         {
             "acronym": "EDA",
