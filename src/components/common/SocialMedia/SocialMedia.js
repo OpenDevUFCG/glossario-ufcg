@@ -1,16 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-    FaFacebookF, FaTwitter, FaGithub, FaInstagram,
+    FaFacebookF as IconFacebook,
+    FaGithub as IconGithub,
+    FaInstagram as IconInstagram,
+    FaTwitter as IconTwitter,
 } from 'react-icons/fa';
 
 import './Social.css';
 
 const mapNameToComponent = {
-    facebook: FaFacebookF,
-    github: FaGithub,
-    instagram: FaInstagram,
-    twitter: FaTwitter,
+    facebook: IconFacebook,
+    github: IconGithub,
+    instagram: IconInstagram,
+    twitter: IconTwitter,
 };
 
 const mapNameToUrl = {
@@ -20,7 +23,7 @@ const mapNameToUrl = {
     twitter: social => `https://twitter.com/${social}`,
 };
 
-const Social = ({ socialNetworks }) => {
+const SocialMedia = ({ socialNetworks }) => {
     if (socialNetworks == null) {
         return (<></>);
     }
@@ -41,8 +44,13 @@ const Social = ({ socialNetworks }) => {
     )
 };
 
-Social.propTypes = {
-    socialNetworks: PropTypes.object,
+SocialMedia.propTypes = {
+    socialNetworks: PropTypes.shape({
+        facebook: PropTypes.string,
+        github: PropTypes.string,
+        instagram: PropTypes.string,
+        twitter: PropTypes.string,
+    }),
 };
 
-export default Social;
+export default SocialMedia;
