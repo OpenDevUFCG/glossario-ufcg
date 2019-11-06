@@ -62,7 +62,7 @@ TermCard.propTypes = {
     type: PropTypes.string,
     examples: PropTypes.arrayOf(PropTypes.string),
     acronym: PropTypes.string,
-    localization: PropTypes.shape({
+    location: PropTypes.shape({
       latitude: PropTypes.number,
       longitude: PropTypes.number
     }),

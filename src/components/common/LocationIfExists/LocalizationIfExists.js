@@ -39,7 +39,7 @@ const LocationIfExists = ({ entry, location }) => {
       iconFeature.setStyle(iconStyle)
   
       useEffect(() => {
-        const map = new Map({
+        const map = new Map({ // eslint-disable-line no-unused-vars
           layers: [
             new TileLayer({
               source: new OSM()
