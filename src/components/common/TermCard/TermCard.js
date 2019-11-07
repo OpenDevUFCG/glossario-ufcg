@@ -3,6 +3,7 @@ import Markdown from '../Markdown/Markdown';
 
 import './TermCard.css';
 import LocationIfExists from '../LocationIfExists/LocalizationIfExists';
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 import PropTypes from 'prop-types';
 
@@ -52,6 +53,7 @@ const TermCard = ({ term }) => (
     </div>
 
     <LocationIfExists entry={term.entry} location={term.location} />
+    <SocialMedia socialNetworks={term.social} />
   </div>
 );
 
@@ -66,6 +68,7 @@ TermCard.propTypes = {
       latitude: PropTypes.number,
       longitude: PropTypes.number
     }),
+    social: PropTypes.object,
   }),
 };
 
