@@ -7,7 +7,7 @@ import {
     FaTwitter as IconTwitter,
 } from 'react-icons/fa';
 
-import './Social.css';
+import './SocialMedia.css';
 
 const mapNameToComponent = {
     facebook: IconFacebook,
