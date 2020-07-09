@@ -1,4 +1,4 @@
-.icon-with-text {
+.iconWithText {
   display: grid;
   grid-template-areas: 'icon text';
   grid-template-columns: max-content max-content;

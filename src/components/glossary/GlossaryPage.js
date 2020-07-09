@@ -1,8 +1,9 @@
 import React from 'react';
-import './GlossaryPage.css';
+import classNames from 'classnames';
+import styles from './GlossaryPage.module.css';
 
 import SearchResults from './results/SearchResults';
-import Header from '../common/Header/Header';
+import { Header } from '@glossario-ufcg/components/common';
 
 import PropTypes from 'prop-types';
 
@@ -13,11 +14,11 @@ const GlossaryPage = props => {
     return getTerm() === undefined;
   };
 
-  const glossaryContainerClass = isSearchEmpty()
-    ? 'glossary__container--has-not-search'
-    : 'glossary__container--has-search';
   return (
-    <div className={`glossary__container ${glossaryContainerClass}`}>
+    <div className={classNames(styles.glossaryContainer, {
+      [styles.hasNotSearch]: isSearchEmpty(),
+      [styles.hasSearch]: !isSearchEmpty()
+    })}>
       <Header {...props} isSearchEmpty={isSearchEmpty} />
       {!isSearchEmpty() && <SearchResults term={getTerm()} />}
     </div>

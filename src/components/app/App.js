@@ -3,10 +3,10 @@ import { Route } from 'react-router-dom';
 import GlossaryPage from '../glossary/GlossaryPage';
 import Footer from './Footer/Footer';
 
-import './App.css';
+import styles from './App.module.css';
 
 const App = () => (
-  <div className="main">
+  <div className={styles.main}>
     <main>
       <Route path="/:term?" component={GlossaryPage} />
     </main>

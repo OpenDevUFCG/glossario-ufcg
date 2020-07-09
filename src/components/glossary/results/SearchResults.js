@@ -1,8 +1,8 @@
 import React from 'react';
-import './SearchResults.css';
+import styles from './SearchResults.module.css';
 
-import { lowerCaseTerms } from '../../../lib/data';
-import { TermCard } from '../../common/index';
+import { lowerCaseTerms } from '@glossario-ufcg/lib/data';
+import { TermCard } from '@glossario-ufcg/components/common';
 import NotFound from './404/NotFound';
 
 import PropTypes from 'prop-types';
@@ -20,7 +20,7 @@ const SearchResults = props => {
   const isResultEmpty = () => getTermResults().length === 0;
 
   return (
-    <div className={'search-results__results-container'}>
+    <div className={styles.resultsContainer}>
       {!isResultEmpty() ? (
         <Results results={getTermResults()} />
       ) : (

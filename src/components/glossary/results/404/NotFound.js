@@ -1,5 +1,5 @@
 import React from 'react';
-import { TermCard } from '../../../common';
+import { TermCard } from '@glossario-ufcg/components/common';
 
 import PropTypes from 'prop-types';
 

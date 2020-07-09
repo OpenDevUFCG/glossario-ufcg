@@ -1,4 +1,4 @@
-.header__search-tools {
+.searchTools {
   align-self: center;
   display: grid;
   grid-template-areas:
@@ -11,24 +11,24 @@
   padding: 1em;
 }
 
-.header__logo {
+.logo {
   grid-area: logo;
   width: 100%;
 }
 
-.header__search {
+.search {
   grid-area: search;
   margin: 0;
   outline: none;
 }
 
-.header__day-phrase {
+.dayPhrase {
   grid-area: day-phrase;
   text-align: center;
 }
 
 @media screen and (min-width: 700px) {
-  .header__search-tools {
+  .searchTools {
     height: 100%;
     width: 100%;
     grid-template-areas:
@@ -42,11 +42,11 @@
     justify-content: center;
   }
 
-  .header__logo {
+  .logo {
     width: 400px;
   }
 
-  .header__day-phrase {
+  .dayPhrase {
     text-align: left;
   }
 }

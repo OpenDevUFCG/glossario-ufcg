@@ -11,6 +11,16 @@
   border: none;
 }
 
+.buttonContainer {
+  background-color: #30abae;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 0 10px 10px 0;
+}
+
 /* Custom autocomplete input element */
 .ant-select-selection {
   background-color: #dcdcdc;
@@ -42,14 +52,4 @@
 
 .ant-select-dropdown-menu::-webkit-scrollbar-thumb {
   background-color: #30abae;
-}
-
-.search__button-container {
-  background-color: #30abae;
-  height: 100%;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-  border-radius: 0 10px 10px 0;
 }

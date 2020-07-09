@@ -12,19 +12,19 @@ import VectorSource from 'ol/source/Vector';
 import {Icon, Style} from 'ol/style';
 import {defaults} from 'ol/control';
 
-import mapPin from '../../../../assets/images/map-pin.png';
+import mapPin from '@assets/images/map-pin.png';
 
 const LocationIfExists = ({ entry, location }) => {
 
     if (location && location.latitude && location.longitude) {
-  
+
       const lonLatlocation = [location.longitude, location.latitude];
-  
+
       const iconFeature = new Feature({
         geometry: new Point(lonLatlocation),
         name: entry
       })
-  
+
       const iconStyle = new Style({
         image: new Icon({
           anchor: [0.5, 0.5],
@@ -35,9 +35,9 @@ const LocationIfExists = ({ entry, location }) => {
           src: mapPin
         })
       })
-  
+
       iconFeature.setStyle(iconStyle)
-  
+
       useEffect(() => {
         const map = new Map({ // eslint-disable-line no-unused-vars
           layers: [
@@ -64,7 +64,7 @@ const LocationIfExists = ({ entry, location }) => {
           })
         });
       });
-  
+
       return (
         <div className="term-card__content term-card__content-map">
           <h2 className={'term-card__title-2'}>Localização</h2>

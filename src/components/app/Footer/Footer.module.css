@@ -1,4 +1,4 @@
-.glossary-footer {
+.footer {
   display: grid;
   grid-template-areas: 'contribute about';
   grid-template-rows: 100%;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 475px) {
-  .glossary-footer {
+  .footer {
     grid-template-areas:
       'contribute'
       'about';

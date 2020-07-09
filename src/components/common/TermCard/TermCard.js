@@ -1,15 +1,15 @@
 import React from 'react';
 import Markdown from '../Markdown/Markdown';
 
-import './TermCard.css';
-import LocationIfExists from '../LocationIfExists/LocalizationIfExists';
+import styles from './TermCard.module.css';
+import LocationIfExists from '../LocationIfExists/LocationIfExists';
 import SocialMedia from '../SocialMedia/SocialMedia';
 
 import PropTypes from 'prop-types';
 
 const Examples = ({ entry, examples }) =>
   examples.map((ex, index) => (
-    <li className={'term-card__list-phrase'} key={`${entry}${index}`}>
+    <li className={styles.cardListPhrase} key={`${entry}${index}`}>
       {ex}
     </li>
   ));
@@ -26,7 +26,7 @@ const ExamplesIfExists = ({ entry, examples }) => {
       </p>
     );
   return (
-    <ul className={'term-card__list-phrase'}>
+    <ul className={styles.cardListPhrase}>
       <Examples entry={entry} examples={examples} />
     </ul>
   );
@@ -38,17 +38,17 @@ ExamplesIfExists.propTypes = {
 }
 
 const TermCard = ({ term }) => (
-  <div className={'term-card__container'}>
-    <h1 className={'term-card__title-1'}>{term.entry}</h1>
-    <span className={'term-card__subtitle'}>{term.type}</span>
+  <div className={styles.cardContainer}>
+    <h1 className={styles.cardTitleH1}>{term.entry}</h1>
+    <span className={styles.cardSubtitle}>{term.type}</span>
 
-    <div className="term-card__content">
-      <h2 className={'term-card__title-2'}>Descrição</h2>
+    <div className={styles.cardContentMap}>
+      <h2 className={styles.cardTitleH2}>Descrição</h2>
       <Markdown src={term.meaning} />
     </div>
 
-    <div className="term-card__content">
-      <h2 className={'term-card__title-2'}>Aplicações em frase</h2>
+    <div className={styles.cardContentMap}>
+      <h2 className={styles.cardTitleH2}>Aplicações em frase</h2>
       <ExamplesIfExists entry={term.entry} examples={term.examples} />
     </div>
 

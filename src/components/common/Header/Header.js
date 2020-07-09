@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactRouterPropTypes from 'react-router-prop-types';
-
-import glossarioLogo from '../../../../assets/images/glossario-logo.svg';
-import { Search } from '../index';
 import { Link } from 'react-router-dom';
-import terms from '../../../lib/data';
 
-import './Header.css';
+import glossarioLogo from '@assets/images/glossario-logo.svg';
+import { Search } from '@glossario-ufcg/components/common';
+import terms from '@glossario-ufcg/lib/data';
+
+import styles from './Header.module.css';
 
 const DayPhrase = ({ entry }) => {
   return (
-    <span className={'header__day-phrase'}>
+    <span className={styles.dayPhrase}>
       Você sabe o que é&nbsp;
       <Link
         className="emphasis pointer-hover light-accent lighter-hover"
@@ -46,12 +46,12 @@ const Header = props => {
   };
 
   return (
-    <div className={'header__search-tools'}>
-      <Link to={''} className={'header__logo'}>
+    <div className={styles.searchTools}>
+      <Link to='' className={styles.logo}>
         <img src={glossarioLogo} />
       </Link>
       <Search
-        className={'header__search'}
+        className={styles.search}
         items={Object.keys(terms).sort()}
         handleSelect={handleAcronymChange}
       />

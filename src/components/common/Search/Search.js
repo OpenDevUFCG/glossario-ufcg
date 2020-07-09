@@ -1,5 +1,6 @@
 import React from 'react';
-import './Search.css';
+import styles from './Search.module.css';
+import classNames from 'classnames';
 import { AutoComplete, Select } from 'antd';
 import { Icon } from '../Icon';
 import PropTypes from 'prop-types';
@@ -8,10 +9,10 @@ const renderOption = item => <Select.Option key={item}>{item}</Select.Option>;
 
 const CustomSearchButton = ({ handleClick }) => (
   <button
-    className="search__button-container pointer-hover lighter-hover"
+    className={classNames(styles.buttonContainer, 'pointer-hover lighter-hover')}
     onClick={handleClick}
   >
-    <Icon className="search__button" icon="search" iconColor='#FFFFFF"' />
+    <Icon className={styles.button} icon="search" iconColor='#FFFFFF"' />
   </button>
 );
 
@@ -20,7 +21,7 @@ CustomSearchButton.propTypes = {
 }
 
 const Search = ({ items, handleSelect }) => (
-  <aside className="search">
+  <aside className={styles.search}>
     <AutoComplete
       dataSource={items.map(renderOption)}
       optionLabelProp="meaning"
