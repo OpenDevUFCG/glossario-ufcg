@@ -354,6 +354,15 @@
             ]
         }
     ],
+    "MC": [
+        {
+            "acronym": "MC",
+            "meaning": "Metodologia Científica é uma disciplina obrigatório com missão de ensinar os métodos ou os instrumentos necessários para a elaboração de um trabalho científico.",
+            "type": "Disciplina",
+            "entry": "Metodologia Científica",
+            "examples": []
+        }
+    ],
     "MSN": [
         {
             "acronym": "MSN",
@@ -450,6 +459,15 @@
                 "A prova de prob estava muito ruim.",
                 "Prob foi a melhor disciplina do meu período"
             ]
+        }
+    ],
+    "RC": [
+        {
+            "acronym": "RC",
+            "meaning": "A disciplina tem a missão de repassar o conhecimento dos conceitos de Redes permitem aos estudantes das áreas de tecnologia da informação os fundamentos para analisar, desenvolver e utilizar os diversos recursos existentes nestas tecnologias",
+            "type": "Disciplina",
+            "entry": "Redes de Computadores",
+            "examples": []
         }
     ],
     "SAD": [
