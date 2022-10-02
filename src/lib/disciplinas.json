@@ -428,6 +428,17 @@
             "examples": []
         }
     ],
+    "PLN": [
+        {
+            "acronym": "PLN",
+            "meaning": "Processamento de Linguagem Natural é uma disciplina optativa do curso de Ciência da Computação na UFCG também conhecida como NLP (Natural Language Processing) que visa estudar sobre vários problemas investigados pela área de PLN e resolvidos com Aprendizagem de Máquina, como por exemplo tradução automática.",
+            "type": "Disciplina",
+            "entry": "Processamento de Linguagem Natural",
+            "examples": [
+                "Amanhã tem atividade de PLN para entregar."
+            ]
+        }
+    ],
     "PLP": [
         {
             "acronym": "PLP",
