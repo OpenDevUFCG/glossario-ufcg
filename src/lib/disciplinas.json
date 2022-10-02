@@ -518,6 +518,18 @@
             ]
         }
     ],
+    "TD": [
+        {
+            "acronym": "TD",
+            "meaning": "Transformação Digital é uma disciplina optativa específica do curso de Ciência da Computação na UFCG com foco em refletir sobre as principais transformações e impactos promovidas pela economia digital.",
+            "type": "Disciplina",
+            "entry": "Transformação Digital",
+            "examples": [
+                "Vai ter aula de TD hoje?",
+                "Hoje é o dia da entrega final de TD."
+            ]
+        }
+    ],
     "TG": [
         {
             "acronym": "TG",
