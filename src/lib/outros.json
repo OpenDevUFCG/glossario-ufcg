@@ -10,6 +10,16 @@
             ]
         }
     ],
+    "CODEX": [
+        {
+            "entry": "CODEX",
+            "type": "Programa",
+            "meaning": "Empresa Jr do curso de computação. Uma empresa sem fins lucrativos que possui o intuito de ensinar aos alunos da graduação sobre empreendedorismo e mercado de trabalho na prática.",
+            "examples": [
+                "Vou me inscrever no processo seletivo da CodeX."
+            ]
+        }
+    ],
     "COMMIT": [
         {
             "acronym": "COMMIT",
