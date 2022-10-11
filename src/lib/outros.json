@@ -1,4 +1,16 @@
 {
+    "CAESI": [
+        {
+            "acronym": "CAESI",
+            "meaning": "Centro Acadêmico dos Estudantes de Informática ou Centro Acadêmico do Curso de Ciência da Computação. É a entidade de representação estudantil do curso de Ciência da Computação, participando de reuniões de departamento e colegiado e de assembleias. Também promove eventos diversos, como a calourada do curso.",
+            "type": "Organização",
+            "entry": "Centro Acadêmico dos Estudantes de Informática",
+            "examples": [
+                "Fala com alguém do CAESI sobre esse problema.",
+                "Amanhã vai ter assembleia do CAESI."
+            ]
+        }
+    ],
     "CI": [
         {
             "acronym": "CI",
