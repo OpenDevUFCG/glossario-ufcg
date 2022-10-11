@@ -5,6 +5,7 @@ import {
     FaGithub as IconGithub,
     FaInstagram as IconInstagram,
     FaTwitter as IconTwitter,
+    FaLinkedin as IconLinkedin,
 } from 'react-icons/fa';
 
 import './SocialMedia.css';
@@ -14,6 +15,7 @@ const mapNameToComponent = {
     github: IconGithub,
     instagram: IconInstagram,
     twitter: IconTwitter,
+    linkedin: IconLinkedin,
 };
 
 const mapNameToUrl = {
@@ -21,6 +23,7 @@ const mapNameToUrl = {
     github: social => `https://github.com/${social}`,
     instagram: social => `https://instagram.com/${social}`,
     twitter: social => `https://twitter.com/${social}`,
+    linkedin: social => `https://linkedin.com/company/${social}`
 };
 
 const SocialMedia = ({ socialNetworks }) => {
@@ -50,6 +53,7 @@ SocialMedia.propTypes = {
         github: PropTypes.string,
         instagram: PropTypes.string,
         twitter: PropTypes.string,
+        linkedin : PropTypes.string,
     }),
 };
 
