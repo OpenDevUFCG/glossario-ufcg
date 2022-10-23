@@ -463,6 +463,18 @@
             ]
         }
     ],
+    "PSoft": [
+        {
+            "acronym": "Psoft",
+            "meaning": "Projeto de Software é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que foca em estudar e praticar técnicas de projeto de software, como padrões de projeto.",
+            "type": "Disciplina",
+            "entry": "Projeto de Software",
+            "examples": [
+                "Amanhã tenho que entregar o projeto de Psoft.",
+                "Próximo período devo pagar Psoft."
+            ]
+        }
+    ],
     "SAD": [
         {
             "acronym": "SAD",
