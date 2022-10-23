@@ -1,4 +1,30 @@
 {
+    "CACAU": [
+        {
+            "type": "Organização",
+            "acronym": "CACAU",
+            "meaning": "Centro Acadêmico de Arquitetura e Urbanismo. Entidade estudantil formada por uma chapa eleita pelos estudantes    do curso de Arquitetura e Urbanismo. Os integrantes servem como representantes do curso para com a coordenação.",
+            "entry": "Centro Acadêmico de Arquitetura e Urbanismo",
+            "social": {
+                "instagram": "cacauufcg"
+            },
+            "examples": [
+                "Na reunião de hoje vão estar presentes o CAESI e o CACAU."
+            ]
+        }
+    ],
+    "CAEPRO": [
+        {
+            "type": "Organização",
+            "acronym": "CAEPRO",
+            "meaning": "Centro Acadêmico de Engenharia de Produção. Entidade estudantil formada por uma chapa eleita pelos estudantes do curso de Engenharia de Produção. Os integrantes servem como representantes do curso para com a coordenação.",
+            "entry": "Centro Acadêmico de Engenharia de Produção",
+            "social": {
+                "instagram": "caeproufcg"
+            },
+            "examples": [
+                "Na reunião de hoje vão estar presentes o CAESI, o CACAU e o CAEPRO.",
+                "Os representantes do CAEPRO estão organizando uma calourada."
     "CAESI": [
         {
             "acronym": "CAESI",
