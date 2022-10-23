@@ -99,6 +99,16 @@
             ]
         }
     ],
+    "JUBILAR": [
+        {
+            "entry": "JUBILAR",
+            "type": "Termo",
+            "meaning": "Jubilar é o modo de dizer que o estudante teve seu vínculo com a universidade encerrado de forma forçada, seja por ultrapassar o tempo máximo de conclusão de curso ou por outros motivos jurídicos.",
+            "examples": [
+                "João vai jubilar se não terminar o curso nesse período."
+            ]
+        }
+    ],
     "PET": [
         {
             "acronym": "PET",
