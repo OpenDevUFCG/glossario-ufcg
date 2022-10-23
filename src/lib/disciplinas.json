@@ -511,10 +511,12 @@
     "SO": [
         {
             "acronym": "SO",
-            "meaning": "Sistemas Operacionais",
+            "meaning": "Sistemas Operacionais é uma disciplina obrigatória do 5º período de Ciência da Computação.",
             "type": "Disciplina",
             "entry": "Sistemas Operacionais",
-            "examples": []
+            "examples": [
+                "É em SO que a gente estuda gerência de memória."
+            ]
         }
     ],
     "TC": [
