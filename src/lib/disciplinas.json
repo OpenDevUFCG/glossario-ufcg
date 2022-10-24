@@ -463,6 +463,18 @@
             ]
         }
     ],
+    "PSoft": [
+        {
+            "acronym": "PSoft",
+            "meaning": "Projeto de Software é uma disciplina obrigatória do 4º período de Ciência da Computação na UFCG que foca em estudar e praticar técnicas de projeto de software, como padrões de projeto.",
+            "type": "Disciplina",
+            "entry": "Projeto de Software",
+            "examples": [
+                "Amanhã tenho que entregar o projeto de PSoft.",
+                "Próximo período devo pagar PSoft."
+            ]
+        }
+    ],
     "SAD": [
         {
             "acronym": "SAD",
@@ -499,10 +511,12 @@
     "SO": [
         {
             "acronym": "SO",
-            "meaning": "Sistemas Operacionais",
+            "meaning": "Sistemas Operacionais é uma disciplina obrigatória do 5º período de Ciência da Computação.",
             "type": "Disciplina",
             "entry": "Sistemas Operacionais",
-            "examples": []
+            "examples": [
+                "É em SO que a gente estuda gerência de memória."
+            ]
         }
     ],
     "TC": [

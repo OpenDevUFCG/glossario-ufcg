@@ -47,7 +47,7 @@
     ],
     "CN": [
         {
-            "meaning": "[CN](https://goo.gl/maps/2oxnh1pDiyQJW7Cu6) é o bloco que abriga o famoso LCC2, salas de projetos de diferentes laboratórios e também salas de professores do curso de Ciência da Computação da UFCG. Em frente ao CN tem um lindo e gigante Flamboyant (uma árvore que dá flores vermelhas em certas épocas do ano) e é o último dos blocos antes de chegar na 'florestinha/mato'.",
+            "meaning": "[CN](https://goo.gl/maps/2oxnh1pDiyQJW7Cu6) é o bloco que abriga salas de projetos de diferentes laboratórios e também salas de professores do curso de Ciência da Computação da UFCG. Em frente ao CN tem um lindo e gigante Flamboyant (uma árvore que dá flores vermelhas em certas épocas do ano) e é o último dos blocos antes de chegar na 'florestinha/mato'.",
             "type": "Bloco",
             "entry": "CN",
             "examples": [
@@ -62,7 +62,7 @@
     ],
     "CP1": [
         {
-            "meaning": "[CP1](https://goo.gl/maps/Do3rMUUU43XsGn77A) é o bloco mais recente do curso de Ciência da Computação da UFCG e é mais conhecido como 'o prédio do LCC3'. Nele estão localizados o LCC3, o PET do curso de Ciência da Computação da UFCG, o CAESI, a sala do ELAS, a sala da empresa júnior CodeX e futuramente salas que serão ocupadas para aulas e projetos.",
+            "meaning": "[CP1](https://goo.gl/maps/Do3rMUUU43XsGn77A) ou Camilo Lélis é o bloco mais recente do curso de Ciência da Computação da UFCG e é mais conhecido como 'o prédio do LCC3'. Nele estão localizados os três laboratórios de Ciência da Computação (LCC1, LCC2, LCC3), o PET do curso de Ciência da Computação da UFCG, o CAESI, a sala do ELAS, a sala da empresa júnior CodeX e salas para aulas.",
             "type": "Bloco",
             "entry": "CP1",
             "examples": [
@@ -118,7 +118,7 @@
     "LCC1": [
         {
             "acronym": "LCC1",
-            "meaning": "Laboratório de Ciência da Computação 1 é o laboratório mais antigo do curso de Ciência da Computação da UFCG e atualmente é usado principalmente para aulas em algumas disciplinas. Localiza-se no térreo do [REENGE](https://goo.gl/maps/RM26SXMW5tT2) (bloco CB).",
+            "meaning": "Laboratório de Ciência da Computação 1 é o laboratório mais antigo do curso de Ciência da Computação da UFCG e atualmente é usado principalmente para aulas em algumas disciplinas. Também está disponível para uso pelos estudantes nos horários livres. Localiza-se no térreo do [Prédio Camilo Lélis](https://goo.gl/maps/Do3rMUUU43XsGn77A) (bloco CP1).",
             "type": "Sala",
             "entry": "Laboratório de Ciência da Computação 1",
             "examples": [
@@ -126,15 +126,15 @@
                 "Pessoal, amanhã a nossa aula será no LCC1."
             ],
             "location": {
-                "latitude": -7.21383,
-                "longitude": -35.90899
+                "latitude": -7.21289,
+                "longitude": -35.90752
             }
         }
     ],
     "LCC2": [
         {
             "acronym": "LCC2",
-            "meaning": "Laboratório de Ciência da Computação 2 é o laboratório liberado para o uso dos alunos do curso de Ciência da Computação da UFCG nos horários em que não estiver tendo aula ou algum evento. Localiza-se no térreo do bloco CN.",
+            "meaning": "Laboratório de Ciência da Computação 2 é o laboratório liberado para o uso dos alunos do curso de Ciência da Computação da UFCG nos horários em que não estiver tendo aula ou algum evento. Localiza-se no primeiro andar do [Prédio Camilo Lélis](https://goo.gl/maps/Do3rMUUU43XsGn77A) (bloco CP1).",
             "type": "Sala",
             "entry": "Laboratório de Ciência da Computação 2",
             "examples": [
@@ -142,8 +142,8 @@
                 "Pessoal, amanhã a nossa aula será no LCC2."
             ],
             "location": {
-                "latitude": -7.21339,
-                "longitude": -35.9074
+                "latitude": -7.21289,
+                "longitude": -35.90752
             }
         }
     ],
@@ -165,7 +165,7 @@
     ],
     "LQD": [
         {
-            "meaning": "O LQD (Laboratório de Qualidade de Dados) fica no bloco CN (Bloco do lCC2) e o seu grupo de pesquisa investiga e desenvolve novas técnicas, abordagens, processos e ferramentas para avaliar e melhorar a qualidade dos conjuntos de dados.",
+            "meaning": "O LQD (Laboratório de Qualidade de Dados) fica no bloco CN e o seu grupo de pesquisa investiga e desenvolve novas técnicas, abordagens, processos e ferramentas para avaliar e melhorar a qualidade dos conjuntos de dados.",
             "type": "Laboratório",
             "entry": "Laboratório de Qualidade de Dados",
             "examples": [
