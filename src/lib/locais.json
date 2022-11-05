@@ -100,6 +100,17 @@
             }
         }
     ],
+    "LACINA": [
+        {
+            "acronym": "LACINA",
+            "meaning": "Laboratório de Computação Inteligente Aplicada é um laboratório de pesquisa e desenvolvimento da UFCG, localizado no bloco CN. Atua em áreas como inteligência artificial, processamento de linguagem natural, aprendizagem de máquina e data analytics.",
+            "type": "Laboratorio",
+            "entry": "Laboratório de Computação Inteligente Aplicada",
+            "examples": [
+                "Ele é bolsista em um projeto do LACINA."
+            ],
+        }
+    ],
     "LAGUINHO": [
         {
             "meaning": "O [Laguinho](https://goo.gl/maps/jXDyAf4n8cF3oks49) é o nome dado ao lago que se localiza entre os blocos A e C da UFCG, que surgiu através de projetos da própria instituição que consistiam em amenizar os impactos advindos das chuvas, além de ter o intuito de ser um local bonito e agradável para todos.",
@@ -188,6 +199,17 @@
                 "latitude": -7.21305,
                 "longitude": -35.907182
             }
+        }
+    ],
+    "LSI": [
+        {
+            "acronym": "LSI",
+            "meaning": "Laboratório de Sistemas de Informação é um laboratório de pesquisa e desenvolvimento da UFCG, localizado no bloco CN. Atua em áreas como Sistemas de Informação e Banco de Dados.",
+            "type": "Laboratorio",
+            "entry": "Laboratório de Sistemas de Informação",
+            "examples": [
+                "Tem uma seleção aberta para o LSI."
+            ],
         }
     ],
     "QUIOSQUE": [

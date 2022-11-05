@@ -37,7 +37,10 @@
             "examples": [
                 "Fala com alguém do CAESI sobre esse problema.",
                 "Amanhã vai ter assembleia do CAESI."
-            ]
+            ],
+            "social": {
+                "instagram": "caesiufcg"
+            }
         }
     ],
     "CI": [
