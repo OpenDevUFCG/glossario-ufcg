@@ -211,6 +211,19 @@
             ]
         }
     ],
+    "PRAC": [
+        {
+            "acronym": "PRAC",
+            "meaning": "A Pró-Reitoria de Assuntos Comunitários é um órgão assessor da direção superior responsável por auxílios estudantis, suporte comunitário, organização do atendimento psicológico, entre outras atribuições.",
+            "type": "Órgão",
+            "entry": "Pró-Reitoria de Assuntos Comunitários",
+            "examples": [
+                "Entre em contato com a PRAC caso precise de auxílio moradia, transporte, alimentação, etc!",
+                "A PRAC abriu hoje o cadastro socioeconômico! Através dele são feitas seleções para auxílios!",
+                "Esse ano a PRAC pretende reabrir o RU para o público geral!"
+            ]
+        }
+    ],
     "PRE": [
         {
             "acronym": "PRE",
